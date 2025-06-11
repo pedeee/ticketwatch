@@ -25,6 +25,10 @@ HEADERS    = {"User-Agent": "Mozilla/5.0 (ticketwatch)"}
 PRICE_SELECTOR = "lowest"   # or "highest" for VIP tiers
 EXCLUDE_HINTS  = ("fee", "fees", "service", "processing")
 
+scraper = cloudscraper.create_scraper(
+    browser={'browser': 'firefox', 'platform': 'mac', 'mobile': False},
+    delay=10
+)
 
 def extract_status(html: str) -> Dict[str, Any]:
     """Return {title:str, price:float|None, soldout:bool}."""
@@ -104,7 +108,7 @@ def main():
 
     for url in urls:
         try:
-            r = requests.get(url, headers=HEADERS, timeout=25)
+            r = scraper.get(url, headers=HEADERS, timeout=25)
             r.raise_for_status()
         except Exception as e:
             print(f"✖ {url}: {e}")
