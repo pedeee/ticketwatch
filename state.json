@@ -1,1 +1,38 @@
-{}
+{
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
+    "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
+    "price": 49.5,
+    "soldout": false,
+    "event_dt": "2025-11-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/illscarlett-with-pinebarren-and-laterdays-the-pearl-tickets/14274893": {
+    "title": "Tickets for illScarlett with Pinebarren and Laterdays",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-06-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/broncho-natural-pleasure-the-pearl-tickets/14065813": {
+    "title": "Tickets for BRONCHO - Natural Pleasure Tour 2025",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-06-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/oso-oso-with-special-guests-the-pearl-tickets/14266933": {
+    "title": "Tickets for OSO OSO with Special Guests",
+    "price": 10.0,
+    "soldout": false,
+    "event_dt": "2025-06-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/wavves-with-beach-goons-and-the-pearl-tickets/13756014": {
+    "title": "Tickets for WAVVES with Beach Goons and Death Lens",
+    "price": 28.0,
+    "soldout": false,
+    "event_dt": "2025-06-28T00:00:00+00:00"
+  }
+}
