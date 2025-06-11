@@ -18,6 +18,8 @@ import json, os, re, sys, requests, cloudscraper
 from typing import Dict, Any
 from bs4 import BeautifulSoup
 from subprocess import run, DEVNULL
+from dateutil import parser as dtparse, tz      
+import datetime as dt  
 
 # ─── Files & constants ──────────────────────────────────────────────────────
 URL_FILE   = "urls.txt"
@@ -49,6 +51,19 @@ def extract_status(html: str) -> Dict[str, Any]:
     soup  = BeautifulSoup(html, "html.parser")
     text  = soup.get_text(" ", strip=True)
 
+    # ---- grab event date --------------------------------------------------
+    date_str = None
+    time_tag = soup.find("time")
+    if time_tag and time_tag.get_text(strip=True):
+        date_str = time_tag.get_text(strip=True)
+
+    event_dt = None
+    if date_str:
+        try:
+            event_dt = dtparse.parse(date_str).astimezone(tz.tzutc())
+        except Exception:
+            pass
+
     # Title
     meta  = soup.find("meta", property="og:title")
     title = (meta["content"].strip() if meta and meta.get("content")
@@ -66,7 +81,12 @@ def extract_status(html: str) -> Dict[str, Any]:
 
     price = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices)) if prices else None
     soldout = price is None or "sold out" in text.lower()
-    return {"title": title, "price": price, "soldout": soldout}
+    return {
+        "title": title,
+        "price": price,
+        "soldout": soldout,
+        "event_dt": event_dt.isoformat() if event_dt else None,   # ← NEW
+    }
 
 # ─── Notification helpers ───────────────────────────────────────────────────
 def mac_banner(title: str, message: str, url: str):
@@ -117,11 +137,22 @@ def save_state(path: str, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
+# ─── Date helpers ──────────────────────────────────────────────────────────
+def is_past(event_iso: str) -> bool:
+    """
+    Return True if the event date (ISO string) is earlier than *now*.
+    """
+    if not event_iso:                       # None or empty → keep it
+        return False
+    event_dt = dtparse.parse(event_iso)     # parse ISO → datetime
+    return event_dt < dt.datetime.now(tz.tzutc())
+    
 # ─── Main loop ──────────────────────────────────────────────────────────────
 def main():
     urls   = load_lines(URL_FILE)
     before = load_state(STATE_FILE)
     after  = {}
+    pruned_urls = []
     changes: list[tuple[str, str, str, str]] = []
 
     for url in urls:
@@ -134,15 +165,28 @@ def main():
 
         now = extract_status(r.text)
         after[url] = now
+        # --- skip & mark for deletion if the show date is in the past ------
+        if is_past(now["event_dt"]):
+            pruned_urls.append(url)
+            continue
 
         if before.get(url) != now:
             old = before.get(url, {"price": None, "soldout": None})
             notify(now["title"], f"{fmt(now)} (was {fmt(old)})", url)
             changes.append((now["title"], fmt(old), fmt(now), url))
 
+        # --- prune past events -------------------------------------------------
+    if pruned_urls:
+        urls = [u for u in urls if u not in pruned_urls]
+        with open(URL_FILE, "w") as f:
+            f.write("\n".join(urls) + "\n")
+        run(["git", "add", URL_FILE], check=False)
+
     save_state(STATE_FILE, after)
 
     if changes:
+        # soonest event first (None dates last)
+        changes.sort(key=lambda c: after[c[3]].get("event_dt") or "9999")
         print("\n🚨 Changes detected:")
         for title, old, new, url in changes:
             print(f"  • {title}\n    {old}  →  {new}\n    {url}")
