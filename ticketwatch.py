@@ -14,6 +14,7 @@
    PRICE_SELECTOR = "lowest" | "highest"  (which tier to watch)
 """
 import json, os, re, sys, requests
+import cloudscraper
 from typing import Dict, Any
 from bs4 import BeautifulSoup
 from subprocess import run, DEVNULL
