@@ -26,7 +26,7 @@ PRICE_SELECTOR = "lowest"   # or "highest" for VIP tiers
 EXCLUDE_HINTS  = ("fee", "fees", "service", "processing")
 
 scraper = cloudscraper.create_scraper(
-    browser={'browser': 'firefox', 'platform': 'mac', 'mobile': False},
+    browser={'browser': 'firefox', 'platform': 'darwin', 'mobile': False},
     delay=10
 )
 
