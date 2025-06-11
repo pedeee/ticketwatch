@@ -1,0 +1,35 @@
+name: Ticket watch
+
+on:
+  schedule:
+    - cron:  '0 */3 * * *'      # every 3 hours
+  workflow_dispatch:            # manual run button
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install deps
+        run: pip install requests beautifulsoup4
+
+      - name: Run watcher
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: python ticketwatch.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name  "ticket-bot"
+          git config user.email "ticket-bot@example.com"
+          git add state.json
+          git commit -m "auto: update state" || echo "no changes"
+          git push
