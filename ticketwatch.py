@@ -90,6 +90,7 @@ def extract_status(html: str) -> Dict[str, Any]:
 
     price = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices)) if prices else None
     soldout = price is None or "sold out" in text.lower()
+    print("DEBUG date:", title, event_dt)
     return {
         "title": title,
         "price": price,
