@@ -2,8 +2,11 @@ name: Ticket watch
 
 on:
   schedule:
-    - cron:  '0 */3 * * *'      # every 3 hours
-  workflow_dispatch:            # manual run button
+    - cron:  '0 */3 * * *'     
+  workflow_dispatch:            
+
+permissions:
+  contents: write      
 
 jobs:
   run:
