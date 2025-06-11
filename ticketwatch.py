@@ -29,7 +29,7 @@ EXCLUDE_HINTS  = ("fee", "fees", "service", "processing")
 # ─── Cloudflare-bypass session (re-used for all URLs) ───────────────────────
 scraper = cloudscraper.create_scraper(
     browser={'browser': 'firefox', 'platform': 'darwin', 'mobile': False},
-    delay=3000
+    delay=7000
 )
 
 # ─── Telegram credentials (supplied by GitHub Actions secrets) ──────────────
