@@ -53,16 +53,25 @@ def extract_status(html: str) -> Dict[str, Any]:
 
     # ---- grab event date --------------------------------------------------
     date_str = None
-    time_tag = soup.find("time")
-    if time_tag and time_tag.get_text(strip=True):
-        date_str = time_tag.get_text(strip=True)
 
+    # 1️⃣  Prefer the ISO string in <meta property="event:start_time" …>
+    start_meta = soup.find("meta", property="event:start_time")
+    if start_meta and start_meta.get("content"):
+        date_str = start_meta["content"]
+
+    # 2️⃣  Fallback to visible <time> tag text
+    if not date_str:
+        time_tag = soup.find("time")
+        if time_tag and time_tag.get_text(strip=True):
+            date_str = time_tag.get_text(strip=True)
+
+    # Parse into UTC datetime
     event_dt = None
     if date_str:
         try:
             event_dt = dtparse.parse(date_str).astimezone(tz.tzutc())
-        except Exception:
-            pass
+        except Exception as e:
+            print("DEBUG parse fail:", e, date_str)
 
     # Title
     meta  = soup.find("meta", property="og:title")
