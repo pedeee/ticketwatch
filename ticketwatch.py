@@ -147,7 +147,7 @@ def main():
         for title, old, new, url in changes:
             print(f"  • {title}\n    {old}  →  {new}\n    {url}")
     else:
-        print("✓ No changes.")
+        notify("Ticketwatch", "✓ No changes", "https://github.com/pedee/ticketwatch/actions")
 
 # ────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
