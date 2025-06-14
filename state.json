@@ -172,5 +172,101 @@
     "price": 25.0,
     "soldout": true,
     "event_dt": "2025-08-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463": {
+    "title": "Tickets for Marcin - Solo Dragon Tour",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
+    "title": "Tickets for Pile with NNAMDI",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-04T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014": {
+    "title": "Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall",
+    "price": 38.0,
+    "soldout": false,
+    "event_dt": "2025-09-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053": {
+    "title": "Tickets for VOLA",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-09-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113": {
+    "title": "Tickets for White Denim with Johanna Samuels",
+    "price": 25.0,
+    "soldout": true,
+    "event_dt": "2025-09-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
+    "title": "Tickets for ANIKA with Lauren Early",
+    "price": 22.0,
+    "soldout": false,
+    "event_dt": "2025-09-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693": {
+    "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014": {
+    "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Entertainment",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-12-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/killer-dwarfs-with-very-special-the-phoenix-concert-theatre-tickets/14417393": {
+    "title": "Tickets for KiLLeR DWaRfS with very special guests Sven Gali",
+    "price": 27.5,
+    "soldout": true,
+    "event_dt": "2025-06-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
+    "title": "Tickets for Anvil",
+    "price": 29.95,
+    "soldout": false,
+    "event_dt": "2025-07-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353": {
+    "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-05T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
+    "title": "Tickets for GoldLink Presents \"Enoch\"",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-09-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
+    "title": "Tickets for BABYTRON",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
+    "title": "Tickets for TOPS",
+    "price": 28.5,
+    "soldout": false,
+    "event_dt": "2025-10-17T00:00:00+00:00"
   }
 }
