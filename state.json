@@ -268,5 +268,47 @@
     "price": 28.5,
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pitbull-events-presents-fetish-pride-the-opera-house-tickets/14379753": {
+    "title": "Tickets for Pitbull Events Presents: Fetish Pride with J. Warren",
+    "price": 50.0,
+    "soldout": false,
+    "event_dt": "2025-06-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
+    "title": "Tickets for Bop To The Top",
+    "price": 15.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733": {
+    "title": "Tickets for KISS CF GOODBYE #9",
+    "price": 46.0,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/insect-ark-forn-the-cave-tickets/14313013": {
+    "title": "Tickets for Insect Ark, Forn",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-06-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/virvum-stortregn-the-cave-tickets/14283783": {
+    "title": "Tickets for Virvum, Stortregn",
+    "price": 22.75,
+    "soldout": false,
+    "event_dt": "2025-07-05T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/gorgatron-the-northern-the-cave-tickets/13768714": {
+    "title": "Tickets for Gorgatron - The Northern Destruction Tour",
+    "price": 19.0,
+    "soldout": false,
+    "event_dt": "2025-07-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-08-10T00:00:00+00:00"
   }
 }
