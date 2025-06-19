@@ -301,8 +301,8 @@
   },
   "https://www.ticketweb.ca/event/francesco-yates-with-adam-rodway-drake-underground-tickets/13683774": {
     "title": "Tickets for Francesco Yates with Adam Rodway",
-    "price": 22.5,
-    "soldout": false,
+    "price": null,
+    "soldout": true,
     "event_dt": "2025-06-20T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ardn-drake-underground-tickets/14289053": {
@@ -472,5 +472,23 @@
     "price": null,
     "soldout": true,
     "event_dt": "2025-09-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653": {
+    "title": "Tickets for Softcult w/ Wayside",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-10-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
+    "title": "Tickets for Sun Kil Moon",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-08-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
+    "title": "Tickets for Sun Kil Moon",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-08-23T00:00:00+00:00"
   }
 }
