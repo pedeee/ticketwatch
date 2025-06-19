@@ -394,5 +394,77 @@
     "price": null,
     "soldout": true,
     "event_dt": "2025-10-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/cherry-bomb-pride-unity-the-mod-club-formerly-known-tickets/14416463": {
+    "title": "Tickets for CHERRY BOMB PRIDE: Unity!",
+    "price": 28.25,
+    "soldout": false,
+    "event_dt": "2025-06-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/jerk-x-jollof-toronto-the-mod-club-formerly-known-tickets/14440003": {
+    "title": "Tickets for Jerk X Jollof: Toronto",
+    "price": 33.9,
+    "soldout": false,
+    "event_dt": "2025-08-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/cozy-worldwide-throwback-current-rb-the-mod-club-formerly-known-tickets/14383853": {
+    "title": "Tickets for Cozy Worldwide: Throwback\u00a0+ Current R&B and HipHop",
+    "price": 16.0,
+    "soldout": false,
+    "event_dt": "2025-07-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rivers-of-nihil-lees-palace-tickets/14149333": {
+    "title": "Tickets for Rivers Of Nihil - The Aggresssive Progrsssive Tour",
+    "price": 26.75,
+    "soldout": false,
+    "event_dt": "2025-06-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/82major-tour-82-syndrome-in-the-parkdale-hall-tickets/14430783": {
+    "title": "Tickets for 82MAJOR TOUR <82 SYNDROME> in Toronto",
+    "price": 27.58,
+    "soldout": true,
+    "event_dt": "2025-06-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/azymuth-with-dj-jason-palma-lees-palace-tickets/14234343": {
+    "title": "Tickets for Azymuth with DJ Jason Palma",
+    "price": 30.0,
+    "soldout": true,
+    "event_dt": "2025-06-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sandman-tribute-to-metallica-epic-the-rockpile-bar-nightclub-tickets/14437093": {
+    "title": "Tickets for Sandman/ Tribute to Metallica, Epic - Faith No More Tribute",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-06-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/genital-grinder-orbiting-deathray-trigger-the-rockpile-bar-nightclub-tickets/14466063": {
+    "title": "Tickets for Genital Grinder, Orbiting Deathray, Trigger X, Heat, No Remorse, Waiting For Mercy",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-06-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/promise-cherry-beach-cherry-beach-tickets/14364593": {
+    "title": "Tickets for Promise Cherry Beach",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-06-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/enuff-znuff-permacrush-risk-the-rockpile-bar-nightclub-tickets/14437083": {
+    "title": "Tickets for Enuff Z'Nuff, Permacrush, Risk & Reward, East Of Nowhere",
+    "price": 28.5,
+    "soldout": false,
+    "event_dt": "2025-06-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/elijah-fox-with-special-guests-lees-palace-tickets/14343063": {
+    "title": "Tickets for Elijah Fox with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-07-02T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/langhorne-slim-lees-palace-tickets/14413563": {
+    "title": "Tickets for Langhorne Slim",
+    "price": 31.08,
+    "soldout": false,
+    "event_dt": "2025-07-03T00:00:00+00:00"
   }
 }
