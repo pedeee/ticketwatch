@@ -550,5 +550,29 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-07-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/goalkeeper-with-special-guests-the-dance-cave-tickets/14278253": {
+    "title": "Tickets for Goalkeeper with Special Guests",
+    "price": 17.5,
+    "soldout": false,
+    "event_dt": "2025-07-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/blakk-zzabbath-sozziety-the-rockpile-bar-nightclub-tickets/14489093": {
+    "title": "Tickets for Blakk Zzabbath Sozziety",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-07-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/cola-with-jane-inc-the-garrison-tickets/13742674": {
+    "title": "Tickets for Cola with Jane Inc.",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-07-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/me-n-dprtmnt-tickets/13810164": {
+    "title": "Tickets for ME N \u00dc",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-07-18T00:00:00+00:00"
   }
 }
