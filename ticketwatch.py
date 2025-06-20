@@ -74,7 +74,13 @@ def extract_status(html: str) -> Dict[str, Any]:
         ttag = soup.find("time")
         if ttag and ttag.get_text(strip=True):
             date_str = ttag.get_text(strip=True)
-
+            
+    # 3A. <p class="date"> block (mobile hero layout)
+    if not date_str:
+        pdate = soup.find("p", class_="date")
+        if pdate and pdate.get_text(strip=True):
+            date_str = pdate.get_text(" ", strip=True)
+    
     # Regex fallback e.g. "Sat Jun 28 2025"
     if not date_str:
         m = re.search(
@@ -104,12 +110,12 @@ def extract_status(html: str) -> Dict[str, Any]:
     prices: list[float] = []
     for m in re.finditer(r"\$([0-9]{1,5}\.[0-9]{2})", text):
         window = text[max(0, m.start() - 20): m.end() + 20].lower()
-        if any(h in window for h in EXCLUDE_HINTS):
+        if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
             continue
         prices.append(float(m.group(1)))
 
     price   = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices)) if prices else None
-    soldout = price is None or "sold out" in text.lower()
+    soldout = not prices
 
     if DEBUG_DATE:
         print("DEBUG date:", title, event_dt)
@@ -187,10 +193,15 @@ def main():
             pruned_urls.append(url)
             continue
 
-        if before.get(url) != now:
-            old = before.get(url, {"price": None, "soldout": None})
-            notify(now["title"], f"{fmt(now)} (was {fmt(old)})", url)
-            changes.append((now["title"], fmt(old), fmt(now), url))
+        # Always remind if the event is completely sold out
+        if now["soldout"]:
+            notify(now["title"], "SOLD OUT", url)
+        else:
+            # Only notify when in-stock details change
+            if before.get(url) != now:
+                old = before.get(url, {"price": None, "soldout": None})
+                notify(now["title"], f"{fmt(now)} (was {fmt(old)})", url)
+                changes.append((now["title"], fmt(old), fmt(now), url))
 
     # prune file & stage
     if pruned_urls:
