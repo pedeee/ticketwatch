@@ -367,8 +367,8 @@
   },
   "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474": {
     "title": "Tickets for Jaques Greene + Nosaj Thing Live",
-    "price": null,
-    "soldout": true,
+    "price": 25.0,
+    "soldout": false,
     "event_dt": "2025-10-04T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234": {
