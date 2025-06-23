@@ -2,7 +2,8 @@ name: Ticket watch
 
 on:
   schedule:
-    - cron: "0 * * * *"     # every hour (UTC)
+    # every hour, on the hour (UTC)
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -16,8 +17,12 @@ jobs:
           - url_batches/batch4.txt
           - url_batches/batch5.txt
     runs-on: ubuntu-latest
+
+    # Pass the batch file and the Telegram secrets into each job
     env:
       URL_FILE: ${{ matrix.batch }}
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT:  ${{ secrets.TG_CHAT }}
 
     steps:
       - uses: actions/checkout@v4
@@ -25,10 +30,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: "3.13"
 
-      - name: Install deps
-        run: pip install requests beautifulsoup4 cloudscraper python-dateutil
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 cloudscraper python-dateutil
 
-      - name: Run watcher
+      - name: Run ticket watcher
         run: python ticketwatch.py
