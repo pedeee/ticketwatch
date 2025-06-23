@@ -22,6 +22,7 @@ from bs4 import BeautifulSoup
 from subprocess import run, DEVNULL
 from dateutil import parser as dtparse, tz
 import datetime as dt
+import time, random
 
 # ─── Files & constants ─────────────────────────────────────────────────────
 URL_FILE   = "urls.txt"
@@ -178,6 +179,7 @@ def main():
     changes = []
 
     for url in urls:
+        time.sleep(random.uniform(1.0, 2.0))   # ← NEW: wait 1–2 s
         try:
             r = scraper.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
