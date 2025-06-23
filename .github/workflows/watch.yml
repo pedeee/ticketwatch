@@ -2,7 +2,7 @@ name: Ticket watch
 
 on:
   schedule:
-    - cron: "0 * * * *"      # every hour UTC
+    - cron: '0 * * * *'   # every hour
   workflow_dispatch:
 
 jobs:
@@ -17,22 +17,18 @@ jobs:
           - url_batches/batch5.txt
     runs-on: ubuntu-latest
     env:
-      URL_FILE: ${{ matrix.batch }}
-      TG_TOKEN: ${{ secrets.TG_TOKEN }}
-      TG_CHAT:  ${{ secrets.TG_CHAT }}
+      URL_FILE:   ${{ matrix.batch }}
+      STATE_FILE: ${{ matrix.batch }}.state.json   # <─ unique per batch
+      TG_TOKEN:   ${{ secrets.TG_TOKEN }}
+      TG_CHAT:    ${{ secrets.TG_CHAT }}
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
-
-      - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 cloudscraper python-dateutil
-
+          python-version: '3.13'
+      - name: Install deps
+        run: pip install requests beautifulsoup4 cloudscraper python-dateutil
       - name: Run watcher
         id: runwatch
         run: python ticketwatch.py
@@ -42,15 +38,12 @@ jobs:
 
   summary:
     needs: watch
-    if: ${{ needs.watch.outputs.changed == 'False' }}   # run only if NONE changed
+    if: ${{ needs.watch.outputs.changed == 'False' }}   # only when none changed
     runs-on: ubuntu-latest
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
       TG_CHAT:  ${{ secrets.TG_CHAT }}
     steps:
       - name: Send no-change heartbeat
-        run: |
-          curl -s \
-            -d chat_id="$TG_CHAT" \
-            -d text="✅ Ticketwatch – No changes in the last hour" \
-            https://api.telegram.org/bot$TG_TOKEN/sendMessage
+        run: curl -s -d chat_id="$TG_CHAT" -d text="✅ Ticketwatch – No changes in the last hour" \
+             https://api.telegram.org/bot$TG_TOKEN/sendMessage
