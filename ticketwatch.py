@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-ticketwatch.py – Monitor Ticketweb event pages for price changes or sell-outs.
-Reads whichever batch file GitHub passes via the URL_FILE env var.
+ticketwatch.py – Monitor Ticketweb pages for price changes or sell-outs.
+Each GitHub-Actions job passes its own batch file (URL_FILE)
+and its own state file (STATE_FILE) via environment variables.
 """
 
 import json, os, re, sys, time, random, requests, cloudscraper
@@ -11,16 +12,16 @@ from bs4 import BeautifulSoup
 from dateutil import parser as dtparse, tz
 import datetime as dt
 
-# ─── settings ──────────────────────────────────────────────────────────────
-URL_FILE   = os.getenv("URL_FILE", "urls.txt")   # supplied by matrix job
-STATE_FILE = "state.json"
+# ─── paths supplied by the workflow ────────────────────────────────────────
+URL_FILE   = os.getenv("URL_FILE",  "urls.txt")
+STATE_FILE = os.getenv("STATE_FILE", "state.json")   # ← unique per batch
 
+# ─── static settings ───────────────────────────────────────────────────────
 HEADERS        = {"User-Agent": "Mozilla/5.0 (ticketwatch)"}
-PRICE_SELECTOR = "lowest"        # or "highest"
+PRICE_SELECTOR = "lowest"          # or "highest"
 EXCLUDE_HINTS  = ("fee", "fees", "service", "processing")
 DEBUG_DATE     = False
 
-# Cloudflare bypass
 scraper = cloudscraper.create_scraper(
     browser={"browser": "firefox", "platform": "darwin", "mobile": False},
     delay=3000
@@ -29,7 +30,7 @@ scraper = cloudscraper.create_scraper(
 TG_TOKEN = os.getenv("TG_TOKEN")
 TG_CHAT  = os.getenv("TG_CHAT")
 
-# ─── helpers ───────────────────────────────────────────────────────────────
+# ─── helper functions ──────────────────────────────────────────────────────
 def fmt(s: Dict[str, Any]) -> str:
     if s.get("soldout"):
         return "SOLD OUT"
@@ -38,12 +39,9 @@ def fmt(s: Dict[str, Any]) -> str:
     return "unknown"
 
 def is_past(iso: str | None) -> bool:
-    if not iso:
-        return False
-    return dtparse.parse(iso) < dt.datetime.now(tz.tzutc())
+    return bool(iso) and dtparse.parse(iso) < dt.datetime.now(tz.tzutc())
 
 def notify(title: str, message: str, url: str):
-    # Telegram
     if TG_TOKEN and TG_CHAT:
         try:
             requests.post(
@@ -58,24 +56,18 @@ def notify(title: str, message: str, url: str):
             )
         except Exception as e:
             print("✖ Telegram error:", e)
-
-    # Local macOS banner (ignored on GitHub)
     try:
-        run(
-            ["terminal-notifier", "-title", title, "-message", message, "-open", url],
-            stdout=DEVNULL,
-            stderr=DEVNULL,
-            check=False,
-        )
+        run(["terminal-notifier", "-title", title, "-message", message, "-open", url],
+            stdout=DEVNULL, stderr=DEVNULL, check=False)
     except FileNotFoundError:
         pass
 
-# ─── scrape one page ───────────────────────────────────────────────────────
+# ─── scrape one event page ────────────────────────────────────────────────
 def extract_status(html: str) -> Dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ", strip=True)
 
-    # 1. date
+    # date – several selectors
     date_str = None
     for locator in (
         lambda: soup.find("meta", property="event:start_time").get("content"),
@@ -83,17 +75,15 @@ def extract_status(html: str) -> Dict[str, Any]:
         lambda: soup.find("p", class_="date").get_text(" ", strip=True),
     ):
         try:
-            date_str = locator()
-            if date_str:
+            s = locator()
+            if s:
+                date_str = s
                 break
         except Exception:
             pass
     if not date_str:
-        m = re.search(
-            r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"
-            r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{4}",
-            text,
-        )
+        m = re.search(r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"
+                      r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{4}", text)
         if m:
             date_str = m.group(0)
 
@@ -101,70 +91,56 @@ def extract_status(html: str) -> Dict[str, Any]:
     if date_str:
         try:
             event_dt = dtparse.parse(date_str).astimezone(tz.tzutc())
-        except Exception as e:
+        except Exception:
             if DEBUG_DATE:
-                print("DEBUG parse fail:", e, date_str)
+                print("DEBUG parse fail:", date_str)
 
-    # 2. title
+    # title
     meta = soup.find("meta", property="og:title")
-    title = (
-        meta["content"].strip()
-        if meta and meta.get("content")
-        else soup.title.string.strip()
-        if soup.title and soup.title.string
-        else "<unknown event>"
-    )
+    title = (meta["content"].strip() if meta and meta.get("content")
+             else soup.title.string.strip() if soup.title and soup.title.string
+             else "<unknown event>")
     title = re.sub(r"\s+\|.*$", "", title)
 
-    # 3. prices still available
+    # prices still available
     prices: list[float] = []
     for m in re.finditer(r"\$([0-9]{1,5}\.[0-9]{2})", text):
-        window = text[max(0, m.start() - 20) : m.end() + 20].lower()
+        window = text[max(0, m.start()-20): m.end()+20].lower()
         if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
             continue
         prices.append(float(m.group(1)))
 
-    price   = min(prices) if PRICE_SELECTOR == "lowest" and prices else (max(prices) if prices else None)
+    price   = min(prices) if PRICE_SELECTOR=="lowest" and prices else (max(prices) if prices else None)
     soldout = not prices
+    return {"title": title,
+            "price": price,
+            "soldout": soldout,
+            "event_dt": event_dt.isoformat() if event_dt else None}
 
-    if DEBUG_DATE:
-        print("DEBUG date:", title, event_dt)
-
-    return {
-        "title": title,
-        "price": price,
-        "soldout": soldout,
-        "event_dt": event_dt.isoformat() if event_dt else None,
-    }
-
-# ─── I/O helpers ───────────────────────────────────────────────────────────
+# ─── state helpers ────────────────────────────────────────────────────────
 def load_lines(path: str) -> list[str]:
-    if not os.path.exists(path):
-        sys.exit(f"✖ {path} missing – add links first.")
     with open(path) as f:
         return [l.strip() for l in f if l.strip() and not l.lstrip().startswith("#")]
 
-def load_state():
+def load_state() -> dict:
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE) as f:
             return json.load(f)
     return {}
 
-def save_state(data):
+def save_state(data: dict):
     with open(STATE_FILE, "w") as f:
         json.dump(data, f, indent=2)
 
-# ─── main ──────────────────────────────────────────────────────────────────
+# ─── main loop ────────────────────────────────────────────────────────────
 def main():
-    urls    = load_lines(URL_FILE)
-    before  = load_state()
-    after   = {}
-    pruned  = []
-    changes = []
+    urls   = load_lines(URL_FILE)
+    before = load_state()
+    after  = {}
+    pruned, changes = [], []
 
     for url in urls:
-        time.sleep(random.uniform(0.5, 1.0))   # gentle throttle
-
+        time.sleep(random.uniform(0.5, 1.0))     # gentle throttle
         try:
             r = scraper.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
@@ -190,9 +166,8 @@ def main():
         urls = [u for u in urls if u not in pruned]
         with open(URL_FILE, "w") as f:
             f.write("\n".join(urls) + "\n")
-        run(["git", "add", URL_FILE], check=False)
 
-    save_state(after)
+    save_state(after)                        # batch keeps its own state file
 
     if changes:
         changes.sort(key=lambda c: after[c[3]].get("event_dt") or "9999")
@@ -200,7 +175,6 @@ def main():
         for t, o, n, u in changes:
             print(f"  • {t}\n    {o} → {n}\n    {u}")
 
-    # set step output for summary job
     print(f"::set-output name=changed::{bool(changes)}")
 
 if __name__ == "__main__":
