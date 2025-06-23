@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-ticketwatch.py – Monitor Ticketweb pages for price changes or sell-outs.
-Now reads whichever batch file GitHub passes via the URL_FILE env var.
+ticketwatch.py – Monitor Ticketweb event pages for price changes or sell-outs.
+Reads whichever batch file GitHub passes via the URL_FILE env var.
 """
 
 import json, os, re, sys, time, random, requests, cloudscraper
@@ -11,15 +11,16 @@ from bs4 import BeautifulSoup
 from dateutil import parser as dtparse, tz
 import datetime as dt
 
-# ── config ────────────────────────────────────────────────────────────────
-URL_FILE   = os.getenv("URL_FILE", "urls.txt")   # batch file set by workflow
+# ─── settings ──────────────────────────────────────────────────────────────
+URL_FILE   = os.getenv("URL_FILE", "urls.txt")   # supplied by matrix job
 STATE_FILE = "state.json"
 
 HEADERS        = {"User-Agent": "Mozilla/5.0 (ticketwatch)"}
-PRICE_SELECTOR = "lowest"             # or "highest"
+PRICE_SELECTOR = "lowest"        # or "highest"
 EXCLUDE_HINTS  = ("fee", "fees", "service", "processing")
 DEBUG_DATE     = False
 
+# Cloudflare bypass
 scraper = cloudscraper.create_scraper(
     browser={"browser": "firefox", "platform": "darwin", "mobile": False},
     delay=3000
@@ -28,7 +29,7 @@ scraper = cloudscraper.create_scraper(
 TG_TOKEN = os.getenv("TG_TOKEN")
 TG_CHAT  = os.getenv("TG_CHAT")
 
-# ── helpers ────────────────────────────────────────────────────────────────
+# ─── helpers ───────────────────────────────────────────────────────────────
 def fmt(s: Dict[str, Any]) -> str:
     if s.get("soldout"):
         return "SOLD OUT"
@@ -36,10 +37,10 @@ def fmt(s: Dict[str, Any]) -> str:
         return f"${s['price']:.2f}"
     return "unknown"
 
-def is_past(event_iso: str) -> bool:
-    if not event_iso:
+def is_past(iso: str | None) -> bool:
+    if not iso:
         return False
-    return dtparse.parse(event_iso) < dt.datetime.now(tz.tzutc())
+    return dtparse.parse(iso) < dt.datetime.now(tz.tzutc())
 
 def notify(title: str, message: str, url: str):
     # Telegram
@@ -47,20 +48,29 @@ def notify(title: str, message: str, url: str):
         try:
             requests.post(
                 f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-                data={"chat_id": TG_CHAT, "text": f"🎟️ <b>{title}</b>\n{message}\n<a href='{url}'>Open event</a>",
-                      "parse_mode": "HTML", "disable_web_page_preview": True},
-                timeout=10
+                data={
+                    "chat_id": TG_CHAT,
+                    "text": f"🎟️ <b>{title}</b>\n{message}\n<a href='{url}'>Open event</a>",
+                    "parse_mode": "HTML",
+                    "disable_web_page_preview": True,
+                },
+                timeout=10,
             )
         except Exception as e:
             print("✖ Telegram error:", e)
-    # Local banner when script is run on macOS (ignored on GitHub)
+
+    # Local macOS banner (ignored on GitHub)
     try:
-        run(["terminal-notifier", "-title", title, "-message", message, "-open", url],
-            stdout=DEVNULL, stderr=DEVNULL, check=False)
+        run(
+            ["terminal-notifier", "-title", title, "-message", message, "-open", url],
+            stdout=DEVNULL,
+            stderr=DEVNULL,
+            check=False,
+        )
     except FileNotFoundError:
         pass
 
-# ── scrape a page ─────────────────────────────────────────────────────────
+# ─── scrape one page ───────────────────────────────────────────────────────
 def extract_status(html: str) -> Dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ", strip=True)
@@ -79,8 +89,11 @@ def extract_status(html: str) -> Dict[str, Any]:
         except Exception:
             pass
     if not date_str:
-        m = re.search(r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"
-                      r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{4}", text)
+        m = re.search(
+            r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"
+            r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}\s+\d{4}",
+            text,
+        )
         if m:
             date_str = m.group(0)
 
@@ -94,15 +107,19 @@ def extract_status(html: str) -> Dict[str, Any]:
 
     # 2. title
     meta = soup.find("meta", property="og:title")
-    title = (meta["content"].strip() if meta and meta.get("content")
-             else soup.title.string.strip() if soup.title and soup.title.string
-             else "<unknown event>")
+    title = (
+        meta["content"].strip()
+        if meta and meta.get("content")
+        else soup.title.string.strip()
+        if soup.title and soup.title.string
+        else "<unknown event>"
+    )
     title = re.sub(r"\s+\|.*$", "", title)
 
-    # 3. price tiers still available
-    prices = []
+    # 3. prices still available
+    prices: list[float] = []
     for m in re.finditer(r"\$([0-9]{1,5}\.[0-9]{2})", text):
-        window = text[max(0, m.start() - 20): m.end() + 20].lower()
+        window = text[max(0, m.start() - 20) : m.end() + 20].lower()
         if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
             continue
         prices.append(float(m.group(1)))
@@ -113,19 +130,21 @@ def extract_status(html: str) -> Dict[str, Any]:
     if DEBUG_DATE:
         print("DEBUG date:", title, event_dt)
 
-    return {"title": title,
-            "price": price,
-            "soldout": soldout,
-            "event_dt": event_dt.isoformat() if event_dt else None}
+    return {
+        "title": title,
+        "price": price,
+        "soldout": soldout,
+        "event_dt": event_dt.isoformat() if event_dt else None,
+    }
 
-# ── i/o helpers ────────────────────────────────────────────────────────────
+# ─── I/O helpers ───────────────────────────────────────────────────────────
 def load_lines(path: str) -> list[str]:
     if not os.path.exists(path):
         sys.exit(f"✖ {path} missing – add links first.")
     with open(path) as f:
         return [l.strip() for l in f if l.strip() and not l.lstrip().startswith("#")]
 
-def load_state():  # batch-specific slice of the big state file
+def load_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE) as f:
             return json.load(f)
@@ -135,7 +154,7 @@ def save_state(data):
     with open(STATE_FILE, "w") as f:
         json.dump(data, f, indent=2)
 
-# ── main ───────────────────────────────────────────────────────────────────
+# ─── main ──────────────────────────────────────────────────────────────────
 def main():
     urls    = load_lines(URL_FILE)
     before  = load_state()
@@ -144,8 +163,7 @@ def main():
     changes = []
 
     for url in urls:
-        # gentle throttle just in case
-        time.sleep(random.uniform(0.5, 1.0))
+        time.sleep(random.uniform(0.5, 1.0))   # gentle throttle
 
         try:
             r = scraper.get(url, headers=HEADERS, timeout=30)
@@ -168,7 +186,6 @@ def main():
             notify(now["title"], f"{fmt(now)} (was {fmt(old)})", url)
             changes.append((now["title"], fmt(old), fmt(now), url))
 
-    # prune finished shows from batch file
     if pruned:
         urls = [u for u in urls if u not in pruned]
         with open(URL_FILE, "w") as f:
@@ -182,8 +199,9 @@ def main():
         print("\n🚨 Changes detected:")
         for t, o, n, u in changes:
             print(f"  • {t}\n    {o} → {n}\n    {u}")
-    else:
-        notify("Ticketwatch", "✓ No changes", "https://github.com/your/repo/actions")
+
+    # set step output for summary job
+    print(f"::set-output name=changed::{bool(changes)}")
 
 if __name__ == "__main__":
     main()
