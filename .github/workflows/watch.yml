@@ -2,38 +2,33 @@ name: Ticket watch
 
 on:
   schedule:
-    - cron:  '0 * * * *'       
-  workflow_dispatch:          
-
-permissions:
-  contents: write      
+    - cron: "0 * * * *"     # every hour (UTC)
+  workflow_dispatch:
 
 jobs:
-  run:
+  watch:
+    strategy:
+      matrix:
+        batch:
+          - url_batches/batch1.txt
+          - url_batches/batch2.txt
+          - url_batches/batch3.txt
+          - url_batches/batch4.txt
+          - url_batches/batch5.txt
     runs-on: ubuntu-latest
+    env:
+      URL_FILE: ${{ matrix.batch }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.13'
 
       - name: Install deps
         run: pip install requests beautifulsoup4 cloudscraper python-dateutil
 
       - name: Run watcher
-        env:
-          TG_TOKEN: ${{ secrets.TG_TOKEN }}
-          TG_CHAT:  ${{ secrets.TG_CHAT }}
         run: python ticketwatch.py
-
-      - name: Commit updated state
-        run: |
-          git config user.name  "ticket-bot"
-          git config user.email "ticket-bot@example.com"
-          git add state.json
-          git commit -m "auto: update state" || echo "no changes"
-          git push
