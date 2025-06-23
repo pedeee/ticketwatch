@@ -377,12 +377,6 @@
     "soldout": false,
     "event_dt": "2025-07-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/82major-tour-82-syndrome-in-the-parkdale-hall-tickets/14430783": {
-    "title": "Tickets for 82MAJOR TOUR <82 SYNDROME> in Toronto",
-    "price": 27.58,
-    "soldout": false,
-    "event_dt": "2025-06-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/azymuth-with-dj-jason-palma-lees-palace-tickets/14234343": {
     "title": "Tickets for Azymuth with DJ Jason Palma",
     "price": 30.0,
@@ -578,6 +572,12 @@
   "https://www.ticketweb.ca/event/hurry-up-tomorrow-the-weeknd-lees-palace-tickets/14364273": {
     "title": "Tickets for HURRY UP TOMORROW: The Weeknd Dance Party at Lee's Palace - Jul 25 2025",
     "price": 5.0,
+    "soldout": false,
+    "event_dt": "2025-07-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-haunt-with-special-guests-the-dance-cave-tickets/13774404": {
+    "title": "Tickets for The Haunt with Special Guests",
+    "price": 30.0,
     "soldout": false,
     "event_dt": "2025-07-25T00:00:00+00:00"
   }
