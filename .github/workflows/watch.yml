@@ -2,8 +2,12 @@ name: Ticket watch
 
 on:
   schedule:
-    - cron: "0 * * * *"       # hourly
+    - cron: "0 * * * *"     # every hour
   workflow_dispatch:
+
+# allow this workflow to push commits
+permissions:
+  contents: write
 
 jobs:
   watch:
@@ -18,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       URL_FILE:   ${{ matrix.batch }}
-      STATE_FILE: ${{ matrix.batch }}.state.json     # <= unique per batch
+      STATE_FILE: ${{ matrix.batch }}.state.json     # unique per batch
       TG_TOKEN:   ${{ secrets.TG_TOKEN }}
       TG_CHAT:    ${{ secrets.TG_CHAT }}
 
@@ -26,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          persist-credentials: true    # keeps the token for push
           ref: main
           fetch-depth: 0
 
@@ -65,6 +69,7 @@ jobs:
       TG_CHAT:  ${{ secrets.TG_CHAT }}
     steps:
       - name: Send no-change heartbeat
-        run: curl -s -d chat_id="$TG_CHAT" \
-                   -d text="✅ Ticketwatch – No changes in the last hour" \
-                   https://api.telegram.org/bot$TG_TOKEN/sendMessage
+        run: curl -s \
+              -d chat_id="$TG_CHAT" \
+              -d text="✅ Ticketwatch – No changes in the last hour" \
+              https://api.telegram.org/bot$TG_TOKEN/sendMessage
