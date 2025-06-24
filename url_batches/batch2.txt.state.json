@@ -163,8 +163,8 @@
   },
   "https://www.ticketweb.ca/event/badlands-music-festival-badlands-tent-tickets/14442973": {
     "title": "Tickets for Badlands Music Festival - Boiler Room",
-    "price": null,
-    "soldout": true,
+    "price": 78.5,
+    "soldout": false,
     "event_dt": "2025-07-11T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
