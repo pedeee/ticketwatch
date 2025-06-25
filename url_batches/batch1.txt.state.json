@@ -172,5 +172,125 @@
     "price": 38.0,
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-08-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934": {
+    "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
+    "price": 10.0,
+    "soldout": false,
+    "event_dt": "2025-08-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
+    "title": "Tickets for Rocco - The Smoking Gun Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-08-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
+    "title": "Tickets for Bratmobile, PISS, Necking",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-08-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
+    "title": "Tickets for Yung Singh",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-08-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
+    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
+    "price": 32.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
+    "title": "Tickets for Max Cooper",
+    "price": 45.0,
+    "soldout": false,
+    "event_dt": "2025-08-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
+    "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-08-30T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/big-sis-fortune-sound-club-tickets/13808844": {
+    "title": "Tickets for BIG SIS",
+    "price": 23.5,
+    "soldout": false,
+    "event_dt": "2025-09-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
+    "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-09-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
+    "title": "Tickets for Patrick Wolf w/ Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
+    "title": "Tickets for Haru Nemuri - Presented By F7 Entertainment",
+    "price": 38.0,
+    "soldout": false,
+    "event_dt": "2025-09-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
+    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-09-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
+    "title": "Tickets for Amistat, Emily James",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
+    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
+    "title": "Tickets for David Archuleta w/ Alexandra John",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
+    "title": "Tickets for Darren Kiely",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654": {
+    "title": "Tickets for dublon",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
   }
 }
