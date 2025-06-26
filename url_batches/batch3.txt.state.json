@@ -169,8 +169,8 @@
   },
   "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614": {
     "title": "Tickets for DIMENSION",
-    "price": null,
-    "soldout": true,
+    "price": 60.0,
+    "soldout": false,
     "event_dt": "2025-11-07T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634": {
