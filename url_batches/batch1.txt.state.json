@@ -216,7 +216,7 @@
     "event_dt": "2025-08-29T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
-    "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR",
+    "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-08-30T00:00:00+00:00"
@@ -247,8 +247,8 @@
   },
   "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
     "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-    "price": null,
-    "soldout": true,
+    "price": 108.0,
+    "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
