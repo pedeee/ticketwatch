@@ -232,5 +232,59 @@
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013": {
+    "title": "Tickets for Willi Carlisle - Winged Victory Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
+    "price": 39.99,
+    "soldout": false,
+    "event_dt": "2025-10-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/frost-children-the-fox-cabaret-tickets/14234363": {
+    "title": "Tickets for FROST CHILDREN",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
+    "title": "Tickets for Night Moves with Special Guests",
+    "price": 27.5,
+    "soldout": false,
+    "event_dt": "2025-11-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
+    "title": "Tickets for Hayden Pedigo, Jens Kuross",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-11-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283": {
+    "title": "Tickets for Pixel Grip w/ Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-05T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423": {
+    "title": "Tickets for L'Eclair with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-05T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
+    "title": "Tickets for FELLY with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-07T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-13T00:00:00+00:00"
   }
 }
