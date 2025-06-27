@@ -286,59 +286,5 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
-    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-10-24T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
-    "title": "Tickets for Stereotype Friday's Pres: Zerb",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
-    "title": "Tickets for Nate Sib - NA LEG 2",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-09-16T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
-    "title": "Tickets for Hotline TNT - Path of Totality",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-09-21T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
-    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-09-25T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
-    "title": "Tickets for Lady Wray with Special Guests",
-    "price": 99.0,
-    "soldout": false,
-    "event_dt": "2025-11-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
-    "title": "Tickets for The Haunted House Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-10-22T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/sukha-bringing-it-rebel-tickets/13830124": {
-    "title": "Tickets for Sukha - Bringing It Home Tour",
-    "price": 70.0,
-    "soldout": false,
-    "event_dt": "2025-07-18T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
-    "title": "Tickets for KOMPANY - NEMESIS TOUR",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-12-05T00:00:00+00:00"
   }
 }
