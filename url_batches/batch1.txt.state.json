@@ -181,8 +181,8 @@
   },
   "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
     "title": "Tickets for Rocco - The Smoking Gun Tour",
-    "price": null,
-    "soldout": true,
+    "price": 25.0,
+    "soldout": false,
     "event_dt": "2025-08-17T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
@@ -241,7 +241,7 @@
   },
   "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
     "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-    "price": 108.0,
+    "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
   },
