@@ -232,5 +232,65 @@
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-30T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
+    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
+    "title": "Tickets for Balu Brigada with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
+    "title": "Tickets for Ty Segall",
+    "price": 37.5,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
+    "title": "Tickets for Hand Habits with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634": {
+    "title": "Tickets for KUMO 99 - FALL TOUR 2025",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
+    "title": "Tickets for Rachael & Vilray",
+    "price": 45.0,
+    "soldout": false,
+    "event_dt": "2025-10-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
+    "title": "Tickets for Ari Abdul - Change Tour",
+    "price": 23.81,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
+    "title": "Tickets for The Deep Dark Woods w/ Special Guests",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
+    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
   }
 }
