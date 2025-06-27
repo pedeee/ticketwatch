@@ -226,5 +226,71 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313": {
+    "title": "Tickets for Mum with Special Guests",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-10-04T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703": {
+    "title": "Tickets for Flyte with Ken Pomeroy",
+    "price": 28.0,
+    "soldout": false,
+    "event_dt": "2025-10-06T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774": {
+    "title": "Tickets for Dying Fetus w/ Gates To Hell & Mugshot",
+    "price": 37.5,
+    "soldout": false,
+    "event_dt": "2025-10-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744": {
+    "title": "Tickets for Bambara",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513": {
+    "title": "Tickets for Nation of Language with Westerman",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673": {
+    "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-09T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654": {
+    "title": "Tickets for French Police with Riki",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134": {
+    "title": "Tickets for Pool Kids",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093": {
+    "title": "Tickets for Fly By Midnight with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053": {
+    "title": "Tickets for Wombo",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823": {
+    "title": "Tickets for DURRY - Your Friend From The Real World Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
   }
 }
