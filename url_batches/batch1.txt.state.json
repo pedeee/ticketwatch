@@ -18,7 +18,7 @@
     "event_dt": "2025-09-28T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-the-pearl-tickets/13755404": {
-    "title": "Tickets for Frankie and the Witch Fingers w/ Iguana Death Cult",
+    "title": "Tickets for Frankie and the Witch Fingers with Iguana Death Cult",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-07-20T00:00:00+00:00"
@@ -126,7 +126,7 @@
     "event_dt": "2025-08-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293": {
-    "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE w/ dannyBstyle",
+    "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
     "price": 19.99,
     "soldout": false,
     "event_dt": "2025-08-28T00:00:00+00:00"
@@ -228,7 +228,7 @@
     "event_dt": "2025-09-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
-    "title": "Tickets for Patrick Wolf w/ Special Guests",
+    "title": "Tickets for Patrick Wolf with Special Guests",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-09-17T00:00:00+00:00"
@@ -258,7 +258,7 @@
     "event_dt": "2025-09-20T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
-    "title": "Tickets for David Archuleta w/ Alexandra John",
+    "title": "Tickets for David Archuleta with Alexandra John",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-22T00:00:00+00:00"
@@ -274,5 +274,23 @@
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
+    "title": "Tickets for Darren Kiely",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654": {
+    "title": "Tickets for dublon",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/skillibeng-skillibengs-international-noir-inside-rebel-tickets/13824754": {
+    "title": "Tickets for SKILLIBENG - Skillibeng's International Summer",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-07-27T00:00:00+00:00"
   }
 }
