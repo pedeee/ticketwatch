@@ -328,5 +328,17 @@
     "price": null,
     "soldout": true,
     "event_dt": "2025-10-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sukha-bringing-it-rebel-tickets/13830124": {
+    "title": "Tickets for Sukha - Bringing It Home Tour",
+    "price": 70.0,
+    "soldout": false,
+    "event_dt": "2025-07-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
+    "title": "Tickets for KOMPANY - NEMESIS TOUR",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-12-05T00:00:00+00:00"
   }
 }
