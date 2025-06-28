@@ -256,5 +256,11 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093": {
+    "title": "Tickets for Fly By Midnight with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
   }
 }
