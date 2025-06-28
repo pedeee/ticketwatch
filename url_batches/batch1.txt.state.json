@@ -262,11 +262,5 @@
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-22T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-09-24T00:00:00+00:00"
   }
 }
