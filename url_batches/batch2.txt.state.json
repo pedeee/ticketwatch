@@ -155,12 +155,6 @@
     "soldout": true,
     "event_dt": "2025-10-12T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/tamasha-fortune-sound-club-tickets/13772434": {
-    "title": "Tickets for TAMASHA",
-    "price": 24.0,
-    "soldout": false,
-    "event_dt": "2025-06-29T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/celebs-tuesday-pres-dj-halu-celebrities-nightclub-tickets/13821674": {
     "title": "Tickets for Celebs Tuesday Pres: DJ Halu",
     "price": 10.0,
@@ -376,5 +370,41 @@
     "price": 29.99,
     "soldout": false,
     "event_dt": "2025-11-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
+    "title": "Tickets for INGESTED w/ Ov Sulfur, Cell & Guests",
+    "price": 29.99,
+    "soldout": false,
+    "event_dt": "2025-11-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Ov Sulfur, Cell & Guests",
+    "price": 29.99,
+    "soldout": false,
+    "event_dt": "2025-11-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
+    "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-11-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
+    "title": "Tickets for Ingested, Ov Sulfur, CELL",
+    "price": 28.5,
+    "soldout": false,
+    "event_dt": "2025-11-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
+    "title": "Tickets for Allan Rayman",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-11-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
   }
 }
