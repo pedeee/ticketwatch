@@ -388,5 +388,29 @@
     "price": 45.0,
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ben-bankas-the-bronson-tickets/13735124": {
+    "title": "Tickets for Ben Bankas",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764": {
+    "title": "Tickets for Ben Bankas",
+    "price": 38.0,
+    "soldout": false,
+    "event_dt": "2025-09-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524": {
+    "title": "Tickets for BEN BANKAS I 51st STATE TOUR",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-10-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-13T00:00:00+00:00"
   }
 }
