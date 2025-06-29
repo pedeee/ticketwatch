@@ -172,5 +172,77 @@
     "price": 10.0,
     "soldout": false,
     "event_dt": "2025-07-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/paco-versailles-w-flavor-dave-the-pearl-tickets/14419523": {
+    "title": "Tickets for PACO VERSAILLES with Flavor Dave",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-07-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/improvement-movement-w-brandon-wolfe-kingsway-club-tickets/14400683": {
+    "title": "Tickets for Improvement Movement with Brandon Wolfe Scott",
+    "price": 18.0,
+    "soldout": false,
+    "event_dt": "2025-07-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/heart-attack-man-rickshaw-theatre-tickets/14186793": {
+    "title": "Tickets for Heart Attack Man - Presented By F7 Entertainment",
+    "price": 32.0,
+    "soldout": false,
+    "event_dt": "2025-07-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-haunt-with-special-guests-kingsway-club-tickets/13774384": {
+    "title": "Tickets for The Haunt with Special Guests",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-08-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dreamcrusher-devours-maskara-fortune-sound-club-tickets/13821814": {
+    "title": "Tickets for Dreamcrusher / Devours / Maskara / Citade - Vancouver Shame Fest II: Day II",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-08-02T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/celebs-pride-pres-maya-jane-celebrities-nightclub-tickets/14498153": {
+    "title": "Tickets for Celebs Pride pres. Maya Jane Coles at CUM TOGETHER: Sweet & Sticky",
+    "price": 28.5,
+    "soldout": false,
+    "event_dt": "2025-08-02T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954": {
+    "title": "Tickets for Ewan McVicar",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314": {
+    "title": "Tickets for The Tallest Man On Earth, The Still Tide",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kelsey-waldon-every-ghost-the-park-theatre-tickets/14333473": {
+    "title": "Tickets for KELSEY WALDON",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-07-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703": {
+    "title": "Tickets for Sir Chloe with Venus & the Flytraps",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-11-04T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
+    "title": "Tickets for Between The Buried And Me & Hail The Sun",
+    "price": 49.5,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
+    "title": "Tickets for Johnny Stimson",
+    "price": 27.5,
+    "soldout": false,
+    "event_dt": "2025-10-02T00:00:00+00:00"
   }
 }
