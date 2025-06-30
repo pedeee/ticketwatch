@@ -151,8 +151,8 @@
   },
   "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
     "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
-    "price": null,
-    "soldout": true,
+    "price": 25.0,
+    "soldout": false,
     "event_dt": "2025-10-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/celebs-tuesday-pres-dj-halu-celebrities-nightclub-tickets/13821674": {
