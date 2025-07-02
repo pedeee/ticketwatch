@@ -17,12 +17,6 @@
     "soldout": false,
     "event_dt": "2025-07-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/langhorne-slim-lees-palace-tickets/14413563": {
-    "title": "Tickets for Langhorne Slim",
-    "price": 31.08,
-    "soldout": false,
-    "event_dt": "2025-07-03T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694": {
     "title": "Tickets for bar italia",
     "price": 32.5,
@@ -269,17 +263,17 @@
     "soldout": false,
     "event_dt": "2025-10-14T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/armnhmr-cabana-toronto-tickets/13826904": {
+    "title": "Tickets for ARMNHMR",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-07-27T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/born-of-osiris-with-the-wicket-hall-tickets/14186283": {
     "title": "Tickets for Born of Osiris with The Browning, Convictions & ENDR",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-07-10T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/born-of-osiris-the-park-theatre-tickets/14312753": {
-    "title": "Tickets for Born Of Osiris - The Browning - Convictions",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-07-03T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/born-of-osiris-w-the-the-starlite-room-tickets/14305653": {
     "title": "Tickets for Born of Osiris w/ The Browning & Convictions",
