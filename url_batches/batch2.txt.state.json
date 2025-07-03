@@ -406,5 +406,17 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
+    "title": "Tickets for Alicia Moffet, Dominique Way",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473": {
+    "title": "Tickets for Shawn Desman, Jamie Fine",
+    "price": 49.5,
+    "soldout": false,
+    "event_dt": "2025-12-10T00:00:00+00:00"
   }
 }
