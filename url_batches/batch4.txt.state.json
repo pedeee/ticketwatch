@@ -412,5 +412,65 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
+    "title": "Tickets for P'tit Belliveau",
+    "price": 27.5,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
+    "title": "Tickets for GoldLink Presents \"Enoch\"",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
+    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
+    "title": "Tickets for Teenage Bottlerocket",
+    "price": 22.0,
+    "soldout": false,
+    "event_dt": "2025-08-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
+    "title": "Tickets for Kota The Friend",
+    "price": 28.0,
+    "soldout": false,
+    "event_dt": "2025-09-30T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
+    "title": "Tickets for Danko Jones",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
+    "title": "Tickets for No Joy",
+    "price": 17.0,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843": {
+    "title": "Tickets for Dan Mangan, Bells Larsen",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
+    "title": "Tickets for Amy Millan",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-17T00:00:00+00:00"
   }
 }
