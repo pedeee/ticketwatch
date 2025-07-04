@@ -1,16 +1,13 @@
 name: Ticket watch
 
-# ────────────────────────── triggers ───────────────────────────────────────
 on:
   schedule:
-    - cron: "0 * * * *"           # run at the top of every hour
-  workflow_dispatch:              # allow manual “Run workflow”
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
-# this workflow must be able to push commits
 permissions:
   contents: write
 
-# ────────────────────────── jobs ───────────────────────────────────────────
 jobs:
   watch:
     strategy:
@@ -24,69 +21,51 @@ jobs:
     runs-on: ubuntu-latest
     env:
       URL_FILE:   ${{ matrix.batch }}
-      STATE_FILE: ${{ matrix.batch }}.state.json   # <-- unique per batch
+      STATE_FILE: ${{ matrix.batch }}.state.json
       TG_TOKEN:   ${{ secrets.TG_TOKEN }}
       TG_CHAT:    ${{ secrets.TG_CHAT }}
 
     steps:
-      # 1 — checkout with write credentials
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: true   # keeps GITHUB_TOKEN for pushes
+          persist-credentials: true
           ref: main
           fetch-depth: 0
 
-      # 2 — python
+      # ── NEW: make sure we start from the very latest tip ────────────────
+      - name: Sync to latest main
+        run: |
+          git pull --rebase --quiet
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
 
-      # 3 — deps
       - name: Install deps
         run: pip install requests beautifulsoup4 cloudscraper python-dateutil
 
-      # 4 — run watcher
       - name: Run watcher
-        id: runwatch
         run: python ticketwatch.py
 
-      # 5 — commit & push the batch-specific state file
-      - name: Commit state file
+      - name: Commit & push state
         run: |
-          set -e
           git config user.name  "ticketwatch bot"
           git config user.email "bot@users.noreply.github.com"
+          git add "${STATE_FILE}" "${URL_FILE}" || true
 
-          git add "${STATE_FILE}"
           if git diff --cached --quiet; then
-            echo "No state changes to commit."
+            echo "No changes to commit."
             exit 0
           fi
 
           git commit -m "auto: update ${STATE_FILE}"
+          git push --quiet
 
-          # try up to 3 times to push with rebase in case of race
-          for try in 1 2 3; do
-            echo "Push attempt $try …"
-            if git pull --rebase --quiet && git push --quiet; then
-              echo "Push succeeded."
-              exit 0
-            fi
-            echo "Push failed, retrying in 5 s …"
-            sleep 5
-          done
-
-          echo "❌ Could not push after 3 attempts." >&2
-          exit 1
-
-    outputs:
-      changed: ${{ steps.runwatch.outputs.changed }}
-
-  # ───── summary / heartbeat job ───────────────────────────────────────────
+  # heartbeat if **none** of the matrix jobs detected a change
   summary:
-    needs: watch                       # wait for all batch jobs
-    if: ${{ needs.watch.outputs.changed == 'False' }}   # run only if NONE changed
+    needs: watch
+    if: ${{ always() && !contains(needs.*.result, 'failure') && !contains(needs.*.result, 'cancelled') }}
     runs-on: ubuntu-latest
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
@@ -94,7 +73,6 @@ jobs:
     steps:
       - name: Send no-change heartbeat
         run: |
-          curl -s \
-            -d chat_id="$TG_CHAT" \
-            -d text="✅ Ticketwatch – No changes in the last hour" \
-            https://api.telegram.org/bot$TG_TOKEN/sendMessage
+          curl -s -d chat_id="$TG_CHAT" \
+                 -d text="✅ Ticketwatch – No changes in the last hour" \
+                 https://api.telegram.org/bot$TG_TOKEN/sendMessage
