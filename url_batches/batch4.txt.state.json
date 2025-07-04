@@ -250,5 +250,17 @@
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
+    "title": "Tickets for Ty Segall",
+    "price": 37.5,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
+    "title": "Tickets for Hand Habits with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-18T00:00:00+00:00"
   }
 }
