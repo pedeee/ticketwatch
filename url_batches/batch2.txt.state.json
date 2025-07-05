@@ -77,12 +77,6 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/virvum-stortregn-the-cave-tickets/14283783": {
-    "title": "Tickets for Virvum, Stortregn",
-    "price": 22.75,
-    "soldout": false,
-    "event_dt": "2025-07-05T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/gorgatron-the-northern-the-cave-tickets/13768714": {
     "title": "Tickets for Gorgatron - The Northern Destruction Tour",
     "price": 19.0,
@@ -95,12 +89,6 @@
     "soldout": false,
     "event_dt": "2025-08-10T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/cicadachar-w-malory-nick-drake-underground-tickets/13781034": {
-    "title": "Tickets for Cicadachar w/ Malory & Nick Posthumus and the Soft Maybes",
-    "price": 13.0,
-    "soldout": false,
-    "event_dt": "2025-07-04T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
     "title": "Tickets for gunnr - North America Tour",
     "price": 25.0,
@@ -112,12 +100,6 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/witchpoint-w-personas-house-of-hard-luck-bar-tickets/14502363": {
-    "title": "Tickets for Witchpoint w/ Personas, House of Commons & Radium",
-    "price": 14.0,
-    "soldout": false,
-    "event_dt": "2025-07-04T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bayway-w-selfish-act-torque-hard-luck-bar-tickets/14495533": {
     "title": "Tickets for Bayway w/ Selfish Act, Torque Down, Force of Will, Crosshair & Mouthbreaker",
@@ -151,7 +133,7 @@
   },
   "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
     "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
-    "price": 25.0,
+    "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-12T00:00:00+00:00"
   },
