@@ -2,7 +2,7 @@ name: Ticket watch
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 * * * *"     # every hour
   workflow_dispatch:
 
 permissions:
@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   watch:
+    # run once for each list
     strategy:
       matrix:
         batch:
@@ -18,7 +19,16 @@ jobs:
           - url_batches/batch3.txt
           - url_batches/batch4.txt
           - url_batches/batch5.txt
+
+    # run on hosted runner
     runs-on: ubuntu-latest
+
+    # make the critical push section single-file  
+    concurrency:
+      group: ticketwatch-push
+      cancel-in-progress: false
+
+    # export batch-specific paths + Telegram secrets
     env:
       URL_FILE:   ${{ matrix.batch }}
       STATE_FILE: ${{ matrix.batch }}.state.json
@@ -26,46 +36,66 @@ jobs:
       TG_CHAT:    ${{ secrets.TG_CHAT }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      # ─── code checkout ──────────────────────────────────────────────────
+      - uses: actions/checkout@v4
         with:
           persist-credentials: true
-          ref: main
           fetch-depth: 0
+          ref: main
 
-      # ── NEW: make sure we start from the very latest tip ────────────────
+      # ─── start from the very latest main ───────────────────────────────
       - name: Sync to latest main
-        run: |
-          git pull --rebase --quiet
+        run: git pull --rebase --quiet
 
+      # ─── Python runtime & deps ──────────────────────────────────────────
       - uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
+        with: { python-version: "3.13" }
 
       - name: Install deps
         run: pip install requests beautifulsoup4 cloudscraper python-dateutil
 
+      # ─── run your script ────────────────────────────────────────────────
       - name: Run watcher
         run: python ticketwatch.py
 
-      - name: Commit & push state
+      # ─── commit & resilient push (with 3 retries) ──────────────────────
+      - name: Commit state file
         run: |
+          set -e
           git config user.name  "ticketwatch bot"
           git config user.email "bot@users.noreply.github.com"
+
+          # stage both state and URL list (pruning may edit URL_FILE)
           git add "${STATE_FILE}" "${URL_FILE}" || true
 
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit for ${URL_FILE}"
             exit 0
           fi
 
           git commit -m "auto: update ${STATE_FILE}"
-          git push --quiet
 
-  # heartbeat if **none** of the matrix jobs detected a change
+          try_push () {
+            git pull --rebase --autostash --quiet && git push --quiet
+          }
+
+          for i in 1 2 3; do
+            echo "Push attempt $i …"
+            if try_push; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push failed – retrying in 5 s"
+            sleep 5
+          done
+
+          echo "❌ Could not push after 3 attempts." >&2
+          exit 1
+
+  # ─── single heartbeat if *all* batches report no change ────────────────
   summary:
     needs: watch
-    if: ${{ always() && !contains(needs.*.result, 'failure') && !contains(needs.*.result, 'cancelled') }}
+    if: ${{ success() }}
     runs-on: ubuntu-latest
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
