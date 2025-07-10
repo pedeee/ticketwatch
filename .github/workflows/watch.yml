@@ -1,87 +1,96 @@
 name: Ticket watch
 
+##############################
+#  When to run
+##############################
 on:
+  # hourly scan at :00
   schedule:
-    - cron: "0 * * * *"
+    - cron:  '0 * * * *'
+  # manual button in the UI
   workflow_dispatch:
 
-permissions:
-  contents: write
-
+##############################
+#  Jobs matrix – one job per
+#  batch file in url_batches/
+##############################
 jobs:
   watch:
+    # 🛑 Skip EVERYTHING if this run comes from
+    #    an un-trusted PR (fork) – secrets stay hidden.
+    if: github.event.pull_request == null
+
+    # run five parallel jobs, one per batch
     strategy:
+      fail-fast: false
       matrix:
-        batch:
-          - url_batches/batch1.txt
-          - url_batches/batch2.txt
-          - url_batches/batch3.txt
-          - url_batches/batch4.txt
-          - url_batches/batch5.txt
+        batch_file:
+          - 'url_batches/batch1.txt'
+          - 'url_batches/batch2.txt'
+          - 'url_batches/batch3.txt'
+          - 'url_batches/batch4.txt'
+          - 'url_batches/batch5.txt'
 
-    runs-on: ubuntu-latest
-
-    # ─── only block *parallel* runs of the same batch ─────
+    # never let two overlapping scans fight over state files
     concurrency:
-      group: ticketwatch-${{ matrix.batch }}
-      cancel-in-progress: false
+      group: ticketwatch-${{ matrix.batch_file }}
+      cancel-in-progress: true
 
-    env:
-      URL_FILE:   ${{ matrix.batch }}
-      STATE_FILE: ${{ matrix.batch }}.state.json
-      TG_TOKEN:   ${{ secrets.TG_TOKEN }}
-      TG_CHAT:    ${{ secrets.TG_CHAT }}
-
-    steps:
-      - uses: actions/checkout@v4
-        with: { persist-credentials: true, fetch-depth: 0, ref: main }
-
-      - name: Sync to latest main
-        run: git pull --rebase --quiet
-
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.13" }
-
-      - name: Install deps
-        run: pip install requests beautifulsoup4 cloudscraper python-dateutil
-
-      - name: Run watcher
-        run: python ticketwatch.py
-
-      - name: Commit & push state
-        run: |
-          set -e
-          git config user.name  "ticketwatch bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add "${STATE_FILE}" "${URL_FILE}" || true
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "auto: update ${STATE_FILE}"
-
-          for i in 1 2 3; do
-            echo "Push attempt $i…"
-            if git pull --rebase --autostash --quiet && git push --quiet; then
-              echo "Push succeeded"
-              exit 0
-            fi
-            echo "Push failed – retrying in 5 s"
-            sleep 5
-          done
-          echo "❌ Could not push after 3 attempts" >&2
-          exit 1
-
-  summary:
-    needs: watch
-    if: ${{ success() }}
     runs-on: ubuntu-latest
-    env:
-      TG_TOKEN: ${{ secrets.TG_TOKEN }}
-      TG_CHAT:  ${{ secrets.TG_CHAT }}
+    timeout-minutes: 15
+
     steps:
-      - name: Heartbeat
-        run: |
-          curl -s -d chat_id="$TG_CHAT" \
-                 -d text="✅ Ticketwatch – No changes in the last hour" \
-                 https://api.telegram.org/bot$TG_TOKEN/sendMessage
+    # ---------- 1. checkout --------------------------------------------------
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+
+    # ---------- 2. keep local clone in sync ----------------------------------
+    - name: Sync to latest main
+      run: |
+        git pull --rebase origin "${{ github.ref }}"
+
+    # ---------- 3. set up Python + deps --------------------------------------
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: Install deps
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # ---------- 4. run the watcher ------------------------------------------
+    - name: Run watcher
+      env:
+        TG_TOKEN: ${{ secrets.TG_TOKEN }}
+        TG_CHAT:  ${{ secrets.TG_CHAT }}
+        BATCH_FILE: ${{ matrix.batch_file }}
+      run: |
+        python ticketwatch.py "$BATCH_FILE"
+
+    # ---------- 5. commit & push state file ----------------------------------
+    - name: Commit & push state
+      # never try to push if the run made no changes
+      if: success()
+      run: |
+        git config user.name  "ticketwatch bot"
+        git config user.email "bot@example.invalid"
+
+        git add "${{ matrix.batch_file }}.state.json" || true
+        if git diff-index --quiet HEAD --; then
+            echo "nothing to commit"
+        else
+            git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
+            # fast-forward only – prevents the lock-ref / divergence errors
+            git push --set-upstream origin "${{ github.ref }}" --force-with-lease
+        fi
+
+  # -------- summary job so the workflow turns green even if some
+  #         batches find no changes -------------------------------------------
+  summary:
+    if: always()
+    needs: watch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Done
+        run: echo "All batch jobs finished."
