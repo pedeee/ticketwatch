@@ -23,7 +23,7 @@ from subprocess import run, DEVNULL
 from dateutil import parser as dtparse, tz
 import datetime as dt
 
-# ─── Files & constants ─────────────────────────────────────────────────────
+# ─── Files & constants ────────────────────────────────────────────────────
 URL_FILE   = "urls.txt"        # default when you run locally
 STATE_FILE = "state.json"
 
@@ -38,7 +38,7 @@ PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 DEBUG_DATE      = False              # set True to print every date parse
 
-# ─── Cloudflare-bypass session --------------------------------------------
+# ─── Cloudflare-bypass session ────────────────────────────────────────────
 scraper = cloudscraper.create_scraper(
     browser={'browser': 'firefox', 'platform': 'darwin', 'mobile': False},
     delay=3000                       # ms between CF challenge retries
@@ -48,7 +48,7 @@ scraper = cloudscraper.create_scraper(
 TG_TOKEN = os.getenv("TG_TOKEN")
 TG_CHAT  = os.getenv("TG_CHAT")
 
-# ─── Helpers ---------------------------------------------------------------
+# ─── Helpers ──────────────────────────────────────────────────────────────
 def fmt(s: Dict[str, Any]) -> str:
     if s.get("soldout"):
         return "SOLD OUT"
@@ -62,7 +62,7 @@ def is_past(event_iso: str) -> bool:
     event_dt = dtparse.parse(event_iso)
     return event_dt < dt.datetime.now(tz.tzutc())
 
-# ─── Scrape one event page -------------------------------------------------
+# ─── Scrape one event page ────────────────────────────────────────────────
 def extract_status(html: str) -> Dict[str, Any]:
     soup  = BeautifulSoup(html, "html.parser")
     text  = soup.get_text(" ", strip=True)
@@ -133,7 +133,7 @@ def extract_status(html: str) -> Dict[str, Any]:
         "event_dt": event_dt.isoformat() if event_dt else None,
     }
 
-# ─── Notification wrappers -------------------------------------------------
+# ─── Notification wrappers ────────────────────────────────────────────────
 def mac_banner(title: str, message: str, url: str):
     try:
         run(["terminal-notifier", "-title", title, "-message", message, "-open", url],
@@ -158,7 +158,7 @@ def notify(title: str, message: str, url: str):
     mac_banner(title, message, url)
     telegram_push(title, message, url)
 
-# ─── File helpers ----------------------------------------------------------
+# ─── File helpers ─────────────────────────────────────────────────────────
 def load_lines(path: str) -> list[str]:
     if not os.path.exists(path):
         sys.exit(f"✖ {path} missing – add some Ticketweb URLs first.")
@@ -175,7 +175,7 @@ def save_state(path: str, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
-# ─── Main loop -------------------------------------------------------------
+# ─── Main loop ────────────────────────────────────────────────────────────
 def main():
     urls    = load_lines(URL_FILE)
     before  = load_state(STATE_FILE)
@@ -225,9 +225,11 @@ def main():
         for title, old, new, url in changes:
             print(f"  • {title}\n    {old}  →  {new}\n    {url}")
     else:
-        notify("Ticketwatch", "✓ No changes",
-               "https://github.com/pedee/ticketwatch/actions")
+        # ONLY the primary (batch1) job sends the “no changes” ping
+        if os.getenv("PRIMARY", "false").lower() == "true":
+            notify("Ticketwatch", "✓ No changes",
+                   "https://github.com/pedee/ticketwatch/actions")
 
-# ───────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     main()
