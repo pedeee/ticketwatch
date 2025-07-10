@@ -1,8 +1,8 @@
 name: Ticket watch
 
-##############################
+########################################
 #  When to run
-##############################
+########################################
 on:
   # hourly scan at :00
   schedule:
@@ -10,48 +10,53 @@ on:
   # manual button in the UI
   workflow_dispatch:
 
-##############################
-#  Jobs – one job per batch
-##############################
+########################################
+#  Jobs – one job per batch file
+########################################
 jobs:
   watch:
-    # 🛑 Skip EVERYTHING if this run comes from
-    #    an un-trusted PR (fork) – secrets stay hidden.
+    # 🛑  Skip EVERYTHING if this comes from an un-trusted PR (fork)
     if: github.event.pull_request == null
 
     strategy:
       fail-fast: false
       matrix:
-        batch_file:
-          - 'url_batches/batch1.txt'
-          - 'url_batches/batch2.txt'
-          - 'url_batches/batch3.txt'
-          - 'url_batches/batch4.txt'
-          - 'url_batches/batch5.txt'
+        include:
+          # primary=true  → only this job may send the “✓ No changes” ping
+          - batch_file: 'url_batches/batch1.txt'   # primary
+            primary:   true
+          - batch_file: 'url_batches/batch2.txt'
+            primary:   false
+          - batch_file: 'url_batches/batch3.txt'
+            primary:   false
+          - batch_file: 'url_batches/batch4.txt'
+            primary:   false
+          - batch_file: 'url_batches/batch5.txt'
+            primary:   false
 
-    # never let two overlapping scans fight over state files
+    # never let overlapping scans fight over *.state.json
     concurrency:
       group: ticketwatch-${{ matrix.batch_file }}
       cancel-in-progress: true
 
     permissions:
-      contents: write            # allow the bot to commit *.state.json
-      pull-requests: read        # needed for the “if” guard above
+      contents: write          # let the bot commit *.state.json
+      pull-requests: write     # allow opening a PR if branch-protection blocks push
 
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
-    # ---------- 1. checkout -----------------------------------------------
+    # ── 1 Checkout ─────────────────────────────────────────────────────────
     - uses: actions/checkout@v4
       with:
         fetch-depth: 1
 
-    # ---------- 2. keep clone in sync -------------------------------------
+    # ── 2 Sync local clone ────────────────────────────────────────────────
     - name: Sync to latest main
       run: git pull --rebase origin "${{ github.ref }}"
 
-    # ---------- 3. set up Python & deps -----------------------------------
+    # ── 3 Python & deps ───────────────────────────────────────────────────
     - uses: actions/setup-python@v5
       with:
         python-version: '3.x'
@@ -63,32 +68,44 @@ jobs:
           pip install -r requirements.txt
         fi
 
-    # ---------- 4. run the watcher ----------------------------------------
+    # ── 4 Run watcher ─────────────────────────────────────────────────────
     - name: Run watcher
       env:
-        TG_TOKEN: ${{ secrets.TG_TOKEN }}
-        TG_CHAT:  ${{ secrets.TG_CHAT }}
-      run: |
-        python ticketwatch.py "${{ matrix.batch_file }}"
+        TG_TOKEN:  ${{ secrets.TG_TOKEN }}
+        TG_CHAT:   ${{ secrets.TG_CHAT }}
+        PRIMARY:   ${{ matrix.primary }}
+      run: python ticketwatch.py "${{ matrix.batch_file }}"
 
-    # ---------- 5. commit & push state ------------------------------------
+    # ── 5 Commit (or PR) the updated state file ───────────────────────────
     - name: Commit & push state
-      # only push if there is a diff
+      id: commit
       run: |
         git config user.name  "ticketwatch bot"
         git config user.email "bot@example.invalid"
 
         git add "${{ matrix.batch_file }}.state.json" || true
-
         if git diff-index --quiet HEAD --; then
-          echo "nothing to commit"
+          echo "skip_commit=true" >> $GITHUB_OUTPUT
         else
           git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
-          # force-with-lease avoids diverging-ref errors under concurrency
-          git push --force-with-lease
+          # attempt fast-forward push (may be blocked by branch protection)
+          if ! git push --force-with-lease; then
+              echo "need_pr=true" >> $GITHUB_OUTPUT
+          fi
         fi
 
-  # ---------- 6. summary job so workflow turns green ----------------------
+    # ── 6 Open a PR if branch-protection blocked the direct push ──────────
+    - name: Create pull-request for state update
+      if: steps.commit.outputs.need_pr == 'true'
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: "auto: update ${{ matrix.batch_file }}.state.json"
+        branch:         "bot/state-${{ matrix.batch_file }}"
+        title:          "State update for ${{ matrix.batch_file }}"
+        body:           "Automated state-file update by the Ticketwatch workflow."
+        delete-branch:  true         # prune merged bot branches
+
+  # ── 7 Summary job so the whole workflow turns green ─────────────────────
   summary:
     if: always()
     needs: watch
