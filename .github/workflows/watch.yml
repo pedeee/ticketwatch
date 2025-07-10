@@ -10,6 +10,11 @@ on:
   # manual button in the UI
   workflow_dispatch:
 
+# ───── NEW – let the job push back to the repo ─────
+permissions:
+  contents: write     # allow commit/push
+  id-token:   read    # (optional, if you ever use OIDC)
+
 ##############################
 #  Jobs matrix – one job per
 #  batch file in url_batches/
@@ -48,7 +53,7 @@ jobs:
     # ---------- 2. keep local clone in sync ----------------------------------
     - name: Sync to latest main
       run: |
-        git pull --rebase origin "${{ github.ref }}"
+        git pull --rebase origin main
 
     # ---------- 3. set up Python + deps --------------------------------------
     - uses: actions/setup-python@v5
@@ -77,16 +82,16 @@ jobs:
         git config user.email "bot@example.invalid"
 
         git add "${{ matrix.batch_file }}.state.json" || true
-        if git diff-index --quiet HEAD --; then
+        if git diff --cached --quiet; then
             echo "nothing to commit"
         else
             git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
             # fast-forward only – prevents the lock-ref / divergence errors
-            git push --set-upstream origin "${{ github.ref }}" --force-with-lease
+            git push --no-verify
         fi
 
-  # -------- summary job so the workflow turns green even if some
-  #         batches find no changes -------------------------------------------
+# -------- summary job so the workflow turns green even if some
+#         batches find no changes -------------------------------------------
   summary:
     if: always()
     needs: watch
