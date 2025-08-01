@@ -38,8 +38,6 @@ https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/1443523
 https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654  # Tickets for French Police with Riki - Oct 10
 https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking - Oct 10
 https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134  # Tickets for Pool Kids - Oct 11
-https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093  # Tickets for Fly By Midnight with Special Guests - Oct 11
-https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Tickets for Wombo w/ Ribbon Skirt - Oct 11
 https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Oct 12
 https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823  # Tickets for DURRY - Your Friend From The Real World Tour, Gully Boys - Oct 14
 https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653  # Tickets for Softcult with Wayside & Cherrypick - Oct 16
@@ -80,5 +78,7 @@ https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/1441
 https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383  # Tickets for PUP with Snotty Nose Rez Kids - Dec 12
 
 # === Events without dates ===
+https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093  # Unknown Event - No date found
+https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Unknown Event - No date found
 https://www.ticketweb.ca/event/cozy-worldwide-throwback-current-rb-the-mod-club-formerly-known-tickets/14383853  # Unknown Event - No date found
 https://www.ticketweb.ca/event/the-lazys-cevilain-the-space-the-27-club-tickets/14378793  # Unknown Event - No date found
