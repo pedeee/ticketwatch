@@ -33,12 +33,16 @@ from dataclasses import dataclass
 # ─── Files & constants ────────────────────────────────────────────────────
 URL_FILE   = "urls.txt"        # default when you run locally
 STATE_FILE = "state.json"
+UNIFIED_STATE_FILE = "unified_state.json"  # New unified state file
 
 # If the workflow passes a batch file (url_batches/batchN.txt),
-# use that for both URLs and state so each job is isolated.
+# use that for URLs but always use unified state for historical data
 if len(sys.argv) > 1 and sys.argv[1]:
     URL_FILE   = sys.argv[1]
-    STATE_FILE = f"{URL_FILE}.state.json"   # e.g. url_batches/batch3.txt.state.json
+    # Keep batch-specific state file for compatibility, but also use unified
+    BATCH_STATE_FILE = f"{URL_FILE}.state.json"   # e.g. url_batches/batch3.txt.state.json
+else:
+    BATCH_STATE_FILE = STATE_FILE
 
 # ─── Configuration ────────────────────────────────────────────────────────
 HEADERS         = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
@@ -351,6 +355,56 @@ def save_state(path: str, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
+def load_unified_state():
+    """Load state from all possible sources to ensure complete historical data"""
+    unified = {}
+    
+    # 1. Load main state.json if it exists
+    if os.path.exists(STATE_FILE):
+        main_state = load_state(STATE_FILE)
+        unified.update(main_state)
+        print(f"📥 Loaded {len(main_state)} entries from main state")
+    
+    # 2. Load unified state if it exists
+    if os.path.exists(UNIFIED_STATE_FILE):
+        unified_state = load_state(UNIFIED_STATE_FILE)
+        for url, data in unified_state.items():
+            if url not in unified or unified[url].get('price') is None:
+                unified[url] = data
+        print(f"📥 Merged {len(unified_state)} entries from unified state")
+    
+    # 3. Load all batch states to catch any missing data
+    import glob
+    batch_files = glob.glob("url_batches/batch*.txt.state.json")
+    for batch_state_file in batch_files:
+        if os.path.exists(batch_state_file):
+            batch_state = load_state(batch_state_file)
+            for url, data in batch_state.items():
+                # Only use batch data if we don't have it or if our data is incomplete
+                if url not in unified or unified[url].get('price') is None:
+                    unified[url] = data
+    
+    if batch_files:
+        print(f"📥 Merged data from {len(batch_files)} batch state files")
+    
+    print(f"📊 Total unified state: {len(unified)} URLs with historical data")
+    return unified
+
+def save_unified_state(new_data):
+    """Save updated data to both batch-specific and unified state files"""
+    # Save to batch-specific state file
+    save_state(BATCH_STATE_FILE, new_data)
+    
+    # Load existing unified state (avoid circular call)
+    unified = load_state(UNIFIED_STATE_FILE) if os.path.exists(UNIFIED_STATE_FILE) else {}
+    
+    # Merge new data into unified state
+    unified.update(new_data)
+    
+    # Save unified state
+    save_state(UNIFIED_STATE_FILE, unified)
+    print(f"💾 Saved to unified state: {len(unified)} total entries")
+
 def sort_urls_by_date(urls: List[str], event_data: Dict[str, Dict[str, Any]]) -> Tuple[List[str], List[str]]:
     """Sort URLs by event date, return (sorted_urls, urls_without_dates)"""
     urls_with_dates = []
@@ -478,7 +532,8 @@ async def main():
     print("🎟️ Ticketwatch starting...")
     
     urls = load_lines(URL_FILE)
-    before = load_state(STATE_FILE)
+    # Use unified state to ensure we have complete historical data
+    before = load_unified_state()
     
     # Fetch all URLs concurrently  
     after = await fetch_all_urls(urls)
@@ -567,8 +622,8 @@ async def main():
         if TG_TOKEN and TG_CHAT and len(past_events) > 0:
             telegram_push("🧹 Cleanup Suggestion", cleanup_msg)
     
-    # Save state
-    save_state(STATE_FILE, after)
+    # Save state using unified system
+    save_unified_state(after)
     
     # Handle notifications
     if changes:
