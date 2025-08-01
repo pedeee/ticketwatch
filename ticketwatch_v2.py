@@ -122,7 +122,7 @@ def extract_status(html: str) -> Dict[str, Any]:
     if date_str:
         try:
             event_dt = dtparse.parse(date_str).astimezone(tz.tzutc())
-        except Exception as e:
+        except (ValueError, TypeError, dtparse.ParserError) as e:
             if DEBUG_DATE:
                 print("DEBUG parse fail:", e, date_str)
 
@@ -134,7 +134,7 @@ def extract_status(html: str) -> Dict[str, Any]:
     title = re.sub(r"\s+\|.*$", "", title)
 
     # 3. Price search (skip fee lines) --------------------------------------
-    prices: list[float] = []
+    prices: List[float] = []
     for m in re.finditer(r"\$([0-9]{1,5}\.[0-9]{2})", text):
         window = text[max(0, m.start() - 20): m.end() + 20].lower()
         if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
@@ -214,7 +214,7 @@ def telegram_push(title: str, message: str, url: str = None):
                       data={"chat_id": TG_CHAT, "text": msg,
                             "parse_mode": "HTML", "disable_web_page_preview": True},
                       timeout=10)
-    except Exception as e:
+    except (requests.RequestException, requests.Timeout) as e:
         print("✖ Telegram error:", e)
 
 def telegram_batch_changes(changes: List[Change]):
@@ -419,7 +419,7 @@ async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semapho
                     response.raise_for_status()
                     html = await response.text()
                     return url, extract_status(html)
-            except Exception as e:
+            except (aiohttp.ClientError, asyncio.TimeoutError, ValueError) as e:
                 if attempt == RETRY_ATTEMPTS - 1:
                     # Try cloudscraper as fallback for the final attempt
                     try:
@@ -430,7 +430,7 @@ async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semapho
                         response = scraper.get(url, timeout=30)
                         response.raise_for_status()
                         return url, extract_status(response.text)
-                    except Exception as cloudscraper_e:
+                    except (requests.RequestException, cloudscraper.exceptions.CloudflareChallengeError) as cloudscraper_e:
                         print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (aiohttp: {e}, cloudscraper: {cloudscraper_e})")
                         return url, None
                 await asyncio.sleep(2 ** attempt)  # Exponential backoff
