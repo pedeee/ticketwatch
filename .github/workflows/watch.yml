@@ -83,8 +83,19 @@ jobs:
         PRIMARY:   ${{ matrix.primary }}
       run: python ticketwatch_v2.py "${{ matrix.batch_file }}"
 
-    # ── 5 Create PR for state updates (always use PR method) ─────────────
+    # ── 5 Check for changes and create PR if needed ─────────────────────
+    - name: Check for state changes
+      id: check-changes
+      run: |
+        if git diff --quiet; then
+          echo "has-changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "has-changes=true" >> $GITHUB_OUTPUT
+        fi
+
     - name: Create pull-request for state update
+      id: create-pr
+      if: steps.check-changes.outputs.has-changes == 'true'
       uses: peter-evans/create-pull-request@v6
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -98,12 +109,27 @@ jobs:
           **Triggered by:** Hourly ticketwatch scan
           
           This PR contains updated state data from the latest scan.
+          
+          🤖 **Auto-merging** to preserve state between runs.
         branch: "bot/state-${{ matrix.batch_file }}"
         delete-branch: true
         base: main
         add-paths: |
           ${{ matrix.batch_file }}.state.json
           ${{ matrix.batch_file }}
+
+    # ── 6 Auto-merge the state PR to preserve memory ─────────────────────
+    - name: Auto-merge state PR
+      if: steps.check-changes.outputs.has-changes == 'true' && steps.create-pr.outputs.pull-request-number
+      run: |
+        # Wait a moment for PR to be fully created
+        sleep 5
+        # Merge the PR immediately to preserve state
+        gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} \
+          --squash \
+          --delete-branch
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # ── 7 Summary job so the whole workflow turns green ─────────────────────
   summary:
