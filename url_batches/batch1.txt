@@ -8,6 +8,7 @@ https://www.ticketweb.ca/event/skillibeng-skillibengs-international-noir-inside-
 https://www.ticketweb.ca/event/wild-pink-with-special-guests-the-pearl-tickets/14217343  # Tickets for Wild Pink with BUDDIE - Aug 01
 https://www.ticketweb.ca/event/black-parade-4-the-pearl-tickets/14443923  # Tickets for BLACK PARADE 4 - Aug 01
 https://www.ticketweb.ca/event/bob-the-drag-queen-dj-hollywood-theatre-tickets/13842184  # Tickets for Bob the Drag Queen (DJ Set) - Aug 02
+https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794  # Tickets for Surf Trash with Special Guests - Aug 08
 https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083  # Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent - Aug 12
 https://www.ticketweb.ca/event/chyl-commonundrgrd-tickets/13761654  # Tickets for Chyl - Aug 15
 https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343  # Tickets for Kyle Mooney - The Real Me / Fake Me Tour - Aug 16
@@ -27,7 +28,6 @@ https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/137
 https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463  # Tickets for Marcin - Solo Dragon Tour - Sep 01
 https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943  # Tickets for Tony Ann - Late Show - Sep 03
 https://www.ticketweb.ca/event/big-sis-fortune-sound-club-tickets/13808844  # Tickets for BIG SIS - Sep 03
-https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733  # Tickets for Pile with NNAMDI & Down The Lees - Sep 04
 https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243  # Tickets for Comeback Kid, Prowl, Punitive Damage - Sep 12
 https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014  # Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall - Sep 13
 https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953  # Tickets for DYSTINCT’S BABABA WORLD TOUR - Sep 14
@@ -45,7 +45,6 @@ https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/143
 https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723  # Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking - Sep 20
 https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153  # Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda - Sep 20
 https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884  # Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL - Sep 21
-https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823  # Tickets for David Archuleta with Alexandra John - Sep 22
 https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183  # Tickets for Next Music from Tokyo vol 17 - Sep 24
 https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203  # Tickets for Next Music from Tokyo vol 17 - Sep 25
 https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244  # Tickets for Darren Kiely - Sep 25
@@ -81,7 +80,8 @@ https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-ti
 https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE  # Tickets for PUP with Snotty Nose Rez Kids - Nov 24
 
 # === Events without dates ===
-https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733  # Unknown Event - No date found
+https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823  # Unknown Event - No date found
 https://www.ticketweb.ca/event/posh-ball-2025-the-pearl-tickets/14320733  # Unknown Event - No date found
 https://www.ticketweb.ca/event/surprise-chef-with-derya-yldrm-the-pearl-tickets/14208543  # Unknown Event - No date found
 https://www.ticketweb.ca/event/chippy-nonstop-vancouver-the-pearl-tickets/13803174  # Unknown Event - No date found
