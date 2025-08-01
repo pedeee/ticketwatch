@@ -226,13 +226,8 @@ def send_sold_out_reminders(sold_out_events):
     sorted_events = sorted(sold_out_events, key=lambda x: x["event_dt"] or "9999")
     
     # Create simple sold-out reminder
-    reminder_msg = f"""🚫 <b>SOLD OUT REMINDER</b>
-═══════════════════════════
+    reminder_msg = f"""🔴 <b>{len(sold_out_events)} events sold out:</b>
 
-⏰ <b>Hourly Status Update</b>
-🔴 Total sold out: <b>{len(sold_out_events)} events</b>
-
-🎫 <b>Sold Out Events (by date):</b>
 """
     
     # Show all sold-out events in date order
@@ -257,9 +252,7 @@ def send_sold_out_reminders(sold_out_events):
     if len(sorted_events) > 15:
         reminder_msg += f"    ... and {len(sorted_events) - 15} more sold-out events\n\n"
     
-    reminder_msg += f"""💡 <b>Tip:</b> Click links to check for last-minute releases!
-───────────────────────
-🎫 <i>Ticketwatch Alert System</i>"""
+    # No extra footer text needed
     
     # Send reminder
     telegram_push("🚫 Sold Out Reminder", reminder_msg)
@@ -317,10 +310,9 @@ def telegram_batch_changes(changes: List[Change]):
         for i in range(0, len(group_changes), BATCH_SIZE):
             batch = group_changes[i:i + BATCH_SIZE]
             
-            # Create beautiful header
+            # Create simple header
             header = f"{group_emoji} <b>{group_title}</b>\n"
-            header += f"{'═' * 30}\n"
-            header += f"📊 <i>{len(batch)} events found</i>\n\n"
+            header += f"📊 {len(batch)} events found\n\n"
             
             msg_lines = [header]
             
@@ -354,9 +346,7 @@ def telegram_batch_changes(changes: List[Change]):
                 msg_lines.append(f"    🔗 <a href='{change.url}'>View Event</a>")
                 msg_lines.append("")
             
-            # Add footer
-            msg_lines.append("─" * 25)
-            msg_lines.append("🎫 <i>Ticketwatch Alert System</i>")
+            # No footer needed
             
             msg = "\n".join(msg_lines)
             
@@ -571,10 +561,7 @@ async def main():
         # Sort past events by how long ago they were
         sorted_past_events = sorted(past_events, key=lambda x: x["event_dt"] or "")
         
-        cleanup_msg = f"""🧹 <b>Cleanup Suggestion</b>
-═══════════════════════════
-
-⚠️ Found <b>{len(past_events)} past events</b> that could be removed
+        cleanup_msg = f"""⚠️ Found <b>{len(past_events)} past events</b> that could be removed
 
 🗓️ <b>Past Events:</b>"""
         
@@ -605,11 +592,7 @@ async def main():
         cleanup_msg += f"""
 
 🛠️ <b>Manual Cleanup Required:</b>
-<code>python3 batch_manager.py clean --review</code>
-
-💡 <i>Past events are kept until manual removal</i>
-───────────────────────
-🎫 <i>Ticketwatch Alert System</i>"""
+<code>python3 batch_manager.py clean --review</code>"""
         
         # Send past events notification 
         if TG_TOKEN and TG_CHAT and len(past_events) > 0:
@@ -649,17 +632,9 @@ async def main():
         # Send health check notification
         print("✅ No changes detected")
         current_time = dt.datetime.now().strftime('%H:%M %Z')
-        health_msg = f"""🟢 <b>System Status: All Clear</b>
-═══════════════════════════
-
-✅ <b>No price changes detected</b>
-📊 Successfully monitored <b>{len(after)} events</b>
-🔴 Currently sold out: <b>{len(sold_out_events)} events</b>
-🕐 Scan completed at <b>{current_time}</b>
-
-💡 <i>Your tickets are being watched!</i>
-───────────────────────
-🎫 <i>Ticketwatch Alert System</i>"""
+        health_msg = f"""✅ No price changes detected
+📊 Monitored {len(after)} events
+🔴 Currently sold out: {len(sold_out_events)} events"""
         telegram_push("🟢 Health Check", health_msg)
 
 def run_main():
