@@ -83,8 +83,8 @@ jobs:
         PRIMARY:   ${{ matrix.primary }}
       run: python ticketwatch_v2.py "${{ matrix.batch_file }}"
 
-    # ── 5 Commit state changes directly (branch protection disabled) ────
-    - name: Commit and push state changes
+    # ── 5 Save state with retry logic to handle parallel jobs ────────────
+    - name: Save state with conflict resolution
       run: |
         # Configure git
         git config --local user.email "action@github.com"
@@ -92,19 +92,43 @@ jobs:
         
         # Check if there are changes to commit
         if ! git diff --quiet; then
-          echo "📝 State changes detected, committing..."
-          git add "${{ matrix.batch_file }}.state.json" "${{ matrix.batch_file }}"
-          git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
+          echo "📝 State changes detected for ${{ matrix.batch_file }}"
           
-          # Pull any changes from other parallel jobs first
-          echo "🔄 Pulling latest changes to avoid conflicts..."
-          git pull --rebase origin main
-          
-          # Now push our changes
-          git push
-          echo "✅ State saved successfully - memory preserved!"
+          # Retry logic for parallel job conflicts
+          for attempt in {1..5}; do
+            echo "🔄 Attempt $attempt to save state..."
+            
+            # Always start fresh with latest remote state
+            git fetch origin main
+            git reset --hard origin/main
+            
+            # Re-run the script to generate fresh state
+            python ticketwatch_v2.py "${{ matrix.batch_file }}"
+            
+            # Check if we have changes after fresh run
+            if ! git diff --quiet; then
+              git add "${{ matrix.batch_file }}.state.json" "${{ matrix.batch_file }}"
+              git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
+              
+              if git push; then
+                echo "✅ State saved successfully on attempt $attempt!"
+                break
+              else
+                echo "⚠️ Push failed on attempt $attempt, retrying..."
+                sleep $((attempt * 2))
+              fi
+            else
+              echo "✅ No changes needed after fresh run"
+              break
+            fi
+            
+            if [ $attempt -eq 5 ]; then
+              echo "❌ Failed to save state after 5 attempts"
+              exit 1
+            fi
+          done
         else
-          echo "✅ No state changes to commit"
+          echo "✅ No initial state changes to commit"
         fi
 
   # ── 7 Summary job so the whole workflow turns green ─────────────────────
