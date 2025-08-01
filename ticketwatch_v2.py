@@ -44,8 +44,8 @@ if len(sys.argv) > 1 and sys.argv[1]:
 HEADERS         = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
-MAX_CONCURRENT  = 20                 # concurrent requests
-REQUEST_DELAY   = 0.1                # seconds between requests  
+MAX_CONCURRENT  = 10                 # concurrent requests (reduced for GitHub Actions)
+REQUEST_DELAY   = 0.5                # seconds between requests (increased for stability)  
 BATCH_SIZE      = 10                 # changes per notification batch
 RETRY_ATTEMPTS  = 3                  # retry failed requests
 DEBUG_DATE      = False              # detailed date parsing debug
