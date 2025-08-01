@@ -713,6 +713,11 @@ async def main():
                 "event_dt": event_data.get("event_dt")
             })
     
+    print(f"🔴 Found {len(sold_out_events)} sold-out events in this batch")
+    if sold_out_events:
+        for event in sold_out_events[:3]:  # Show first 3 as debug
+            print(f"   • {event['title']}")
+    
     # Handle notifications
     if changes:
         # Sort by event date (soonest first)
@@ -725,9 +730,15 @@ async def main():
         # Send batched notifications
         telegram_batch_changes(changes)
         
-    # Always send sold-out reminders (every hour) regardless of changes
-    if sold_out_events and os.getenv("PRIMARY", "false").lower() == "true":
+    # Always send sold-out reminders (every hour) regardless of changes  
+    # DEBUG: Show PRIMARY status
+    is_primary = os.getenv("PRIMARY", "false").lower() == "true"
+    print(f"🔑 PRIMARY status: {is_primary}")
+    
+    if sold_out_events and is_primary:
         send_sold_out_reminders(sold_out_events)
+    elif sold_out_events and not is_primary:
+        print(f"⚠️ Not sending sold-out reminders (not primary batch)")
         
     # Send health check notification only if no changes AND no sold-out reminders
     if not changes and os.getenv("PRIMARY", "false").lower() == "true":
