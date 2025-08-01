@@ -83,53 +83,23 @@ jobs:
         PRIMARY:   ${{ matrix.primary }}
       run: python ticketwatch_v2.py "${{ matrix.batch_file }}"
 
-    # ── 5 Check for changes and create PR if needed ─────────────────────
-    - name: Check for state changes
-      id: check-changes
+    # ── 5 Commit state changes directly to preserve memory ──────────────
+    - name: Commit and push state changes
       run: |
-        if git diff --quiet; then
-          echo "has-changes=false" >> $GITHUB_OUTPUT
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Check if there are changes to commit
+        if ! git diff --quiet; then
+          echo "📝 State changes detected, committing..."
+          git add "${{ matrix.batch_file }}.state.json" "${{ matrix.batch_file }}"
+          git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
+          git push
+          echo "✅ State saved successfully"
         else
-          echo "has-changes=true" >> $GITHUB_OUTPUT
+          echo "✅ No state changes to commit"
         fi
-
-    - name: Create pull-request for state update
-      id: create-pr
-      if: steps.check-changes.outputs.has-changes == 'true'
-      uses: peter-evans/create-pull-request@v6
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: "auto: update ${{ matrix.batch_file }}.state.json"
-        title: "🤖 State update for ${{ matrix.batch_file }}"
-        body: |
-          ## 🤖 Automated State Update
-          
-          **Batch:** `${{ matrix.batch_file }}`
-          **Timestamp:** ${{ github.run_id }}
-          **Triggered by:** Hourly ticketwatch scan
-          
-          This PR contains updated state data from the latest scan.
-          
-          🤖 **Auto-merging** to preserve state between runs.
-        branch: "bot/state-${{ matrix.batch_file }}"
-        delete-branch: true
-        base: main
-        add-paths: |
-          ${{ matrix.batch_file }}.state.json
-          ${{ matrix.batch_file }}
-
-    # ── 6 Auto-merge the state PR to preserve memory ─────────────────────
-    - name: Auto-merge state PR
-      if: steps.check-changes.outputs.has-changes == 'true' && steps.create-pr.outputs.pull-request-number
-      run: |
-        # Wait a moment for PR to be fully created
-        sleep 5
-        # Merge the PR immediately to preserve state
-        gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} \
-          --squash \
-          --delete-branch
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # ── 7 Summary job so the whole workflow turns green ─────────────────────
   summary:
