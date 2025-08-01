@@ -1,0 +1,16 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === December 2024 ===
+https://example.ticketweb.com/event/taylor-swift-dec15  # Taylor Swift - Boston - Dec 15
+https://example.ticketweb.com/event/post-malone-dec20  # Post Malone - NYC - Dec 20
+
+# === January 2025 ===
+https://example.ticketweb.com/event/coldplay-jan10  # Coldplay - Chicago - Jan 10
+https://example.ticketweb.com/event/billie-eilish-jan25  # Billie Eilish - LA - Jan 25
+
+# === February 2025 ===
+https://example.ticketweb.com/event/ed-sheeran-feb14  # Ed Sheeran - Nashville - Feb 14
+
+# === Events without dates ===
+https://example.ticketweb.com/event/mystery-show  # Mystery Show - No date found

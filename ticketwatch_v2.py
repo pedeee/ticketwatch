@@ -10,7 +10,7 @@ Features
 • Single health check when no changes occur
 • Robust error handling with retries
 • Progress reporting and execution metrics
-• Cloudflare-aware fetch when needed
+• Cloudflare-aware fallback when needed
 
 Configuration
 ─────────────
@@ -59,7 +59,7 @@ class Change:
     url: str
     event_dt: Optional[str] = None
 
-# ─── Cloudflare-bypass session ────────────────────────────────────────────
+# ─── Cloudflare-bypass session (fallback only) ───────────────────────────
 scraper = cloudscraper.create_scraper(
     browser={'browser': 'firefox', 'platform': 'darwin', 'mobile': False},
     delay=3000                       # ms between CF challenge retries
@@ -232,61 +232,214 @@ def save_state(path: str, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
-# ─── Main loop ────────────────────────────────────────────────────────────
-def main():
-    urls    = load_lines(URL_FILE)
-    before  = load_state(STATE_FILE)
-    after   = {}
-    pruned_urls = []
-    changes = []
-
+def sort_urls_by_date(urls: List[str], event_data: Dict[str, Dict[str, Any]]) -> Tuple[List[str], List[str]]:
+    """Sort URLs by event date, return (sorted_urls, urls_without_dates)"""
+    urls_with_dates = []
+    urls_without_dates = []
+    
     for url in urls:
-        try:
-            r = scraper.get(url, headers=HEADERS, timeout=30)
-            r.raise_for_status()
-        except Exception as e:
-            print(f"✖ {url}: {e}")
-            continue
-
-        now = extract_status(r.text)
-        after[url] = now
-
-        # Drop past shows
-        if is_past(now["event_dt"]):
-            pruned_urls.append(url)
-            continue
-
-        # Always remind if completely sold out
-        if now["soldout"]:
-            notify(now["title"], "SOLD OUT", url)
+        event_info = event_data.get(url)
+        if event_info and event_info.get("event_dt"):
+            urls_with_dates.append((url, event_info["event_dt"]))
         else:
-            # Notify only when in-stock details change
-            if before.get(url) != now:
-                old = before.get(url, {"price": None, "soldout": None})
-                notify(now["title"], f"{fmt(now)} (was {fmt(old)})", url)
-                changes.append((now["title"], fmt(old), fmt(now), url))
+            urls_without_dates.append(url)
+    
+    # Sort by date (earliest first)
+    urls_with_dates.sort(key=lambda x: x[1])
+    sorted_urls = [url for url, _ in urls_with_dates]
+    
+    return sorted_urls + urls_without_dates, urls_without_dates
 
-    # prune URLs & stage
-    if pruned_urls:
-        urls = [u for u in urls if u not in pruned_urls]
-        with open(URL_FILE, "w") as f:
-            f.write("\n".join(urls) + "\n")
-        run(["git", "add", URL_FILE], check=False)
+def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str, Any]]):
+    """Save URLs sorted by event date with date comments"""
+    sorted_urls, urls_without_dates = sort_urls_by_date(urls, event_data)
+    
+    with open(path, "w") as f:
+        f.write("# Ticketwatch URLs - Automatically sorted by event date\n")
+        f.write("# Format: URL  # Event Name - Date\n\n")
+        
+        current_month = None
+        for url in sorted_urls:
+            event_info = event_data.get(url, {})
+            title = event_info.get("title", "Unknown Event")
+            
+            if event_info.get("event_dt"):
+                try:
+                    event_dt = dtparse.parse(event_info["event_dt"])
+                    month_year = event_dt.strftime("%B %Y")
+                    date_str = event_dt.strftime("%b %d")
+                    
+                    # Add month headers
+                    if current_month != month_year:
+                        if current_month is not None:
+                            f.write("\n")
+                        f.write(f"# === {month_year} ===\n")
+                        current_month = month_year
+                    
+                    f.write(f"{url}  # {title} - {date_str}\n")
+                except:
+                    f.write(f"{url}  # {title} - Date parsing error\n")
+            else:
+                if current_month is not None:
+                    f.write("\n# === Events without dates ===\n")
+                    current_month = None
+                f.write(f"{url}  # {title} - No date found\n")
+    
+    print(f"📅 Saved {len(sorted_urls)} URLs sorted by date")
+    if urls_without_dates:
+        print(f"⚠️  {len(urls_without_dates)} URLs missing event dates")
 
+# ─── Async fetching with rate limiting ───────────────────────────────────
+async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]]]:
+    """Fetch a single URL with retry logic and rate limiting"""
+    async with semaphore:  # Limit concurrent requests
+        for attempt in range(RETRY_ATTEMPTS):
+            try:
+                await asyncio.sleep(REQUEST_DELAY)  # Rate limiting
+                async with session.get(url, headers=HEADERS, timeout=30) as response:
+                    response.raise_for_status()
+                    html = await response.text()
+                    return url, extract_status(html)
+            except Exception as e:
+                if attempt == RETRY_ATTEMPTS - 1:
+                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts - {e}")
+                    return url, None
+                await asyncio.sleep(2 ** attempt)  # Exponential backoff
+    return url, None
+
+async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
+    """Fetch all URLs concurrently with progress reporting"""
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT)
+    results = {}
+    completed = 0
+    
+    print(f"🔄 Starting to check {len(urls)} URLs...")
+    start_time = time.time()
+    
+    async with aiohttp.ClientSession() as session:
+        tasks = [fetch_url_with_retry(session, url, semaphore) for url in urls]
+        
+        for coro in asyncio.as_completed(tasks):
+            url, status = await coro
+            completed += 1
+            
+            if status:
+                results[url] = status
+            
+            # Progress reporting
+            if completed % 50 == 0 or completed == len(urls):
+                elapsed = time.time() - start_time
+                rate = completed / elapsed if elapsed > 0 else 0
+                print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
+                      f"- {rate:.1f} URLs/sec")
+    
+    elapsed = time.time() - start_time
+    print(f"✅ Completed in {elapsed:.1f}s - {len(results)} successful, {len(urls) - len(results)} failed")
+    return results
+
+# ─── Main processing logic ────────────────────────────────────────────────
+async def main():
+    """Main async processing function"""
+    print("🎟️ Ticketwatch starting...")
+    
+    urls = load_lines(URL_FILE)
+    before = load_state(STATE_FILE)
+    
+    # Fetch all URLs concurrently  
+    after = await fetch_all_urls(urls)
+    
+    # Process results
+    past_events = []  # Store past events for notification (but don't remove)
+    changes = []
+    
+    for url, now in after.items():
+        # Skip failed fetches
+        if not now:
+            continue
+            
+        # Identify past shows (but don't remove them)
+        if is_past(now["event_dt"]):
+            past_events.append({
+                "url": url,
+                "title": now["title"],
+                "event_dt": now["event_dt"]
+            })
+            # Continue processing (don't skip past events)
+        
+        # Check for changes
+        old = before.get(url, {"price": None, "soldout": None})
+        if now != old:
+            change = Change(
+                title=now["title"],
+                old_status=fmt(old),
+                new_status=fmt(now),
+                url=url,
+                event_dt=now.get("event_dt")
+            )
+            changes.append(change)
+    
+    # Always re-sort URLs by date for better organization
+    save_sorted_urls(URL_FILE, urls, after)
+    
+    # Notify about past events that COULD be removed (but don't remove them)
+    if past_events:
+        print(f"\n⚠️  Found {len(past_events)} past events (manual cleanup suggested):")
+        past_msg_lines = [f"⚠️ <b>Past Events Found ({len(past_events)})</b>"]
+        past_msg_lines.append("These events could be removed manually:\n")
+        
+        for event in sorted(past_events, key=lambda x: x["event_dt"] or ""):
+            date_str = "No date"
+            if event["event_dt"]:
+                try:
+                    dt_obj = dtparse.parse(event["event_dt"])
+                    date_str = dt_obj.strftime("%b %d, %Y")
+                except:
+                    pass
+            print(f"  • {event['title']} ({date_str})")
+            past_msg_lines.append(f"• {event['title']} - {date_str}")
+        
+        past_msg_lines.append(f"\n💡 To remove: python3 batch_manager.py clean --review")
+        
+        # Send past events notification 
+        if TG_TOKEN and TG_CHAT and len(past_events) > 0:
+            past_msg = "\n".join(past_msg_lines)
+            telegram_push("Manual Cleanup Suggested", past_msg)
+    
+    # Save state
     save_state(STATE_FILE, after)
-
+    
+    # Handle notifications
     if changes:
-        # sort by soonest show (None last)
-        changes.sort(key=lambda c: after[c[3]].get("event_dt") or "9999")
-        print("\n🚨 Changes detected:")
-        for title, old, new, url in changes:
-            print(f"  • {title}\n    {old}  →  {new}\n    {url}")
+        # Sort by event date (soonest first)
+        changes.sort(key=lambda c: c.event_dt or "9999")
+        
+        print(f"\n🚨 {len(changes)} changes detected!")
+        for change in changes:
+            print(f"  • {change.title}: {change.old_status} → {change.new_status}")
+        
+        # Send batched notifications
+        telegram_batch_changes(changes)
+        
     else:
-        # ONLY the primary (batch1) job sends the “no changes” ping
+        # Send single health check (reduce frequency to avoid spam)
+        print("✅ No changes detected")
         if os.getenv("PRIMARY", "false").lower() == "true":
-            notify("Ticketwatch", "✓ No changes",
-                   "https://github.com/pedee/ticketwatch/actions")
+            telegram_push("Ticketwatch Status", 
+                         f"✅ No changes detected\n"
+                         f"📊 Monitored {len(after)} events successfully\n"
+                         f"⏰ {dt.datetime.now().strftime('%H:%M %Z')}")
+
+def run_main():
+    """Wrapper to run async main function"""
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("\n⏹️ Stopped by user")
+    except Exception as e:
+        print(f"💥 Error: {e}")
+        telegram_push("Ticketwatch Error", f"💥 System error: {e}")
+        raise
 
 # ──────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    main()
+    run_main()

@@ -74,7 +74,7 @@ jobs:
         TG_TOKEN:  ${{ secrets.TG_TOKEN }}
         TG_CHAT:   ${{ secrets.TG_CHAT }}
         PRIMARY:   ${{ matrix.primary }}
-      run: python ticketwatch.py "${{ matrix.batch_file }}"
+      run: python ticketwatch_v2.py "${{ matrix.batch_file }}"
 
     # ── 5 Commit (or PR) the updated state file ───────────────────────────
     - name: Commit & push state
