@@ -36,16 +36,16 @@ https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-ticket
 https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073  # Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby - Sep 26
 https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733  # Tickets for P'Tit Belliveau with Special Guests - Sep 27
 https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504  # Tickets for Pool Kids - Sep 28
+https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713  # Tickets for Maria Somerville with Special Guests - Sep 28
 https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073  # Tickets for Fly By Midnight with Special Guests - Sep 29
-https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694  # Tickets for ANIKA with Avishag Cohen Rodrigues - Sep 29
 https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454  # Tickets for Future Palace, Half Me, Hawk - Sep 30
 
 # === October 2025 ===
 https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964  # Tickets for Skinshape with Sons of Sevilla - Oct 01
 https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673  # Tickets for Frankie and the Witch Fingers with Population II - Oct 07
 https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873  # Tickets for Crypta - Oct 08
+https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293  # Tickets for Pixel Grip with Coatie Pop - Oct 08
 https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534  # Tickets for TWINSICK - Oct 10
-https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373  # Tickets for Sacrifice - Oct 11
 https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253  # Tickets for YIN YIN with Special Guests - Oct 12
 https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813  # Tickets for Night Tapes - portals//polarities World Tour - Oct 16
 https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844  # Tickets for Bambara - Oct 17
@@ -79,6 +79,6 @@ https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nig
 https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483  # Tickets for Dakhabrakha with Special Guests - Dec 11
 
 # === Events without dates ===
+https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373  # Unknown Event - No date found
 https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223  # Unknown Event - No date found
-https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713  # Unknown Event - No date found
-https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293  # Unknown Event - No date found
