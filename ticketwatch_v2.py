@@ -135,14 +135,30 @@ def extract_status(html: str) -> Dict[str, Any]:
 
     # 3. Price search (skip fee lines) --------------------------------------
     prices: List[float] = []
-    for m in re.finditer(r"\$([0-9]{1,5}\.[0-9]{2})", text):
-        window = text[max(0, m.start() - 20): m.end() + 20].lower()
-        if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
-            continue
-        prices.append(float(m.group(1)))
-
+    
+    # Look for various price patterns including ones without decimals
+    price_patterns = [
+        r"\$([0-9]{1,5}\.[0-9]{2})",  # $25.00 format
+        r"\$([0-9]{1,5})",            # $25 format  
+    ]
+    
+    for pattern in price_patterns:
+        for m in re.finditer(pattern, text):
+            price_value = float(m.group(1))
+            # Convert to .00 format if no decimals
+            if '.' not in m.group(1):
+                price_value = float(m.group(1))
+            
+            window = text[max(0, m.start() - 20): m.end() + 20].lower()
+            if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
+                continue
+            prices.append(price_value)
+    
+    # Remove duplicates and sort
+    prices = sorted(list(set(prices)))
+    
     price   = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices)) if prices else None
-    soldout = not prices
+    soldout = not prices or "sold out" in text.lower() or "unavailable" in text.lower()
 
     if DEBUG_DATE:
         print("DEBUG date:", title, event_dt)
@@ -488,8 +504,13 @@ async def main():
     changes = []
     
     for url, now in after.items():
-        # Skip failed fetches
+        # For failed fetches, preserve the old state to maintain memory
         if not now:
+            old_state = before.get(url)
+            if old_state:
+                # Preserve the old state so we don't lose price memory
+                after[url] = old_state
+                print(f"⚠️ Failed to fetch {url[:50]}... - preserving previous state")
             continue
             
         # Identify past shows (but don't remove them)
@@ -501,9 +522,31 @@ async def main():
             })
             # Continue processing (don't skip past events)
         
-        # Check for changes
+        # Check for meaningful changes
         old = before.get(url, {"price": None, "soldout": None})
-        if now != old:
+        
+        # Only notify for meaningful changes, not minor state variations
+        def is_meaningful_change(old_state, new_state):
+            old_price = old_state.get("price")
+            new_price = new_state.get("price")
+            old_soldout = old_state.get("soldout")
+            new_soldout = new_state.get("soldout")
+            
+            # Ignore changes where both prices are None (unknown -> unknown)
+            if old_price is None and new_price is None:
+                return False
+                
+            # Always notify for soldout status changes
+            if old_soldout != new_soldout:
+                return True
+                
+            # Notify for price changes (including None -> price or price -> None)
+            if old_price != new_price:
+                return True
+                
+            return False
+        
+        if is_meaningful_change(old, now):
             change = Change(
                 title=now["title"],
                 old_status=fmt(old),

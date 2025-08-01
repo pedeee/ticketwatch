@@ -134,15 +134,31 @@ def extract_status(html: str) -> Dict[str, Any]:
     title = re.sub(r"\s+\|.*$", "", title)
 
     # 3. Price search (skip fee lines) --------------------------------------
-    prices: list[float] = []
-    for m in re.finditer(r"\$([0-9]{1,5}\.[0-9]{2})", text):
-        window = text[max(0, m.start() - 20): m.end() + 20].lower()
-        if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
-            continue
-        prices.append(float(m.group(1)))
-
+    prices: List[float] = []
+    
+    # Look for various price patterns including ones without decimals
+    price_patterns = [
+        r"\$([0-9]{1,5}\.[0-9]{2})",  # $25.00 format
+        r"\$([0-9]{1,5})",            # $25 format  
+    ]
+    
+    for pattern in price_patterns:
+        for m in re.finditer(pattern, text):
+            price_value = float(m.group(1))
+            # Convert to .00 format if no decimals
+            if '.' not in m.group(1):
+                price_value = float(m.group(1))
+            
+            window = text[max(0, m.start() - 20): m.end() + 20].lower()
+            if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
+                continue
+            prices.append(price_value)
+    
+    # Remove duplicates and sort
+    prices = sorted(list(set(prices)))
+    
     price   = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices)) if prices else None
-    soldout = not prices
+    soldout = not prices or "sold out" in text.lower() or "unavailable" in text.lower()
 
     if DEBUG_DATE:
         print("DEBUG date:", title, event_dt)
@@ -244,27 +260,48 @@ def main():
         try:
             r = scraper.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
+            now = extract_status(r.text)
+            after[url] = now
         except (requests.RequestException, cloudscraper.exceptions.CloudflareChallengeError) as e:
             print(f"✖ {url}: {e}")
+            # Preserve old state to maintain price memory
+            old_state = before.get(url)
+            if old_state:
+                after[url] = old_state
+                print(f"⚠️ Preserving previous state for {url[:50]}...")
             continue
-
-        now = extract_status(r.text)
-        after[url] = now
 
         # Drop past shows
         if is_past(now["event_dt"]):
             pruned_urls.append(url)
             continue
 
-        # Always remind if completely sold out
-        if now["soldout"]:
-            notify(now["title"], "SOLD OUT", url)
-        else:
-            # Notify only when in-stock details change
-            if before.get(url) != now:
-                old = before.get(url, {"price": None, "soldout": None})
-                notify(now["title"], f"{fmt(now)} (was {fmt(old)})", url)
-                changes.append((now["title"], fmt(old), fmt(now), url))
+        # Check for meaningful changes only
+        old = before.get(url, {"price": None, "soldout": None})
+        
+        def is_meaningful_change(old_state, new_state):
+            old_price = old_state.get("price")
+            new_price = new_state.get("price")
+            old_soldout = old_state.get("soldout")
+            new_soldout = new_state.get("soldout")
+            
+            # Ignore changes where both prices are None (unknown -> unknown)
+            if old_price is None and new_price is None:
+                return False
+                
+            # Always notify for soldout status changes
+            if old_soldout != new_soldout:
+                return True
+                
+            # Notify for price changes (including None -> price or price -> None)
+            if old_price != new_price:
+                return True
+                
+            return False
+        
+        if is_meaningful_change(old, now):
+            notify(now["title"], f"{fmt(now)} (was {fmt(old)})", url)
+            changes.append((now["title"], fmt(old), fmt(now), url))
 
     # prune URLs & stage
     if pruned_urls:
