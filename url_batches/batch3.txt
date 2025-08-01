@@ -2,7 +2,6 @@
 # Format: URL  # Event Name - Date
 
 # === August 2025 ===
-https://www.ticketweb.ca/event/jerk-x-jollof-toronto-the-mod-club-formerly-known-tickets/14440003  # Tickets for Jerk X Jollof: Toronto (Caribana Edition) - Aug 03
 https://www.ticketweb.ca/event/celebs-pride-pres-lsdxoxo-at-village-studios-tickets/13772004  # Tickets for Celebs Pride pres. LSDXOXO at CUM TOGETHER: Sweet & Sticky - Aug 03
 https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554  # Tickets for Space 92 - Aug 08
 https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203  # Tickets for Two Another – North American Tour, No Suits - Aug 13
@@ -78,3 +77,6 @@ https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14
 # === December 2025 ===
 https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203  # Tickets for PUP, Snotty Nose Rez Kids - Dec 07
 https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383  # Tickets for PUP with Snotty Nose Rez Kids - Dec 12
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/jerk-x-jollof-toronto-the-mod-club-formerly-known-tickets/14440003  # Unknown Event - No date found
