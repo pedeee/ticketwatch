@@ -1,14 +1,8 @@
 # Ticketwatch URLs - Automatically sorted by event date
 # Format: URL  # Event Name - Date
 
-# === July 2025 ===
-https://www.ticketweb.ca/event/blood-incantation-union-hall-tickets/14487343  # Tickets for Blood Incantation - Jul 29
-https://www.ticketweb.ca/event/blood-incantation-absolute-elsetour-north-the-palace-theatre-tickets/14486893  # Tickets for Blood Incantation Absolute Elsetour North America w/ Krallice - Jul 30
 
 # === August 2025 ===
-https://www.ticketweb.ca/event/the-haunt-with-special-guests-kingsway-club-tickets/13774384  # Tickets for The Haunt with Special Guests - Aug 01
-https://www.ticketweb.ca/event/celebs-pride-pres-maya-jane-celebrities-nightclub-tickets/14498153  # Tickets for Celebs Pride pres. Maya Jane Coles at CUM TOGETHER: Sweet & Sticky - Aug 02
-https://www.ticketweb.ca/event/dreamcrusher-devours-maskara-fortune-sound-club-tickets/13821814  # Tickets for Dreamcrusher / Devours / Maskara / Citade - Vancouver Shame Fest II: Day II - Aug 02
 https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-park-theatre-tickets/14318583  # Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent - Aug 05
 https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-louis-pub-tickets/14318603  # Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent - Aug 06
 https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-starlite-room-tickets/14318983  # Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent - Aug 08
