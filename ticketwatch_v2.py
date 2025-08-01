@@ -21,7 +21,7 @@ BATCH_SIZE     = 10        # changes per notification batch
 DEBUG_DATE     = False     # detailed date parsing debug
 """
 
-import json, os, re, sys, requests, cloudscraper
+import json, os, re, sys, requests, cloudscraper, random
 import asyncio, aiohttp, time, ssl
 from typing import Dict, Any, List, Tuple, Optional
 from bs4 import BeautifulSoup
@@ -44,10 +44,19 @@ if len(sys.argv) > 1 and sys.argv[1]:
 HEADERS         = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
-MAX_CONCURRENT  = 10                 # concurrent requests (reduced for GitHub Actions)
-REQUEST_DELAY   = 0.5                # seconds between requests (increased for stability)  
+
+# Conservative settings for GitHub Actions to avoid IP blocking
+IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
+if IS_GITHUB_ACTIONS:
+    MAX_CONCURRENT  = 3              # Very conservative for GitHub Actions
+    REQUEST_DELAY   = 2.0            # Much longer delay to avoid rate limiting
+    RETRY_ATTEMPTS  = 2              # Fewer retries to avoid persistent blocking
+else:
+    MAX_CONCURRENT  = 10             # Faster for local runs
+    REQUEST_DELAY   = 0.5            # Normal delay for local
+    RETRY_ATTEMPTS  = 3              # Normal retries
+
 BATCH_SIZE      = 10                 # changes per notification batch
-RETRY_ATTEMPTS  = 3                  # retry failed requests
 DEBUG_DATE      = False              # detailed date parsing debug
 
 @dataclass
@@ -452,8 +461,14 @@ async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semapho
     async with semaphore:  # Limit concurrent requests
         for attempt in range(RETRY_ATTEMPTS):
             try:
-                await asyncio.sleep(REQUEST_DELAY)  # Rate limiting
-                async with session.get(url, headers=HEADERS, timeout=30) as response:
+                # Add randomized delay to look more human-like
+                base_delay = REQUEST_DELAY
+                randomized_delay = base_delay + random.uniform(0, base_delay * 0.5)  # Add 0-50% random variation
+                await asyncio.sleep(randomized_delay)
+                
+                # Longer timeout for GitHub Actions
+                timeout = 45 if IS_GITHUB_ACTIONS else 30
+                async with session.get(url, headers=HEADERS, timeout=timeout) as response:
                     response.raise_for_status()
                     html = await response.text()
                     return url, extract_status(html)
@@ -499,12 +514,14 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
             if status:
                 results[url] = status
             
-            # Progress reporting
-            if completed % 50 == 0 or completed == len(urls):
+            # Progress reporting (more frequent for GitHub Actions)
+            report_interval = 20 if IS_GITHUB_ACTIONS else 50
+            if completed % report_interval == 0 or completed == len(urls):
                 elapsed = time.time() - start_time
                 rate = completed / elapsed if elapsed > 0 else 0
+                success_rate = len(results) / completed * 100 if completed > 0 else 0
                 print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
-                      f"- {rate:.1f} URLs/sec")
+                      f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
     
     elapsed = time.time() - start_time
     print(f"✅ Completed in {elapsed:.1f}s - {len(results)} successful, {len(urls) - len(results)} failed")
