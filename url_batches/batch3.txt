@@ -80,5 +80,3 @@ https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tic
 # === Events without dates ===
 https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-sonic-hall-tickets/14469963  # Unknown Event - No date found
 https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Unknown Event - No date found
-https://www.ticketweb.ca/event/cozy-worldwide-throwback-current-rb-the-mod-club-formerly-known-tickets/14383853  # Unknown Event - No date found
-https://www.ticketweb.ca/event/the-lazys-cevilain-the-space-the-27-club-tickets/14378793  # Unknown Event - No date found
