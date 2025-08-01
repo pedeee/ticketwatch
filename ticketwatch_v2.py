@@ -217,6 +217,90 @@ def telegram_push(title: str, message: str, url: str = None):
     except (requests.RequestException, requests.Timeout) as e:
         print("✖ Telegram error:", e)
 
+def send_sold_out_reminders(sold_out_events):
+    """Send hourly reminders for sold-out events with clickable links"""
+    if not (TG_TOKEN and TG_CHAT) or not sold_out_events:
+        return
+    
+    # Sort by urgency and date
+    urgent_sold_out = []
+    soon_sold_out = []
+    future_sold_out = []
+    
+    for event in sold_out_events:
+        urgency = get_urgency_emoji(event["event_dt"])
+        if urgency == "🔥":  # This week
+            urgent_sold_out.append(event)
+        elif urgency == "⚡":  # This month
+            soon_sold_out.append(event)
+        else:  # Future
+            future_sold_out.append(event)
+    
+    # Create comprehensive sold-out reminder
+    reminder_msg = f"""🚫 <b>SOLD OUT REMINDER</b>
+═══════════════════════════
+
+⏰ <b>Hourly Status Update</b>
+🔴 Total sold out: <b>{len(sold_out_events)} events</b>
+
+"""
+    
+    # Add urgent events (this week)
+    if urgent_sold_out:
+        reminder_msg += f"🔥 <b>URGENT - This Week ({len(urgent_sold_out)})</b>\n"
+        for i, event in enumerate(sorted(urgent_sold_out, key=lambda x: x["event_dt"] or "9999")[:5], 1):
+            title = event['title'].replace("Tickets for ", "").strip()
+            if len(title) > 40:
+                title = title[:37] + "..."
+            
+            date_str = "TBD"
+            if event["event_dt"]:
+                try:
+                    dt_obj = dtparse.parse(event["event_dt"])
+                    date_str = dt_obj.strftime("%a, %b %d")
+                except:
+                    pass
+            
+            reminder_msg += f" {i:2}. 🚫 <b>{title}</b>\n"
+            reminder_msg += f"    📅 {date_str}\n"
+            reminder_msg += f"    🔗 <a href='{event['url']}'>Check Availability</a>\n\n"
+        
+        if len(urgent_sold_out) > 5:
+            reminder_msg += f"    ... and {len(urgent_sold_out) - 5} more urgent events\n\n"
+    
+    # Add soon events (this month)
+    if soon_sold_out:
+        reminder_msg += f"⚡ <b>This Month ({len(soon_sold_out)})</b>\n"
+        for i, event in enumerate(sorted(soon_sold_out, key=lambda x: x["event_dt"] or "9999")[:3], 1):
+            title = event['title'].replace("Tickets for ", "").strip()
+            if len(title) > 40:
+                title = title[:37] + "..."
+            
+            date_str = "TBD"
+            if event["event_dt"]:
+                try:
+                    dt_obj = dtparse.parse(event["event_dt"])
+                    date_str = dt_obj.strftime("%b %d")
+                except:
+                    pass
+            
+            reminder_msg += f" {i:2}. 🚫 <b>{title}</b> - {date_str}\n"
+            reminder_msg += f"    🔗 <a href='{event['url']}'>Check Availability</a>\n"
+        
+        if len(soon_sold_out) > 3:
+            reminder_msg += f"    ... and {len(soon_sold_out) - 3} more events this month\n\n"
+    
+    # Add summary for future events
+    if future_sold_out:
+        reminder_msg += f"📅 <b>Future Events</b>: {len(future_sold_out)} sold out\n\n"
+    
+    reminder_msg += f"""💡 <b>Tip:</b> Click links to check for last-minute releases!
+───────────────────────
+🎫 <i>Ticketwatch Alert System</i>"""
+    
+    # Send reminder
+    telegram_push("🚫 Sold Out Reminder", reminder_msg)
+
 def telegram_batch_changes(changes: List[Change]):
     """Send beautifully formatted batch change notifications"""
     if not (TG_TOKEN and TG_CHAT) or not changes:
@@ -304,6 +388,7 @@ def telegram_batch_changes(changes: List[Change]):
                 msg_lines.append(f"{j:2}. {status_emoji} <b>{title}</b>")
                 msg_lines.append(f"    {urgency_emoji} {date_str}")
                 msg_lines.append(f"    💰 {change.old_status} → <b>{change.new_status}</b>")
+                msg_lines.append(f"    🔗 <a href='{change.url}'>View Event</a>")
                 msg_lines.append("")
             
             # Add footer
@@ -570,6 +655,16 @@ async def main():
     # Save state
     save_state(STATE_FILE, after)
     
+    # Collect sold-out events for reminders
+    sold_out_events = []
+    for url, event_data in after.items():
+        if event_data.get("soldout"):
+            sold_out_events.append({
+                "url": url,
+                "title": event_data.get("title", "Unknown Event"),
+                "event_dt": event_data.get("event_dt")
+            })
+    
     # Handle notifications
     if changes:
         # Sort by event date (soonest first)
@@ -582,22 +677,27 @@ async def main():
         # Send batched notifications
         telegram_batch_changes(changes)
         
-    else:
-        # Send beautiful health check notification
+    # Always send sold-out reminders (every hour) regardless of changes
+    if sold_out_events and os.getenv("PRIMARY", "false").lower() == "true":
+        send_sold_out_reminders(sold_out_events)
+        
+    # Send health check notification only if no changes AND no sold-out reminders
+    if not changes and os.getenv("PRIMARY", "false").lower() == "true":
+        # Send health check notification
         print("✅ No changes detected")
-        if os.getenv("PRIMARY", "false").lower() == "true":
-            current_time = dt.datetime.now().strftime('%H:%M %Z')
-            health_msg = f"""🟢 <b>System Status: All Clear</b>
+        current_time = dt.datetime.now().strftime('%H:%M %Z')
+        health_msg = f"""🟢 <b>System Status: All Clear</b>
 ═══════════════════════════
 
 ✅ <b>No price changes detected</b>
 📊 Successfully monitored <b>{len(after)} events</b>
+🔴 Currently sold out: <b>{len(sold_out_events)} events</b>
 🕐 Scan completed at <b>{current_time}</b>
 
 💡 <i>Your tickets are being watched!</i>
 ───────────────────────
 🎫 <i>Ticketwatch Alert System</i>"""
-            telegram_push("🟢 Health Check", health_msg)
+        telegram_push("🟢 Health Check", health_msg)
 
 def run_main():
     """Wrapper to run async main function"""
