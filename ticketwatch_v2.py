@@ -222,77 +222,40 @@ def send_sold_out_reminders(sold_out_events):
     if not (TG_TOKEN and TG_CHAT) or not sold_out_events:
         return
     
-    # Sort by urgency and date
-    urgent_sold_out = []
-    soon_sold_out = []
-    future_sold_out = []
+    # Sort all events by date (earliest first)
+    sorted_events = sorted(sold_out_events, key=lambda x: x["event_dt"] or "9999")
     
-    for event in sold_out_events:
-        urgency = get_urgency_emoji(event["event_dt"])
-        if urgency == "🔥":  # This week
-            urgent_sold_out.append(event)
-        elif urgency == "⚡":  # This month
-            soon_sold_out.append(event)
-        else:  # Future
-            future_sold_out.append(event)
-    
-    # Create comprehensive sold-out reminder
+    # Create simple sold-out reminder
     reminder_msg = f"""🚫 <b>SOLD OUT REMINDER</b>
 ═══════════════════════════
 
 ⏰ <b>Hourly Status Update</b>
 🔴 Total sold out: <b>{len(sold_out_events)} events</b>
 
+🎫 <b>Sold Out Events (by date):</b>
 """
     
-    # Add urgent events (this week)
-    if urgent_sold_out:
-        reminder_msg += f"🔥 <b>URGENT - This Week ({len(urgent_sold_out)})</b>\n"
-        for i, event in enumerate(sorted(urgent_sold_out, key=lambda x: x["event_dt"] or "9999")[:5], 1):
-            title = event['title'].replace("Tickets for ", "").strip()
-            if len(title) > 40:
-                title = title[:37] + "..."
-            
-            date_str = "TBD"
-            if event["event_dt"]:
-                try:
-                    dt_obj = dtparse.parse(event["event_dt"])
-                    date_str = dt_obj.strftime("%a, %b %d")
-                except:
-                    pass
-            
-            reminder_msg += f" {i:2}. 🚫 <b>{title}</b>\n"
-            reminder_msg += f"    📅 {date_str}\n"
-            reminder_msg += f"    🔗 <a href='{event['url']}'>Check Availability</a>\n\n"
+    # Show all sold-out events in date order
+    for i, event in enumerate(sorted_events[:15], 1):  # Show up to 15 events
+        title = event['title'].replace("Tickets for ", "").strip()
+        if len(title) > 45:
+            title = title[:42] + "..."
         
-        if len(urgent_sold_out) > 5:
-            reminder_msg += f"    ... and {len(urgent_sold_out) - 5} more urgent events\n\n"
-    
-    # Add soon events (this month)
-    if soon_sold_out:
-        reminder_msg += f"⚡ <b>This Month ({len(soon_sold_out)})</b>\n"
-        for i, event in enumerate(sorted(soon_sold_out, key=lambda x: x["event_dt"] or "9999")[:3], 1):
-            title = event['title'].replace("Tickets for ", "").strip()
-            if len(title) > 40:
-                title = title[:37] + "..."
-            
-            date_str = "TBD"
-            if event["event_dt"]:
-                try:
-                    dt_obj = dtparse.parse(event["event_dt"])
-                    date_str = dt_obj.strftime("%b %d")
-                except:
-                    pass
-            
-            reminder_msg += f" {i:2}. 🚫 <b>{title}</b> - {date_str}\n"
-            reminder_msg += f"    🔗 <a href='{event['url']}'>Check Availability</a>\n"
+        date_str = "TBD"
+        if event["event_dt"]:
+            try:
+                dt_obj = dtparse.parse(event["event_dt"])
+                date_str = dt_obj.strftime("%a, %b %d")
+            except:
+                pass
         
-        if len(soon_sold_out) > 3:
-            reminder_msg += f"    ... and {len(soon_sold_out) - 3} more events this month\n\n"
+        reminder_msg += f" {i:2}. 🚫 <b>{title}</b>\n"
+        reminder_msg += f"    📅 {date_str}\n"
+        reminder_msg += f"    🔗 <a href='{event['url']}'>Check Availability</a>\n\n"
     
-    # Add summary for future events
-    if future_sold_out:
-        reminder_msg += f"📅 <b>Future Events</b>: {len(future_sold_out)} sold out\n\n"
+    # Show remaining count if there are more
+    if len(sorted_events) > 15:
+        reminder_msg += f"    ... and {len(sorted_events) - 15} more sold-out events\n\n"
     
     reminder_msg += f"""💡 <b>Tip:</b> Click links to check for last-minute releases!
 ───────────────────────
