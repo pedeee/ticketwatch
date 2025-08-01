@@ -15,7 +15,6 @@ permissions:
   contents: write
   pull-requests: write
   actions: read
-  metadata: read
 
 ########################################
 #  Jobs – one job per batch file
@@ -50,7 +49,6 @@ jobs:
       contents: write          # let the bot commit *.state.json
       pull-requests: write     # allow opening a PR if branch-protection blocks push
       actions: read            # allow reading workflow status
-      metadata: read           # allow reading repository metadata
 
     runs-on: ubuntu-latest
     timeout-minutes: 15
