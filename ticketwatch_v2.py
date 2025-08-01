@@ -50,8 +50,9 @@ EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 # Conservative settings for GitHub Actions to avoid IP blocking
 IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
 if IS_GITHUB_ACTIONS:
-    MAX_CONCURRENT  = 3              # Very conservative for GitHub Actions
-    REQUEST_DELAY   = 2.0            # Much longer delay to avoid rate limiting
+    # Even more conservative for batch system to ensure all URLs get scanned
+    MAX_CONCURRENT  = 2              # Very conservative for GitHub Actions batch jobs
+    REQUEST_DELAY   = 3.0            # Longer delay to avoid rate limiting across 5 parallel jobs
     RETRY_ATTEMPTS  = 2              # Fewer retries to avoid persistent blocking
 else:
     MAX_CONCURRENT  = 10             # Faster for local runs
@@ -591,10 +592,21 @@ async def main():
     # Load all URLs from file
     all_urls = load_lines(URL_FILE)
     
-    # Smart URL selection with priority for failed URLs
-    # Adjust target count based on environment (lower for GitHub Actions)
-    target_count = 200 if IS_GITHUB_ACTIONS else 280
-    selected_urls = select_urls_with_priority(all_urls, target_count)
+    # For batch system: scan ALL URLs in the batch file
+    # For consolidated system: use smart selection
+    if len(sys.argv) > 1 and sys.argv[1]:
+        # Running with batch file - scan ALL URLs in this batch
+        selected_urls = all_urls
+        print(f"🎯 Batch mode: Scanning ALL {len(selected_urls)} URLs")
+    else:
+        # Running with consolidated urls.txt - use smart selection
+        target_count = 200 if IS_GITHUB_ACTIONS else 280
+        try:
+            selected_urls = select_urls_with_priority(all_urls, target_count)
+            print(f"🎯 Consolidated mode: Selected {len(selected_urls)}/{len(all_urls)} URLs")
+        except Exception as e:
+            print(f"❌ URL selection failed: {e}, using all URLs")
+            selected_urls = all_urls[:target_count]
     
     before = load_state(STATE_FILE)
     
