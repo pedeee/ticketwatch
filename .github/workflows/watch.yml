@@ -83,29 +83,23 @@ jobs:
         PRIMARY:   ${{ matrix.primary }}
       run: python ticketwatch_v2.py "${{ matrix.batch_file }}"
 
-    # ── 5 Create PR for state updates (no auto-merge for now) ────────────
-    - name: Create pull-request for state update
-      uses: peter-evans/create-pull-request@v6
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: "auto: update ${{ matrix.batch_file }}.state.json"
-        title: "🤖 State update for ${{ matrix.batch_file }}"
-        body: |
-          ## 🤖 Automated State Update
-          
-          **Batch:** `${{ matrix.batch_file }}`
-          **Timestamp:** ${{ github.run_id }}
-          **Triggered by:** Hourly ticketwatch scan
-          
-          This PR contains updated state data from the latest scan.
-          
-          ⚠️ **Please merge manually** to preserve state between runs.
-        branch: "bot/state-${{ matrix.batch_file }}"
-        delete-branch: true
-        base: main
-        add-paths: |
-          ${{ matrix.batch_file }}.state.json
-          ${{ matrix.batch_file }}
+    # ── 5 Commit state changes directly (branch protection disabled) ────
+    - name: Commit and push state changes
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Check if there are changes to commit
+        if ! git diff --quiet; then
+          echo "📝 State changes detected, committing..."
+          git add "${{ matrix.batch_file }}.state.json" "${{ matrix.batch_file }}"
+          git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
+          git push
+          echo "✅ State saved successfully - memory preserved!"
+        else
+          echo "✅ No state changes to commit"
+        fi
 
   # ── 7 Summary job so the whole workflow turns green ─────────────────────
   summary:
