@@ -10,6 +10,13 @@ on:
   # manual button in the UI
   workflow_dispatch:
 
+# Workflow-level permissions
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+  metadata: read
+
 ########################################
 #  Jobs – one job per batch file
 ########################################
@@ -42,6 +49,8 @@ jobs:
     permissions:
       contents: write          # let the bot commit *.state.json
       pull-requests: write     # allow opening a PR if branch-protection blocks push
+      actions: read            # allow reading workflow status
+      metadata: read           # allow reading repository metadata
 
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -76,34 +85,27 @@ jobs:
         PRIMARY:   ${{ matrix.primary }}
       run: python ticketwatch_v2.py "${{ matrix.batch_file }}"
 
-    # ── 5 Commit (or PR) the updated state file ───────────────────────────
-    - name: Commit & push state
-      id: commit
-      run: |
-        git config user.name  "ticketwatch bot"
-        git config user.email "bot@example.invalid"
-
-        git add "${{ matrix.batch_file }}.state.json" || true
-        if git diff-index --quiet HEAD --; then
-          echo "skip_commit=true" >> $GITHUB_OUTPUT
-        else
-          git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
-          # attempt fast-forward push (may be blocked by branch protection)
-          if ! git push --force-with-lease; then
-              echo "need_pr=true" >> $GITHUB_OUTPUT
-          fi
-        fi
-
-    # ── 6 Open a PR if branch-protection blocked the direct push ──────────
+    # ── 5 Create PR for state updates (always use PR method) ─────────────
     - name: Create pull-request for state update
-      if: steps.commit.outputs.need_pr == 'true'
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v6
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: "auto: update ${{ matrix.batch_file }}.state.json"
-        branch:         "bot/state-${{ matrix.batch_file }}"
-        title:          "State update for ${{ matrix.batch_file }}"
-        body:           "Automated state-file update by the Ticketwatch workflow."
-        delete-branch:  true         # prune merged bot branches
+        title: "🤖 State update for ${{ matrix.batch_file }}"
+        body: |
+          ## 🤖 Automated State Update
+          
+          **Batch:** `${{ matrix.batch_file }}`
+          **Timestamp:** ${{ github.run_id }}
+          **Triggered by:** Hourly ticketwatch scan
+          
+          This PR contains updated state data from the latest scan.
+        branch: "bot/state-${{ matrix.batch_file }}"
+        delete-branch: true
+        base: main
+        add-paths: |
+          ${{ matrix.batch_file }}.state.json
+          ${{ matrix.batch_file }}
 
   # ── 7 Summary job so the whole workflow turns green ─────────────────────
   summary:
