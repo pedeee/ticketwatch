@@ -63,8 +63,8 @@ jobs:
         # Check if there are changes to commit
         if [[ `git status --porcelain` ]]; then
           echo "📝 Changes detected, committing..."
-          git add state.json urls.txt
-          git commit -m "🤖 Update state and URLs ($(date))" || echo "⚠️ Commit failed or no changes"
+          git add state.json urls.txt failed_urls.json
+          git commit -m "🤖 Update state, URLs, and failed URL tracking ($(date))" || echo "⚠️ Commit failed or no changes"
           
           # Try to push with retry
           for i in {1..3}; do

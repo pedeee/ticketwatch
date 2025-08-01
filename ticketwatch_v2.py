@@ -33,12 +33,14 @@ from dataclasses import dataclass
 # ─── Files & constants ────────────────────────────────────────────────────
 URL_FILE   = "urls.txt"        # default when you run locally
 STATE_FILE = "state.json"
+FAILED_URLS_FILE = "failed_urls.json"  # track URLs that failed in previous runs
 
 # If the workflow passes a batch file (url_batches/batchN.txt),
 # use that for both URLs and state so each job is isolated.
 if len(sys.argv) > 1 and sys.argv[1]:
     URL_FILE   = sys.argv[1]
     STATE_FILE = f"{URL_FILE}.state.json"   # e.g. url_batches/batch3.txt.state.json
+    FAILED_URLS_FILE = f"{URL_FILE}.failed.json"  # e.g. url_batches/batch3.txt.failed.json
 
 # ─── Configuration ────────────────────────────────────────────────────────
 HEADERS         = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
@@ -388,6 +390,60 @@ def load_lines(path: str) -> list[str]:
                     urls.append(url)
         return urls
 
+def load_failed_urls() -> set:
+    """Load URLs that failed in previous runs"""
+    try:
+        if os.path.exists(FAILED_URLS_FILE):
+            with open(FAILED_URLS_FILE) as f:
+                failed_data = json.load(f)
+                return set(failed_data.get("failed_urls", []))
+    except:
+        pass
+    return set()
+
+def save_failed_urls(failed_urls: set):
+    """Save URLs that failed this run for priority next time"""
+    try:
+        failed_data = {
+            "failed_urls": list(failed_urls),
+            "timestamp": dt.datetime.now().isoformat(),
+            "count": len(failed_urls)
+        }
+        with open(FAILED_URLS_FILE, "w") as f:
+            json.dump(failed_data, f, indent=2)
+    except Exception as e:
+        print(f"⚠️ Could not save failed URLs: {e}")
+
+def select_urls_with_priority(all_urls: list[str], target_count: int = 250) -> list[str]:
+    """Select URLs with priority for previously failed ones"""
+    # Load previously failed URLs
+    failed_urls = load_failed_urls()
+    
+    # Separate failed and successful URLs
+    priority_urls = [url for url in all_urls if url in failed_urls]
+    other_urls = [url for url in all_urls if url not in failed_urls]
+    
+    # Always include all failed URLs (they get priority)
+    selected_urls = priority_urls[:]
+    
+    # Fill remaining slots with random selection from other URLs
+    remaining_slots = target_count - len(priority_urls)
+    if remaining_slots > 0 and other_urls:
+        # Shuffle other URLs for random selection
+        random.shuffle(other_urls)
+        selected_urls.extend(other_urls[:remaining_slots])
+    
+    # If we have fewer URLs than target, just return all
+    if len(selected_urls) < target_count and len(all_urls) < target_count:
+        selected_urls = all_urls[:]
+    
+    print(f"📊 URL Selection Strategy:")
+    print(f"   🔴 Priority (failed): {len(priority_urls)} URLs")
+    print(f"   🔀 Random selection: {min(remaining_slots, len(other_urls))} URLs") 
+    print(f"   🎯 Total selected: {len(selected_urls)}/{len(all_urls)} URLs")
+    
+    return selected_urls
+
 def load_state(path: str):
     if os.path.exists(path):
         with open(path) as f:
@@ -532,11 +588,18 @@ async def main():
     """Main async processing function"""
     print("🎟️ Ticketwatch starting...")
     
-    urls = load_lines(URL_FILE)
+    # Load all URLs from file
+    all_urls = load_lines(URL_FILE)
+    
+    # Smart URL selection with priority for failed URLs
+    # Adjust target count based on environment (lower for GitHub Actions)
+    target_count = 200 if IS_GITHUB_ACTIONS else 280
+    selected_urls = select_urls_with_priority(all_urls, target_count)
+    
     before = load_state(STATE_FILE)
     
-    # Fetch all URLs concurrently  
-    after = await fetch_all_urls(urls)
+    # Fetch selected URLs concurrently  
+    after = await fetch_all_urls(selected_urls)
     
     # Process results
     past_events = []  # Store past events for notification (but don't remove)
@@ -568,8 +631,18 @@ async def main():
             )
             changes.append(change)
     
-    # Always re-sort URLs by date for better organization
-    save_sorted_urls(URL_FILE, urls, after)
+    # Track failed URLs for priority next time
+    successful_urls = set(after.keys())
+    failed_urls = set(selected_urls) - successful_urls
+    save_failed_urls(failed_urls)
+    
+    if failed_urls:
+        print(f"🔴 {len(failed_urls)} URLs failed - will get priority next run")
+    else:
+        print("🟢 All selected URLs succeeded!")
+    
+    # Always re-sort URLs by date for better organization (use all URLs, not just selected)
+    save_sorted_urls(URL_FILE, all_urls, after)
     
     # Send beautiful past events notification
     if past_events:
