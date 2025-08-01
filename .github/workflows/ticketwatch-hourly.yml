@@ -1,0 +1,81 @@
+name: 🎟️ Ticketwatch Hourly Monitor
+
+on:
+  schedule:
+    # Run every hour at minute 0
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+    inputs:
+      debug:
+        description: 'Enable debug mode'
+        required: false
+        default: 'false'
+
+jobs:
+  ticketwatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    env:
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT: ${{ secrets.TG_CHAT }}
+      PRIMARY: "true"
+      
+    steps:
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: 🔍 System health check
+      run: |
+        echo "🔍 Checking system health..."
+        echo "📊 URL count: $(grep -v '^#' urls.txt | grep -c 'http' || echo '0')"
+        echo "📄 State file size: $(wc -l < state.json || echo '0') lines"
+        echo "🌍 Environment: GitHub Actions"
+        
+    - name: 🎟️ Run Ticketwatch
+      run: |
+        echo "🚀 Starting Ticketwatch..."
+        python run_hourly.py --github
+        
+    - name: 💾 Commit and push changes
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Check if there are changes to commit
+        if [[ `git status --porcelain` ]]; then
+          echo "📝 Changes detected, committing..."
+          git add state.json urls.txt
+          git commit -m "🤖 Update state and URLs ($(date))"
+          git push
+          echo "✅ Changes pushed to repository"
+        else
+          echo "✅ No changes to commit"
+        fi
+        
+    - name: 📊 Run summary
+      if: always()
+      run: |
+        echo "=================================="
+        echo "🎟️ TICKETWATCH RUN SUMMARY"
+        echo "=================================="
+        echo "⏰ Completed at: $(date)"
+        echo "📊 Monitored URLs: $(grep -v '^#' urls.txt | grep -c 'http' || echo '0')"
+        echo "📄 State entries: $(wc -l < state.json || echo '0') lines"
+        echo "🔄 Status: ${{ job.status }}"
+        echo "=================================="

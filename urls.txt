@@ -1,4 +1,371 @@
-# One Ticketweb event per line
-https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624
-https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293
-https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === August 2025 ===
+https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694  # Tickets for Friday Night Hard Rock Show - Aug 15
+https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124  # Tickets for Bop To The Top - Aug 23
+https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues  # Tickets for Boys Noize - Aug 23
+https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033  # Tickets for Joel Sunny: Volume 3 Global Tour - Aug 23
+https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804  # Tickets for Sun Kil Moon - Aug 23
+https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723  # Tickets for Sunnyside Sessions ft. Nora En Pure - Aug 23
+https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883  # Tickets for BUDDAHVIBES PRESENTS - Aug 23
+https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584  # Tickets for Hernan Cattaneo and Danny Tenaglia - Aug 24
+https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293  # Tickets for Bit Brigade Performs "Mega Man X" LIVE with dannyBstyle - Aug 28
+https://www.ticketweb.ca/event/atrip-coda-tickets/13810364  # Tickets for ATRIP - Aug 29
+https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023  # Tickets for gunnr - North America Tour - Aug 29
+https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634  # Tickets for Max Cooper, Tor - Aug 29
+https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984  # Tickets for Improvement Movement with Special Guests - Aug 30
+https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294  # Tickets for LAYZ - BLACKOUT: NO SIGNAL 360 - Aug 30
+https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223  # Tickets for WesGhost – CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma - Aug 30
+https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333  # Tickets for Oso Oso, Born Without Bones, Dart Trees - Aug 31
+https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784  # Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE - Aug 31
+
+# === September 2025 ===
+https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463  # Tickets for Marcin - Solo Dragon Tour - Sep 01
+https://www.ticketweb.ca/event/big-sis-fortune-sound-club-tickets/13808844  # Tickets for BIG SIS - Sep 03
+https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943  # Tickets for Tony Ann - Late Show - Sep 03
+https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733  # Tickets for Pile with NNAMDI & Down The Lees - Sep 04
+https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353  # Tickets for DUCKWRTH - All American Freak Show Tour - Sep 05
+https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173  # Tickets for Naethan Apollo with Special Guests - Sep 06
+https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473  # Tickets for Castle Rat with Faerie Ring - Sep 08
+https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133  # Tickets for Mystery Skulls - Ultra Rare Tour - Sep 10
+https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353  # Tickets for Be'lakor,   Solemn Vision - Sep 12
+https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243  # Tickets for Comeback Kid, Prowl, Punitive Damage - Sep 12
+https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513  # Tickets for Dwarves, Burnt Knives, Harm School - Sep 12
+https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633  # Tickets for Jazz Emu 'The Pleasure is All Yours Tour' - Sep 12
+https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943  # Tickets for The Dirty Nil - Sep 12
+https://www.ticketweb.ca/event/ben-bankas-the-bronson-tickets/13735124  # Tickets for Ben Bankas - Sep 13
+https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684  # Tickets for Gui Boratto - Sep 13
+https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963  # Tickets for JO DOLO: Going Gold Tour - Sep 13
+https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083  # Tickets for Pypy with Special Guests - Sep 13
+https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014  # Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall - Sep 13
+https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764  # Tickets for Ben Bankas - Sep 14
+https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953  # Tickets for DYSTINCT’S BABABA WORLD TOUR - Sep 14
+https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433  # Tickets for Hunx & His Punx with Tchotchke - Sep 14
+https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363  # Tickets for Mad Caddies, The Anti-Queens, The Corps - Sep 14
+https://www.ticketweb.ca/event/comeback-kid-wake-the-park-theatre-tickets/14424633  # Tickets for Comeback Kid - Wake The Dead Anniversary Canadian Tour - Sep 15
+https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223  # Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby - Sep 24
+https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083  # Tickets for GoldLink Presents "Enoch" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont - Sep 25
+https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784  # Tickets for P'tit Belliveau - Sep 25
+https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324  # Tickets for IT’S MURPH - "THROUGH MY SYSTEM TOUR" - Sep 26
+https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903  # Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve - Sep 26
+https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673  # Tickets for MAD CADDIES w/ Authority Zero & The Corps - Sep 26
+https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763  # Tickets for P'Tit Belliveau with Véloce André - Sep 26
+https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664  # Tickets for Stereotype Friday's Pres: Zerb - Sep 26
+https://www.ticketweb.ca/event/the-bridge-city-sinners-london-music-hall-tickets/14462073  # Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby - Sep 26
+https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203  # Tickets for Too Many Zooz: Caravan Tour - Sep 26
+https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424  # Tickets for Yukon Blonde - Sep 26
+https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654  # Tickets for dublon - Sep 27
+https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694  # Tickets for Ethan Low - Presented By F7 Live - Sep 27
+https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954  # Tickets for Ewan McVicar - Sep 27
+https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733  # Tickets for KISS CF GOODBYE #9 - Sep 27
+https://www.ticketweb.ca/event/landmvrks-north-america-2025-union-hall-tickets/14432853  # Tickets for LANDMVRKS " NORTH AMERICA 2025" TOUR - Presented ConcertWorks - Sep 27
+https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733  # Tickets for P'Tit Belliveau with Special Guests - Sep 27
+https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693  # Tickets for The Chameleons : Arctic Moon Tour 2025 - Sep 27
+https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193  # Tickets for Too Many Zooz: Caravan Tour - Sep 27
+https://www.ticketweb.ca/event/deltron3030-the-concert-hall-tickets/14389983  # Tickets for DELTRON3030 - Sep 28
+https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744  # Tickets for Ethan Low - Presented By F7 Live - Sep 28
+https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794  # Tickets for MAD CADDIES with Authority Zero & The Corps - Sep 28
+https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334  # Tickets for Morgan Wade - Sep 28
+https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504  # Tickets for Pool Kids - Sep 28
+https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963  # Tickets for Teenage Bottlerocket, We Were Sharks - Sep 28
+https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713  # Tickets for Maria Somerville with Special Guests - Sep 28
+https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694  # Tickets for ANIKA with Avishag Cohen Rodrigues - Sep 29
+https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073  # Tickets for Fly By Midnight with Special Guests - Sep 29
+https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864  # Tickets for MAD CADDIES with Authority Zero & The Corps - Sep 29
+https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013  # Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service - Sep 29
+https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454  # Tickets for Future Palace, Half Me, Hawk - Sep 30
+https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093  # Tickets for Kota The Friend - Sep 30
+
+# === October 2025 ===
+https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364  # Tickets for BUNT. - Oct 01
+https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534  # Tickets for Danko Jones, Iconoclast - Oct 01
+https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914  # Tickets for MAD CADDIES with Authority Zero & The Corps - Oct 01
+https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084  # Tickets for No Joy - Oct 01
+https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964  # Tickets for Skinshape with Sons of Sevilla - Oct 01
+https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543  # Tickets for Johnny Stimson - Oct 02
+https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713  # Tickets for Night Tapes - portals//polarities World Tour - Oct 02
+https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824  # Tickets for Peter Dreams, MOONRIIVR - Oct 02
+https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954  # Tickets for Wilkinson - Oct 02
+https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954  # Tickets for JP Saxe - Make Yourself At Home Tour - Oct 03
+https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654  # Tickets for SABAI - I'M ALRIGHT TOUR - Oct 03
+https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964  # Tickets for MAD CADDIES with Authority Zero & The Corps - Oct 03
+https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384  # Tickets for Anvil - Oct 04
+https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474  # Tickets for Jaques Greene + Nosaj Thing Live - Oct 04
+https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404  # Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests - Oct 04
+https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Oct 06
+https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703  # Tickets for Flyte with Ken Pomeroy - Oct 06
+https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293  # Tickets for Pixel Grip with Coatie Pop - Oct 08
+https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Tickets for Wombo w/ Ribbon Skirt - Oct 11
+https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314  # Tickets for WILKINSON - NORTH AMERICA TOUR - Oct 12
+https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023  # Tickets for Model/Actriz with Special Guests - Oct 14
+https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634  # Tickets for KUMO 99 - FALL TOUR 2025 - Oct 19
+https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234  # Tickets for Revocation, Judiciary, Inferi, Vomit Forth - Oct 20
+https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224  # Tickets for CARNIVAL OF DEATH TOUR 2025 - Oct 21
+https://www.ticketweb.ca/event/hotel-mira-with-bleeker-the-mansion-tickets/14464173  # Tickets for Hotel Mira with Bleeker - Oct 22
+https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613  # Tickets for The Haunted House Tour - Oct 22
+https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083  # Tickets for LEISURE - WELCOME TO THE MOOD TOUR - Oct 23
+https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584  # Tickets for NAHKO AND MEDICINE FOR THE PEOPLE - Oct 23
+https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764  # Tickets for Ari Abdul - Change Tour - Oct 24
+https://www.ticketweb.ca/event/hotel-mira-bleeker-club-saw-tickets/13812214  # Tickets for Hotel Mira, Bleeker - Oct 24
+https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443  # Tickets for MATING RITUAL: Shangri Blah North American Tour 2025 - Oct 24
+https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263  # Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables - Oct 24
+https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013  # Tickets for The Deep Dark Woods with Bob Sumner - Oct 24
+https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394  # Tickets for Anvil - Oct 25
+https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783  # Tickets for Balu Brigada with Special Guests - Oct 25
+https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303  # Tickets for Rend Collective Folk! Tour - Oct 25
+https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713  # Tickets for saturdays at your place these things happen tour - Oct 25
+https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013  # Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug - Oct 25
+https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524  # Tickets for BEN BANKAS I 51st STATE TOUR - Oct 26
+https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633  # Tickets for Jess Moskaluke - Life For Me Tour - Oct 26
+https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923  # Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service - Oct 26
+https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124  # Tickets for NorthsideBenji - Oct 26
+https://www.ticketweb.ca/event/frost-children-the-fox-cabaret-tickets/14234363  # Tickets for FROST CHILDREN - Oct 28
+https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774  # Tickets for Corbin - Oct 30
+
+# === November 2025 ===
+https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574  # Tickets for COONE - Nov 01
+https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714  # Tickets for Hayden Pedigo, Jens Kuross - Nov 01
+https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643  # Tickets for Night Moves with Special Guests - Nov 01
+https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374  # Tickets for Johnnie Guilbert - Violent Dream Tour - Nov 04
+https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974  # Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek - Nov 04
+https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703  # Tickets for Sir Chloe with Venus & the Flytraps - Nov 04
+https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423  # Tickets for L'Eclair with Special Guests - Nov 05
+https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283  # Tickets for Pixel Grip with Psymon Spine - Nov 05
+https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283  # Tickets for Robyn Ottolini with Special Guests - Nov 06
+https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593  # Tickets for Billy Raffoul - Nov 07
+https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614  # Tickets for DIMENSION - Nov 07
+https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623  # Tickets for FELLY with Breakup Shoes - Nov 07
+https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563  # Tickets for Robyn Ottolini with Special Guests - Nov 07
+https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-mills-hardware-tickets/14469783  # Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves - Nov 08
+https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414  # Tickets for DUKE DUMONT - Nov 08
+https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333  # Tickets for Robyn Ottolini with Special Guests - Nov 08
+https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204  # Tickets for RIA MAE - Tiny Strands & Flashbacks - Nov 09
+https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353  # Tickets for Robyn Ottolini with Special Guests - Nov 09
+https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463  # Tickets for Autoheart: The Heartlands Tour - Nov 10
+https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513  # Tickets for Ria Mae- Tiny Strands and Flashbanks - Nov 11
+https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694  # Tickets for bar italia - Nov 12
+https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - Nov 15
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/bayway-w-selfish-act-torque-hard-luck-bar-tickets/14495533  # Unknown Event - No date found
+https://www.ticketweb.ca/event/cozy-worldwide-throwback-current-rb-the-mod-club-formerly-known-tickets/14383853  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hurry-up-tomorrow-the-weeknd-lees-palace-tickets/14364273  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-haunt-with-special-guests-the-dance-cave-tickets/13774404  # Unknown Event - No date found
+https://www.ticketweb.ca/event/posh-ball-2025-the-pearl-tickets/14320733  # Unknown Event - No date found
+https://www.ticketweb.ca/event/torontos-festival-of-beer-2025-toronto-event-centre-tickets/13719634  # Unknown Event - No date found
+https://www.ticketweb.ca/event/skillibeng-skillibengs-international-noir-inside-rebel-tickets/13824754  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gorgatron-the-northern-the-cave-tickets/13768714  # Unknown Event - No date found
+https://www.ticketweb.ca/event/blood-incantation-union-hall-tickets/14487343  # Unknown Event - No date found
+https://www.ticketweb.ca/event/blood-incantation-absolute-elsetour-north-the-palace-theatre-tickets/14486893  # Unknown Event - No date found
+https://www.ticketweb.ca/event/surprise-chef-with-derya-yldrm-the-pearl-tickets/14208543  # Unknown Event - No date found
+https://www.ticketweb.ca/event/black-parade-4-the-pearl-tickets/14443923  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kilimanjaro-coda-tickets/13805284  # Unknown Event - No date found
+https://www.ticketweb.ca/event/slaughter-to-cancer-putrid-pile-lees-palace-tickets/14379563  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-haunt-with-special-guests-kingsway-club-tickets/13774384  # Unknown Event - No date found
+https://www.ticketweb.ca/event/wild-pink-with-special-guests-the-pearl-tickets/14217343  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bob-the-drag-queen-dj-hollywood-theatre-tickets/13842184  # Unknown Event - No date found
+https://www.ticketweb.ca/event/celebs-pride-pres-maya-jane-celebrities-nightclub-tickets/14498153  # Unknown Event - No date found
+https://www.ticketweb.ca/event/chippy-nonstop-vancouver-the-pearl-tickets/13803174  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dreamcrusher-devours-maskara-fortune-sound-club-tickets/13821814  # Unknown Event - No date found
+https://www.ticketweb.ca/event/celebs-pride-pres-lsdxoxo-at-village-studios-tickets/13772004  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jerk-x-jollof-toronto-the-mod-club-formerly-known-tickets/14440003  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sunnyside-sessions-ft-toolroom-toronto-sunnyside-pavilion-tickets/13767624  # Unknown Event - No date found
+https://www.ticketweb.ca/event/iam-with-special-guests-the-concert-hall-tickets/13706674  # Unknown Event - No date found
+https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-park-theatre-tickets/14318583  # Unknown Event - No date found
+https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-louis-pub-tickets/14318603  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-quiz-master-brian-show-the-dance-cave-tickets/14374013  # Unknown Event - No date found
+https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073  # Unknown Event - No date found
+https://www.ticketweb.ca/event/elvis-in-concert-the-rockpile-bar-nightclub-tickets/13776684  # Unknown Event - No date found
+https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-starlite-room-tickets/14318983  # Unknown Event - No date found
+https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554  # Unknown Event - No date found
+https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794  # Unknown Event - No date found
+https://www.ticketweb.ca/event/laura-jane-grace-with-special-commonwealth-bar-stage-tickets/14401353  # Unknown Event - No date found
+https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-revelry-foodmusic-hub-tickets/14319053  # Unknown Event - No date found
+https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593  # Unknown Event - No date found
+https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093  # Unknown Event - No date found
+https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083  # Unknown Event - No date found
+https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963  # Unknown Event - No date found
+https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-wicket-hall-tickets/14319093  # Unknown Event - No date found
+https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203  # Unknown Event - No date found
+https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074  # Unknown Event - No date found
+https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494  # Unknown Event - No date found
+https://www.ticketweb.ca/event/chyl-commonundrgrd-tickets/13761654  # Unknown Event - No date found
+https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144  # Unknown Event - No date found
+https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884  # Unknown Event - No date found
+https://www.ticketweb.ca/event/r3wire-coda-tickets/13882894?REFERRAL_ID=twvenues  # Unknown Event - No date found
+https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343  # Unknown Event - No date found
+https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714  # Unknown Event - No date found
+https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214  # Unknown Event - No date found
+https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214  # Unknown Event - No date found
+https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883  # Unknown Event - No date found
+https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713  # Unknown Event - No date found
+https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693  # Unknown Event - No date found
+https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604  # Unknown Event - No date found
+https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514  # Unknown Event - No date found
+https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104  # Unknown Event - No date found
+https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544  # Unknown Event - No date found
+https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733  # Unknown Event - No date found
+https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343  # Unknown Event - No date found
+https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804  # Unknown Event - No date found
+https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663  # Unknown Event - No date found
+https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163  # Unknown Event - No date found
+https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184  # Unknown Event - No date found
+https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174  # Unknown Event - No date found
+https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723  # Unknown Event - No date found
+https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314  # Unknown Event - No date found
+https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604  # Unknown Event - No date found
+https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053  # Unknown Event - No date found
+https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053  # Unknown Event - No date found
+https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013  # Unknown Event - No date found
+https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884  # Unknown Event - No date found
+https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733  # Unknown Event - No date found
+https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476123  # Unknown Event - No date found
+https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113  # Unknown Event - No date found
+https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024  # Unknown Event - No date found
+https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073  # Unknown Event - No date found
+https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183  # Unknown Event - No date found
+https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074  # Unknown Event - No date found
+https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393  # Unknown Event - No date found
+https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004  # Unknown Event - No date found
+https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163  # Unknown Event - No date found
+https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744  # Unknown Event - No date found
+https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774  # Unknown Event - No date found
+https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513  # Unknown Event - No date found
+https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673  # Unknown Event - No date found
+https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804?REFERRAL_ID=twvenues  # Unknown Event - No date found
+https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343  # Unknown Event - No date found
+https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654  # Unknown Event - No date found
+https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143  # Unknown Event - No date found
+https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843  # Unknown Event - No date found
+https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093  # Unknown Event - No date found
+https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373  # Unknown Event - No date found
+https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253  # Unknown Event - No date found
+https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603  # Unknown Event - No date found
+https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314  # Unknown Event - No date found
+https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533  # Unknown Event - No date found
+https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893  # Unknown Event - No date found
+https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514  # Unknown Event - No date found
+https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273  # Unknown Event - No date found
+https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813  # Unknown Event - No date found
+https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653  # Unknown Event - No date found
+https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues  # Unknown Event - No date found
+https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hotel-mira-with-bleeker-bridgeworks-tickets/14464333  # Unknown Event - No date found
+https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583  # Unknown Event - No date found
+https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614  # Unknown Event - No date found
+https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473  # Unknown Event - No date found
+https://www.ticketweb.ca/event/boys-night-out-spitalfield-rosecoloredworld-overflow-brewing-co-tickets/13859784  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563  # Unknown Event - No date found
+https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404  # Unknown Event - No date found
+https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14446723  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153  # Unknown Event - No date found
+https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943  # Unknown Event - No date found
+https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883  # Unknown Event - No date found
+https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ria-mae-club-saw-tickets/14496723  # Unknown Event - No date found
+https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913  # Unknown Event - No date found
+https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-sonic-hall-tickets/14469963  # Unknown Event - No date found
+https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383  # Unknown Event - No date found
+https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453  # Unknown Event - No date found
+https://www.ticketweb.ca/event/allan-rayman-london-music-hall-tickets/14464563  # Unknown Event - No date found
+https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603  # Unknown Event - No date found
+https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274  # Unknown Event - No date found
+https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503  # Unknown Event - No date found
+https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754  # Unknown Event - No date found
+https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE  # Unknown Event - No date found
+https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-barr-brothers-the-bronson-tickets/13761264  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913  # Unknown Event - No date found
+https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254  # Unknown Event - No date found
+https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314  # Unknown Event - No date found
+https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203  # Unknown Event - No date found
+https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853  # Unknown Event - No date found
+https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973  # Unknown Event - No date found
+https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bodysnatcher-no-cure-lees-palace-tickets/14448813  # Unknown Event - No date found
+https://www.ticketweb.ca/event/heart-attack-man-rickshaw-theatre-tickets/14186793  # Unknown Event - No date found
+https://www.ticketweb.ca/event/improvement-movement-w-brandon-wolfe-kingsway-club-tickets/14400683  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kelsey-waldon-every-ghost-the-park-theatre-tickets/14333473  # Unknown Event - No date found
+https://www.ticketweb.ca/event/lutharo-blackguard-the-horseshoe-tavern-tickets/14478793  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mustard-service-strawberry-milk-sneaky-dees-concert-venue-tickets/14390403  # Unknown Event - No date found
+https://www.ticketweb.ca/event/paco-versailles-w-flavor-dave-the-pearl-tickets/14419523  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sarah-z-this-the-garrison-tickets/14445323  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-fin-presented-the-horseshoe-tavern-tickets/14440073  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-lazys-cevilain-the-space-the-27-club-tickets/14378793  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-lazys-w-sticks-n-lees-palace-tickets/14314323  # Unknown Event - No date found
