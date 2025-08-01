@@ -31,14 +31,13 @@ https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-ti
 https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534  # Tickets for MAD CADDIES with The Anti-Queens & The Corps - Sep 20
 https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013  # Tickets for Sextile & Automatic - Sep 21
 https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243  # Tickets for Tropical Fuck Storm with Special Guests - Sep 21
-https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223  # Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby - Sep 24
 https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813  # Tickets for Haru Nemuri - Presented By F7 Live - Sep 25
 https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094  # Tickets for JO DOLO - Going Gold Tour - Sep 25
 https://www.ticketweb.ca/event/the-bridge-city-sinners-london-music-hall-tickets/14462073  # Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby - Sep 26
 https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733  # Tickets for P'Tit Belliveau with Special Guests - Sep 27
 https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504  # Tickets for Pool Kids - Sep 28
-https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713  # Tickets for Maria Somerville with Special Guests - Sep 28
 https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073  # Tickets for Fly By Midnight with Special Guests - Sep 29
+https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694  # Tickets for ANIKA with Avishag Cohen Rodrigues - Sep 29
 https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454  # Tickets for Future Palace, Half Me, Hawk - Sep 30
 
 # === October 2025 ===
@@ -52,6 +51,7 @@ https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets
 https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844  # Tickets for Bambara - Oct 17
 https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623  # Tickets for The Exploited, Burnt Knives - Oct 18
 https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583  # Tickets for The Exploited, Spades GT - Oct 19
+https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363  # Tickets for Hotel Mira with Bleeker - Oct 19
 https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013  # Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug - Oct 25
 https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394  # Tickets for Anvil - Oct 25
 https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124  # Tickets for NorthsideBenji - Oct 26
@@ -62,6 +62,7 @@ https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-clu
 https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714  # Tickets for Hayden Pedigo, Jens Kuross - Nov 01
 https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283  # Tickets for Pixel Grip with Psymon Spine - Nov 05
 https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423  # Tickets for L'Eclair with Special Guests - Nov 05
+https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623  # Tickets for FELLY with Breakup Shoes - Nov 07
 https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414  # Tickets for DUKE DUMONT - Nov 08
 https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293  # Tickets for Autoheart - The Heartlands Tour - Nov 13
 https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313  # Tickets for The Stews with Special Guests - Nov 13
@@ -78,7 +79,6 @@ https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nig
 https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483  # Tickets for Dakhabrakha with Special Guests - Dec 11
 
 # === Events without dates ===
-https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223  # Unknown Event - No date found
+https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713  # Unknown Event - No date found
 https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293  # Unknown Event - No date found
-https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623  # Unknown Event - No date found
-https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363  # Unknown Event - No date found
