@@ -22,7 +22,7 @@ DEBUG_DATE     = False     # detailed date parsing debug
 """
 
 import json, os, re, sys, requests, cloudscraper
-import asyncio, aiohttp, time
+import asyncio, aiohttp, time, ssl
 from typing import Dict, Any, List, Tuple, Optional
 from bs4 import BeautifulSoup
 from subprocess import run, DEVNULL
@@ -41,7 +41,7 @@ if len(sys.argv) > 1 and sys.argv[1]:
     STATE_FILE = f"{URL_FILE}.state.json"   # e.g. url_batches/batch3.txt.state.json
 
 # ─── Configuration ────────────────────────────────────────────────────────
-HEADERS         = {"User-Agent": "Mozilla/5.0 (ticketwatch/2.0)"}
+HEADERS         = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 MAX_CONCURRENT  = 20                 # concurrent requests
@@ -331,7 +331,15 @@ def load_lines(path: str) -> list[str]:
     if not os.path.exists(path):
         sys.exit(f"✖ {path} missing – add some Ticketweb URLs first.")
     with open(path) as f:
-        return [l.strip() for l in f if l.strip() and not l.lstrip().startswith("#")]
+        urls = []
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                # Extract URL part before any comment
+                url = line.split('#')[0].strip()
+                if url:
+                    urls.append(url)
+        return urls
 
 def load_state(path: str):
     if os.path.exists(path):
@@ -413,8 +421,18 @@ async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semapho
                     return url, extract_status(html)
             except Exception as e:
                 if attempt == RETRY_ATTEMPTS - 1:
-                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts - {e}")
-                    return url, None
+                    # Try cloudscraper as fallback for the final attempt
+                    try:
+                        scraper = cloudscraper.create_scraper(
+                            browser={'browser': 'firefox', 'platform': 'darwin', 'mobile': False},
+                            delay=3000
+                        )
+                        response = scraper.get(url, timeout=30)
+                        response.raise_for_status()
+                        return url, extract_status(response.text)
+                    except Exception as cloudscraper_e:
+                        print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (aiohttp: {e}, cloudscraper: {cloudscraper_e})")
+                        return url, None
                 await asyncio.sleep(2 ** attempt)  # Exponential backoff
     return url, None
 
@@ -427,7 +445,13 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
     print(f"🔄 Starting to check {len(urls)} URLs...")
     start_time = time.time()
     
-    async with aiohttp.ClientSession() as session:
+    # Create SSL context that handles certificate verification issues
+    ssl_context = ssl.create_default_context()
+    ssl_context.check_hostname = False
+    ssl_context.verify_mode = ssl.CERT_NONE
+    
+    connector = aiohttp.TCPConnector(ssl=ssl_context)
+    async with aiohttp.ClientSession(connector=connector) as session:
         tasks = [fetch_url_with_retry(session, url, semaphore) for url in urls]
         
         for coro in asyncio.as_completed(tasks):
