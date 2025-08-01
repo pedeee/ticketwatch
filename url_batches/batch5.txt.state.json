@@ -1,57 +1,9 @@
 {
-  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
-    "title": "Tickets for NorthsideBenji",
-    "price": 39.99,
-    "soldout": false,
-    "event_dt": "2025-10-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
     "title": "Tickets for Hunx & His Punx with Tchotchke",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
-    "title": "Tickets for ATRIP",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-08-29T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
-    "title": "Tickets for Frankie and the Witch Fingers with Population II",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-07T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
-    "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
-    "price": 27.5,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
-    "title": "Tickets for Gui Boratto",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-13T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
-    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
-    "price": 35.25,
-    "soldout": false,
-    "event_dt": "2025-09-20T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
-    "title": "Tickets for Playhouse Presents Ilan Bluestone",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-12-06T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
-    "title": "Tickets for The Brian Jonestown Massacre with Special Guests",
-    "price": 42.5,
-    "soldout": false,
-    "event_dt": "2025-11-17T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
     "title": "Tickets for Be'lakor,   Solemn Vision",
@@ -59,17 +11,29 @@
     "soldout": false,
     "event_dt": "2025-09-12T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
-    "title": "Tickets for The Stews with Special Guests",
-    "price": 20.0,
+  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813": {
+    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+    "price": 38.0,
     "soldout": false,
-    "event_dt": "2025-11-13T00:00:00+00:00"
+    "event_dt": "2025-09-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
-    "title": "Tickets for Anvil",
-    "price": 29.95,
+  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
+    "title": "Tickets for Gui Boratto",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-10-25T00:00:00+00:00"
+    "event_dt": "2025-09-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
+    "title": "Tickets for ATRIP",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-08-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
+    "title": "Tickets for Sacrifice",
+    "price": 42.5,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
     "title": "Tickets for Dakhabrakha with Special Guests",
@@ -77,11 +41,17 @@
     "soldout": false,
     "event_dt": "2025-12-11T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423": {
-    "title": "Tickets for L'Eclair with Special Guests",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
+    "title": "Tickets for Playhouse Presents Ilan Bluestone",
+    "price": 35.0,
     "soldout": false,
-    "event_dt": "2025-11-05T00:00:00+00:00"
+    "event_dt": "2025-12-06T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
+    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283": {
     "title": "Tickets for System A LA Down, Blimplizkit, The Dirty Mystics, Black Sunrise, Zigseven",
@@ -89,11 +59,47 @@
     "soldout": false,
     "event_dt": "2025-09-20T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
-    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
-    "price": 30.0,
+  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
+    "title": "Tickets for Future Palace, Half Me, Hawk",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-09-12T00:00:00+00:00"
+    "event_dt": "2025-09-30T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013": {
+    "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
+    "title": "Tickets for The Brian Jonestown Massacre with Special Guests",
+    "price": 42.5,
+    "soldout": false,
+    "event_dt": "2025-11-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
+    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+    "price": 35.25,
+    "soldout": false,
+    "event_dt": "2025-09-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423": {
+    "title": "Tickets for L'Eclair with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-05T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363": {
+    "title": "Tickets for Hotel Mira with Bleeker",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
+    "title": "Tickets for Anvil",
+    "price": 29.95,
+    "soldout": false,
+    "event_dt": "2025-10-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
     "title": "Tickets for FELLY with Breakup Shoes",
@@ -107,167 +113,17 @@
     "soldout": false,
     "event_dt": "2025-08-30T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
+    "title": "Tickets for Maria Somerville with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-28T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
     "title": "Tickets for Corbin",
     "price": 29.5,
     "soldout": false,
     "event_dt": "2025-11-21T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633": {
-    "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
-    "price": 27.5,
-    "soldout": false,
-    "event_dt": "2025-09-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
-    "title": "Tickets for DUKE DUMONT",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-11-08T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-09-27T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/frost-children-the-fox-cabaret-tickets/14234363": {
-    "title": "Tickets for FROST CHILDREN",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-10-28T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873": {
-    "title": "Tickets for Crypta",
-    "price": 26.5,
-    "soldout": false,
-    "event_dt": "2025-10-08T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-09-28T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
-    "title": "Tickets for BONUS STAGE ULTIMATE",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-11-22T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
-    "title": "Tickets for This Paranormal Life",
-    "price": 37.5,
-    "soldout": false,
-    "event_dt": "2025-08-16T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
-    "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
-    "price": 10.0,
-    "soldout": false,
-    "event_dt": "2025-08-31T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
-    "title": "Tickets for The Exploited, Burnt Knives",
-    "price": 50.0,
-    "soldout": false,
-    "event_dt": "2025-10-18T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
-    "title": "Tickets for Bambara",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-10-17T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093": {
-    "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-08-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
-    "title": "Tickets for Wombo with Shower Curtain",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-09-15T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
-    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-09-20T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293": {
-    "title": "Tickets for Pixel Grip with Coatie Pop",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-08T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
-    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-09-24T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
-    "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-18T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
-    "title": "Tickets for Hayden Pedigo, Jens Kuross",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-11-01T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-13T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
-    "title": "Tickets for The Exploited, Spades GT",
-    "price": 50.0,
-    "soldout": false,
-    "event_dt": "2025-10-19T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
-    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-11-27T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
-    "price": 40.0,
-    "soldout": false,
-    "event_dt": "2025-08-07T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013": {
-    "title": "Tickets for Sextile & Automatic",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-09-21T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
-    "title": "Tickets for TWINSICK",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-10T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
-    "title": "Tickets for Naethan Apollo with Special Guests",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-09-06T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
-    "title": "Tickets for Fly By Midnight with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-29T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
     "title": "Tickets for JO DOLO - Going Gold Tour",
@@ -275,101 +131,35 @@
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943": {
-    "title": "Tickets for The Dirty Nil",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
-    "title": "Tickets for Castle Rat with Faerie Ring",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-09-08T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
-    "title": "Tickets for Future Palace, Half Me, Hawk",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-30T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
-    "title": "Tickets for RIELL with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-19T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-16T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
-    "title": "Tickets for Night Moves with Special Guests",
-    "price": 27.5,
-    "soldout": false,
-    "event_dt": "2025-11-01T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
-    "title": "Tickets for Kiesza, Anjulie",
+  "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
+    "title": "Tickets for DUKE DUMONT",
     "price": 35.0,
     "soldout": false,
-    "event_dt": "2025-08-19T00:00:00+00:00"
+    "event_dt": "2025-11-08T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943": {
-    "title": "Tickets for Ben Caplan with Special Guests",
-    "price": 22.5,
+  "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
+    "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
+    "price": 10.0,
     "soldout": false,
-    "event_dt": "2025-11-14T00:00:00+00:00"
+    "event_dt": "2025-08-31T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
-    "title": "Tickets for Tropical Fuck Storm with Special Guests",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
+    "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
+    "price": 27.5,
     "soldout": false,
-    "event_dt": "2025-09-21T00:00:00+00:00"
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-09-19T00:00:00+00:00"
+  "https://www.ticketweb.ca/event/frost-children-the-fox-cabaret-tickets/14234363": {
+    "title": "Tickets for FROST CHILDREN",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-10-28T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083": {
-    "title": "Tickets for Pypy with Special Guests",
+  "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093": {
+    "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
     "price": 20.0,
     "soldout": false,
-    "event_dt": "2025-09-13T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
-    "title": "Tickets for Ken Yates - Presented By F7 Live",
-    "price": 26.5,
-    "soldout": false,
-    "event_dt": "2025-12-03T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues": {
-    "title": "Tickets for Boys Noize",
-    "price": 45.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
-    "title": "Tickets for Sacrifice",
-    "price": 42.5,
-    "soldout": false,
-    "event_dt": "2025-10-11T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
-    "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-10T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013": {
-    "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-25T00:00:00+00:00"
+    "event_dt": "2025-08-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
     "title": "Tickets for Skinshape with Sons of Sevilla",
@@ -377,10 +167,232 @@
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813": {
-    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
-    "price": 38.0,
+  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
+    "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-09-25T00:00:00+00:00"
+    "event_dt": "2025-09-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
+    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
+    "price": 39.99,
+    "soldout": false,
+    "event_dt": "2025-10-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
+    "title": "Tickets for Frankie and the Witch Fingers with Population II",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-07T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
+    "title": "Tickets for YIN YIN with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
+    "title": "Tickets for Bambara",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
+    "title": "Tickets for This Paranormal Life",
+    "price": 37.5,
+    "soldout": false,
+    "event_dt": "2025-08-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
+    "title": "Tickets for Wombo with Shower Curtain",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
+    "title": "Tickets for Naethan Apollo with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-06T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
+    "title": "Tickets for Night Moves with Special Guests",
+    "price": 27.5,
+    "soldout": false,
+    "event_dt": "2025-11-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
+    "title": "Tickets for Castle Rat with Faerie Ring",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
+    "title": "Tickets for The Exploited, Burnt Knives",
+    "price": 50.0,
+    "soldout": false,
+    "event_dt": "2025-10-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013": {
+    "title": "Tickets for Sextile & Automatic",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873": {
+    "title": "Tickets for Crypta",
+    "price": 26.5,
+    "soldout": false,
+    "event_dt": "2025-10-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
+    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-11-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943": {
+    "title": "Tickets for The Dirty Nil",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
+    "title": "Tickets for The Stews with Special Guests",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-11-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
+    "title": "Tickets for RIELL with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
+    "title": "Tickets for BONUS STAGE ULTIMATE",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-11-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-08-07T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083": {
+    "title": "Tickets for Pypy with Special Guests",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633": {
+    "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
+    "price": 27.5,
+    "soldout": false,
+    "event_dt": "2025-09-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
+    "title": "Tickets for Tropical Fuck Storm with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
+    "title": "Tickets for Ken Yates - Presented By F7 Live",
+    "price": 26.5,
+    "soldout": false,
+    "event_dt": "2025-12-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
+    "title": "Tickets for Kiesza, Anjulie",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-08-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694": {
+    "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
+    "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues": {
+    "title": "Tickets for Boys Noize",
+    "price": 45.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
+    "title": "Tickets for The Exploited, Spades GT",
+    "price": 50.0,
+    "soldout": false,
+    "event_dt": "2025-10-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293": {
+    "title": "Tickets for Pixel Grip with Coatie Pop",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
+    "title": "Tickets for Hayden Pedigo, Jens Kuross",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-11-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
+    "title": "Tickets for Fly By Midnight with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-29T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
+    "title": "Tickets for Casey Lowery with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-15T00:00:00+00:00"
   }
 }
