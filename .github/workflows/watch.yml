@@ -95,6 +95,12 @@ jobs:
           echo "📝 State changes detected, committing..."
           git add "${{ matrix.batch_file }}.state.json" "${{ matrix.batch_file }}"
           git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
+          
+          # Pull any changes from other parallel jobs first
+          echo "🔄 Pulling latest changes to avoid conflicts..."
+          git pull --rebase origin main
+          
+          # Now push our changes
           git push
           echo "✅ State saved successfully - memory preserved!"
         else
