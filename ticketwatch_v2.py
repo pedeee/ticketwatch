@@ -703,20 +703,56 @@ async def main():
     # Save state
     save_state(STATE_FILE, after)
     
-    # Collect sold-out events for reminders
-    sold_out_events = []
+    # Save batch stats for aggregation
+    batch_stats = {
+        "monitored_count": len(after),
+        "sold_out_events": []
+    }
+    
+    # Collect sold-out events from current batch
     for url, event_data in after.items():
         if event_data.get("soldout"):
-            sold_out_events.append({
+            batch_stats["sold_out_events"].append({
                 "url": url,
                 "title": event_data.get("title", "Unknown Event"),
                 "event_dt": event_data.get("event_dt")
             })
     
-    print(f"🔴 Found {len(sold_out_events)} sold-out events in this batch")
-    if sold_out_events:
-        for event in sold_out_events[:3]:  # Show first 3 as debug
-            print(f"   • {event['title']}")
+    # Save stats to shared file for primary batch to aggregate
+    stats_file = f"{URL_FILE}.stats.json" if len(sys.argv) > 1 and sys.argv[1] else "batch_stats.json"
+    with open(stats_file, "w") as f:
+        json.dump(batch_stats, f, indent=2)
+    
+    print(f"🔴 Found {len(batch_stats['sold_out_events'])} sold-out events in this batch")
+    
+    # Aggregate all batch stats (only for primary batch)
+    is_primary = os.getenv("PRIMARY", "false").lower() == "true"
+    if is_primary:
+        # Collect stats from all batches
+        total_monitored = 0
+        all_sold_out_events = []
+        
+        # Check all possible batch stats files
+        for batch_num in range(1, 6):  # batch1.txt to batch5.txt
+            batch_stats_path = f"url_batches/batch{batch_num}.txt.stats.json"
+            try:
+                if os.path.exists(batch_stats_path):
+                    with open(batch_stats_path, 'r') as f:
+                        batch_data = json.load(f)
+                        total_monitored += batch_data.get("monitored_count", 0)
+                        all_sold_out_events.extend(batch_data.get("sold_out_events", []))
+                        print(f"📊 Batch {batch_num}: {batch_data.get('monitored_count', 0)} monitored, {len(batch_data.get('sold_out_events', []))} sold out")
+            except (FileNotFoundError, json.JSONDecodeError):
+                # Batch file doesn't exist or is invalid, skip
+                pass
+        
+        print(f"🎯 TOTAL AGGREGATED: {total_monitored} monitored, {len(all_sold_out_events)} sold out")
+        sold_out_events = all_sold_out_events
+        monitored_count = total_monitored
+    else:
+        # Non-primary batches use their own counts
+        sold_out_events = batch_stats["sold_out_events"] 
+        monitored_count = len(after)
     
     # Handle notifications
     if changes:
@@ -730,23 +766,17 @@ async def main():
         # Send batched notifications
         telegram_batch_changes(changes)
         
-    # Always send sold-out reminders (every hour) regardless of changes  
-    # DEBUG: Show PRIMARY status
-    is_primary = os.getenv("PRIMARY", "false").lower() == "true"
-    print(f"🔑 PRIMARY status: {is_primary}")
-    
+    # Always send sold-out reminders (every hour) regardless of changes
     if sold_out_events and is_primary:
         send_sold_out_reminders(sold_out_events)
-    elif sold_out_events and not is_primary:
-        print(f"⚠️ Not sending sold-out reminders (not primary batch)")
         
     # Send health check notification only if no changes AND no sold-out reminders
-    if not changes and os.getenv("PRIMARY", "false").lower() == "true":
+    if not changes and is_primary:
         # Send health check notification
         print("✅ No changes detected")
         current_time = dt.datetime.now().strftime('%H:%M %Z')
         health_msg = f"""✅ No price changes detected
-📊 Monitored {len(after)} events
+📊 Monitored {monitored_count} events
 🔴 Currently sold out: {len(sold_out_events)} events"""
         telegram_push("🟢 Health Check", health_msg)
 
