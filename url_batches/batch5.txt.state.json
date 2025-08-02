@@ -131,12 +131,6 @@
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
-    "title": "Tickets for Future Palace, Half Me, Hawk",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-30T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
     "title": "Tickets for RIELL with Special Guests",
     "price": 25.0,
@@ -148,6 +142,12 @@
     "price": 50.0,
     "soldout": false,
     "event_dt": "2025-10-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
+    "title": "Tickets for Future Palace, Half Me, Hawk",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
     "title": "Tickets for Casey Lowery with Special Guests",
@@ -161,17 +161,17 @@
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-09-27T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
     "title": "Tickets for TWINSICK",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
     "title": "Tickets for FELLY with Breakup Shoes",
@@ -257,23 +257,17 @@
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
-    "title": "Tickets for This Paranormal Life",
-    "price": 37.5,
-    "soldout": false,
-    "event_dt": "2025-08-16T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-16T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
     "title": "Tickets for DUKE DUMONT",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-11-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
+    "title": "Tickets for This Paranormal Life",
+    "price": 37.5,
+    "soldout": false,
+    "event_dt": "2025-08-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
     "title": "Tickets for Be'lakor,   Solemn Vision",
@@ -281,17 +275,23 @@
     "soldout": false,
     "event_dt": "2025-09-12T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
+    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-24T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
     "title": "Tickets for Night Moves with Special Guests",
     "price": 27.5,
     "soldout": false,
     "event_dt": "2025-11-01T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
-    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": 30.0,
     "soldout": false,
-    "event_dt": "2025-09-24T00:00:00+00:00"
+    "event_dt": "2025-11-13T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
     "title": "Tickets for Dakhabrakha with Special Guests",
@@ -317,12 +317,6 @@
     "soldout": false,
     "event_dt": "2025-10-07T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-13T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363": {
     "title": "Tickets for Hotel Mira with Bleeker",
     "price": 25.0,
@@ -341,17 +335,17 @@
     "soldout": false,
     "event_dt": "2025-08-12T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
-    "title": "Tickets for Maria Somerville with Special Guests",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-09-28T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
     "title": "Tickets for Hunx & His Punx with Tchotchke",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
+    "title": "Tickets for Maria Somerville with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-28T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
     "title": "Tickets for YIN YIN with Special Guests",
@@ -388,6 +382,12 @@
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-11-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
     "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
