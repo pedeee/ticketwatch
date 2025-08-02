@@ -35,29 +35,29 @@
     "soldout": false,
     "event_dt": "2025-10-08T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203": {
-    "title": "Tickets for PUP, Snotty Nose Rez Kids",
-    "price": 39.5,
-    "soldout": false,
-    "event_dt": "2025-12-07T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/boys-night-out-spitalfield-rosecoloredworld-overflow-brewing-co-tickets/13859784": {
     "title": "Tickets for Boys Night Out, Spitalfield, rosecoloredworld",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-11-11T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203": {
+    "title": "Tickets for PUP, Snotty Nose Rez Kids",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-12-07T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
+    "title": "Tickets for COONE",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-01T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203": {
     "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-08-13T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554": {
-    "title": "Tickets for Space 92",
-    "price": 21.0,
-    "soldout": false,
-    "event_dt": "2025-08-08T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474": {
     "title": "Tickets for Jaques Greene + Nosaj Thing Live",
@@ -71,17 +71,17 @@
     "soldout": false,
     "event_dt": "2025-10-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254": {
-    "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-22T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614": {
     "title": "Tickets for DIMENSION",
     "price": 60.0,
     "soldout": false,
     "event_dt": "2025-11-07T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254": {
+    "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053": {
     "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
@@ -107,6 +107,12 @@
     "soldout": true,
     "event_dt": "2025-11-14T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
+    "title": "Tickets for Jeremy Olander (Open To Close)",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-21T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363": {
     "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
     "price": 36.0,
@@ -119,23 +125,17 @@
     "soldout": false,
     "event_dt": "2025-10-08T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-12-12T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694": {
     "title": "Tickets for bar italia",
     "price": 32.5,
     "soldout": false,
     "event_dt": "2025-11-12T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793": {
-    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+    "price": 35.0,
     "soldout": false,
-    "event_dt": "2025-10-12T00:00:00+00:00"
+    "event_dt": "2025-12-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884": {
     "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
@@ -167,6 +167,12 @@
     "soldout": false,
     "event_dt": "2025-11-22T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554": {
+    "title": "Tickets for Space 92",
+    "price": 21.0,
+    "soldout": false,
+    "event_dt": "2025-08-08T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113": {
     "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
     "price": 37.0,
@@ -191,12 +197,6 @@
     "soldout": false,
     "event_dt": "2025-11-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
-    "title": "Tickets for Jeremy Olander (Open To Close)",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-21T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604": {
     "title": "Tickets for MAD CADDIES with The Corps",
     "price": 35.0,
@@ -209,17 +209,17 @@
     "soldout": false,
     "event_dt": "2025-10-08T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563": {
-    "title": "Tickets for Hollerado",
-    "price": 40.0,
-    "soldout": false,
-    "event_dt": "2025-11-12T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/r3wire-coda-tickets/13882894?REFERRAL_ID=twvenues": {
     "title": "Tickets for Guaranteed Entry: R3WIRE",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563": {
+    "title": "Tickets for Hollerado",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-11-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703": {
     "title": "Tickets for Flyte with Ken Pomeroy",
@@ -239,17 +239,23 @@
     "soldout": false,
     "event_dt": "2025-11-08T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
-    "title": "Tickets for Allan Rayman",
-    "price": 35.0,
+  "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793": {
+    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-11-25T00:00:00+00:00"
+    "event_dt": "2025-10-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jerk-x-jollof-toronto-the-mod-club-formerly-known-tickets/14440003": {
     "title": "Tickets for Jerk X Jollof: Toronto (Caribana Edition)",
     "price": 56.5,
     "soldout": false,
     "event_dt": "2025-08-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
+    "title": "Tickets for Allan Rayman",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-11-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476123": {
     "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
@@ -311,17 +317,17 @@
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-barr-brothers-the-bronson-tickets/13761264": {
-    "title": "Tickets for The Barr Brothers, Land of Talk",
-    "price": 32.5,
-    "soldout": false,
-    "event_dt": "2025-11-27T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204": {
     "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-11-09T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-barr-brothers-the-bronson-tickets/13761264": {
+    "title": "Tickets for The Barr Brothers, Land of Talk",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-11-27T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/celebs-pride-pres-lsdxoxo-at-village-studios-tickets/13772004": {
     "title": "Tickets for Celebs Pride pres. LSDXOXO at CUM TOGETHER: Sweet & Sticky",
@@ -347,17 +353,17 @@
     "soldout": false,
     "event_dt": "2025-10-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
-    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-18T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/allan-rayman-london-music-hall-tickets/14464563": {
     "title": "Tickets for Allan Rayman",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-11-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
+    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-18T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673": {
     "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
@@ -370,12 +376,6 @@
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-11-14T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
-    "title": "Tickets for COONE",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-01T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
     "title": "Tickets for Sun Kil Moon",
