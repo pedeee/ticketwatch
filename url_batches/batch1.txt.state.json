@@ -5,17 +5,17 @@
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
-    "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-08-30T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
     "title": "Tickets for Darren Kiely",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
+    "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-08-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
     "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
@@ -65,17 +65,23 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
+    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-08-31T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
     "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-11-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
-    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
-    "price": 30.0,
+  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
+    "title": "Tickets for Pile with NNAMDI & Down The Lees",
+    "price": 22.5,
     "soldout": false,
-    "event_dt": "2025-08-31T00:00:00+00:00"
+    "event_dt": "2025-09-04T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743": {
     "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
@@ -113,23 +119,29 @@
     "soldout": false,
     "event_dt": "2025-10-02T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
+    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-20T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934": {
     "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
     "price": 10.0,
     "soldout": false,
     "event_dt": "2025-08-16T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
-    "title": "Tickets for David Archuleta with Alexandra John",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-09-22T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014": {
     "title": "Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall",
     "price": 38.0,
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
+    "title": "Tickets for David Archuleta with Alexandra John",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193": {
     "title": "Tickets for Too Many Zooz: Caravan Tour",
@@ -167,17 +179,17 @@
     "soldout": false,
     "event_dt": "2025-11-07T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
-    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
-    "price": 32.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
     "title": "Tickets for Haru Nemuri - Presented By F7 Live",
     "price": 38.0,
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
+    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
+    "price": 32.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404": {
     "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
@@ -227,23 +239,17 @@
     "soldout": true,
     "event_dt": "2025-09-03T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour",
-    "price": 29.5,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
     "title": "Tickets for Iniko - Awakening The Empire North American Tour",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-20T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/chyl-commonundrgrd-tickets/13761654": {
-    "title": "Tickets for Chyl",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-08-15T00:00:00+00:00"
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour",
+    "price": 29.5,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654": {
     "title": "Tickets for dublon",
@@ -335,12 +341,6 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
-    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-20T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": 25.0,
@@ -389,10 +389,10 @@
     "soldout": false,
     "event_dt": "2025-11-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
-    "title": "Tickets for Pile with NNAMDI & Down The Lees",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-09-04T00:00:00+00:00"
+  "https://www.ticketweb.ca/event/chyl-commonundrgrd-tickets/13761654": {
+    "title": "Tickets for Chyl",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-08-15T00:00:00+00:00"
   }
 }
