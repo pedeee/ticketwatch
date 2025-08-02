@@ -5,29 +5,29 @@
     "soldout": false,
     "event_dt": "2025-09-30T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
-    "title": "Tickets for JO DOLO: Going Gold Tour",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-09-13T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
     "title": "Tickets for Balu Brigada with Special Guests",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
-    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
-    "price": 29.5,
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
+    "price": 20.0,
     "soldout": false,
-    "event_dt": "2025-10-26T00:00:00+00:00"
+    "event_dt": "2025-09-13T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
     "title": "Tickets for Friday Night Hard Rock Show",
     "price": 15.05,
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
+    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
+    "price": 29.5,
+    "soldout": false,
+    "event_dt": "2025-10-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
     "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
@@ -46,12 +46,6 @@
     "price": 11.3,
     "soldout": false,
     "event_dt": "2025-08-06T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
-    "title": "Tickets for Rachael & Vilray",
-    "price": 45.0,
-    "soldout": false,
-    "event_dt": "2025-10-20T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/elvis-in-concert-the-rockpile-bar-nightclub-tickets/13776684": {
     "title": "Tickets for Elvis In Concert",
@@ -77,6 +71,12 @@
     "soldout": false,
     "event_dt": "2025-10-21T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
+    "title": "Tickets for Ben Caplan with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-12-12T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/ben-bankas-the-bronson-tickets/13735124": {
     "title": "Tickets for Ben Bankas",
     "price": 35.0,
@@ -101,23 +101,17 @@
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
-    "title": "Tickets for Ben Caplan with Special Guests",
-    "price": 22.5,
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-12-12T00:00:00+00:00"
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214": {
     "title": "Tickets for Bed By 10pm Summer Edition",
     "price": 40.0,
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
-    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
     "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
@@ -185,29 +179,29 @@
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
-    "title": "Tickets for The Deep Dark Woods with Bob Sumner",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-10-24T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
     "title": "Tickets for Stereotype Friday's Pres: Zerb",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
-    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
-    "price": 35.0,
+  "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
+    "title": "Tickets for The Deep Dark Woods with Bob Sumner",
+    "price": 20.0,
     "soldout": false,
-    "event_dt": "2025-09-25T00:00:00+00:00"
+    "event_dt": "2025-10-24T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
     "title": "Tickets for Bay Faction with Keep",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-08-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
+    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
     "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
@@ -227,17 +221,17 @@
     "soldout": false,
     "event_dt": "2025-08-03T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
-    "title": "Tickets for Nate Sib - NA LEG 2",
-    "price": 23.33,
-    "soldout": false,
-    "event_dt": "2025-09-16T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": 37.0,
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
+    "title": "Tickets for Nate Sib - NA LEG 2",
+    "price": 23.33,
+    "soldout": false,
+    "event_dt": "2025-09-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
     "title": "Tickets for Hand Habits with Special Guests",
@@ -251,17 +245,17 @@
     "soldout": false,
     "event_dt": "2025-11-12T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
-    "title": "Tickets for BUDDAHVIBES PRESENTS",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
     "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
+    "title": "Tickets for BUDDAHVIBES PRESENTS",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
     "title": "Tickets for Balu Brigada with Special Guests",
@@ -340,6 +334,12 @@
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
+    "title": "Tickets for Rachael & Vilray",
+    "price": 45.0,
+    "soldout": false,
+    "event_dt": "2025-10-20T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
     "title": "Tickets for INOI MUSIC FESTIVAL",
