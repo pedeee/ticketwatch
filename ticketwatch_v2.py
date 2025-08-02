@@ -719,9 +719,17 @@ async def main():
             })
     
     # Save stats to shared file for primary batch to aggregate
-    stats_file = f"{URL_FILE}.stats.json" if len(sys.argv) > 1 and sys.argv[1] else "batch_stats.json"
+    if len(sys.argv) > 1 and sys.argv[1]:
+        # For batch files, save in url_batches directory
+        stats_file = f"{URL_FILE}.stats.json"
+    else:
+        # For consolidated urls.txt, save in root
+        stats_file = "batch_stats.json"
+    
+    print(f"📊 Saving stats to: {stats_file}")
     with open(stats_file, "w") as f:
         json.dump(batch_stats, f, indent=2)
+    print(f"✅ Stats saved: {batch_stats['monitored_count']} monitored, {len(batch_stats['sold_out_events'])} sold out")
     
     print(f"🔴 Found {len(batch_stats['sold_out_events'])} sold-out events in this batch")
     
@@ -735,6 +743,7 @@ async def main():
         # Check all possible batch stats files
         for batch_num in range(1, 6):  # batch1.txt to batch5.txt
             batch_stats_path = f"url_batches/batch{batch_num}.txt.stats.json"
+            print(f"🔍 Checking: {batch_stats_path}")
             try:
                 if os.path.exists(batch_stats_path):
                     with open(batch_stats_path, 'r') as f:
@@ -742,7 +751,10 @@ async def main():
                         total_monitored += batch_data.get("monitored_count", 0)
                         all_sold_out_events.extend(batch_data.get("sold_out_events", []))
                         print(f"📊 Batch {batch_num}: {batch_data.get('monitored_count', 0)} monitored, {len(batch_data.get('sold_out_events', []))} sold out")
-            except (FileNotFoundError, json.JSONDecodeError):
+                else:
+                    print(f"❌ File not found: {batch_stats_path}")
+            except (FileNotFoundError, json.JSONDecodeError) as e:
+                print(f"❌ Error reading {batch_stats_path}: {e}")
                 # Batch file doesn't exist or is invalid, skip
                 pass
         
