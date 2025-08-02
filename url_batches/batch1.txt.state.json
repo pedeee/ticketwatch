@@ -101,6 +101,12 @@
     "soldout": false,
     "event_dt": "2025-11-06T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
+    "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
+    "price": 49.5,
+    "soldout": false,
+    "event_dt": "2025-11-11T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
     "title": "Tickets for Yung Singh",
     "price": 25.0,
@@ -131,17 +137,17 @@
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour",
-    "price": 29.5,
-    "soldout": false,
-    "event_dt": "2025-09-27T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
     "title": "Tickets for David Archuleta with Alexandra John",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour",
+    "price": 29.5,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -155,17 +161,17 @@
     "soldout": false,
     "event_dt": "2025-09-01T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
-    "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
-    "price": 32.5,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663": {
     "title": "Tickets for Dune Rats w/ Brain Bent & More",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
+    "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -191,17 +197,17 @@
     "soldout": false,
     "event_dt": "2025-10-04T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
-    "title": "Tickets for Rocco - The Smoking Gun Tour",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-08-17T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
     "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
     "price": 40.0,
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
+    "title": "Tickets for Rocco - The Smoking Gun Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-08-17T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
     "title": "Tickets for Next Music from Tokyo vol 17",
@@ -281,17 +287,17 @@
     "soldout": false,
     "event_dt": "2025-09-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/deltron3030-the-concert-hall-tickets/14389983": {
-    "title": "Tickets for DELTRON3030",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-09-28T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
     "title": "Tickets for Next Music from Tokyo vol 17",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/deltron3030-the-concert-hall-tickets/14389983": {
+    "title": "Tickets for DELTRON3030",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-09-28T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -349,21 +355,21 @@
   },
   "https://www.ticketweb.ca/event/chyl-commonundrgrd-tickets/13761654": {
     "title": "Tickets for Chyl",
-    "price": 30.0,
-    "soldout": false,
+    "price": null,
+    "soldout": true,
     "event_dt": "2025-08-15T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814": {
-    "title": "Tickets for HORSEGIRL with Godcaster",
-    "price": 22.0,
-    "soldout": false,
-    "event_dt": "2025-08-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654": {
     "title": "Tickets for dublon",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814": {
+    "title": "Tickets for HORSEGIRL with Godcaster",
+    "price": 22.0,
+    "soldout": false,
+    "event_dt": "2025-08-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693": {
     "title": "Tickets for Dune Rats w/ Brain Bent & More",
@@ -382,12 +388,6 @@
     "price": 39.5,
     "soldout": false,
     "event_dt": "2025-11-24T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
-    "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
-    "price": 49.5,
-    "soldout": false,
-    "event_dt": "2025-11-11T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
     "title": "Tickets for Pile with NNAMDI & Down The Lees",
