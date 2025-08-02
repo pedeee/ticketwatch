@@ -1,15 +1,15 @@
 {
-  "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163": {
-    "title": "Tickets for Mad Caddies",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-09-19T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654": {
     "title": "Tickets for French Police with Riki",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163": {
+    "title": "Tickets for Mad Caddies",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-19T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-bridgeworks-tickets/14464333": {
     "title": "Tickets for Hotel Mira with Bleeker",
@@ -22,12 +22,6 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-11-14T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793": {
-    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294": {
     "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
@@ -52,6 +46,18 @@
     "price": 39.5,
     "soldout": false,
     "event_dt": "2025-12-07T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
+    "title": "Tickets for COONE",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554": {
+    "title": "Tickets for Space 92",
+    "price": 21.0,
+    "soldout": false,
+    "event_dt": "2025-08-08T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203": {
     "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
@@ -107,6 +113,12 @@
     "soldout": true,
     "event_dt": "2025-11-14T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
+    "title": "Tickets for Jeremy Olander (Open To Close)",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-21T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363": {
     "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
     "price": 36.0,
@@ -130,6 +142,12 @@
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-12-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793": {
+    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884": {
     "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
@@ -269,17 +287,17 @@
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233": {
-    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-09T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14446723": {
     "title": "Tickets for Hollerado",
     "price": 40.0,
     "soldout": false,
     "event_dt": "2025-11-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233": {
+    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-09T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
     "title": "Tickets for Sun Kil Moon",
@@ -359,24 +377,6 @@
     "soldout": false,
     "event_dt": "2025-11-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554": {
-    "title": "Tickets for Space 92",
-    "price": 21.0,
-    "soldout": false,
-    "event_dt": "2025-08-08T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
-    "title": "Tickets for COONE",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-01T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
-    "title": "Tickets for Hotel Mira with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-07T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
     "title": "Tickets for Sun Kil Moon",
     "price": 30.0,
@@ -389,22 +389,22 @@
     "soldout": false,
     "event_dt": "2025-11-11T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913": {
-    "title": "Tickets for The Dears with Special Guests",
-    "price": 40.0,
+  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
+    "title": "Tickets for Hotel Mira with Special Guests",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-11-28T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
-    "title": "Tickets for Jeremy Olander (Open To Close)",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-21T00:00:00+00:00"
+    "event_dt": "2025-10-07T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954": {
     "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
     "price": 58.58,
     "soldout": false,
     "event_dt": "2025-10-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913": {
+    "title": "Tickets for The Dears with Special Guests",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-11-28T00:00:00+00:00"
   }
 }
