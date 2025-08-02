@@ -1,21 +1,15 @@
 {
-  "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
-    "title": "Tickets for Johnny Stimson",
-    "price": 27.5,
-    "soldout": false,
-    "event_dt": "2025-10-02T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174": {
     "title": "Tickets for The Brokes: The Strokes Experience",
     "price": 19.5,
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
-    "title": "Tickets for Between The Buried And Me & Hail The Sun",
-    "price": 49.5,
+  "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
+    "title": "Tickets for Johnny Stimson",
+    "price": 27.5,
     "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
+    "event_dt": "2025-10-02T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
@@ -23,11 +17,11 @@
     "soldout": false,
     "event_dt": "2025-11-16T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
-    "title": "Tickets for gunnr - North America Tour",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
+    "title": "Tickets for Between The Buried And Me & Hail The Sun",
+    "price": 49.5,
     "soldout": false,
-    "event_dt": "2025-08-29T00:00:00+00:00"
+    "event_dt": "2025-10-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693": {
     "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
@@ -35,17 +29,23 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
-    "title": "Tickets for GoGo Penguin with Special Guests",
-    "price": 39.5,
+  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
+    "title": "Tickets for gunnr - North America Tour",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-11-12T00:00:00+00:00"
+    "event_dt": "2025-08-29T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/laura-jane-grace-with-special-commonwealth-bar-stage-tickets/14401353": {
     "title": "Tickets for Laura Jane Grace with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": "2025-08-09T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
+    "title": "Tickets for GoGo Penguin with Special Guests",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-11-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
     "title": "Tickets for ANIKA with Lauren Early",
@@ -143,17 +143,17 @@
     "soldout": false,
     "event_dt": "2025-12-12T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
-    "title": "Tickets for Anvil",
-    "price": 29.95,
-    "soldout": false,
-    "event_dt": "2025-10-04T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
     "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-20T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
+    "title": "Tickets for Anvil",
+    "price": 29.95,
+    "soldout": false,
+    "event_dt": "2025-10-04T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803": {
     "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
