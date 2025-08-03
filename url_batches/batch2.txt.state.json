@@ -17,12 +17,6 @@
     "soldout": false,
     "event_dt": "2025-09-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
-    "title": "Tickets for Between The Buried And Me & Hail The Sun",
-    "price": 49.5,
-    "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853": {
     "title": "Tickets for Belmont with Avoid & Super Sometimes",
     "price": 25.0,
@@ -35,29 +29,29 @@
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-02T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-11-16T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
-    "title": "Tickets for gunnr - North America Tour",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour",
+    "price": 30.0,
     "soldout": false,
-    "event_dt": "2025-08-29T00:00:00+00:00"
+    "event_dt": "2025-10-02T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954": {
     "title": "Tickets for Ewan McVicar",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
+    "title": "Tickets for gunnr - North America Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-08-29T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803": {
     "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
@@ -83,17 +77,17 @@
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
-    "title": "Tickets for Rend Collective Folk! Tour",
-    "price": 40.0,
-    "soldout": false,
-    "event_dt": "2025-10-25T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473": {
     "title": "Tickets for Shawn Desman, Jamie Fine",
     "price": 49.5,
     "soldout": false,
     "event_dt": "2025-12-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
+    "title": "Tickets for Rend Collective Folk! Tour",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-10-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
     "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
@@ -136,6 +130,18 @@
     "price": 29.99,
     "soldout": false,
     "event_dt": "2025-11-13T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
+    "title": "Tickets for Bop To The Top",
+    "price": 15.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
+    "title": "Tickets for Autoheart: The Heartlands Tour",
+    "price": 29.99,
+    "soldout": false,
+    "event_dt": "2025-11-11T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
@@ -203,6 +209,12 @@
     "soldout": false,
     "event_dt": "2025-11-14T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
+    "title": "Tickets for Between The Buried And Me & Hail The Sun",
+    "price": 49.5,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
     "title": "Tickets for Self Deception",
     "price": 22.5,
@@ -251,17 +263,17 @@
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
-    "title": "Tickets for Peter Dreams, MOONRIIVR",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-02T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues": {
     "title": "Tickets for Pretty Pink",
     "price": 40.0,
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
+    "title": "Tickets for Peter Dreams, MOONRIIVR",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-02T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
     "title": "Tickets for Allan Rayman",
@@ -287,17 +299,17 @@
     "soldout": false,
     "event_dt": "2025-10-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-09-22T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463": {
     "title": "Tickets for Autoheart: The Heartlands Tour",
     "price": 29.99,
     "soldout": false,
     "event_dt": "2025-11-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163": {
     "title": "Tickets for The Brokes: The Strokes Experience",
@@ -311,29 +323,17 @@
     "soldout": false,
     "event_dt": "2025-12-06T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
-    "title": "Tickets for Autoheart: The Heartlands Tour",
-    "price": 29.99,
+  "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184": {
+    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
+    "price": 18.0,
     "soldout": false,
-    "event_dt": "2025-11-11T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
-    "title": "Tickets for Bop To The Top",
-    "price": 15.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
+    "event_dt": "2025-09-19T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
     "title": "Tickets for Johnny Stimson",
     "price": 27.5,
     "soldout": false,
     "event_dt": "2025-10-02T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184": {
-    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
-    "price": 18.0,
-    "soldout": false,
-    "event_dt": "2025-09-19T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
