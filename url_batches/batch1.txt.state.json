@@ -5,29 +5,29 @@
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424": {
-    "title": "Tickets for Yukon Blonde",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
     "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-08-31T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
-    "title": "Tickets for Yung Singh",
+  "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424": {
+    "title": "Tickets for Yukon Blonde",
     "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-08-22T00:00:00+00:00"
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-11-06T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
+    "title": "Tickets for Yung Singh",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-08-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
     "title": "Tickets for Patrick Wolf with Special Guests",
@@ -89,17 +89,17 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
-    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
-    "price": 32.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-11-07T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
+    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
+    "price": 32.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
     "title": "Tickets for Haru Nemuri - Presented By F7 Live",
@@ -137,17 +137,17 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-11-20T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
     "title": "Tickets for Tony Ann - Late Show",
     "price": null,
     "soldout": true,
     "event_dt": "2025-09-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-20T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
     "title": "Tickets for Iniko - Awakening The Empire North American Tour",
@@ -173,11 +173,11 @@
     "soldout": false,
     "event_dt": "2025-08-28T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
-    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243": {
+    "title": "Tickets for Comeback Kid, Prowl, Punitive Damage",
+    "price": 35.0,
     "soldout": false,
-    "event_dt": "2025-10-07T00:00:00+00:00"
+    "event_dt": "2025-09-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
     "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
@@ -185,17 +185,17 @@
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
+    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-07T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793": {
     "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-08-19T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-park-theatre-tickets/14424633": {
-    "title": "Tickets for Comeback Kid - Wake The Dead Anniversary Canadian Tour",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-09-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
     "title": "Tickets for Next Music from Tokyo vol 17",
@@ -203,11 +203,23 @@
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-park-theatre-tickets/14424633": {
+    "title": "Tickets for Comeback Kid - Wake The Dead Anniversary Canadian Tour",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-15T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/deltron3030-the-concert-hall-tickets/14389983": {
     "title": "Tickets for DELTRON3030",
     "price": null,
     "soldout": true,
     "event_dt": "2025-09-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
+    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -239,12 +251,6 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
-    "price": 39.5,
-    "soldout": false,
-    "event_dt": "2025-08-16T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694": {
     "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": 26.5,
@@ -263,29 +269,29 @@
     "soldout": false,
     "event_dt": "2025-08-29T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
-    "title": "Tickets for Chaser",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-09-18T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143": {
     "title": "Tickets for Yukon Blonde with Atlameda",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-10T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814": {
-    "title": "Tickets for HORSEGIRL with Godcaster",
-    "price": 22.0,
+  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
+    "title": "Tickets for Chaser",
+    "price": 20.0,
     "soldout": false,
-    "event_dt": "2025-08-21T00:00:00+00:00"
+    "event_dt": "2025-09-18T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693": {
     "title": "Tickets for Dune Rats w/ Brain Bent & More",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-09-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814": {
+    "title": "Tickets for HORSEGIRL with Godcaster",
+    "price": 22.0,
+    "soldout": false,
+    "event_dt": "2025-08-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
     "title": "Tickets for Darren Kiely",
@@ -335,12 +341,6 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
-    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-21T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
     "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
     "price": 49.5,
@@ -359,17 +359,17 @@
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
-    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
-    "price": 88.84,
-    "soldout": false,
-    "event_dt": "2025-11-04T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
     "title": "Tickets for Bratmobile, PISS, Necking",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-08-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
+    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+    "price": 88.84,
+    "soldout": false,
+    "event_dt": "2025-11-04T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713": {
     "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
@@ -383,10 +383,10 @@
     "soldout": false,
     "event_dt": "2025-09-28T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243": {
-    "title": "Tickets for Comeback Kid, Prowl, Punitive Damage",
-    "price": 35.0,
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
+    "price": 39.5,
     "soldout": false,
-    "event_dt": "2025-09-12T00:00:00+00:00"
+    "event_dt": "2025-08-16T00:00:00+00:00"
   }
 }
