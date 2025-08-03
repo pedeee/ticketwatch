@@ -1,21 +1,9 @@
 {
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": 37.0,
-    "soldout": false,
-    "event_dt": "2025-10-01T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764": {
     "title": "Tickets for Ben Bankas",
     "price": 38.0,
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
-    "title": "Tickets for Corbin",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
     "title": "Tickets for Amy Millan",
@@ -23,17 +11,23 @@
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": 37.0,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
+    "title": "Tickets for Corbin",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-30T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
     "title": "Tickets for BUDDAHVIBES PRESENTS",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
     "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
@@ -46,12 +40,6 @@
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
-    "title": "Tickets for The Haunted House Tour",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
     "title": "Tickets for Bay Faction with Keep",
@@ -77,29 +65,29 @@
     "soldout": false,
     "event_dt": "2025-10-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
-    "title": "Tickets for Nate Sib - NA LEG 2",
-    "price": 23.33,
-    "soldout": false,
-    "event_dt": "2025-09-16T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
     "title": "Tickets for No Joy",
     "price": 17.0,
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
-    "title": "Tickets for Hand Habits with Special Guests",
-    "price": 22.5,
+  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
+    "title": "Tickets for Nate Sib - NA LEG 2",
+    "price": 23.33,
     "soldout": false,
-    "event_dt": "2025-10-18T00:00:00+00:00"
+    "event_dt": "2025-09-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
     "title": "Tickets for Lady Wray with Special Guests",
     "price": 27.5,
     "soldout": false,
     "event_dt": "2025-11-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
+    "title": "Tickets for Hand Habits with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-18T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214": {
     "title": "Tickets for Bed By 10pm Summer Edition",
@@ -233,17 +221,17 @@
     "soldout": false,
     "event_dt": "2025-10-20T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
+    "price": 22.0,
+    "soldout": false,
+    "event_dt": "2025-08-12T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
     "title": "Tickets for Ben Caplan with Special Guests",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-12-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
-    "title": "Tickets for Kota The Friend",
-    "price": 28.0,
-    "soldout": false,
-    "event_dt": "2025-09-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
     "title": "Tickets for JO DOLO: Going Gold Tour",
@@ -251,17 +239,23 @@
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
-    "title": "Tickets for Friday Night Hard Rock Show",
-    "price": 15.05,
+  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
+    "title": "Tickets for Kota The Friend",
+    "price": 28.0,
     "soldout": false,
-    "event_dt": "2025-08-15T00:00:00+00:00"
+    "event_dt": "2025-09-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
     "title": "Tickets for Jess Moskaluke - Life For Me Tour",
     "price": 29.5,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
+    "title": "Tickets for Friday Night Hard Rock Show",
+    "price": 15.05,
+    "soldout": false,
+    "event_dt": "2025-08-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
     "title": "Tickets for Stereotype Friday's Pres: Zerb",
@@ -305,6 +299,12 @@
     "soldout": false,
     "event_dt": "2025-10-21T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/ben-bankas-the-bronson-tickets/13735124": {
     "title": "Tickets for Ben Bankas",
     "price": 35.0,
@@ -323,11 +323,11 @@
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
-    "price": 22.0,
+  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
+    "title": "Tickets for The Haunted House Tour",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-08-12T00:00:00+00:00"
+    "event_dt": "2025-10-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
     "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
