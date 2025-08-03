@@ -17,7 +17,6 @@ https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-ticket
 https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733  # Tickets for The Dirty Nil, Heart Attack Man, Spite House - Sep 18
 https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163  # Tickets for Mad Caddies - Sep 19
 https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053  # Tickets for The Dirty Nil, Heart Attack Man, Spite House - Sep 20
-https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113  # Tickets for Mad Caddies - Authority Zero - The Corps - Sep 21
 https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476123  # Tickets for Mad Caddies - Authority Zero - The Corps - Sep 22
 https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324  # Tickets for IT’S MURPH - "THROUGH MY SYSTEM TOUR" - Sep 26
 
@@ -75,3 +74,6 @@ https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14
 # === December 2025 ===
 https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203  # Tickets for PUP, Snotty Nose Rez Kids - Dec 07
 https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383  # Tickets for PUP with Snotty Nose Rez Kids - Dec 12
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113  # Unknown Event - No date found
