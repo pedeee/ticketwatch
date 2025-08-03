@@ -5,17 +5,17 @@
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
-    "title": "Tickets for Amy Millan",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-17T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
     "title": "Tickets for Danko Jones, Iconoclast",
     "price": 32.5,
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
+    "title": "Tickets for Amy Millan",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-17T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
     "title": "Tickets for Corbin",
@@ -23,23 +23,29 @@
     "soldout": false,
     "event_dt": "2025-10-30T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
     "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
     "price": 45.0,
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
-    "title": "Tickets for Stereotype Friday's Pres: Zerb",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
     "title": "Tickets for The Deep Dark Woods with Bob Sumner",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
+    "title": "Tickets for Stereotype Friday's Pres: Zerb",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
     "title": "Tickets for Bay Faction with Keep",
@@ -125,12 +131,6 @@
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
-    "price": 22.0,
-    "soldout": false,
-    "event_dt": "2025-08-12T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
     "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
     "price": 35.0,
@@ -203,12 +203,6 @@
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/iam-with-special-guests-the-concert-hall-tickets/13706674": {
     "title": "Tickets for IAM with DJ Sevenstyle",
     "price": 42.5,
@@ -245,29 +239,29 @@
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
-    "title": "Tickets for Kota The Friend",
-    "price": 28.0,
-    "soldout": false,
-    "event_dt": "2025-09-30T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
     "title": "Tickets for Jess Moskaluke - Life For Me Tour",
     "price": 29.5,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
-    "title": "Tickets for Friday Night Hard Rock Show",
-    "price": 15.05,
+  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
+    "title": "Tickets for Kota The Friend",
+    "price": 28.0,
     "soldout": false,
-    "event_dt": "2025-08-15T00:00:00+00:00"
+    "event_dt": "2025-09-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
     "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
     "price": 37.0,
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
+    "title": "Tickets for Friday Night Hard Rock Show",
+    "price": 15.05,
+    "soldout": false,
+    "event_dt": "2025-08-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
     "title": "Tickets for Ty Segall",
@@ -281,17 +275,17 @@
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-quiz-master-brian-show-the-dance-cave-tickets/14374013": {
-    "title": "Tickets for The Quiz Master Brian Show",
-    "price": 11.3,
-    "soldout": false,
-    "event_dt": "2025-08-06T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
     "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-quiz-master-brian-show-the-dance-cave-tickets/14374013": {
+    "title": "Tickets for The Quiz Master Brian Show",
+    "price": 11.3,
+    "soldout": false,
+    "event_dt": "2025-08-06T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843": {
     "title": "Tickets for Dan Mangan, Bells Larsen",
@@ -305,17 +299,23 @@
     "soldout": false,
     "event_dt": "2025-10-21T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
+    "title": "Tickets for BUNT.",
+    "price": 38.5,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/ben-bankas-the-bronson-tickets/13735124": {
     "title": "Tickets for Ben Bankas",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
-    "title": "Tickets for BUNT.",
-    "price": 38.5,
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
+    "price": 22.0,
     "soldout": false,
-    "event_dt": "2025-10-01T00:00:00+00:00"
+    "event_dt": "2025-08-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524": {
     "title": "Tickets for BEN BANKAS I 51st STATE TOUR",
@@ -335,17 +335,17 @@
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
-    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
     "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
