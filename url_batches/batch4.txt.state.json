@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764": {
-    "title": "Tickets for Ben Bankas",
-    "price": 38.0,
-    "soldout": false,
-    "event_dt": "2025-09-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": 37.0,
@@ -17,17 +11,23 @@
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
-    "title": "Tickets for Corbin",
-    "price": 30.0,
+  "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764": {
+    "title": "Tickets for Ben Bankas",
+    "price": 38.0,
     "soldout": false,
-    "event_dt": "2025-10-30T00:00:00+00:00"
+    "event_dt": "2025-09-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
     "title": "Tickets for BUDDAHVIBES PRESENTS",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
+    "title": "Tickets for Corbin",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
     "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
@@ -269,17 +269,17 @@
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
-    "title": "Tickets for Stereotype Friday's Pres: Zerb",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
     "title": "Tickets for Ty Segall",
     "price": 37.5,
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
+    "title": "Tickets for Stereotype Friday's Pres: Zerb",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
     "title": "Tickets for The Deep Dark Woods with Bob Sumner",
@@ -317,23 +317,17 @@
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
-    "title": "Tickets for Danko Jones, Iconoclast",
-    "price": 32.5,
-    "soldout": false,
-    "event_dt": "2025-10-01T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524": {
     "title": "Tickets for BEN BANKAS I 51st STATE TOUR",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
-    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
-    "price": 45.0,
+  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
+    "title": "Tickets for Danko Jones, Iconoclast",
+    "price": 32.5,
     "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
+    "event_dt": "2025-10-01T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
     "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
@@ -341,16 +335,22 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
-    "title": "Tickets for Ari Abdul - Change Tour",
-    "price": 28.57,
+  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
+    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
+    "price": 45.0,
     "soldout": false,
-    "event_dt": "2025-10-24T00:00:00+00:00"
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
     "title": "Tickets for P'tit Belliveau",
     "price": 27.5,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
+    "title": "Tickets for Ari Abdul - Change Tour",
+    "price": 28.57,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
   }
 }
