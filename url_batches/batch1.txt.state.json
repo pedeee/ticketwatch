@@ -17,29 +17,29 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-11-06T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
     "title": "Tickets for Yung Singh",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-08-22T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
-    "title": "Tickets for Patrick Wolf with Special Guests",
-    "price": 22.5,
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-09-17T00:00:00+00:00"
+    "event_dt": "2025-11-06T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
     "title": "Tickets for Wilkinson",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-10-02T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
+    "title": "Tickets for Patrick Wolf with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-09-17T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934": {
     "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
@@ -77,17 +77,17 @@
     "soldout": false,
     "event_dt": "2025-09-01T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
-    "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
-    "price": 32.5,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
     "title": "Tickets for Amistat, Emily James",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
+    "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -101,17 +101,17 @@
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404": {
-    "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-04T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
     "title": "Tickets for Haru Nemuri - Presented By F7 Live",
     "price": 38.0,
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404": {
+    "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-04T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
     "title": "Tickets for Rocco - The Smoking Gun Tour",
@@ -137,11 +137,11 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694": {
-    "title": "Tickets for Ethan Low - Presented By F7 Live",
-    "price": 26.5,
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
+    "price": 39.5,
     "soldout": false,
-    "event_dt": "2025-09-27T00:00:00+00:00"
+    "event_dt": "2025-08-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -191,12 +191,6 @@
     "soldout": false,
     "event_dt": "2025-10-07T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-11-13T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793": {
     "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
     "price": 25.0,
@@ -220,6 +214,12 @@
     "price": null,
     "soldout": true,
     "event_dt": "2025-09-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
+    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -251,17 +251,17 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
+    "price": 26.5,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-11-09T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
-    "price": 39.5,
-    "soldout": false,
-    "event_dt": "2025-08-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
     "title": "Tickets for Max Cooper, Tor",
@@ -305,6 +305,12 @@
     "soldout": false,
     "event_dt": "2025-09-28T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-11-13T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
     "title": "Tickets for PUP with Snotty Nose Rez Kids",
     "price": 39.5,
@@ -335,12 +341,6 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
-    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-21T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
     "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
     "price": 49.5,
@@ -359,6 +359,12 @@
     "soldout": false,
     "event_dt": "2025-09-19T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
+    "title": "Tickets for Bratmobile, PISS, Necking",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-08-21T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
     "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
     "price": 88.84,
@@ -370,12 +376,6 @@
     "price": 34.95,
     "soldout": false,
     "event_dt": "2025-09-16T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
-    "title": "Tickets for Bratmobile, PISS, Necking",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-08-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
