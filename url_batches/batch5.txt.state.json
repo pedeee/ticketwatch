@@ -47,12 +47,6 @@
     "soldout": false,
     "event_dt": "2025-12-03T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-16T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
     "title": "Tickets for Kiesza, Anjulie",
     "price": 35.0,
@@ -65,12 +59,6 @@
     "soldout": false,
     "event_dt": "2025-09-18T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
-    "title": "Tickets for Bambara",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-10-17T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694": {
     "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
     "price": 22.5,
@@ -82,6 +70,12 @@
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-11-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
+    "title": "Tickets for Bambara",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-17T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943": {
     "title": "Tickets for The Dirty Nil",
@@ -107,12 +101,6 @@
     "soldout": false,
     "event_dt": "2025-11-07T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943": {
-    "title": "Tickets for Ben Caplan with Special Guests",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-11-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
     "title": "Tickets for Castle Rat with Faerie Ring",
     "price": 20.0,
@@ -137,29 +125,29 @@
     "soldout": false,
     "event_dt": "2025-12-06T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
-    "title": "Tickets for RIELL with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-19T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues": {
     "title": "Tickets for Boys Noize",
     "price": 45.0,
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
-    "title": "Tickets for The Exploited, Burnt Knives",
-    "price": 50.0,
+  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
+    "title": "Tickets for RIELL with Special Guests",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-10-18T00:00:00+00:00"
+    "event_dt": "2025-09-19T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
     "title": "Tickets for Future Palace, Half Me, Hawk",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-30T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
+    "title": "Tickets for The Exploited, Burnt Knives",
+    "price": 50.0,
+    "soldout": false,
+    "event_dt": "2025-10-18T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
     "title": "Tickets for This Paranormal Life",
@@ -179,17 +167,17 @@
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-09-27T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
     "title": "Tickets for TWINSICK",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-27T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
     "title": "Tickets for DUKE DUMONT",
@@ -203,23 +191,17 @@
     "soldout": false,
     "event_dt": "2025-09-10T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
-    "title": "Tickets for Tropical Fuck Storm with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-21T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
     "title": "Tickets for Hayden Pedigo, Jens Kuross",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-11-01T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
-    "title": "Tickets for Dakhabrakha with Special Guests",
-    "price": 60.0,
+  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
+    "title": "Tickets for Tropical Fuck Storm with Special Guests",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-12-11T00:00:00+00:00"
+    "event_dt": "2025-09-21T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
     "title": "Tickets for ATRIP",
@@ -227,17 +209,23 @@
     "soldout": false,
     "event_dt": "2025-08-29T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
-    "price": 30.0,
+  "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
+    "title": "Tickets for Dakhabrakha with Special Guests",
+    "price": 60.0,
     "soldout": false,
-    "event_dt": "2025-09-19T00:00:00+00:00"
+    "event_dt": "2025-12-11T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
     "title": "Tickets for Skinshape with Sons of Sevilla",
     "price": 27.5,
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-19T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
     "title": "Tickets for The Exploited, Spades GT",
@@ -280,6 +268,12 @@
     "price": 42.5,
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
     "title": "Tickets for The Stews with Special Guests",
@@ -328,6 +322,12 @@
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943": {
+    "title": "Tickets for Ben Caplan with Special Guests",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-11-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
     "title": "Tickets for BONUS STAGE ULTIMATE",
