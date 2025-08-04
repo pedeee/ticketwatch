@@ -23,6 +23,18 @@
     "soldout": false,
     "event_dt": "2025-11-15T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653": {
+    "title": "Tickets for Softcult with Wayside & Cherrypick",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-16T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513": {
+    "title": "Tickets for Nation of Language with Westerman",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-08T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604": {
     "title": "Tickets for MAD CADDIES with The Corps",
     "price": 35.0,
@@ -34,18 +46,6 @@
     "price": 40.0,
     "soldout": false,
     "event_dt": "2025-11-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513": {
-    "title": "Tickets for Nation of Language with Westerman",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-08T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884": {
-    "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-08-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593": {
     "title": "Tickets for Billy Raffoul",
@@ -89,17 +89,17 @@
     "soldout": false,
     "event_dt": "2025-09-22T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093": {
-    "title": "Tickets for Fly By Midnight with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-11T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/hotel-mira-bleeker-club-saw-tickets/13812214": {
     "title": "Tickets for Hotel Mira, Bleeker",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093": {
+    "title": "Tickets for Fly By Midnight with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/allan-rayman-london-music-hall-tickets/14464563": {
     "title": "Tickets for Allan Rayman",
@@ -130,12 +130,6 @@
     "price": 40.0,
     "soldout": false,
     "event_dt": "2025-11-13T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653": {
-    "title": "Tickets for Softcult with Wayside & Cherrypick",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-10-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
     "title": "Tickets for Sun Kil Moon",
@@ -173,29 +167,29 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
-    "title": "Tickets for saturdays at your place these things happen tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-25T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053": {
     "title": "Tickets for Wombo w/ Ribbon Skirt",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
-    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
+    "title": "Tickets for saturdays at your place these things happen tour",
+    "price": 30.0,
     "soldout": false,
-    "event_dt": "2025-09-18T00:00:00+00:00"
+    "event_dt": "2025-10-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
     "title": "Tickets for Jeremy Olander (Open To Close)",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-11-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
+    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-18T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673": {
     "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
@@ -209,17 +203,17 @@
     "soldout": false,
     "event_dt": "2025-11-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
-    "title": "Tickets for Hotel Mira with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-07T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
     "title": "Tickets for Sun Kil Moon",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
+    "title": "Tickets for Hotel Mira with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-07T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513": {
     "title": "Tickets for Ria Mae- Tiny Strands and Flashbanks",
@@ -245,17 +239,17 @@
     "soldout": false,
     "event_dt": "2025-08-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954": {
-    "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
-    "price": 58.58,
-    "soldout": false,
-    "event_dt": "2025-10-03T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793": {
     "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954": {
+    "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
+    "price": 58.58,
+    "soldout": false,
+    "event_dt": "2025-10-03T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
     "title": "Tickets for COONE",
@@ -353,23 +347,23 @@
     "soldout": false,
     "event_dt": "2025-09-20T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-11-15T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343": {
     "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-10T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363": {
-    "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
-    "price": 36.0,
+  "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884": {
+    "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
+    "price": 20.0,
     "soldout": false,
-    "event_dt": "2025-09-14T00:00:00+00:00"
+    "event_dt": "2025-08-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-11-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744": {
     "title": "Tickets for Bambara",
@@ -377,16 +371,22 @@
     "soldout": false,
     "event_dt": "2025-10-08T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313": {
-    "title": "Tickets for M\u00fam with Mr. Silla",
-    "price": 39.5,
+  "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363": {
+    "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
+    "price": 36.0,
     "soldout": false,
-    "event_dt": "2025-10-04T00:00:00+00:00"
+    "event_dt": "2025-09-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694": {
     "title": "Tickets for bar italia",
     "price": 32.5,
     "soldout": false,
     "event_dt": "2025-11-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313": {
+    "title": "Tickets for M\u00fam with Mr. Silla",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-10-04T00:00:00+00:00"
   }
 }
