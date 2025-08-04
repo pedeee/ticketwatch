@@ -11,11 +11,23 @@
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
+    "title": "Tickets for Corbin",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-30T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
     "title": "Tickets for Amy Millan",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
     "title": "Tickets for BUDDAHVIBES PRESENTS",
@@ -23,17 +35,11 @@
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
-    "title": "Tickets for Corbin",
-    "price": 30.0,
+  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
+    "title": "Tickets for Bay Faction with Keep",
+    "price": 22.5,
     "soldout": false,
-    "event_dt": "2025-10-30T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
-    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
+    "event_dt": "2025-08-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
     "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
@@ -46,12 +52,6 @@
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
-    "title": "Tickets for Bay Faction with Keep",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-08-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
     "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
@@ -137,17 +137,17 @@
     "soldout": false,
     "event_dt": "2025-08-12T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
-    "title": "Tickets for HOLY PRIEST",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-09-19T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
     "title": "Tickets for BUNT.",
     "price": 38.5,
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
+    "title": "Tickets for HOLY PRIEST",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-09-19T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634": {
     "title": "Tickets for KUMO 99 - FALL TOUR 2025",
@@ -173,23 +173,17 @@
     "soldout": false,
     "event_dt": "2025-09-29T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-26T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
     "title": "Tickets for INOI MUSIC FESTIVAL",
     "price": 100.0,
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
-    "title": "Tickets for Ducks Ltd., The Tubs",
-    "price": 20.0,
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
+    "event_dt": "2025-10-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
     "title": "Tickets for Balu Brigada with Special Guests",
@@ -197,17 +191,23 @@
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": 22.5,
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
+    "title": "Tickets for Ducks Ltd., The Tubs",
+    "price": 20.0,
     "soldout": false,
-    "event_dt": "2025-10-24T00:00:00+00:00"
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
     "title": "Tickets for Model/Actriz with Special Guests",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/iam-with-special-guests-the-concert-hall-tickets/13706674": {
     "title": "Tickets for IAM with DJ Sevenstyle",
@@ -221,17 +221,17 @@
     "soldout": false,
     "event_dt": "2025-09-21T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
-    "title": "Tickets for Rachael & Vilray",
-    "price": 45.0,
-    "soldout": false,
-    "event_dt": "2025-10-20T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654": {
     "title": "Tickets for SABAI - I'M ALRIGHT TOUR",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
+    "title": "Tickets for Rachael & Vilray",
+    "price": 45.0,
+    "soldout": false,
+    "event_dt": "2025-10-20T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
     "title": "Tickets for The Haunted House Tour",
@@ -317,17 +317,17 @@
     "soldout": false,
     "event_dt": "2025-09-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
-    "title": "Tickets for Danko Jones, Iconoclast",
-    "price": 32.5,
-    "soldout": false,
-    "event_dt": "2025-10-01T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524": {
     "title": "Tickets for BEN BANKAS I 51st STATE TOUR",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
+    "title": "Tickets for Danko Jones, Iconoclast",
+    "price": 32.5,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
     "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
@@ -341,16 +341,16 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
-    "title": "Tickets for Ari Abdul - Change Tour",
-    "price": 28.57,
-    "soldout": false,
-    "event_dt": "2025-10-24T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
     "title": "Tickets for P'tit Belliveau",
     "price": 27.5,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
+    "title": "Tickets for Ari Abdul - Change Tour",
+    "price": 28.57,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
   }
 }
