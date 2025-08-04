@@ -17,17 +17,17 @@
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
-    "title": "Tickets for BUDDAHVIBES PRESENTS",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
     "title": "Tickets for Corbin",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-30T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
+    "title": "Tickets for BUDDAHVIBES PRESENTS",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
     "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
@@ -53,17 +53,17 @@
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
-    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
-    "price": 54.95,
-    "soldout": false,
-    "event_dt": "2025-10-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
     "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
+    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+    "price": 54.95,
+    "soldout": false,
+    "event_dt": "2025-10-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
     "title": "Tickets for Nate Sib - NA LEG 2",
@@ -329,17 +329,17 @@
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
-    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
-    "price": 45.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
     "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
     "price": 37.0,
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
+    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
     "title": "Tickets for Ari Abdul - Change Tour",
