@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
-    "title": "Tickets for Bop To The Top",
-    "price": 15.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693": {
     "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
     "price": 39.5,
@@ -17,17 +11,29 @@
     "soldout": false,
     "event_dt": "2025-10-04T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
-    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
+    "title": "Tickets for Bop To The Top",
+    "price": 15.0,
     "soldout": false,
-    "event_dt": "2025-08-16T00:00:00+00:00"
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
     "title": "Tickets for Autoheart: The Heartlands Tour",
     "price": 29.99,
     "soldout": false,
     "event_dt": "2025-11-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
+    "title": "Tickets for Johnny Stimson",
+    "price": 27.5,
+    "soldout": false,
+    "event_dt": "2025-10-02T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
+    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-08-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113": {
     "title": "Tickets for White Denim with Johanna Samuels",
@@ -119,17 +125,17 @@
     "soldout": false,
     "event_dt": "2025-10-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063": {
-    "title": "Tickets for Emo Night Toronto at Sneaky Dee's",
-    "price": 5.0,
-    "soldout": false,
-    "event_dt": "2025-08-15T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473": {
     "title": "Tickets for Shawn Desman, Jamie Fine",
     "price": 49.5,
     "soldout": false,
     "event_dt": "2025-12-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063": {
+    "title": "Tickets for Emo Night Toronto at Sneaky Dee's",
+    "price": 5.0,
+    "soldout": false,
+    "event_dt": "2025-08-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
     "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
@@ -149,29 +155,29 @@
     "soldout": false,
     "event_dt": "2025-10-16T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
-    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
-    "price": 14.0,
-    "soldout": false,
-    "event_dt": "2025-08-15T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
     "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-11-16T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353": {
-    "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
-    "price": 30.0,
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+    "price": 29.99,
     "soldout": false,
-    "event_dt": "2025-09-05T00:00:00+00:00"
+    "event_dt": "2025-11-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334": {
     "title": "Tickets for Morgan Wade",
     "price": 38.5,
     "soldout": false,
     "event_dt": "2025-09-28T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353": {
+    "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-09-05T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734": {
     "title": "Tickets for Blue Hawaii",
@@ -185,17 +191,17 @@
     "soldout": false,
     "event_dt": "2025-11-13T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
-    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
-    "price": 9.99,
-    "soldout": false,
-    "event_dt": "2025-08-16T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
     "price": 32.5,
     "soldout": false,
     "event_dt": "2025-09-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
+    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
+    "price": 9.99,
+    "soldout": false,
+    "event_dt": "2025-08-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974": {
     "title": "Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek",
@@ -233,12 +239,6 @@
     "soldout": false,
     "event_dt": "2025-10-16T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
-    "title": "Tickets for Johnny Stimson",
-    "price": 27.5,
-    "soldout": false,
-    "event_dt": "2025-10-02T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
     "title": "Tickets for Ingested, Ov Sulfur, CELL",
     "price": 28.5,
@@ -268,12 +268,6 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314": {
-    "title": "Tickets for The Tallest Man On Earth, The Still Tide",
-    "price": 40.0,
-    "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
@@ -322,12 +316,6 @@
     "price": 28.5,
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-    "price": 29.99,
-    "soldout": false,
-    "event_dt": "2025-11-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
     "title": "Tickets for Alicia Moffet, Dominique Way",
@@ -382,6 +370,18 @@
     "price": 29.99,
     "soldout": false,
     "event_dt": "2025-11-10T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
+    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
+    "price": 14.0,
+    "soldout": false,
+    "event_dt": "2025-08-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314": {
+    "title": "Tickets for The Tallest Man On Earth, The Still Tide",
+    "price": 40.0,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/oceans-apart-w-quan-sneaky-dees-concert-venue-tickets/13866214": {
     "title": "Tickets for Oceans Apart w/ Quan & Radd Ishh",
