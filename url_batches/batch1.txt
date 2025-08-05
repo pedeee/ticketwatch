@@ -27,6 +27,7 @@ https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759
 https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953  # Tickets for DYSTINCT’S BABABA WORLD TOUR - Sep 14
 https://www.ticketweb.ca/event/comeback-kid-wake-the-park-theatre-tickets/14424633  # Tickets for Comeback Kid - Wake The Dead Anniversary Canadian Tour - Sep 15
 https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693  # Tickets for Dune Rats w/ Brain Bent & More - Sep 16
+https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713  # Tickets for Be'lakor – North America Tour 2025 - Sep 16
 https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514  # Tickets for Patrick Wolf with Special Guests - Sep 17
 https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783  # Tickets for Haru Nemuri - Presented By F7 Live - Sep 18
 https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343  # Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory - Sep 18
@@ -36,6 +37,7 @@ https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/144
 https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804  # Tickets for Amistat, Emily James - Sep 19
 https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673  # Tickets for Iniko - Awakening The Empire North American Tour - Sep 20
 https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153  # Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda - Sep 20
+https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723  # Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking - Sep 20
 https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884  # Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL - Sep 21
 https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823  # Tickets for David Archuleta with Alexandra John - Sep 22
 https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183  # Tickets for Next Music from Tokyo vol 17 - Sep 24
@@ -71,7 +73,3 @@ https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theat
 https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603  # Tickets for Robyn Ottolini with Special Guests - Nov 20
 https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503  # Tickets for Robyn Ottolini with Special Guests - Nov 21
 https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE  # Tickets for PUP with Snotty Nose Rez Kids - Nov 24
-
-# === Events without dates ===
-https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713  # Unknown Event - No date found
-https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723  # Unknown Event - No date found
