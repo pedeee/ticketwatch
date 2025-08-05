@@ -2,6 +2,7 @@
 # Format: URL  # Event Name - Date
 
 # === August 2025 ===
+https://www.ticketweb.ca/event/iam-with-special-guests-the-concert-hall-tickets/13706674  # Tickets for IAM with DJ Sevenstyle - Aug 05
 https://www.ticketweb.ca/event/the-quiz-master-brian-show-the-dance-cave-tickets/14374013  # Tickets for The Quiz Master Brian Show - Aug 06
 https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963  # Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - Aug 12
 https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593  # Tickets for Bay Faction with Keep - Aug 12
@@ -11,6 +12,7 @@ https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/1375
 https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723  # Tickets for Sunnyside Sessions ft. Nora En Pure - Aug 23
 https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883  # Tickets for BUDDAHVIBES PRESENTS - Aug 23
 https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214  # Tickets for Bed By 10pm Summer Edition - Aug 23
+https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584  # Tickets for Hernan Cattaneo and Danny Tenaglia - Aug 24
 
 # === September 2025 ===
 https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963  # Tickets for JO DOLO: Going Gold Tour - Sep 13
@@ -29,6 +31,7 @@ https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-ti
 https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763  # Tickets for P'Tit Belliveau with Véloce André - Sep 26
 https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963  # Tickets for Teenage Bottlerocket, We Were Sharks - Sep 28
 https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864  # Tickets for MAD CADDIES with Authority Zero & The Corps - Sep 29
+https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093  # Tickets for Kota The Friend - Sep 30
 
 # === October 2025 ===
 https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534  # Tickets for Danko Jones, Iconoclast - Oct 01
@@ -65,9 +68,4 @@ https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/1
 
 # === December 2025 ===
 https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254  # Tickets for KOMPANY - NEMESIS TOUR - Dec 05
-
-# === Events without dates ===
-https://www.ticketweb.ca/event/iam-with-special-guests-the-concert-hall-tickets/13706674  # Unknown Event - No date found
-https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584  # Unknown Event - No date found
-https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093  # Unknown Event - No date found
-https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973  # Tickets for Ben Caplan with Special Guests - Dec 12
