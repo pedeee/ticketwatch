@@ -5,17 +5,17 @@
     "soldout": false,
     "event_dt": "2025-09-27T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
-    "title": "Tickets for Bop To The Top",
-    "price": 15.0,
-    "soldout": false,
-    "event_dt": "2025-08-23T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163": {
     "title": "Tickets for The Brokes: The Strokes Experience",
     "price": 29.0,
     "soldout": false,
     "event_dt": "2025-10-04T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
+    "title": "Tickets for Bop To The Top",
+    "price": 15.0,
+    "soldout": false,
+    "event_dt": "2025-08-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
     "title": "Tickets for Autoheart: The Heartlands Tour",
@@ -179,6 +179,12 @@
     "soldout": false,
     "event_dt": "2025-11-13T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+    "price": 29.99,
+    "soldout": false,
+    "event_dt": "2025-11-15T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
     "title": "Tickets for Brat Summer - Charli XCX Dance Party",
     "price": 9.99,
@@ -263,12 +269,6 @@
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314": {
-    "title": "Tickets for The Tallest Man On Earth, The Still Tide",
-    "price": 40.0,
-    "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": 29.99,
@@ -316,12 +316,6 @@
     "price": 28.5,
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-    "price": 29.99,
-    "soldout": false,
-    "event_dt": "2025-11-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
     "title": "Tickets for Alicia Moffet, Dominique Way",
@@ -389,17 +383,23 @@
     "soldout": false,
     "event_dt": "2025-08-16T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
-    "price": 35.0,
+  "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314": {
+    "title": "Tickets for The Tallest Man On Earth, The Still Tide",
+    "price": 40.0,
     "soldout": false,
-    "event_dt": "2025-09-22T00:00:00+00:00"
+    "event_dt": "2025-10-14T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues": {
     "title": "Tickets for Pretty Pink",
     "price": 40.0,
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-09-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784": {
     "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
