@@ -5,17 +5,17 @@
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": 37.0,
-    "soldout": false,
-    "event_dt": "2025-10-01T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
     "title": "Tickets for Amy Millan",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": 37.0,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
     "title": "Tickets for Corbin",
@@ -40,6 +40,12 @@
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
+    "price": 22.0,
+    "soldout": false,
+    "event_dt": "2025-08-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
     "title": "Tickets for Bay Faction with Keep",
@@ -107,6 +113,12 @@
     "soldout": false,
     "event_dt": "2025-10-25T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
     "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
     "price": 22.0,
@@ -125,29 +137,17 @@
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
-    "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-10-23T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
-    "price": 22.0,
-    "soldout": false,
-    "event_dt": "2025-08-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
-    "title": "Tickets for The Haunted House Tour",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-22T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
     "title": "Tickets for HOLY PRIEST",
     "price": null,
     "soldout": true,
     "event_dt": "2025-09-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
+    "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-10-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
     "title": "Tickets for BUNT.",
@@ -209,29 +209,23 @@
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/iam-with-special-guests-the-concert-hall-tickets/13706674": {
     "title": "Tickets for IAM with DJ Sevenstyle",
-    "price": 42.5,
+    "price": 45.0,
     "soldout": false,
     "event_dt": "2025-08-05T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654": {
-    "title": "Tickets for SABAI - I'M ALRIGHT TOUR",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-03T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
     "title": "Tickets for Hotline TNT - Path of Totality",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654": {
+    "title": "Tickets for SABAI - I'M ALRIGHT TOUR",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-03T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
     "title": "Tickets for Rachael & Vilray",
@@ -244,6 +238,12 @@
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-12-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
+    "title": "Tickets for The Haunted House Tour",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-22T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
     "title": "Tickets for JO DOLO: Going Gold Tour",
@@ -269,17 +269,17 @@
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
-    "title": "Tickets for Ty Segall",
-    "price": 37.5,
-    "soldout": false,
-    "event_dt": "2025-10-15T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
     "title": "Tickets for Stereotype Friday's Pres: Zerb",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
+    "title": "Tickets for Ty Segall",
+    "price": 37.5,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-quiz-master-brian-show-the-dance-cave-tickets/14374013": {
     "title": "Tickets for The Quiz Master Brian Show",
@@ -293,17 +293,17 @@
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843": {
-    "title": "Tickets for Dan Mangan, Bells Larsen",
-    "price": 39.5,
-    "soldout": false,
-    "event_dt": "2025-10-11T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
     "price": 35.0,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843": {
+    "title": "Tickets for Dan Mangan, Bells Larsen",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224": {
     "title": "Tickets for CARNIVAL OF DEATH TOUR 2025",
@@ -341,16 +341,16 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
-    "title": "Tickets for Ari Abdul - Change Tour",
-    "price": 28.57,
-    "soldout": false,
-    "event_dt": "2025-10-24T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
     "title": "Tickets for P'tit Belliveau",
     "price": 27.5,
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
+    "title": "Tickets for Ari Abdul - Change Tour",
+    "price": 28.57,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
   }
 }
