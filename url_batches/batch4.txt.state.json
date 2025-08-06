@@ -1,21 +1,9 @@
 {
-  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
-    "title": "Tickets for BUNT.",
-    "price": 38.5,
-    "soldout": false,
-    "event_dt": "2025-10-01T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
     "title": "Tickets for HOLY PRIEST",
     "price": null,
     "soldout": true,
     "event_dt": "2025-09-19T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
-    "title": "Tickets for KOMPANY - NEMESIS TOUR",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-12-05T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634": {
     "title": "Tickets for KUMO 99 - FALL TOUR 2025",
@@ -23,11 +11,23 @@
     "soldout": false,
     "event_dt": "2025-10-19T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
+    "title": "Tickets for BUNT.",
+    "price": 38.5,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
     "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
     "price": 75.0,
     "soldout": false,
     "event_dt": "2025-08-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
+    "title": "Tickets for KOMPANY - NEMESIS TOUR",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-12-05T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
@@ -35,29 +35,29 @@
     "soldout": false,
     "event_dt": "2025-09-29T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
-    "title": "Tickets for INOI MUSIC FESTIVAL",
-    "price": 100.0,
-    "soldout": false,
-    "event_dt": "2025-08-15T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
     "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
-    "title": "Tickets for Balu Brigada with Special Guests",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
+    "title": "Tickets for INOI MUSIC FESTIVAL",
+    "price": 100.0,
     "soldout": false,
-    "event_dt": "2025-10-15T00:00:00+00:00"
+    "event_dt": "2025-08-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
     "title": "Tickets for Ducks Ltd., The Tubs",
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
+    "title": "Tickets for Balu Brigada with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
@@ -70,6 +70,12 @@
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-09-21T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": 37.0,
+    "soldout": false,
+    "event_dt": "2025-09-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654": {
     "title": "Tickets for SABAI - I'M ALRIGHT TOUR",
@@ -106,6 +112,12 @@
     "price": 29.5,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
     "title": "Tickets for Friday Night Hard Rock Show",
@@ -173,17 +185,17 @@
     "soldout": true,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
-    "title": "Tickets for Amy Millan",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-17T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
     "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
     "price": 37.0,
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
+    "title": "Tickets for Amy Millan",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-17T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
     "title": "Tickets for Ari Abdul - Change Tour",
@@ -192,7 +204,7 @@
     "event_dt": "2025-10-24T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": "2025-08-12T00:00:00+00:00"
@@ -215,12 +227,6 @@
     "soldout": false,
     "event_dt": "2025-10-22T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
-    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
-    "price": 22.0,
-    "soldout": false,
-    "event_dt": "2025-08-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
     "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
     "price": 35.0,
@@ -233,17 +239,17 @@
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": 37.0,
-    "soldout": false,
-    "event_dt": "2025-10-01T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
     "title": "Tickets for Corbin",
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-30T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": 37.0,
+    "soldout": false,
+    "event_dt": "2025-10-01T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
     "title": "Tickets for BUDDAHVIBES PRESENTS",
@@ -293,12 +299,6 @@
     "soldout": false,
     "event_dt": "2025-10-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-10-15T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
     "title": "Tickets for Nate Sib - NA LEG 2",
     "price": 23.33,
@@ -335,10 +335,10 @@
     "soldout": false,
     "event_dt": "2025-10-25T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": 37.0,
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
+    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
+    "price": 22.0,
     "soldout": false,
-    "event_dt": "2025-09-25T00:00:00+00:00"
+    "event_dt": "2025-08-14T00:00:00+00:00"
   }
 }
