@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134": {
-    "title": "Tickets for Pool Kids",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-10-11T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113": {
     "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
     "price": 37.0,
@@ -16,6 +10,18 @@
     "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134": {
+    "title": "Tickets for Pool Kids",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653": {
+    "title": "Tickets for Softcult with Wayside & Cherrypick",
+    "price": 22.5,
+    "soldout": false,
+    "event_dt": "2025-10-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-sonic-hall-tickets/14469963": {
     "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
@@ -34,6 +40,12 @@
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-10-08T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593": {
+    "title": "Tickets for Billy Raffoul",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-11-07T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563": {
     "title": "Tickets for Hollerado",
@@ -77,6 +89,12 @@
     "soldout": false,
     "event_dt": "2025-09-22T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313": {
+    "title": "Tickets for M\u00fam with Mr. Silla",
+    "price": 39.5,
+    "soldout": false,
+    "event_dt": "2025-10-04T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093": {
     "title": "Tickets for Fly By Midnight with Special Guests",
     "price": 25.0,
@@ -94,6 +112,12 @@
     "price": 30.0,
     "soldout": false,
     "event_dt": "2025-11-19T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
+    "title": "Tickets for Allan Rayman",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-11-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544": {
     "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
@@ -137,18 +161,6 @@
     "soldout": false,
     "event_dt": "2025-11-09T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884": {
-    "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-08-15T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593": {
-    "title": "Tickets for Billy Raffoul",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-11-07T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913": {
     "title": "Tickets for The Dears with Special Guests",
     "price": 40.0,
@@ -161,17 +173,17 @@
     "soldout": false,
     "event_dt": "2025-09-26T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
-    "title": "Tickets for saturdays at your place these things happen tour",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-25T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053": {
     "title": "Tickets for Wombo w/ Ribbon Skirt",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-10-11T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
+    "title": "Tickets for saturdays at your place these things happen tour",
+    "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-25T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
     "title": "Tickets for Jeremy Olander (Open To Close)",
@@ -197,12 +209,6 @@
     "soldout": false,
     "event_dt": "2025-11-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
-    "title": "Tickets for Allan Rayman",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-11-25T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
     "title": "Tickets for Sun Kil Moon",
     "price": 30.0,
@@ -226,12 +232,6 @@
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-11-11T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653": {
-    "title": "Tickets for Softcult with Wayside & Cherrypick",
-    "price": 22.5,
-    "soldout": false,
-    "event_dt": "2025-10-16T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203": {
     "title": "Tickets for PUP, Snotty Nose Rez Kids",
@@ -377,16 +377,16 @@
     "soldout": false,
     "event_dt": "2025-10-08T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884": {
+    "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-08-15T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694": {
     "title": "Tickets for bar italia",
     "price": 32.5,
     "soldout": false,
     "event_dt": "2025-11-12T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313": {
-    "title": "Tickets for M\u00fam with Mr. Silla",
-    "price": 39.5,
-    "soldout": false,
-    "event_dt": "2025-10-04T00:00:00+00:00"
   }
 }
