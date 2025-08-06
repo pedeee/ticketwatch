@@ -22,14 +22,20 @@ https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943 
 https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083  # Tickets for Pypy with Special Guests - Sep 13
 https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684  # Tickets for Gui Boratto - Sep 13
 https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433  # Tickets for Hunx & His Punx with Tchotchke - Sep 14
+https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883  # Tickets for Wombo with Shower Curtain - Sep 15
 https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124  # Tickets for Panzerfaust & Groza at Lee's Palace - Sep 18
 https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843  # Tickets for Next Music from Tokyo vol 17 - Sep 19
+https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393  # Tickets for RIELL with Special Guests - Sep 19
 https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534  # Tickets for MAD CADDIES with The Anti-Queens & The Corps - Sep 20
+https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283  # Tickets for System A LA Down, Blimplizkit, The Dirty Mystics, Black Sunrise, Zigseven - Sep 20
+https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604  # Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall - Sep 20
 https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013  # Tickets for Sextile & Automatic - Sep 21
+https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243  # Tickets for Tropical Fuck Storm with Special Guests - Sep 21
 https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223  # Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby - Sep 24
 https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094  # Tickets for JO DOLO - Going Gold Tour - Sep 25
 https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813  # Tickets for Haru Nemuri - Presented By F7 Live - Sep 25
 https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073  # Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby - Sep 26
+https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733  # Tickets for P'Tit Belliveau with Special Guests - Sep 27
 https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504  # Tickets for Pool Kids - Sep 28
 https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713  # Tickets for Maria Somerville with Special Guests - Sep 28
 https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073  # Tickets for Fly By Midnight with Special Guests - Sep 29
@@ -46,7 +52,9 @@ https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373  # Ti
 https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253  # Tickets for YIN YIN with Special Guests - Oct 12
 https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813  # Tickets for Night Tapes - portals//polarities World Tour - Oct 16
 https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844  # Tickets for Bambara - Oct 17
+https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623  # Tickets for The Exploited, Burnt Knives - Oct 18
 https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583  # Tickets for The Exploited, Spades GT - Oct 19
+https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363  # Tickets for Hotel Mira with Bleeker - Oct 19
 https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013  # Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug - Oct 25
 https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394  # Tickets for Anvil - Oct 25
 https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124  # Tickets for NorthsideBenji - Oct 26
@@ -71,13 +79,3 @@ https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tic
 https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604  # Tickets for Ken Yates - Presented By F7 Live - Dec 03
 https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314  # Tickets for Playhouse Presents Ilan Bluestone - Dec 06
 https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483  # Tickets for Dakhabrakha with Special Guests - Dec 11
-
-# === Events without dates ===
-https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883  # Unknown Event - No date found
-https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393  # Unknown Event - No date found
-https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283  # Unknown Event - No date found
-https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604  # Unknown Event - No date found
-https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243  # Unknown Event - No date found
-https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733  # Unknown Event - No date found
-https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623  # Unknown Event - No date found
-https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363  # Unknown Event - No date found
