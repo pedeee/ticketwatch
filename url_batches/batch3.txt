@@ -39,6 +39,7 @@ https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134  # Tic
 https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093  # Tickets for Fly By Midnight with Special Guests - Oct 11
 https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Tickets for Wombo w/ Ribbon Skirt - Oct 11
 https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Oct 12
+https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823  # Tickets for DURRY - Your Friend From The Real World Tour, Gully Boys - Oct 14
 https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653  # Tickets for Softcult with Wayside & Cherrypick - Oct 16
 https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273  # Tickets for Hotel Mira with Bleeker - Oct 16
 https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944  # Tickets for Hotel Mira, Bleeker - Oct 17
@@ -74,6 +75,3 @@ https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14
 # === December 2025 ===
 https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203  # Tickets for PUP, Snotty Nose Rez Kids - Dec 07
 https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383  # Tickets for PUP with Snotty Nose Rez Kids - Dec 12
-
-# === Events without dates ===
-https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823  # Unknown Event - No date found
