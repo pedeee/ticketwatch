@@ -47,12 +47,6 @@
     "soldout": false,
     "event_dt": "2025-08-15T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
-    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
-    "price": 22.0,
-    "soldout": false,
-    "event_dt": "2025-08-14T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
     "title": "Tickets for Ducks Ltd., The Tubs",
     "price": 20.0,
@@ -89,17 +83,17 @@
     "soldout": false,
     "event_dt": "2025-10-20T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
-    "title": "Tickets for JO DOLO: Going Gold Tour",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-09-13T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
     "title": "Tickets for Ben Caplan with Special Guests",
     "price": 22.5,
     "soldout": false,
     "event_dt": "2025-12-12T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
+    "price": 20.0,
+    "soldout": false,
+    "event_dt": "2025-09-13T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
     "title": "Tickets for Kota The Friend",
@@ -112,12 +106,6 @@
     "price": 29.5,
     "soldout": false,
     "event_dt": "2025-10-26T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": 20.0,
-    "soldout": false,
-    "event_dt": "2025-10-15T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
     "title": "Tickets for Friday Night Hard Rock Show",
@@ -136,12 +124,6 @@
     "price": 37.5,
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
-    "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
-    "price": 35.0,
-    "soldout": false,
-    "event_dt": "2025-10-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
     "title": "Tickets for The Deep Dark Woods with Bob Sumner",
@@ -203,23 +185,17 @@
     "soldout": false,
     "event_dt": "2025-10-17T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
-    "price": 22.0,
-    "soldout": false,
-    "event_dt": "2025-08-12T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
     "title": "Tickets for Ari Abdul - Change Tour",
     "price": 28.57,
     "soldout": false,
     "event_dt": "2025-10-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's",
+    "price": 22.0,
     "soldout": false,
-    "event_dt": "2025-10-14T00:00:00+00:00"
+    "event_dt": "2025-08-12T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
     "title": "Tickets for P'tit Belliveau",
@@ -227,11 +203,29 @@
     "soldout": false,
     "event_dt": "2025-09-25T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-14T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
     "title": "Tickets for The Haunted House Tour",
     "price": 25.0,
     "soldout": false,
     "event_dt": "2025-10-22T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
+    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
+    "price": 22.0,
+    "soldout": false,
+    "event_dt": "2025-08-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
+    "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-10-23T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764": {
     "title": "Tickets for Ben Bankas",
@@ -239,23 +233,17 @@
     "soldout": false,
     "event_dt": "2025-09-14T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
-    "title": "Tickets for Corbin",
-    "price": 30.0,
-    "soldout": false,
-    "event_dt": "2025-10-30T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": 37.0,
     "soldout": false,
     "event_dt": "2025-10-01T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
-    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
-    "price": 25.0,
+  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
+    "title": "Tickets for Corbin",
+    "price": 30.0,
     "soldout": false,
-    "event_dt": "2025-09-26T00:00:00+00:00"
+    "event_dt": "2025-10-30T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
     "title": "Tickets for BUDDAHVIBES PRESENTS",
@@ -263,11 +251,11 @@
     "soldout": false,
     "event_dt": "2025-08-23T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
-    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
-    "price": 35.0,
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": 25.0,
     "soldout": false,
-    "event_dt": "2025-10-24T00:00:00+00:00"
+    "event_dt": "2025-09-26T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
     "title": "Tickets for Hand Habits with Special Guests",
@@ -281,6 +269,12 @@
     "soldout": false,
     "event_dt": "2025-08-12T00:00:00+00:00"
   },
+  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
+    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
+    "price": 35.0,
+    "soldout": false,
+    "event_dt": "2025-10-24T00:00:00+00:00"
+  },
   "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
     "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
     "price": 22.5,
@@ -290,6 +284,12 @@
   "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
     "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": 30.0,
+    "soldout": false,
+    "event_dt": "2025-10-15T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+    "price": 20.0,
     "soldout": false,
     "event_dt": "2025-10-15T00:00:00+00:00"
   },
