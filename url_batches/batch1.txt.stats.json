@@ -2,18 +2,23 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223",
-      "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743",
       "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223",
+      "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374",
       "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723",
+      "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
       "event_dt": null
     },
     {
@@ -32,6 +37,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193",
+      "title": "Tickets for Too Many Zooz: Caravan Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343",
       "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
       "event_dt": null
@@ -42,13 +52,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884",
+      "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884",
-      "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -67,13 +77,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
+      "title": "Tickets for Yukon Blonde",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
-      "title": "Tickets for Yukon Blonde",
+      "url": "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403",
+      "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
       "event_dt": null
     },
     {
@@ -109,11 +124,6 @@
     {
       "url": "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654",
       "title": "Tickets for dublon",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193",
-      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
@@ -157,11 +167,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403",
-      "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174",
       "title": "Tickets for Rocco - The Smoking Gun Tour",
       "event_dt": null
@@ -177,13 +182,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/landmvrks-north-america-2025-union-hall-tickets/14432853",
       "title": "Tickets for LANDMVRKS \" NORTH AMERICA 2025\" TOUR - Presented ConcertWorks",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
+      "title": "Tickets for Tony Ann - Late Show",
       "event_dt": null
     },
     {
@@ -192,8 +202,8 @@
       "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
-      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
-      "title": "Tickets for Tony Ann - Late Show",
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
+      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
@@ -202,23 +212,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
-      "title": "Tickets for Too Many Zooz: Caravan Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083",
-      "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
       "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
-      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
@@ -227,13 +222,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
-      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
+      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
       "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
+      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
       "event_dt": null
     },
     {
@@ -282,8 +282,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723",
-      "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
+      "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
+      "title": "Tickets for Max Cooper, Tor",
       "event_dt": null
     },
     {
@@ -292,18 +292,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
-      "title": "Tickets for Max Cooper, Tor",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143",
+      "title": "Tickets for Yukon Blonde with Atlameda",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083",
+      "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814",
       "title": "Tickets for HORSEGIRL with Godcaster and Scarlet Fever",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143",
-      "title": "Tickets for Yukon Blonde with Atlameda",
       "event_dt": null
     },
     {
