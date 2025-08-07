@@ -5,20 +5,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
-    "title": "Tickets for Darren Kiely",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
     "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
+    "title": "Tickets for Darren Kiely",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
     "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -29,14 +35,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713": {
+    "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713": {
-    "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,8 +53,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083": {
-    "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,8 +65,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
+  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
+    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -71,20 +77,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
-    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
     "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -119,20 +119,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
-    "title": "Tickets for Patrick Wolf with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
     "title": "Tickets for Wilkinson",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
+  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
+    "title": "Tickets for Patrick Wolf with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -233,26 +227,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
     "title": "Tickets for PUP with Snotty Nose Rez Kids",
     "price": null,
     "soldout": true,
     "event_dt": "2025-11-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
-    "title": "Tickets for Tony Ann - Late Show",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
     "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
+    "title": "Tickets for Tony Ann - Late Show",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -361,6 +355,12 @@
   },
   "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143": {
     "title": "Tickets for Yukon Blonde with Atlameda",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083": {
+    "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
     "price": null,
     "soldout": true,
     "event_dt": null
