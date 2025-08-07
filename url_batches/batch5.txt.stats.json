@@ -2,8 +2,8 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633",
-      "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
+      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
+      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -12,18 +12,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633",
+      "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
       "title": "Tickets for Pixel Grip with Psymon Spine",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
-      "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
@@ -44,6 +39,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
       "title": "Tickets for Ken Yates - Presented By F7 Live",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
+      "title": "Tickets for This Paranormal Life",
       "event_dt": null
     },
     {
@@ -117,6 +117,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
+      "title": "Tickets for Fly By Midnight with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
       "title": "Tickets for Playhouse Presents Ilan Bluestone",
       "event_dt": null
@@ -142,23 +147,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
-      "title": "Tickets for The Brian Jonestown Massacre with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
       "title": "Tickets for Pypy with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
-      "title": "Tickets for P'Tit Belliveau with Special Guests",
+      "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
+      "title": "Tickets for The Brian Jonestown Massacre with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
       "title": "Tickets for TWINSICK",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
+      "title": "Tickets for P'Tit Belliveau with Special Guests",
       "event_dt": null
     },
     {
@@ -242,13 +247,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
-      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
+      "title": "Tickets for Night Moves with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
-      "title": "Tickets for Night Moves with Special Guests",
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
+      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
       "event_dt": null
     },
     {
@@ -292,13 +297,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
-      "title": "Tickets for YIN YIN with Special Guests",
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour",
+      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
+      "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
@@ -312,18 +317,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
-      "title": "Tickets for L'Eclair with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
-      "title": "Tickets for This Paranormal Life",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
       "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
+      "title": "Tickets for L'Eclair with Special Guests",
       "event_dt": null
     },
     {
