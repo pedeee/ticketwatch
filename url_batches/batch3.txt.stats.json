@@ -1,6 +1,16 @@
 {
-  "monitored_count": 58,
+  "monitored_count": 65,
   "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-the-mansion-tickets/14464173",
+      "title": "Tickets for Hotel Mira with Bleeker",
+      "event_dt": null
+    },
     {
       "url": "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134",
       "title": "Tickets for Pool Kids",
@@ -14,6 +24,11 @@
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363",
       "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
+      "title": "Tickets for Hollerado",
       "event_dt": null
     },
     {
@@ -47,13 +62,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113",
-      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-mills-hardware-tickets/14469783",
+      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093",
       "title": "Tickets for Fly By Midnight with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113",
+      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
       "event_dt": null
     },
     {
@@ -92,6 +112,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703",
+      "title": "Tickets for Flyte with Ken Pomeroy",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944",
       "title": "Tickets for Hotel Mira, Bleeker",
       "event_dt": null
@@ -99,6 +124,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204",
       "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203",
+      "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
       "event_dt": null
     },
     {
@@ -112,13 +142,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713",
-      "title": "Tickets for saturdays at your place these things happen tour",
+      "url": "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053",
+      "title": "Tickets for Wombo w/ Ribbon Skirt",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053",
-      "title": "Tickets for Wombo w/ Ribbon Skirt",
+      "url": "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713",
+      "title": "Tickets for saturdays at your place these things happen tour",
       "event_dt": null
     },
     {
@@ -132,8 +162,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634",
-      "title": "Tickets for French Police with Social Order",
+      "url": "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673",
+      "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
       "event_dt": null
     },
     {
@@ -142,8 +172,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634",
+      "title": "Tickets for French Police with Social Order",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213",
       "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513",
+      "title": "Tickets for Ria Mae- Tiny Strands and Flashbanks",
       "event_dt": null
     },
     {
@@ -152,8 +192,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513",
-      "title": "Tickets for Ria Mae- Tiny Strands and Flashbanks",
+      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
+      "title": "Tickets for Softcult with Wayside & Cherrypick",
       "event_dt": null
     },
     {
@@ -169,11 +209,6 @@
     {
       "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
       "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203",
-      "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
       "event_dt": null
     },
     {
@@ -217,23 +252,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-spitalfield-rosecoloredworld-overflow-brewing-co-tickets/13859784",
-      "title": "Tickets for Boys Night Out, Spitalfield, rosecoloredworld",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
       "title": "Tickets for PUP with Snotty Nose Rez Kids",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954",
-      "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-spitalfield-rosecoloredworld-overflow-brewing-co-tickets/13859784",
+      "title": "Tickets for Boys Night Out, Spitalfield, rosecoloredworld",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554",
       "title": "Tickets for Space 92",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954",
+      "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
       "event_dt": null
     },
     {
@@ -252,23 +287,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
-      "title": "Tickets for Softcult with Wayside & Cherrypick",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
       "title": "Tickets for Mad Caddies",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
