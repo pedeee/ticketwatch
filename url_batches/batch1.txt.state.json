@@ -5,26 +5,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
-    "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
     "title": "Tickets for Darren Kiely",
     "price": 25.0,
     "soldout": false,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
-    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+  "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
+    "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
+  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
+    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -71,20 +65,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
     "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
-    "title": "Tickets for Pile with NNAMDI & Down The Lees",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -149,6 +137,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083": {
+    "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
@@ -203,14 +197,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
     "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -275,14 +275,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793": {
-    "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
+    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
-    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+  "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793": {
+    "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -329,20 +329,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
-    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
     "title": "Tickets for Ethan Low - Presented By F7 Live",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
+    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,14 +347,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
-    "title": "Tickets for Chaser",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143": {
     "title": "Tickets for Yukon Blonde with Atlameda",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
+    "title": "Tickets for Chaser",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,8 +383,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083": {
-    "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
+  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
+    "title": "Tickets for Pile with NNAMDI & Down The Lees",
     "price": null,
     "soldout": true,
     "event_dt": null
