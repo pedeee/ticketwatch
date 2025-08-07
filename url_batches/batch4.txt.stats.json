@@ -2,11 +2,6 @@
   "monitored_count": 66,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664",
-      "title": "Tickets for Stereotype Friday's Pres: Zerb",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914",
       "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654",
       "title": "Tickets for SABAI - I'M ALRIGHT TOUR",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664",
+      "title": "Tickets for Stereotype Friday's Pres: Zerb",
       "event_dt": null
     },
     {
@@ -82,13 +82,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843",
-      "title": "Tickets for Dan Mangan, Bells Larsen",
+      "url": "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764",
+      "title": "Tickets for Ari Abdul - Change Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764",
-      "title": "Tickets for Ari Abdul - Change Tour",
+      "url": "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843",
+      "title": "Tickets for Dan Mangan, Bells Larsen",
       "event_dt": null
     },
     {
@@ -102,11 +102,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784",
-      "title": "Tickets for P'tit Belliveau",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613",
       "title": "Tickets for The Haunted House Tour",
       "event_dt": null
@@ -117,13 +112,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694",
-      "title": "Tickets for Friday Night Hard Rock Show",
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784",
+      "title": "Tickets for P'tit Belliveau",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764",
       "title": "Tickets for Ben Bankas",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694",
+      "title": "Tickets for Friday Night Hard Rock Show",
       "event_dt": null
     },
     {
@@ -137,13 +137,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774",
-      "title": "Tickets for Corbin",
+      "url": "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883",
+      "title": "Tickets for BUDDAHVIBES PRESENTS",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883",
-      "title": "Tickets for BUDDAHVIBES PRESENTS",
+      "url": "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774",
+      "title": "Tickets for Corbin",
       "event_dt": null
     },
     {
@@ -187,13 +187,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064",
-      "title": "Tickets for Hand Habits with Olivia Kaplan",
+      "url": "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084",
+      "title": "Tickets for No Joy",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084",
-      "title": "Tickets for No Joy",
+      "url": "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064",
+      "title": "Tickets for Hand Habits with Olivia Kaplan",
       "event_dt": null
     },
     {
@@ -292,13 +292,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664",
-      "title": "Tickets for Ducks Ltd., The Tubs",
+      "url": "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304",
+      "title": "Tickets for My Favorite Headache / Tribute to Rush",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304",
-      "title": "Tickets for My Favorite Headache / Tribute to Rush",
+      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664",
+      "title": "Tickets for Ducks Ltd., The Tubs",
       "event_dt": null
     },
     {
