@@ -2,23 +2,18 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633",
       "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
-      "title": "Tickets for Pixel Grip with Coatie Pop",
+      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
+      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
-      "title": "Tickets for Fly By Midnight with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
+      "title": "Tickets for Pixel Grip with Coatie Pop",
       "event_dt": null
     },
     {
@@ -44,6 +39,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
       "title": "Tickets for Ken Yates - Presented By F7 Live",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
+      "title": "Tickets for This Paranormal Life",
       "event_dt": null
     },
     {
@@ -97,18 +97,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943",
-      "title": "Tickets for Ben Caplan with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
       "title": "Tickets for Castle Rat with Faerie Ring",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
-      "title": "Tickets for Sextile & Automatic",
+      "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943",
+      "title": "Tickets for Ben Caplan with Special Guests",
       "event_dt": null
     },
     {
@@ -117,8 +112,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
+      "title": "Tickets for Sextile & Automatic",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
       "title": "Tickets for Playhouse Presents Ilan Bluestone",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
+      "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
@@ -202,23 +207,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
-      "title": "Tickets for Corbin",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583",
       "title": "Tickets for The Exploited, Spades GT",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
-      "title": "Tickets for Spike and the Gimme Gimmes",
+      "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
+      "title": "Tickets for Corbin",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
       "title": "Tickets for Gui Boratto",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
+      "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     },
     {
@@ -232,13 +237,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
       "event_dt": null
     },
     {
@@ -252,13 +257,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
-      "title": "Tickets for Improvement Movement with Special Guests",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534",
+      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534",
-      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
+      "title": "Tickets for Improvement Movement with Special Guests",
       "event_dt": null
     },
     {
@@ -314,11 +319,6 @@
     {
       "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
       "title": "Tickets for L'Eclair with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
-      "title": "Tickets for This Paranormal Life",
       "event_dt": null
     },
     {
