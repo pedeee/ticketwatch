@@ -1,18 +1,12 @@
 {
-  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
-    "title": "Tickets for Chaser",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
     "title": "Tickets for Max Cooper, Tor",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143": {
-    "title": "Tickets for Yukon Blonde with Atlameda",
+  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
+    "title": "Tickets for Chaser",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -23,8 +17,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143": {
+    "title": "Tickets for Yukon Blonde with Atlameda",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814": {
     "title": "Tickets for HORSEGIRL with Godcaster and Scarlet Fever",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -35,7 +41,7 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744": {
+  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
     "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
@@ -47,20 +53,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
     "title": "Tickets for Pile with NNAMDI & Down The Lees",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
-    "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -71,8 +71,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
+  "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
+    "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -83,8 +83,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
-    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -93,6 +93,18 @@
     "title": "Tickets for Darren Kiely",
     "price": 25.0,
     "soldout": false,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
+    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
+    "price": null,
+    "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
@@ -107,20 +119,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
-    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -131,8 +137,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
-    "title": "Tickets for Ethan Low - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
+    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -143,14 +149,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
+  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
+    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
-    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -167,14 +173,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
+    "title": "Tickets for Yung Singh",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
-    "title": "Tickets for Yung Singh",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -187,12 +193,6 @@
   },
   "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
     "title": "Tickets for Wilkinson",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,14 +305,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
+    "title": "Tickets for Tony Ann - Late Show",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
     "title": "Tickets for PUP with Snotty Nose Rez Kids",
     "price": null,
     "soldout": true,
     "event_dt": "2025-11-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
-    "title": "Tickets for Tony Ann - Late Show",
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -323,20 +329,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
     "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
