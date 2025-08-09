@@ -5,26 +5,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
-    "title": "Tickets for BUNT.",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304": {
     "title": "Tickets for My Favorite Headache / Tribute to Rush",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
-    "title": "Tickets for DEEPCUT",
+  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
+    "title": "Tickets for BUNT.",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
+    "title": "Tickets for DEEPCUT",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -77,14 +77,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
-    "title": "Tickets for Stereotype Friday's Pres: Zerb",
+  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
+    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
-    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
+  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
+    "title": "Tickets for Stereotype Friday's Pres: Zerb",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,20 +137,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
-    "title": "Tickets for Bay Faction with Keep",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
     "title": "Tickets for Ty Segall",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -161,14 +149,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
-    "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
+    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
-    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
+  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
+    "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -203,12 +191,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
     "title": "Tickets for Friday Night Hard Rock Show",
     "price": null,
@@ -233,12 +215,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
     "title": "Tickets for Corbin",
     "price": null,
@@ -251,20 +227,32 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
     "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
     "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
+    "title": "Tickets for Bay Faction with Keep",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -311,6 +299,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
     "title": "Tickets for Lady Wray with Special Guests",
     "price": null,
@@ -337,6 +331,12 @@
   },
   "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
     "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,14 +383,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
-    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
+  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
+    "title": "Tickets for KOMPANY - NEMESIS TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
-    "title": "Tickets for KOMPANY - NEMESIS TOUR",
+  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
+    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
     "price": null,
     "soldout": true,
     "event_dt": null
