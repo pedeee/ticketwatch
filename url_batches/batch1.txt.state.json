@@ -1,4 +1,10 @@
 {
+  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
+    "title": "Tickets for Chaser",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
     "title": "Tickets for Max Cooper, Tor",
     "price": null,
@@ -7,12 +13,6 @@
   },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
     "title": "Tickets for Next Music from Tokyo vol 17",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
-    "title": "Tickets for Chaser",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -29,14 +29,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693": {
+    "title": "Tickets for Dune Rats w/ Brain Bent & More",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744": {
     "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693": {
-    "title": "Tickets for Dune Rats w/ Brain Bent & More",
+  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -185,14 +191,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
-    "title": "Tickets for Patrick Wolf with Special Guests",
+  "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
+    "title": "Tickets for Wilkinson",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
-    "title": "Tickets for Wilkinson",
+  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
+    "title": "Tickets for Patrick Wolf with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,14 +227,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
+    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
-    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,14 +287,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
+  "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
+    "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
-    "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -349,12 +355,6 @@
   },
   "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
     "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
-    "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
