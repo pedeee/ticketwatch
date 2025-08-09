@@ -2,6 +2,11 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
+      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633",
       "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
       "event_dt": null
@@ -9,11 +14,6 @@
     {
       "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
       "title": "Tickets for Pixel Grip with Coatie Pop",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -27,8 +27,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
-      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
+      "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
@@ -37,18 +37,13 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
+      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
       "title": "Tickets for Ken Yates - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
-      "title": "Tickets for This Paranormal Life",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
@@ -57,13 +52,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
-      "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
+      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
+      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
-      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
+      "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
+      "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
       "event_dt": null
     },
     {
@@ -102,11 +97,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943",
-      "title": "Tickets for Ben Caplan with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
       "title": "Tickets for Sextile & Automatic",
       "event_dt": null
@@ -119,11 +109,6 @@
     {
       "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
       "title": "Tickets for Playhouse Presents Ilan Bluestone",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
-      "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
@@ -144,6 +129,11 @@
     {
       "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
       "title": "Tickets for The Exploited, Burnt Knives",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943",
+      "title": "Tickets for Ben Caplan with Special Guests",
       "event_dt": null
     },
     {
@@ -197,13 +187,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
-      "title": "Tickets for RIELL with Special Guests",
+      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
+      "title": "Tickets for Skinshape with Sons of Sevilla",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
-      "title": "Tickets for Skinshape with Sons of Sevilla",
+      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
+      "title": "Tickets for RIELL with Special Guests",
       "event_dt": null
     },
     {
@@ -217,23 +207,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
       "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
       "title": "Tickets for Pool Kids",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
@@ -322,6 +312,16 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
+      "title": "Tickets for This Paranormal Life",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
       "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
       "event_dt": null
@@ -337,13 +337,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
-      "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
+      "title": "Tickets for Wombo with Shower Curtain",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
-      "title": "Tickets for Wombo with Shower Curtain",
+      "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
+      "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
       "event_dt": null
     }
   ]
