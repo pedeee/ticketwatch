@@ -2,11 +2,6 @@
   "monitored_count": 66,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664",
-      "title": "Tickets for Stereotype Friday's Pres: Zerb",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914",
       "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
       "event_dt": null
@@ -17,13 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013",
-      "title": "Tickets for The Deep Dark Woods with Bob Sumner",
+      "url": "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664",
+      "title": "Tickets for Stereotype Friday's Pres: Zerb",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284",
       "title": "Tickets for DEEPCUT",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013",
+      "title": "Tickets for The Deep Dark Woods with Bob Sumner",
       "event_dt": null
     },
     {
@@ -37,8 +37,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723",
-      "title": "Tickets for Balu Brigada with Special Guests",
+      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074",
+      "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
       "event_dt": null
     },
     {
@@ -92,8 +92,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633",
-      "title": "Tickets for Jess Moskaluke - Life For Me Tour",
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784",
+      "title": "Tickets for P'tit Belliveau",
       "event_dt": null
     },
     {
@@ -102,8 +102,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784",
-      "title": "Tickets for P'tit Belliveau",
+      "url": "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093",
+      "title": "Tickets for Kota The Friend",
       "event_dt": null
     },
     {
@@ -117,23 +117,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453",
-      "title": "Tickets for Amy Millan",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914",
       "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774",
-      "title": "Tickets for Corbin",
+      "url": "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453",
+      "title": "Tickets for Amy Millan",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074",
-      "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
+      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723",
+      "title": "Tickets for Balu Brigada with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774",
+      "title": "Tickets for Corbin",
       "event_dt": null
     },
     {
@@ -147,13 +147,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263",
-      "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
+      "url": "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023",
+      "title": "Tickets for Model/Actriz with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023",
-      "title": "Tickets for Model/Actriz with Special Guests",
+      "url": "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263",
+      "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
       "event_dt": null
     },
     {
@@ -172,6 +172,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633",
+      "title": "Tickets for Jess Moskaluke - Life For Me Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724",
       "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
       "event_dt": null
@@ -182,18 +187,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084",
-      "title": "Tickets for No Joy",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064",
       "title": "Tickets for Hand Habits with Olivia Kaplan",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093",
-      "title": "Tickets for Kota The Friend",
+      "url": "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084",
+      "title": "Tickets for No Joy",
       "event_dt": null
     },
     {
@@ -227,13 +227,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004",
-      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "url": "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654",
+      "title": "Tickets for New Delta w/ low midi & Taylynn",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654",
-      "title": "Tickets for New Delta w/ low midi & Taylynn",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004",
+      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
     },
     {
@@ -297,13 +297,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443",
-      "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664",
+      "title": "Tickets for Ducks Ltd., The Tubs",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664",
-      "title": "Tickets for Ducks Ltd., The Tubs",
+      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443",
+      "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
       "event_dt": null
     },
     {
