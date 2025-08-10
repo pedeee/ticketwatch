@@ -2,8 +2,8 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
+      "title": "Tickets for Mad Caddies",
       "event_dt": null
     },
     {
@@ -12,13 +12,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
-      "title": "Tickets for Mad Caddies",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294",
-      "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
       "event_dt": null
     },
     {
@@ -27,13 +22,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744",
-      "title": "Tickets for Bambara",
+      "url": "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294",
+      "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694",
       "title": "Tickets for bar italia",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744",
+      "title": "Tickets for Bambara",
       "event_dt": null
     },
     {
@@ -47,13 +47,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
-      "title": "Tickets for Billy Raffoul",
+      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
+      "title": "Tickets for Softcult with Wayside & Cherrypick",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
-      "title": "Tickets for Softcult with Wayside & Cherrypick",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
+      "title": "Tickets for Billy Raffoul",
       "event_dt": null
     },
     {
@@ -87,23 +87,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
-      "title": "Tickets for Hollerado",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513",
       "title": "Tickets for Nation of Language with Westerman",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313",
-      "title": "Tickets for M\u00fam with Mr. Silla",
+      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
+      "title": "Tickets for Hollerado",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884",
       "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313",
+      "title": "Tickets for M\u00fam with Mr. Silla",
       "event_dt": null
     },
     {
@@ -117,28 +117,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554",
-      "title": "Tickets for Space 92",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614",
-      "title": "Tickets for DIMENSION",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-barr-brothers-the-bronson-tickets/13761264",
       "title": "Tickets for The Barr Brothers, Land of Talk",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113",
-      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
+      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093",
+      "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093",
-      "title": "Tickets for Fly By Midnight with Special Guests",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113",
+      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
       "event_dt": null
     },
     {
@@ -172,11 +162,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
-      "title": "Tickets for Allan Rayman",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703",
       "title": "Tickets for Flyte with Ken Pomeroy",
       "event_dt": null
@@ -187,23 +172,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204",
-      "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823",
-      "title": "Tickets for DURRY - Your Friend From The Real World Tour, Gully Boys",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913",
       "title": "Tickets for The Dears with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476123",
-      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
+      "url": "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204",
+      "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
       "event_dt": null
     },
     {
@@ -212,8 +187,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713",
-      "title": "Tickets for saturdays at your place these things happen tour",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476123",
+      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
       "event_dt": null
     },
     {
@@ -222,8 +197,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544",
-      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+      "url": "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713",
+      "title": "Tickets for saturdays at your place these things happen tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554",
+      "title": "Tickets for Space 92",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614",
+      "title": "Tickets for DIMENSION",
       "event_dt": null
     },
     {
@@ -232,13 +217,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634",
-      "title": "Tickets for French Police with Social Order",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544",
+      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774",
       "title": "Tickets for Sun Kil Moon",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634",
+      "title": "Tickets for French Police with Social Order",
       "event_dt": null
     },
     {
@@ -254,6 +244,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513",
       "title": "Tickets for Ria Mae- Tiny Strands and Flashbanks",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -274,6 +269,11 @@
     {
       "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
       "title": "Tickets for COONE",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823",
+      "title": "Tickets for DURRY - Your Friend From The Real World Tour, Gully Boys",
       "event_dt": null
     },
     {
