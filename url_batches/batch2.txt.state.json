@@ -17,20 +17,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463": {
-    "title": "Tickets for Autoheart: The Heartlands Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/oceans-apart-w-quan-sneaky-dees-concert-venue-tickets/13866214": {
     "title": "Tickets for Oceans Apart w/ Quan & Radd Ishh",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues": {
-    "title": "Tickets for Pretty Pink",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463": {
+    "title": "Tickets for Autoheart: The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -41,8 +35,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues": {
+    "title": "Tickets for Pretty Pink",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784": {
     "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
+    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,6 +113,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
+    "title": "Tickets for Allan Rayman",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113": {
     "title": "Tickets for White Denim with Johanna Samuels",
     "price": null,
@@ -149,8 +161,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
-    "title": "Tickets for Kerala Dust",
+  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
+    "title": "Tickets for TRIBAL KUSH",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -161,8 +173,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954": {
-    "title": "Tickets for Ewan McVicar",
+  "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
+    "title": "Tickets for Kerala Dust",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -173,14 +185,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
-    "title": "Tickets for GoGo Penguin with Special Guests",
+  "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954": {
+    "title": "Tickets for Ewan McVicar",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/guaranteed-entry-4x2-coda-tickets/13911304": {
     "title": "Tickets for Guaranteed Entry: 4x2",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
+    "title": "Tickets for GoGo Penguin with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -209,26 +227,32 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914": {
     "title": "Tickets for Young Franco",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
-    "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
+  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803": {
     "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
+    "title": "Tickets for Peter Dreams, MOONRIIVR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
+    "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -253,18 +277,6 @@
   },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
-    "title": "Tickets for TRIBAL KUSH",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
-    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,32 +317,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
-    "title": "Tickets for Anvil",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514": {
     "title": "Tickets for ALEX PORAT WITH Lucette",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
-    "title": "Tickets for Allan Rayman",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
-    "title": "Tickets for Ingested, Ov Sulfur, CELL",
+  "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
+    "title": "Tickets for Anvil",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
     "title": "Tickets for Self Deception",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
+    "title": "Tickets for Ingested, Ov Sulfur, CELL",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -347,20 +353,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
-    "title": "Tickets for Peter Dreams, MOONRIIVR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -401,14 +401,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
-    "title": "Tickets for JO DOLO: Going Gold Tour",
+  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
+    "title": "Tickets for Alicia Moffet, Dominique Way",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
-    "title": "Tickets for Alicia Moffet, Dominique Way",
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
