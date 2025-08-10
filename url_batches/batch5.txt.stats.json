@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
-      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
       "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
@@ -17,8 +12,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
+      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
       "title": "Tickets for L'Eclair with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
       "event_dt": null
     },
     {
@@ -42,8 +47,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
-      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
+      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
+      "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
@@ -77,18 +82,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
-      "title": "Tickets for Pixel Grip with Coatie Pop",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
       "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
+      "title": "Tickets for Pixel Grip with Coatie Pop",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
       "title": "Tickets for Pixel Grip with Psymon Spine",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour",
       "event_dt": null
     },
     {
@@ -112,23 +122,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour",
+      "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
+      "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
       "title": "Tickets for Kiesza, Anjulie",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
-      "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
       "event_dt": null
     },
     {
@@ -172,13 +172,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124",
-      "title": "Tickets for NorthsideBenji",
+      "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
+      "title": "Tickets for Sextile & Automatic",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
-      "title": "Tickets for Sextile & Automatic",
+      "url": "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124",
+      "title": "Tickets for NorthsideBenji",
       "event_dt": null
     },
     {
@@ -212,13 +212,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
-      "title": "Tickets for P'Tit Belliveau with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
+      "title": "Tickets for Pypy with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "title": "Tickets for Pypy with Special Guests",
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
+      "title": "Tickets for P'Tit Belliveau with Special Guests",
       "event_dt": null
     },
     {
@@ -262,13 +262,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583",
-      "title": "Tickets for The Exploited, Spades GT",
+      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
+      "title": "Tickets for Skinshape with Sons of Sevilla",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
-      "title": "Tickets for Skinshape with Sons of Sevilla",
+      "url": "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583",
+      "title": "Tickets for The Exploited, Spades GT",
       "event_dt": null
     },
     {
@@ -282,18 +282,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
       "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
@@ -302,8 +297,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
@@ -312,23 +307,28 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
+      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
       "title": "Tickets for Night Moves with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
-      "title": "Tickets for YIN YIN with Special Guests",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534",
+      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
       "title": "Tickets for Improvement Movement with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534",
-      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
       "event_dt": null
     },
     {
