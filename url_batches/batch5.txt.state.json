@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
-    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
     "title": "Tickets for JO DOLO - Going Gold Tour",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
     "title": "Tickets for Frankie and the Witch Fingers with Population II",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
+    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -41,14 +41,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
-    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
+    "title": "Tickets for This Paranormal Life",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
-    "title": "Tickets for This Paranormal Life",
+  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
+    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,14 +383,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
-    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
+    "title": "Tickets for Improvement Movement with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
-    "title": "Tickets for Improvement Movement with Special Guests",
+  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
+    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -401,14 +401,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
-    "title": "Tickets for BONUS STAGE ULTIMATE",
+  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
+    "title": "Tickets for Hunx & His Punx with Tchotchke",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
-    "title": "Tickets for Hunx & His Punx with Tchotchke",
+  "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
+    "title": "Tickets for BONUS STAGE ULTIMATE",
     "price": null,
     "soldout": true,
     "event_dt": null
