@@ -1,6 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304": {
-    "title": "Tickets for My Favorite Headache / Tribute to Rush",
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
+    "title": "Tickets for Ducks Ltd., The Tubs",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -11,8 +11,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
-    "title": "Tickets for Ducks Ltd., The Tubs",
+  "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304": {
+    "title": "Tickets for My Favorite Headache / Tribute to Rush",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -29,20 +29,32 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
-    "title": "Tickets for Hotline TNT - Path of Totality",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
     "title": "Tickets for Rachael & Vilray",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
+    "title": "Tickets for Hotline TNT - Path of Totality",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
     "title": "Tickets for Ben Caplan with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
+    "title": "Tickets for Bay Faction with Keep",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,14 +113,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
-    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
     "title": "Tickets for DEEPCUT",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
+    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -131,20 +155,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
-    "title": "Tickets for Danko Jones, Iconoclast",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
     "title": "Tickets for Ty Segall",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
-    "title": "Tickets for Bay Faction with Keep",
+  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
+    "title": "Tickets for Danko Jones, Iconoclast",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -185,14 +203,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
-    "title": "Tickets for The Haunted House Tour",
+  "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
+    "title": "Tickets for P'tit Belliveau",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
-    "title": "Tickets for P'tit Belliveau",
+  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
+    "title": "Tickets for The Haunted House Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -209,19 +227,13 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
     "title": "Tickets for Amy Millan",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
@@ -253,12 +265,6 @@
   },
   "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
     "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -301,12 +307,6 @@
   },
   "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
     "title": "Tickets for Hand Habits with Olivia Kaplan",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
