@@ -23,14 +23,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744": {
-    "title": "Tickets for Bambara",
+  "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294": {
+    "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294": {
-    "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
+  "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744": {
+    "title": "Tickets for Bambara",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,14 +47,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653": {
-    "title": "Tickets for Softcult with Wayside & Cherrypick",
+  "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474": {
+    "title": "Tickets for Jaques Greene + Nosaj Thing Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474": {
-    "title": "Tickets for Jaques Greene + Nosaj Thing Live",
+  "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653": {
+    "title": "Tickets for Softcult with Wayside & Cherrypick",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -71,14 +71,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134": {
-    "title": "Tickets for Pool Kids",
+  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053": {
+    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053": {
-    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+  "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134": {
+    "title": "Tickets for Pool Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -103,12 +103,6 @@
   },
   "https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513": {
     "title": "Tickets for Nation of Language with Westerman",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963": {
-    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -257,14 +251,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673": {
-    "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
+  "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544": {
+    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544": {
-    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+  "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673": {
+    "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,6 +347,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963": {
+    "title": "Tickets for Allan Rayman",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614": {
     "title": "Tickets for DIMENSION",
     "price": null,
@@ -371,14 +371,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+  "https://www.ticketweb.ca/event/boys-night-out-spitalfield-rosecoloredworld-overflow-brewing-co-tickets/13859784": {
+    "title": "Tickets for Boys Night Out, Spitalfield, rosecoloredworld",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/boys-night-out-spitalfield-rosecoloredworld-overflow-brewing-co-tickets/13859784": {
-    "title": "Tickets for Boys Night Out, Spitalfield, rosecoloredworld",
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
