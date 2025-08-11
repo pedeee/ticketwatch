@@ -5,14 +5,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
-    "title": "Tickets for Max Cooper, Tor",
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
+  "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
+    "title": "Tickets for Max Cooper, Tor",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -36,6 +36,12 @@
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
     "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
@@ -71,12 +77,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
     "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
     "price": null,
@@ -97,6 +97,12 @@
   },
   "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
     "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -215,26 +221,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463": {
     "title": "Tickets for Marcin - Solo Dragon Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
-    "title": "Tickets for Amistat, Emily James",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
     "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
+    "title": "Tickets for Amistat, Emily James",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,14 +269,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
-    "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
+  "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404": {
+    "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404": {
-    "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
+  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
+    "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -329,20 +335,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293": {
     "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
-    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,8 +353,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
-    "title": "Tickets for Ethan Low - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
+    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
     "price": null,
     "soldout": true,
     "event_dt": null
