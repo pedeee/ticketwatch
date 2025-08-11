@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
-      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
       "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673",
       "title": "Tickets for Frankie and the Witch Fingers with Population II",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
+      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
       "event_dt": null
     },
     {
@@ -42,6 +42,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
+      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
       "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
@@ -52,23 +57,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
-      "title": "Tickets for Wombo with Shower Curtain",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
       "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
+      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
+      "title": "Tickets for Wombo with Shower Curtain",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943",
       "title": "Tickets for Ben Caplan with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
@@ -117,6 +122,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
       "title": "Tickets for Kiesza, Anjulie",
       "event_dt": null
@@ -127,18 +137,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
-      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844",
       "title": "Tickets for Bambara",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
-      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
+      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
+      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
       "event_dt": null
     },
     {
@@ -207,11 +212,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
       "title": "Tickets for The Brian Jonestown Massacre with Federale",
       "event_dt": null
@@ -242,23 +242,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
-      "title": "Tickets for Hayden Pedigo, Jens Kuross",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
       "title": "Tickets for Tropical Fuck Storm with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
-      "title": "Tickets for ATRIP",
+      "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
+      "title": "Tickets for Hayden Pedigo, Jens Kuross",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
       "title": "Tickets for Dakhabrakha with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
+      "title": "Tickets for ATRIP",
       "event_dt": null
     },
     {
