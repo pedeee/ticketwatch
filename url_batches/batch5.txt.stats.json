@@ -1,14 +1,9 @@
 {
-  "monitored_count": 69,
+  "monitored_count": 68,
   "sold_out_events": [
     {
       "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
       "title": "Tickets for Dwarves, Burnt Knives, Harm School",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
-      "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
     },
     {
@@ -17,13 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
-      "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
+      "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
       "title": "Tickets for L'Eclair with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
+      "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
       "event_dt": null
     },
     {
@@ -172,23 +172,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
-      "title": "Tickets for Playhouse Presents Ilan Bluestone",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124",
       "title": "Tickets for NorthsideBenji",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843",
-      "title": "Tickets for Next Music from Tokyo vol 17",
+      "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
+      "title": "Tickets for Playhouse Presents Ilan Bluestone",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues",
       "title": "Tickets for Boys Noize",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843",
+      "title": "Tickets for Next Music from Tokyo vol 17",
       "event_dt": null
     },
     {
@@ -237,11 +237,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
-      "title": "Tickets for Tropical Fuck Storm with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
       "title": "Tickets for Hayden Pedigo, Jens Kuross",
       "event_dt": null
@@ -257,13 +252,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
-      "title": "Tickets for RIELL with Special Guests",
+      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
+      "title": "Tickets for Skinshape with Sons of Sevilla",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
-      "title": "Tickets for Skinshape with Sons of Sevilla",
+      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
+      "title": "Tickets for RIELL with Special Guests",
       "event_dt": null
     },
     {
@@ -277,18 +272,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
-      "title": "Tickets for Corbin",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
       "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
+      "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
+      "title": "Tickets for Corbin",
       "event_dt": null
     },
     {
@@ -297,8 +287,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
@@ -307,13 +297,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
       "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
       "event_dt": null
     },
     {
@@ -337,13 +332,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
-      "title": "Tickets for BONUS STAGE ULTIMATE",
+      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
+      "title": "Tickets for Hunx & His Punx with Tchotchke",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
-      "title": "Tickets for Hunx & His Punx with Tchotchke",
+      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
+      "title": "Tickets for BONUS STAGE ULTIMATE",
       "event_dt": null
     }
   ]
