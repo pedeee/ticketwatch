@@ -161,12 +161,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093": {
-    "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
     "title": "Tickets for Casey Lowery with Special Guests",
     "price": null,
@@ -245,20 +239,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
-    "title": "Tickets for Maria Somerville with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
     "title": "Tickets for The Brian Jonestown Massacre with Federale",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -269,8 +251,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
-    "title": "Tickets for TWINSICK",
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,20 +263,32 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
+    "title": "Tickets for TWINSICK",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
     "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
-    "title": "Tickets for Tropical Fuck Storm with Special Guests",
+  "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093": {
+    "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
     "title": "Tickets for Hayden Pedigo, Jens Kuross",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
+    "title": "Tickets for Tropical Fuck Storm with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -311,14 +305,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
-    "title": "Tickets for RIELL with Special Guests",
+  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
+    "title": "Tickets for Skinshape with Sons of Sevilla",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
-    "title": "Tickets for Skinshape with Sons of Sevilla",
+  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
+    "title": "Tickets for RIELL with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,20 +353,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
+    "title": "Tickets for Maria Somerville with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
     "title": "Tickets for The Stews with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
-    "title": "Tickets for Be'lakor,   Solemn Vision",
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
+    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
-    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
+    "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -401,14 +401,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
-    "title": "Tickets for BONUS STAGE ULTIMATE",
+  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
+    "title": "Tickets for Hunx & His Punx with Tchotchke",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
-    "title": "Tickets for Hunx & His Punx with Tchotchke",
+  "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
+    "title": "Tickets for BONUS STAGE ULTIMATE",
     "price": null,
     "soldout": true,
     "event_dt": null
