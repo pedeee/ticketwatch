@@ -2,6 +2,11 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
+      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733",
       "title": "Tickets for KISS CF GOODBYE #9",
       "event_dt": null
@@ -9,11 +14,6 @@
     {
       "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
       "title": "Tickets for Jembaa Groove with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
-      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
       "event_dt": null
     },
     {
@@ -67,11 +67,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
-      "title": "Tickets for Bop To The Top",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193",
       "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
@@ -82,8 +77,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
-      "title": "Tickets for The Brokes: The Strokes Experience",
+      "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
+      "title": "Tickets for Bop To The Top",
       "event_dt": null
     },
     {
@@ -92,8 +87,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
+      "title": "Tickets for The Brokes: The Strokes Experience",
       "event_dt": null
     },
     {
@@ -102,8 +97,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113",
-      "title": "Tickets for White Denim with Johanna Samuels",
+      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -112,13 +107,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853",
-      "title": "Tickets for Belmont with Avoid & Super Sometimes",
+      "url": "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113",
+      "title": "Tickets for White Denim with Johanna Samuels",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063",
       "title": "Tickets for Emo Night Toronto at Sneaky Dee's",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853",
+      "title": "Tickets for Belmont with Avoid & Super Sometimes",
       "event_dt": null
     },
     {
@@ -142,8 +142,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
-      "title": "Tickets for TRIBAL KUSH",
+      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
+      "title": "Tickets for Ewan McVicar",
       "event_dt": null
     },
     {
@@ -152,18 +152,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
-      "title": "Tickets for Ewan McVicar",
+      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
+      "title": "Tickets for GoGo Penguin with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804",
       "title": "Tickets for Rebuke",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
-      "title": "Tickets for GoGo Penguin with Special Guests",
       "event_dt": null
     },
     {
@@ -207,11 +202,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824",
-      "title": "Tickets for Peter Dreams, MOONRIIVR",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963",
       "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
       "event_dt": null
@@ -234,6 +224,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
       "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
+      "title": "Tickets for TRIBAL KUSH",
       "event_dt": null
     },
     {
@@ -302,13 +297,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "url": "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824",
+      "title": "Tickets for Peter Dreams, MOONRIIVR",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -317,18 +312,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
       "title": "Tickets for Sir Chloe with Venus & the Flytraps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
-      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
+      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
+      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
-      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
+      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
+      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
       "event_dt": null
     },
     {
