@@ -1,18 +1,12 @@
 {
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
-    "title": "Tickets for Ducks Ltd., The Tubs",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
-    "title": "Tickets for BUNT.",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304": {
     "title": "Tickets for My Favorite Headache / Tribute to Rush",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
+    "title": "Tickets for Ducks Ltd., The Tubs",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -23,8 +17,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
+    "title": "Tickets for BUNT.",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -35,14 +29,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
-    "title": "Tickets for Hotline TNT - Path of Totality",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
     "title": "Tickets for Rachael & Vilray",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
+    "title": "Tickets for Hotline TNT - Path of Totality",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -113,20 +113,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
-    "title": "Tickets for DEEPCUT",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
     "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
+    "title": "Tickets for DEEPCUT",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
+    "title": "Tickets for INOI MUSIC FESTIVAL",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -139,12 +145,6 @@
   },
   "https://www.ticketweb.ca/event/ben-bankas-the-bronson-tickets/13735124": {
     "title": "Tickets for Ben Bankas",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
-    "title": "Tickets for INOI MUSIC FESTIVAL",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -239,14 +239,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
-    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
+    "title": "Tickets for BUDDAHVIBES PRESENTS",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
-    "title": "Tickets for BUDDAHVIBES PRESENTS",
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,14 +263,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
-    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
+    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
-    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
+  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
+    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
