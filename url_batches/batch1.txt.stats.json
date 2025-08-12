@@ -2,11 +2,6 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
-      "title": "Tickets for Max Cooper, Tor",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104",
       "title": "Tickets for Chaser",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
       "title": "Tickets for Next Music from Tokyo vol 17",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
+      "title": "Tickets for Max Cooper, Tor",
       "event_dt": null
     },
     {
@@ -27,13 +27,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693",
-      "title": "Tickets for Dune Rats w/ Brain Bent & More",
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693",
+      "title": "Tickets for Dune Rats w/ Brain Bent & More",
       "event_dt": null
     },
     {
@@ -47,13 +47,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723",
-      "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193",
+      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193",
-      "title": "Tickets for Too Many Zooz: Caravan Tour",
+      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723",
+      "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
       "event_dt": null
     },
     {
@@ -112,6 +112,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
       "title": "Tickets for Autoheart - The Heartlands Tour",
       "event_dt": null
@@ -152,6 +157,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
       "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
       "event_dt": null
@@ -187,23 +197,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903",
       "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794",
-      "title": "Tickets for Surf Trash with Cheap Flavor",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794",
+      "title": "Tickets for Surf Trash with Cheap Flavor",
       "event_dt": null
     },
     {
@@ -217,13 +222,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174",
-      "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
+      "url": "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404",
+      "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404",
-      "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
+      "url": "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174",
+      "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
       "event_dt": null
     },
     {
@@ -237,11 +242,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/landmvrks-north-america-2025-union-hall-tickets/14432853",
       "title": "Tickets for LANDMVRKS \" NORTH AMERICA 2025\" TOUR - Presented ConcertWorks",
       "event_dt": null
@@ -252,14 +252,14 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
-      "event_dt": "2025-11-24T00:00:00+00:00"
-    },
-    {
       "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
       "title": "Tickets for Tony Ann - Late Show",
       "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
       "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
@@ -292,13 +292,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
-      "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
+      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
-      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
+      "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
       "event_dt": null
     },
     {
