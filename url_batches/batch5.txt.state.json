@@ -5,6 +5,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
+    "title": "Tickets for Frankie and the Witch Fingers with Population II",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
     "title": "Tickets for Dwarves, Burnt Knives, Harm School",
     "price": null,
@@ -13,12 +19,6 @@
   },
   "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423": {
     "title": "Tickets for L'Eclair with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
-    "title": "Tickets for Frankie and the Witch Fingers with Population II",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,14 +137,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
-    "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
+  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
+    "title": "Tickets for Kiesza, Anjulie",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
-    "title": "Tickets for Kiesza, Anjulie",
+  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
+    "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,14 +155,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
-    "title": "Tickets for Bambara",
+  "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
+    "title": "Tickets for Casey Lowery with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
-    "title": "Tickets for Casey Lowery with Special Guests",
+  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
+    "title": "Tickets for Bambara",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -187,12 +187,6 @@
   },
   "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
     "title": "Tickets for FELLY with Breakup Shoes",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -275,20 +269,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
+    "title": "Tickets for YIN YIN with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
     "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
-    "title": "Tickets for Hayden Pedigo, Jens Kuross",
+  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
+    "title": "Tickets for Tropical Fuck Storm with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
-    "title": "Tickets for Tropical Fuck Storm with Special Guests",
+  "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
+    "title": "Tickets for Hayden Pedigo, Jens Kuross",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -323,20 +323,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
     "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
+  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
+    "title": "Tickets for Gui Boratto",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
-    "title": "Tickets for Gui Boratto",
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -365,32 +371,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
-    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
     "title": "Tickets for Night Moves with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
-    "title": "Tickets for YIN YIN with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
-    "title": "Tickets for Improvement Movement with Special Guests",
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
+    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
     "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
+    "title": "Tickets for Improvement Movement with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
