@@ -5,14 +5,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
-    "title": "Tickets for BUNT.",
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
+    "title": "Tickets for Ducks Ltd., The Tubs",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
-    "title": "Tickets for Ducks Ltd., The Tubs",
+  "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
+    "title": "Tickets for BUNT.",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -43,12 +43,6 @@
   },
   "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
     "title": "Tickets for Ben Caplan with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,12 +101,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
     "title": "Tickets for DEEPCUT",
     "price": null,
@@ -151,6 +139,12 @@
   },
   "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
     "title": "Tickets for Ty Segall",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -203,14 +197,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
-    "title": "Tickets for Friday Night Hard Rock Show",
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764": {
     "title": "Tickets for Ben Bankas",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
+    "title": "Tickets for Friday Night Hard Rock Show",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,14 +335,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Special Guests",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -355,12 +361,6 @@
   },
   "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
     "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
