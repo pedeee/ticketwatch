@@ -2,6 +2,11 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
+      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733",
       "title": "Tickets for KISS CF GOODBYE #9",
       "event_dt": null
@@ -9,11 +14,6 @@
     {
       "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
       "title": "Tickets for Jembaa Groove with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
-      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
       "event_dt": null
     },
     {
@@ -57,13 +57,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603",
+      "title": "Tickets for Between The Buried And Me & Hail The Sun",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603",
-      "title": "Tickets for Between The Buried And Me & Hail The Sun",
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -97,13 +97,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853",
-      "title": "Tickets for Belmont with Avoid & Super Sometimes",
+      "url": "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804",
+      "title": "Tickets for LAYTON GIORDANI",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804",
-      "title": "Tickets for LAYTON GIORDANI",
+      "url": "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853",
+      "title": "Tickets for Belmont with Avoid & Super Sometimes",
       "event_dt": null
     },
     {
@@ -124,11 +124,6 @@
     {
       "url": "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314",
       "title": "Tickets for The Tallest Man On Earth, The Still Tide",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314",
-      "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
       "event_dt": null
     },
     {
@@ -172,11 +167,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
-      "title": "Tickets for Allan Rayman",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
       "title": "Tickets for Shawn Desman, Jamie Fine",
       "event_dt": null
@@ -187,13 +177,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964",
-      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
+      "title": "Tickets for Young Franco",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
-      "title": "Tickets for Young Franco",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964",
+      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
     },
     {
@@ -232,6 +222,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314",
+      "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
       "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
@@ -262,18 +257,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
-      "title": "Tickets for Anvil",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514",
       "title": "Tickets for ALEX PORAT WITH Lucette",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
+      "title": "Tickets for Anvil",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013",
       "title": "Tickets for Ingested, Ov Sulfur, CELL",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
