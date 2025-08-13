@@ -149,6 +149,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
+    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
     "price": null,
@@ -193,6 +199,12 @@
   },
   "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
     "title": "Tickets for Rend Collective Folk! Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -257,26 +269,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
-    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
     "title": "TicketWeb",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
-    "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
+  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
+    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
-    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
+    "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -317,26 +323,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
-    "title": "Tickets for Allan Rayman",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
     "title": "Tickets for Ingested, Ov Sulfur, CELL",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
-    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
+    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
