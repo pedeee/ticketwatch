@@ -17,12 +17,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
-    "title": "Tickets for DEEPCUT",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
@@ -35,6 +29,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
+    "title": "Tickets for DEEPCUT",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
     "title": "Tickets for Rachael & Vilray",
     "price": null,
@@ -43,6 +43,12 @@
   },
   "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
     "title": "Tickets for Ben Caplan with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,6 +107,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
     "title": "Tickets for DEEPCUT",
     "price": null,
@@ -149,12 +161,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524": {
     "title": "Tickets for BEN BANKAS I 51st STATE TOUR",
     "price": null,
@@ -191,20 +197,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
-    "title": "Tickets for The Haunted House Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
     "title": "Tickets for P'tit Belliveau",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
+    "title": "Tickets for The Haunted House Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -239,14 +239,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
-    "title": "Tickets for BUDDAHVIBES PRESENTS",
+  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
+    "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
-    "title": "Tickets for Corbin",
+  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
+    "title": "Tickets for BUDDAHVIBES PRESENTS",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -365,14 +365,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
-    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
+  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
+    "title": "Tickets for HOLY PRIEST",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
-    "title": "Tickets for HOLY PRIEST",
+  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
+    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
     "price": null,
     "soldout": true,
     "event_dt": null
