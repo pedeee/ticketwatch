@@ -2,6 +2,11 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733",
+      "title": "Tickets for KISS CF GOODBYE #9",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
       "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
       "event_dt": null
@@ -12,8 +17,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733",
-      "title": "Tickets for KISS CF GOODBYE #9",
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463",
+      "title": "Tickets for Autoheart: The Heartlands Tour",
       "event_dt": null
     },
     {
@@ -22,18 +27,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463",
-      "title": "Tickets for Autoheart: The Heartlands Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733",
       "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
-      "title": "Tickets for Pretty Pink",
       "event_dt": null
     },
     {
@@ -42,8 +37,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314",
-      "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
+      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
+      "title": "Tickets for Pretty Pink",
       "event_dt": null
     },
     {
@@ -92,11 +87,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
-      "title": "Tickets for Allan Rayman",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864",
       "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
       "event_dt": null
@@ -137,6 +127,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314",
+      "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424",
       "title": "Tickets for Kerala Dust",
       "event_dt": null
@@ -169,6 +164,11 @@
     {
       "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
       "title": "Tickets for ANIKA with Lauren Early",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -207,13 +207,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334",
-      "title": "Tickets for Morgan Wade",
+      "url": "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353",
+      "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353",
-      "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
+      "url": "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334",
+      "title": "Tickets for Morgan Wade",
       "event_dt": null
     },
     {
@@ -227,11 +227,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
-      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
       "title": "TicketWeb",
       "event_dt": null
@@ -239,6 +234,11 @@
     {
       "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073",
       "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
+      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
     },
     {
@@ -252,13 +252,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
-      "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
+      "url": "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053",
+      "title": "Tickets for VOLA with Daedric & Zack Brannon",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053",
-      "title": "Tickets for VOLA with Daedric & Zack Brannon",
+      "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
+      "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
       "event_dt": null
     },
     {
@@ -302,23 +302,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
       "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
       "title": "Tickets for Sir Chloe with Venus & the Flytraps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
       "event_dt": null
     },
     {
