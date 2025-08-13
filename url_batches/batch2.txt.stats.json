@@ -1,5 +1,5 @@
 {
-  "monitored_count": 69,
+  "monitored_count": 67,
   "sold_out_events": [
     {
       "url": "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733",
@@ -7,13 +7,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
-      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
+      "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
+      "title": "Tickets for Jembaa Groove with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
-      "title": "Tickets for Jembaa Groove with Special Guests",
+      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
+      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
       "event_dt": null
     },
     {
@@ -39,6 +39,16 @@
     {
       "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
       "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
+      "title": "Tickets for TRIBAL KUSH",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314",
+      "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
       "event_dt": null
     },
     {
@@ -77,13 +87,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
+      "title": "Tickets for The Brokes: The Strokes Experience",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473",
       "title": "Tickets for Autoheart: The Heartlands Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
-      "title": "Tickets for The Brokes: The Strokes Experience",
+      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -104,6 +119,11 @@
     {
       "url": "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853",
       "title": "Tickets for Belmont with Avoid & Super Sometimes",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824",
+      "title": "Tickets for Peter Dreams, MOONRIIVR",
       "event_dt": null
     },
     {
@@ -157,33 +177,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
-      "title": "Tickets for ANIKA with Lauren Early",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303",
       "title": "Tickets for Rend Collective Folk! Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
-      "title": "Tickets for Shawn Desman, Jamie Fine",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914",
-      "title": "Tickets for BAMBU ft. HILLS",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
-      "title": "Tickets for Young Franco",
+      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
+      "title": "Tickets for ANIKA with Lauren Early",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964",
       "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
+      "title": "Tickets for Young Franco",
       "event_dt": null
     },
     {
@@ -217,16 +227,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
-      "title": "Tickets for TRIBAL KUSH",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314",
-      "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
       "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
@@ -247,23 +247,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
-      "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053",
       "title": "Tickets for VOLA with Daedric & Zack Brannon",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
-      "title": "Tickets for Anvil",
+      "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
+      "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
+      "title": "Tickets for Anvil",
       "event_dt": null
     },
     {
@@ -292,11 +287,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824",
-      "title": "Tickets for Peter Dreams, MOONRIIVR",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
       "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
       "event_dt": null
@@ -317,6 +307,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
+      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
       "title": "Tickets for Sir Chloe with Venus & the Flytraps",
       "event_dt": null
@@ -324,11 +319,6 @@
     {
       "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
       "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
-      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
       "event_dt": null
     },
     {
