@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
-      "title": "Tickets for JO DOLO - Going Gold Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
       "title": "Tickets for Dwarves, Burnt Knives, Harm School",
       "event_dt": null
@@ -17,13 +12,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
-      "title": "Tickets for L'Eclair with Special Guests",
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
+      "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
+      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
+      "title": "Tickets for L'Eclair with Special Guests",
       "event_dt": null
     },
     {
@@ -44,6 +39,11 @@
     {
       "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
       "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
+      "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
@@ -92,8 +92,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
-      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour",
       "event_dt": null
     },
     {
@@ -102,8 +102,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
-      "title": "Tickets for Ken Yates - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
+      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
       "event_dt": null
     },
     {
@@ -112,8 +112,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
-      "title": "Tickets for Kiesza, Anjulie",
+      "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
+      "title": "Tickets for Ken Yates - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -122,8 +122,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
-      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
+      "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
+      "title": "Tickets for Kiesza, Anjulie",
       "event_dt": null
     },
     {
@@ -132,13 +132,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943",
-      "title": "Tickets for The Dirty Nil",
+      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
+      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383",
       "title": "Tickets for Casey Lowery with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943",
+      "title": "Tickets for The Dirty Nil",
       "event_dt": null
     },
     {
@@ -172,23 +177,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues",
-      "title": "Tickets for Boys Noize",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
       "title": "Tickets for Playhouse Presents Ilan Bluestone",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
-      "title": "Tickets for Future Palace, Half Me, Hawk",
+      "url": "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues",
+      "title": "Tickets for Boys Noize",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843",
       "title": "Tickets for Next Music from Tokyo vol 17",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
+      "title": "Tickets for Future Palace, Half Me, Hawk",
       "event_dt": null
     },
     {
@@ -202,13 +207,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "title": "Tickets for Pypy with Special Guests",
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
+      "title": "Tickets for P'Tit Belliveau with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
-      "title": "Tickets for P'Tit Belliveau with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
+      "title": "Tickets for Pypy with Special Guests",
       "event_dt": null
     },
     {
@@ -219,6 +224,11 @@
     {
       "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
       "title": "Tickets for DUKE DUMONT",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
+      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
       "event_dt": null
     },
     {
@@ -267,18 +277,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
-      "title": "Tickets for Spike and the Gimme Gimmes",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
       "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
+      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
+      "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     },
     {
@@ -287,13 +292,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour",
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -312,23 +322,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
-      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
-      "title": "Tickets for YIN YIN with Special Guests",
+      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
+      "title": "Tickets for Improvement Movement with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534",
       "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
-      "title": "Tickets for Improvement Movement with Special Guests",
       "event_dt": null
     },
     {
