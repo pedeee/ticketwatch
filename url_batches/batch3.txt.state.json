@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673": {
-    "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544": {
     "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944": {
     "title": "Tickets for Hotel Mira, Bleeker",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673": {
+    "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,12 +47,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
-    "title": "Tickets for saturdays at your place these things happen tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
     "title": "Tickets for Hotel Mira with Special Guests",
     "price": 25.0,
@@ -71,14 +65,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254": {
-    "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
+  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
+    "title": "Tickets for COONE",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
-    "title": "Tickets for COONE",
+  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
+    "title": "Tickets for Jeremy Olander (Open To Close)",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254": {
+    "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -103,12 +103,6 @@
   },
   "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883": {
     "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
-    "title": "Tickets for Jeremy Olander (Open To Close)",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -233,6 +227,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053": {
+    "title": "Tickets for Wombo w/ Ribbon Skirt",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
     "title": "Tickets for Allan Rayman",
     "price": null,
@@ -335,20 +335,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053": {
-    "title": "Tickets for Wombo w/ Ribbon Skirt",
+  "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604": {
+    "title": "Tickets for MAD CADDIES with The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233": {
     "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604": {
-    "title": "Tickets for MAD CADDIES with The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -365,14 +359,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703": {
-    "title": "Tickets for Flyte with Ken Pomeroy",
+  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
+    "title": "Tickets for saturdays at your place these things happen tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204": {
     "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703": {
+    "title": "Tickets for Flyte with Ken Pomeroy",
     "price": null,
     "soldout": true,
     "event_dt": null
