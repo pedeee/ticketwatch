@@ -42,11 +42,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
-      "title": "Tickets for YIN YIN with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
       "title": "Tickets for This Paranormal Life",
       "event_dt": null
@@ -57,18 +52,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
       "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633",
-      "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
@@ -77,8 +67,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
-      "title": "Tickets for Pixel Grip with Coatie Pop",
+      "url": "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633",
+      "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
       "event_dt": null
     },
     {
@@ -87,23 +77,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
+      "title": "Tickets for Pixel Grip with Coatie Pop",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
       "title": "Tickets for Pixel Grip with Psymon Spine",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour",
+      "url": "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173",
+      "title": "Tickets for Naethan Apollo with Mars Mignon",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
       "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173",
-      "title": "Tickets for Naethan Apollo with Mars Mignon",
       "event_dt": null
     },
     {
@@ -117,13 +107,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
-      "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
+      "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
+      "title": "Tickets for Kiesza, Anjulie",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
-      "title": "Tickets for Kiesza, Anjulie",
+      "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
+      "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
       "event_dt": null
     },
     {
@@ -207,18 +197,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
       "title": "Tickets for The Brian Jonestown Massacre with Federale",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "title": "Tickets for Pypy with Special Guests",
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
       "event_dt": null
     },
     {
@@ -227,13 +212,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "title": "Tickets for TWINSICK",
+      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
+      "title": "Tickets for Pypy with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
       "title": "Tickets for DUKE DUMONT",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
+      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -254,6 +244,11 @@
     {
       "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
       "title": "Tickets for Dakhabrakha with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour",
       "event_dt": null
     },
     {
@@ -282,18 +277,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
       "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
@@ -302,8 +292,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -312,13 +302,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
-      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
       "title": "Tickets for Night Moves with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
+      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
+      "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
