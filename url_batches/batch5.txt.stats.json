@@ -1,5 +1,5 @@
 {
-  "monitored_count": 68,
+  "monitored_count": 69,
   "sold_out_events": [
     {
       "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
@@ -12,13 +12,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
+      "title": "Tickets for L'Eclair with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673",
       "title": "Tickets for Frankie and the Witch Fingers with Population II",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
-      "title": "Tickets for L'Eclair with Special Guests",
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
       "event_dt": null
     },
     {
@@ -39,6 +44,11 @@
     {
       "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
       "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
+      "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
@@ -83,7 +93,12 @@
     },
     {
       "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
-      "title": "Tickets for Pixel Grip with Psymon Spine",
+      "title": "Tickets for Pixel Grip with Psymon Spine & God Tongue",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour",
       "event_dt": null
     },
     {
@@ -127,11 +142,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
-      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383",
       "title": "Tickets for Casey Lowery with Special Guests",
       "event_dt": null
@@ -147,11 +157,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
-      "title": "Tickets for FELLY with Breakup Shoes",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873",
       "title": "Tickets for Crypta",
       "event_dt": null
@@ -162,8 +167,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
+      "title": "Tickets for FELLY with Breakup Shoes",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
       "title": "Tickets for Sextile & Automatic",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124",
+      "title": "Tickets for NorthsideBenji",
       "event_dt": null
     },
     {
@@ -192,11 +207,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
       "title": "Tickets for The Brian Jonestown Massacre with Federale",
       "event_dt": null
@@ -219,11 +229,6 @@
     {
       "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
       "title": "Tickets for DUKE DUMONT",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
-      "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
@@ -267,11 +272,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
       "title": "Tickets for Corbin",
       "event_dt": null
@@ -307,13 +307,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
+      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
       "title": "Tickets for Night Moves with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
-      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
+      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
       "event_dt": null
     },
     {
