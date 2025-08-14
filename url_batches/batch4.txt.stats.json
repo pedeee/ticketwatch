@@ -2,8 +2,8 @@
   "monitored_count": 66,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664",
-      "title": "Tickets for Ducks Ltd., The Tubs",
+      "url": "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304",
+      "title": "Tickets for My Favorite Headache / Tribute to Rush",
       "event_dt": null
     },
     {
@@ -12,8 +12,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304",
-      "title": "Tickets for My Favorite Headache / Tribute to Rush",
+      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664",
+      "title": "Tickets for Ducks Ltd., The Tubs",
       "event_dt": null
     },
     {
@@ -39,11 +39,6 @@
     {
       "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973",
       "title": "Tickets for Ben Caplan with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593",
-      "title": "Tickets for Bay Faction with Keep",
       "event_dt": null
     },
     {
@@ -97,18 +92,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224",
-      "title": "Tickets for CARNIVAL OF DEATH TOUR 2025",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083",
       "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864",
-      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "url": "https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224",
+      "title": "Tickets for CARNIVAL OF DEATH TOUR 2025",
       "event_dt": null
     },
     {
@@ -132,8 +122,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533",
-      "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+      "url": "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593",
+      "title": "Tickets for Bay Faction with Keep",
       "event_dt": null
     },
     {
@@ -177,11 +167,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923",
-      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694",
       "title": "Tickets for Friday Night Hard Rock Show",
       "event_dt": null
@@ -202,13 +187,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883",
-      "title": "Tickets for BUDDAHVIBES PRESENTS",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864",
+      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774",
       "title": "Tickets for Corbin",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883",
+      "title": "Tickets for BUDDAHVIBES PRESENTS",
       "event_dt": null
     },
     {
@@ -239,6 +229,11 @@
     {
       "url": "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584",
       "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923",
+      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
     },
     {
@@ -307,18 +302,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533",
+      "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164",
       "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744",
-      "title": "Tickets for HOLY PRIEST",
+      "url": "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634",
+      "title": "Tickets for KUMO 99 - FALL TOUR 2025",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634",
-      "title": "Tickets for KUMO 99 - FALL TOUR 2025",
+      "url": "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744",
+      "title": "Tickets for HOLY PRIEST",
       "event_dt": null
     },
     {
