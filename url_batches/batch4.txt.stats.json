@@ -2,8 +2,8 @@
   "monitored_count": 66,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453",
-      "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
+      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393",
+      "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
       "event_dt": null
     },
     {
@@ -12,8 +12,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393",
-      "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
+      "url": "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453",
+      "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
       "event_dt": null
     },
     {
@@ -27,23 +27,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474",
-      "title": "Tickets for Nate Sib - NA LEG 2",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064",
       "title": "Tickets for Hand Habits with Olivia Kaplan",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404",
-      "title": "Tickets for Lady Wray with Special Guests",
+      "url": "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474",
+      "title": "Tickets for Nate Sib - NA LEG 2",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214",
-      "title": "Tickets for Bed By 10pm Summer Edition",
+      "url": "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404",
+      "title": "Tickets for Lady Wray with Special Guests",
       "event_dt": null
     },
     {
@@ -57,8 +52,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214",
+      "title": "Tickets for Bed By 10pm Summer Edition",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983",
       "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263",
+      "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
       "event_dt": null
     },
     {
@@ -127,11 +132,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023",
-      "title": "Tickets for Model/Actriz with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923",
       "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
@@ -169,11 +169,6 @@
     {
       "url": "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614",
       "title": "Tickets for Rachael & Vilray",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263",
-      "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
       "event_dt": null
     },
     {
@@ -217,23 +212,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664",
-      "title": "Tickets for Stereotype Friday's Pres: Zerb",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654",
       "title": "Tickets for SABAI - I'M ALRIGHT TOUR",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013",
-      "title": "Tickets for The Deep Dark Woods with Bob Sumner",
+      "url": "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664",
+      "title": "Tickets for Stereotype Friday's Pres: Zerb",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284",
       "title": "Tickets for DEEPCUT",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013",
+      "title": "Tickets for The Deep Dark Woods with Bob Sumner",
       "event_dt": null
     },
     {
@@ -304,6 +299,11 @@
     {
       "url": "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613",
       "title": "Tickets for The Haunted House Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023",
+      "title": "Tickets for Model/Actriz with Special Guests",
       "event_dt": null
     },
     {
