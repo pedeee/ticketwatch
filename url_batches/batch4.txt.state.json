@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304": {
-    "title": "Tickets for My Favorite Headache / Tribute to Rush",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664": {
     "title": "Tickets for Ducks Ltd., The Tubs",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
     "title": "Tickets for BUNT.",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304": {
+    "title": "Tickets for My Favorite Headache / Tribute to Rush",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -53,14 +53,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
-    "title": "Tickets for JO DOLO: Going Gold Tour",
+  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
+    "title": "Tickets for Kota The Friend",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
-    "title": "Tickets for Kota The Friend",
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,26 +101,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
-    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
     "title": "Tickets for DEEPCUT",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
-    "title": "Tickets for INOI MUSIC FESTIVAL",
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
+    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224": {
     "title": "Tickets for CARNIVAL OF DEATH TOUR 2025",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
+    "title": "Tickets for INOI MUSIC FESTIVAL",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,8 +137,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
-    "title": "Tickets for Bay Faction with Keep",
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -161,26 +161,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
-    "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843": {
     "title": "Tickets for Dan Mangan, Bells Larsen",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
-    "title": "Tickets for Ari Abdul - Change Tour",
+  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
+    "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063": {
     "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
+    "title": "Tickets for Ari Abdul - Change Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -193,6 +193,12 @@
   },
   "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
     "title": "Tickets for The Haunted House Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -217,12 +223,6 @@
   },
   "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
     "title": "Tickets for Amy Millan",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -257,8 +257,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
+    "title": "Tickets for Bay Faction with Keep",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
-    "title": "Tickets for Nate Sib - NA LEG 2",
+  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
+    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
-    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
+  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
+    "title": "Tickets for Nate Sib - NA LEG 2",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,12 +305,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
     "title": "Tickets for Lady Wray with Special Guests",
     "price": null,
@@ -323,20 +317,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214": {
-    "title": "Tickets for Bed By 10pm Summer Edition",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
     "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214": {
+    "title": "Tickets for Bed By 10pm Summer Edition",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
     "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
