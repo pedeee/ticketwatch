@@ -23,20 +23,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053": {
-    "title": "Tickets for Wombo w/ Ribbon Skirt",
+  "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
+    "title": "Tickets for Sun Kil Moon",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213": {
     "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
-    "title": "Tickets for Sun Kil Moon",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -49,6 +43,12 @@
   },
   "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203": {
     "title": "Tickets for PUP, Snotty Nose Rez Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
+    "title": "Tickets for saturdays at your place these things happen tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,6 +107,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
+    "title": "Tickets for Jeremy Olander (Open To Close)",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
     "title": "Tickets for Sun Kil Moon",
     "price": null,
@@ -149,20 +155,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963": {
-    "title": "Tickets for Allan Rayman",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614": {
     "title": "Tickets for DIMENSION",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343": {
-    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
+  "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -173,14 +173,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343": {
+    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234": {
     "title": "Tickets for Revocation, Judiciary, Inferi, Vomit Forth",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -257,12 +263,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
-    "title": "Tickets for Jeremy Olander (Open To Close)",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363": {
     "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
     "price": null,
@@ -335,8 +335,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233": {
-    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+  "https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053": {
+    "title": "Tickets for Wombo w/ Ribbon Skirt",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -347,8 +347,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713": {
-    "title": "Tickets for saturdays at your place these things happen tour",
+  "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233": {
+    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/r3wire-coda-tickets/13882894?REFERRAL_ID=twvenues": {
+    "title": "Tickets for Guaranteed Entry: R3WIRE",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,8 +365,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/r3wire-coda-tickets/13882894?REFERRAL_ID=twvenues": {
-    "title": "Tickets for Guaranteed Entry: R3WIRE",
+  "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204": {
+    "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -373,12 +379,6 @@
   },
   "https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913": {
     "title": "Tickets for The Dears with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204": {
-    "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
     "price": null,
     "soldout": true,
     "event_dt": null
