@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
-    "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733": {
     "title": "Tickets for KISS CF GOODBYE #9",
     "price": null,
@@ -17,14 +11,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463": {
-    "title": "Tickets for Autoheart: The Heartlands Tour",
+  "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
+    "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
-    "title": "Tickets for Peter Dreams, MOONRIIVR",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463": {
+    "title": "Tickets for Autoheart: The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,6 +41,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
+    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784": {
     "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
     "price": null,
@@ -65,26 +65,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
-    "title": "Tickets for Johnny Stimson",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
     "title": "Tickets for Between The Buried And Me & Hail The Sun",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+  "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
+    "title": "Tickets for Johnny Stimson",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
     "title": "Tickets for Bop To The Top",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -97,6 +97,12 @@
   },
   "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163": {
     "title": "Tickets for The Brokes: The Strokes Experience",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -167,20 +173,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954": {
-    "title": "Tickets for Ewan McVicar",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804": {
     "title": "Tickets for Rebuke",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
-    "title": "Tickets for GoGo Penguin with Special Guests",
+  "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954": {
+    "title": "Tickets for Ewan McVicar",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -191,8 +191,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
-    "title": "Tickets for ANIKA with Lauren Early",
+  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
+    "title": "Tickets for GoGo Penguin with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -203,14 +203,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473": {
-    "title": "Tickets for Shawn Desman, Jamie Fine",
+  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
+    "title": "Tickets for ANIKA with Lauren Early",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914": {
     "title": "Tickets for BAMBU ft. HILLS",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473": {
+    "title": "Tickets for Shawn Desman, Jamie Fine",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,26 +269,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
-    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
     "title": "Tickets for Brat Summer - Charli XCX Dance Party",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
-    "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
+  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
+    "title": "TicketWeb",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974": {
     "title": "Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
+    "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -317,12 +323,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
-    "title": "Tickets for Allan Rayman",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
     "title": "Tickets for Ingested, Ov Sulfur, CELL",
     "price": null,
@@ -353,6 +353,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
+    "title": "Tickets for Peter Dreams, MOONRIIVR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
@@ -377,20 +383,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
-    "title": "TicketWeb",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
     "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
-    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -401,14 +395,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
-    "title": "Tickets for Alicia Moffet, Dominique Way",
+  "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
+    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
     "title": "Tickets for JO DOLO: Going Gold Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
+    "title": "Tickets for Alicia Moffet, Dominique Way",
     "price": null,
     "soldout": true,
     "event_dt": null
