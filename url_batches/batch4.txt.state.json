@@ -1,18 +1,12 @@
 {
-  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
-    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
     "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
+    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -23,14 +17,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
-    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
     "title": "Tickets for Nate Sib - NA LEG 2",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
+    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -43,6 +43,12 @@
   },
   "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
     "title": "Tickets for Lady Wray with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -65,14 +71,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
-    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Pacifica",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Pacifica",
+  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
+    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,14 +107,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
-    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
+  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
+    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
-    "title": "Tickets for HOLY PRIEST",
+  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
+    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -119,14 +125,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
-    "title": "Tickets for KOMPANY - NEMESIS TOUR",
+  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
+    "title": "Tickets for HOLY PRIEST",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
     "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
+    "title": "Tickets for KOMPANY - NEMESIS TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -151,12 +163,6 @@
   },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -209,8 +215,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
-    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
+    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,8 +227,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
-    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
+  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
+    "title": "Tickets for Kota The Friend",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -233,20 +239,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
-    "title": "Tickets for Kota The Friend",
+  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
+    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
     "title": "Tickets for Balu Brigada with Tommy Newport",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
-    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -275,14 +275,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
-    "title": "Tickets for DEEPCUT",
+  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
+    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
-    "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
+  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
+    "title": "Tickets for DEEPCUT",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -323,14 +323,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
-    "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
+    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sunnyside-sessions-ft-nora-en-sunnyside-pavilion-tickets/14424723": {
-    "title": "Tickets for Sunnyside Sessions ft. Nora En Pure",
+  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673": {
+    "title": "Tickets for MAD CADDIES w/ Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
