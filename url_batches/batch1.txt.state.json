@@ -5,20 +5,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
-    "title": "Tickets for David Archuleta with Alexandra John",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
     "title": "Tickets for Haru Nemuri - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
-    "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
+  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
+    "title": "Tickets for David Archuleta with Alexandra John",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
+    "title": "Tickets for Amistat, Emily James",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -35,6 +35,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
+    "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/landmvrks-north-america-2025-union-hall-tickets/14432853": {
     "title": "Tickets for LANDMVRKS \" NORTH AMERICA 2025\" TOUR - Presented ConcertWorks",
     "price": null,
@@ -43,12 +49,6 @@
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
-    "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -89,26 +89,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
-    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
     "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
-    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
+    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
+    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -161,6 +155,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
+    "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
@@ -197,20 +197,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744": {
-    "title": "Tickets for Ethan Low - Presented By F7 Live",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-modern-love-tickets/14420693": {
     "title": "Tickets for Dune Rats w/ Brain Bent & More",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
-    "title": "Tickets for Pile with NNAMDI & Down The Lees",
+  "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,8 +221,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour",
+  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
+    "title": "Tickets for Pile with NNAMDI & Down The Lees",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -233,8 +233,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
-    "title": "Tickets for Amistat, Emily James",
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -287,20 +287,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
-    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243": {
     "title": "Tickets for Comeback Kid, Prowl, Punitive Damage",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -311,14 +305,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
-    "title": "Tickets for Autoheart - The Heartlands Tour",
+  "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
+    "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
     "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
+    "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,14 +335,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
+    "title": "Tickets for Yung Singh",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
-    "title": "Tickets for Yung Singh",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
