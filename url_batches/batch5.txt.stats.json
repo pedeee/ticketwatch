@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
-      "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
       "title": "Tickets for Tropical Fuck Storm with Special Guests",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
       "title": "Tickets for Future Palace, Half Me, Hawk",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
+      "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
       "event_dt": null
     },
     {
@@ -52,11 +52,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "title": "Tickets for TWINSICK",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
       "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
@@ -72,13 +67,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -99,11 +94,6 @@
     {
       "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
       "title": "Tickets for Night Moves with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
-      "title": "Tickets for DUKE DUMONT",
       "event_dt": null
     },
     {
@@ -137,18 +127,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
       "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
       "title": "Tickets for Autoheart - The Heartlands Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
+      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -187,6 +182,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
+      "title": "Tickets for DUKE DUMONT",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
       "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
       "event_dt": null
@@ -222,13 +222,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
-      "title": "Tickets for Pixel Grip with Coatie Pop",
+      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
+      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
+      "title": "Tickets for Pixel Grip with Coatie Pop",
       "event_dt": null
     },
     {
@@ -332,13 +332,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
-      "title": "Tickets for The Brian Jonestown Massacre with Federale",
+      "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
+      "title": "Tickets for The Exploited, Burnt Knives",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
-      "title": "Tickets for The Exploited, Burnt Knives",
+      "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
+      "title": "Tickets for The Brian Jonestown Massacre with Federale",
       "event_dt": null
     },
     {
