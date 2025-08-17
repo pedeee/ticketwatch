@@ -23,20 +23,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
-    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
+    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
     "title": "Tickets for Nate Sib - NA LEG 2",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
-    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -49,6 +43,12 @@
   },
   "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
     "title": "Tickets for Lady Wray with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -77,14 +77,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654": {
-    "title": "Tickets for New Delta w/ low midi & Taylynn",
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Pacifica",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Pacifica",
+  "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654": {
+    "title": "Tickets for New Delta w/ low midi & Taylynn",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,26 +101,32 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
-    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083": {
     "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634": {
-    "title": "Tickets for KUMO 99 - FALL TOUR 2025",
+  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
+    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
+    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
     "title": "Tickets for HOLY PRIEST",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634": {
+    "title": "Tickets for KUMO 99 - FALL TOUR 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,20 +143,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
     "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -163,6 +163,12 @@
   },
   "https://www.ticketweb.ca/event/my-favorite-headache-tribute-the-rockpile-bar-nightclub-tickets/13879304": {
     "title": "Tickets for My Favorite Headache / Tribute to Rush",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -191,14 +197,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
-    "title": "Tickets for Hotline TNT - Path of Totality",
+  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
+    "title": "Tickets for Rachael & Vilray",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
-    "title": "Tickets for Rachael & Vilray",
+  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
+    "title": "Tickets for Hotline TNT - Path of Totality",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -239,14 +245,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
-    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
+  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
+    "title": "Tickets for Stereotype Friday's Pres: Zerb",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
-    "title": "Tickets for Stereotype Friday's Pres: Zerb",
+  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
+    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,6 +341,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063": {
     "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
     "price": null,
@@ -353,18 +365,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
-    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
     "title": "Tickets for Friday Night Hard Rock Show",
     "price": null,
@@ -377,14 +377,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
-    "title": "Tickets for Corbin",
+  "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
+    "title": "Tickets for Amy Millan",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
-    "title": "Tickets for Amy Millan",
+  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
+    "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
