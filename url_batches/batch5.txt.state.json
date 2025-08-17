@@ -5,14 +5,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
-    "title": "Tickets for Future Palace, Half Me, Hawk",
+  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
+    "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
-    "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
+  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
+    "title": "Tickets for Future Palace, Half Me, Hawk",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -23,14 +23,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
-    "title": "Tickets for Dakhabrakha",
+  "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
+    "title": "Tickets for ATRIP",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
-    "title": "Tickets for ATRIP",
+  "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
+    "title": "Tickets for Dakhabrakha",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,14 +47,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
-    "title": "Tickets for Corbin",
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
+  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
+    "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -125,12 +125,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
     "title": "Tickets for BONUS STAGE ULTIMATE",
     "price": null,
@@ -161,26 +155,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
-    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
     "title": "Tickets for Autoheart - The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
-    "title": "Tickets for Frankie and the Witch Fingers with Population II",
+  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
+    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
     "title": "Tickets for JO DOLO - Going Gold Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
+    "title": "Tickets for Frankie and the Witch Fingers with Population II",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -209,14 +203,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
-    "title": "Tickets for This Paranormal Life",
+  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
+    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
-    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
+    "title": "Tickets for This Paranormal Life",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -235,6 +229,12 @@
   },
   "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
     "title": "Tickets for Night Tapes - portals//polarities World Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
