@@ -11,20 +11,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
-    "title": "Tickets for Future Palace, Half Me, Hawk",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714": {
     "title": "Tickets for Hayden Pedigo, Jens Kuross",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
+    "title": "Tickets for Future Palace, Half Me, Hawk",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -35,14 +29,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
-    "title": "Tickets for ATRIP",
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
-    "title": "Tickets for The Exploited, Spades GT",
+  "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
+    "title": "Tickets for ATRIP",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -53,8 +47,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
+    "title": "Tickets for The Exploited, Spades GT",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
     "title": "Tickets for Corbin",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -71,20 +77,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
     "title": "Tickets for Sacrifice",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,26 +107,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
-    "title": "Tickets for Skinshape with Sons of Sevilla",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
-    "title": "Tickets for DUKE DUMONT",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
     "title": "Tickets for Night Moves with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
+    "title": "Tickets for Skinshape with Sons of Sevilla",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
     "title": "Tickets for Improvement Movement with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
+    "title": "Tickets for DUKE DUMONT",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -227,26 +227,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
-    "title": "Tickets for This Paranormal Life",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
     "title": "Tickets for Wombo with Shower Curtain",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
-    "title": "Tickets for Fly By Midnight with Special Guests",
+  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
+    "title": "Tickets for This Paranormal Life",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
     "title": "Tickets for Night Tapes - portals//polarities World Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
+    "title": "Tickets for Fly By Midnight with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,26 +281,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
-    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
     "title": "Tickets for Naethan Apollo with Mars Mignon",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
-    "title": "Tickets for Ken Yates - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
+    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
     "title": "Tickets for Anvil",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
+    "title": "Tickets for Ken Yates - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -317,14 +317,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
-    "title": "Tickets for Bambara",
+  "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694": {
+    "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694": {
-    "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
+  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
+    "title": "Tickets for Bambara",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -341,20 +341,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873": {
-    "title": "Tickets for Crypta",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
     "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
-    "title": "Tickets for Castle Rat with Faerie Ring",
+  "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873": {
+    "title": "Tickets for Crypta",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -365,14 +359,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
-    "title": "Tickets for NorthsideBenji",
+  "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
+    "title": "Tickets for Castle Rat with Faerie Ring",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013": {
     "title": "Tickets for Sextile & Automatic",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
     "price": null,
     "soldout": true,
     "event_dt": null
