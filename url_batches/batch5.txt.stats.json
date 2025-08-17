@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
-      "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
       "title": "Tickets for Tropical Fuck Storm with Special Guests",
       "event_dt": null
@@ -17,13 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
-      "title": "Tickets for Hayden Pedigo, Jens Kuross",
+      "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
+      "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
       "title": "Tickets for Dakhabrakha",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
+      "title": "Tickets for Hayden Pedigo, Jens Kuross",
       "event_dt": null
     },
     {
@@ -44,6 +44,11 @@
     {
       "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
       "title": "Tickets for Corbin",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
+      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -92,6 +97,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
+      "title": "Tickets for DUKE DUMONT",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
       "title": "Tickets for Improvement Movement with Special Guests",
       "event_dt": null
@@ -117,13 +127,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
+      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
+      "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
-      "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
       "event_dt": null
     },
     {
@@ -137,13 +147,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
-      "title": "Tickets for JO DOLO - Going Gold Tour",
+      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
+      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
-      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
+      "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
     },
     {
@@ -157,13 +167,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283",
-      "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
+      "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
+      "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
-      "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
+      "url": "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283",
+      "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
       "event_dt": null
     },
     {
@@ -207,13 +217,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
+      "title": "Tickets for Pixel Grip with Coatie Pop",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
-      "title": "Tickets for Pixel Grip with Coatie Pop",
+      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
+      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -237,23 +247,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
-      "title": "Tickets for Ken Yates - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
       "title": "Tickets for Kiesza, Anjulie",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
-      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
+      "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
+      "title": "Tickets for Ken Yates - Presented By F7 Live",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
       "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
+      "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
       "event_dt": null
     },
     {
@@ -267,18 +277,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
-      "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943",
       "title": "Tickets for The Dirty Nil",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
-      "title": "Tickets for FELLY with Breakup Shoes",
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
+      "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
       "event_dt": null
     },
     {
@@ -287,8 +292,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
-      "title": "Tickets for DUKE DUMONT",
+      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
+      "title": "Tickets for FELLY with Breakup Shoes",
       "event_dt": null
     },
     {
@@ -314,11 +319,6 @@
     {
       "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
       "title": "Tickets for Playhouse Presents Ilan Bluestone",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
