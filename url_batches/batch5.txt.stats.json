@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
-      "title": "Tickets for Tropical Fuck Storm with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
       "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
       "title": "Tickets for Future Palace, Half Me, Hawk",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
+      "title": "Tickets for Tropical Fuck Storm with Special Guests",
       "event_dt": null
     },
     {
@@ -32,13 +32,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583",
-      "title": "Tickets for The Exploited, Spades GT",
+      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
+      "title": "Tickets for RIELL with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
-      "title": "Tickets for RIELL with Special Guests",
+      "url": "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583",
+      "title": "Tickets for The Exploited, Spades GT",
       "event_dt": null
     },
     {
@@ -47,18 +47,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "title": "Tickets for TWINSICK",
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
       "title": "Tickets for Spike and the Gimme Gimmes",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
@@ -97,11 +92,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
-      "title": "Tickets for DUKE DUMONT",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
       "title": "Tickets for Improvement Movement with Special Guests",
       "event_dt": null
@@ -134,6 +124,11 @@
     {
       "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
       "title": "Tickets for Maria Somerville with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
+      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -172,13 +167,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283",
-      "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
+      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
+      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
-      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
+      "url": "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283",
+      "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
       "event_dt": null
     },
     {
@@ -187,18 +182,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
+      "title": "Tickets for DUKE DUMONT",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
       "title": "Tickets for This Paranormal Life",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
-      "title": "Tickets for Wombo with Shower Curtain",
+      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
+      "title": "Tickets for Fly By Midnight with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
-      "title": "Tickets for Fly By Midnight with Special Guests",
+      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
+      "title": "Tickets for Wombo with Shower Curtain",
       "event_dt": null
     },
     {
@@ -242,13 +242,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394",
-      "title": "Tickets for Anvil",
+      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
+      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
-      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+      "url": "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394",
+      "title": "Tickets for Anvil",
       "event_dt": null
     },
     {
@@ -272,18 +272,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383",
-      "title": "Tickets for Casey Lowery with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844",
       "title": "Tickets for Bambara",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
-      "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
+      "url": "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383",
+      "title": "Tickets for Casey Lowery with Special Guests",
       "event_dt": null
     },
     {
@@ -292,8 +287,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
-      "title": "Tickets for FELLY with Breakup Shoes",
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
+      "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
       "event_dt": null
     },
     {
@@ -302,13 +297,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
-      "title": "Tickets for Castle Rat with Faerie Ring",
+      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
+      "title": "Tickets for FELLY with Breakup Shoes",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
       "title": "Tickets for Sextile & Automatic",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
+      "title": "Tickets for Castle Rat with Faerie Ring",
       "event_dt": null
     },
     {
