@@ -2,16 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
-      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073",
       "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
       "event_dt": null
@@ -19,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964",
       "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
+      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
     },
     {
@@ -127,13 +122,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824",
-      "title": "Tickets for Peter Dreams, MOONRIIVR",
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863",
+      "title": "Tickets for JO DOLO: Going Gold Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863",
-      "title": "Tickets for JO DOLO: Going Gold Tour",
+      "url": "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824",
+      "title": "Tickets for Peter Dreams, MOONRIIVR",
       "event_dt": null
     },
     {
@@ -212,6 +207,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
       "title": "Tickets for Bop To The Top",
       "event_dt": null
@@ -237,13 +237,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804",
-      "title": "Tickets for LAYTON GIORDANI",
+      "url": "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113",
+      "title": "Tickets for White Denim with Johanna Samuels & Sam Plecker",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113",
-      "title": "Tickets for White Denim with Johanna Samuels & Sam Plecker",
+      "url": "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804",
+      "title": "Tickets for LAYTON GIORDANI",
       "event_dt": null
     },
     {
@@ -257,13 +257,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
+      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174",
+      "title": "Tickets for The Brokes: The Strokes Experience",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174",
-      "title": "Tickets for The Brokes: The Strokes Experience",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
