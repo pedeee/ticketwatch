@@ -2,6 +2,11 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
+      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
       "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
@@ -9,11 +14,6 @@
     {
       "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183",
       "title": "Tickets for Next Music from Tokyo vol 17",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
-      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
       "event_dt": null
     },
     {
@@ -29,11 +29,6 @@
     {
       "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
       "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
-      "title": "Tickets for Tony Ann - Late Show",
       "event_dt": null
     },
     {
@@ -67,23 +62,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864",
       "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104",
-      "title": "Tickets for Chaser",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
       "title": "Tickets for Max Cooper, Tor",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104",
+      "title": "Tickets for Chaser",
       "event_dt": null
     },
     {
@@ -132,6 +127,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
+      "title": "Tickets for Too Many Zooz: Caravan Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403",
       "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
       "event_dt": null
@@ -167,6 +167,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343",
       "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
       "event_dt": null
@@ -182,13 +187,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour",
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -209,11 +214,6 @@
     {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
       "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
-      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
@@ -252,11 +252,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
@@ -292,13 +287,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174",
-      "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
+      "url": "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404",
+      "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404",
-      "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "event_dt": "2025-11-24T00:00:00+00:00"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174",
+      "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
       "event_dt": null
     },
     {
@@ -317,9 +317,9 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
-      "event_dt": "2025-11-24T00:00:00+00:00"
+      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
+      "title": "Tickets for Tony Ann - Late Show",
+      "event_dt": null
     }
   ]
 }
