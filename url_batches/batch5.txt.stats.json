@@ -1,6 +1,11 @@
 {
-  "monitored_count": 68,
+  "monitored_count": 69,
   "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
+      "title": "Tickets for Tropical Fuck Storm with Special Guests",
+      "event_dt": null
+    },
     {
       "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
       "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
@@ -12,23 +17,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
-      "title": "Tickets for P'Tit Belliveau with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
       "title": "Tickets for Hayden Pedigo, Jens Kuross",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
-      "title": "Tickets for ATRIP",
+      "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
+      "title": "Tickets for Dakhabrakha",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
-      "title": "Tickets for Dakhabrakha",
+      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
+      "title": "Tickets for ATRIP",
       "event_dt": null
     },
     {
@@ -44,6 +44,11 @@
     {
       "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
       "title": "Tickets for Corbin",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
+      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -92,6 +97,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
+      "title": "Tickets for DUKE DUMONT",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
       "title": "Tickets for Improvement Movement with Special Guests",
       "event_dt": null
@@ -117,6 +127,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
+      "title": "Tickets for P'Tit Belliveau with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
       "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
       "event_dt": null
@@ -129,11 +144,6 @@
     {
       "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
       "title": "Tickets for YIN YIN with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -174,11 +184,6 @@
     {
       "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
       "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
-      "title": "Tickets for DUKE DUMONT",
       "event_dt": null
     },
     {
@@ -332,13 +337,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "title": "Tickets for Pypy with Special Guests",
+      "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
+      "title": "Tickets for The Brian Jonestown Massacre with Federale",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
-      "title": "Tickets for The Brian Jonestown Massacre with Federale",
+      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
+      "title": "Tickets for Pypy with Special Guests",
       "event_dt": null
     }
   ]
