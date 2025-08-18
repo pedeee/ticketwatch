@@ -1,6 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
-    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
+    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -11,20 +11,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
-    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
-    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
+  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
+    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
     "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
+    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -149,12 +149,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
     "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
@@ -199,12 +193,6 @@
   },
   "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
     "title": "Tickets for Rachael & Vilray",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
-    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,26 +251,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
-    "title": "Tickets for DEEPCUT",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
     "title": "Tickets for The Deep Dark Woods with Bob Sumner",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224": {
-    "title": "Tickets for CARNIVAL OF DEATH TOUR 2025",
+  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801284": {
+    "title": "Tickets for DEEPCUT",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ TrippySixxx, Potent L, Artillery, Spark Houston, Tommy Belmont",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224": {
+    "title": "Tickets for CARNIVAL OF DEATH TOUR 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -347,8 +335,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063": {
-    "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
+  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
+    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,8 +347,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063": {
+    "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
     "title": "Tickets for The Haunted House Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
