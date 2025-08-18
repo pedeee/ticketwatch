@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
-    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
     "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025",
     "price": null,
@@ -13,6 +7,18 @@
   },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
+    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -143,14 +149,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
-    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
+    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -337,12 +343,6 @@
   },
   "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764": {
     "title": "Tickets for Ari Abdul - Change Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
-    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
     "price": null,
     "soldout": true,
     "event_dt": null
