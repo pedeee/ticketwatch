@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
-    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
+    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -113,20 +113,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
-    "title": "Tickets for TOPS",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
     "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334": {
-    "title": "Tickets for Morgan Wade",
+  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
+    "title": "Tickets for TOPS",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -251,14 +245,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
+    "title": "Tickets for Bop To The Top",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
-    "title": "Tickets for Bop To The Top",
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,20 +353,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334": {
+    "title": "Tickets for Morgan Wade",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/guaranteed-entry-4x2-coda-tickets/13911304": {
     "title": "Tickets for Guaranteed Entry: 4x2",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
-    "title": "Tickets for Rend Collective Folk! Tour",
+  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
+    "title": "Tickets for ANIKA with Lauren Early",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
-    "title": "Tickets for ANIKA with Lauren Early",
+  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
+    "title": "Tickets for Rend Collective Folk! Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
