@@ -4,7 +4,7 @@
 https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544  # Tickets for Self Deception - No date found
 https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494  # TicketWeb - No date found
 https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644  # Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven - No date found
-https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063  # Tickets for Emo Night Toronto at Sneaky Dee's - TICKETS AT THE DOOR - No date found
+https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063  # Unknown Event - No date found
 https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914  # Tickets for BAMBU ft. HILLS - No date found
 https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214  # Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows - No date found
 https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384  # Tickets for EDEN: A Midsummer Night's Fantasy - No date found
@@ -27,7 +27,7 @@ https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314
 https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733  # Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - No date found
 https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113  # Tickets for White Denim with Johanna Samuels & Sam Plecker - No date found
 https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024  # Tickets for ANIKA with Lauren Early - No date found
-https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073  # Tickets for GoldLink Presents "Enoch" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM - No date found
+https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073  # Unknown Event - No date found
 https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074  # Tickets for BABYTRON - No date found
 https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733  # Tickets for KISS CF GOODBYE #9 - No date found
 https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693  # Tickets for The Chameleons : Arctic Moon Tour 2025 - No date found
@@ -52,14 +52,14 @@ https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets
 https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773  # Tickets for TOPS - No date found
 https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues  # Tickets for Pretty Pink - No date found
 https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804  # Tickets for LAYTON GIORDANI - No date found
-https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303  # Tickets for Rend Collective Folk! Tour - No date found
+https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303  # Unknown Event - No date found
 https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974  # Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek - No date found
 https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703  # Tickets for Sir Chloe with Venus & the Flytraps - No date found
-https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463  # Tickets for Autoheart: The Heartlands Tour - No date found
+https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463  # Unknown Event - No date found
 https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473  # Tickets for Autoheart: The Heartlands Tour - No date found
 https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603  # Tickets for GoGo Penguin with Special Guests - No date found
 https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - No date found
-https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - No date found
+https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163  # Unknown Event - No date found
 https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913  # Tickets for Allan Rayman - No date found
 https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - No date found
 https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424  # Tickets for Kerala Dust - No date found
