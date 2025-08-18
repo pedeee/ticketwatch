@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
-      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073",
       "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964",
       "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
+      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
     },
     {
@@ -47,6 +47,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
+      "title": "Tickets for Blue Hawaii",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
       "title": "Tickets for Self Deception",
       "event_dt": null
@@ -67,11 +72,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
       "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
@@ -82,23 +82,28 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
-      "title": "Tickets for Anvil",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
       "title": "Tickets for BABYTRON",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
-      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
+      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
+      "title": "Tickets for Anvil",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
       "title": "Tickets for Sir Chloe with Venus & the Flytraps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
+      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
       "event_dt": null
     },
     {
@@ -167,18 +172,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
-      "title": "Tickets for Pretty Pink",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733",
       "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644",
-      "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
+      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
+      "title": "Tickets for Pretty Pink",
       "event_dt": null
     },
     {
@@ -187,13 +187,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543",
-      "title": "Tickets for Johnny Stimson",
+      "url": "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644",
+      "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184",
       "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543",
+      "title": "Tickets for Johnny Stimson",
       "event_dt": null
     },
     {
@@ -212,13 +217,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
-      "title": "Tickets for The Brokes: The Strokes Experience",
+      "url": "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693",
+      "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693",
-      "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
+      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
+      "title": "Tickets for The Brokes: The Strokes Experience",
       "event_dt": null
     },
     {
@@ -252,13 +257,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
+      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174",
+      "title": "Tickets for The Brokes: The Strokes Experience",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174",
-      "title": "Tickets for The Brokes: The Strokes Experience",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
@@ -272,13 +277,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
-      "title": "Tickets for Ewan McVicar",
+      "url": "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023",
+      "title": "Tickets for gunnr - North America Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023",
-      "title": "Tickets for gunnr - North America Tour",
+      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
+      "title": "Tickets for Ewan McVicar",
       "event_dt": null
     },
     {
@@ -317,11 +322,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
-      "title": "Tickets for Blue Hawaii",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914",
       "title": "Tickets for BAMBU ft. HILLS",
       "event_dt": null
@@ -332,13 +332,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963",
-      "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
+      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803",
+      "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803",
-      "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
+      "url": "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963",
+      "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
       "event_dt": null
     },
     {
