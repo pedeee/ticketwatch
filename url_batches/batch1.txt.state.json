@@ -1,12 +1,12 @@
 {
-  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
-    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
+    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
-    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
+  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
+    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -23,8 +23,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
-    "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
+  "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
+    "title": "Tickets for Amistat, Emily James",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -35,8 +35,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
+    "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,8 +47,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
-    "title": "Tickets for Tony Ann - Late Show",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -58,6 +58,12 @@
     "price": null,
     "soldout": true,
     "event_dt": "2025-11-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
+    "title": "Tickets for Tony Ann - Late Show",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
   },
   "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
     "title": "Tickets for Iniko - Awakening The Empire North American Tour",
@@ -95,14 +101,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793": {
-    "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
+    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
-    "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+  "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793": {
+    "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -115,12 +121,6 @@
   },
   "https://www.ticketweb.ca/event/deltron3030-the-concert-hall-tickets/14389983": {
     "title": "Tickets for DELTRON3030",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804": {
-    "title": "Tickets for Amistat, Emily James",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -173,14 +173,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
+  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
+    "title": "Tickets for Chaser",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
-    "title": "Tickets for Chaser",
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -245,20 +245,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223": {
     "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
-    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -267,6 +261,12 @@
     "title": "Tickets for Darren Kiely",
     "price": 25.0,
     "soldout": false,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
+    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+    "price": null,
+    "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
@@ -281,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
