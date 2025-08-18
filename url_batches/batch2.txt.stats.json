@@ -2,13 +2,13 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073",
-      "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
+      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
+      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
-      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
+      "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073",
+      "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
       "event_dt": null
     },
     {
@@ -19,6 +19,11 @@
     {
       "url": "https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974",
       "title": "Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334",
+      "title": "Tickets for Morgan Wade",
       "event_dt": null
     },
     {
@@ -42,18 +47,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
-      "title": "Tickets for Blue Hawaii",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013",
       "title": "Tickets for Ingested, Ov Sulfur, CELL",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344",
-      "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
+      "title": "Tickets for Blue Hawaii",
       "event_dt": null
     },
     {
@@ -62,13 +62,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
-      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344",
+      "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
       "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
+      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
       "event_dt": null
     },
     {
@@ -82,13 +87,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
-      "title": "Tickets for Anvil",
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
+      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
+      "title": "Tickets for Anvil",
       "event_dt": null
     },
     {
@@ -102,23 +107,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
-      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
       "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
-      "title": "Tickets for Alicia Moffet, Dominique Way",
+      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
+      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773",
       "title": "Tickets for TOPS",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
+      "title": "Tickets for Alicia Moffet, Dominique Way",
       "event_dt": null
     },
     {
@@ -182,13 +187,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644",
-      "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
+      "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
+      "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
-      "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
+      "url": "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644",
+      "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
       "event_dt": null
     },
     {
@@ -247,6 +252,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063",
+      "title": "Tickets for Emo Night Toronto at Sneaky Dee's - TICKETS AT THE DOOR",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853",
       "title": "Tickets for Belmont with Avoid & Super Sometimes",
       "event_dt": null
@@ -257,18 +267,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063",
-      "title": "Tickets for Emo Night Toronto at Sneaky Dee's - TICKETS AT THE DOOR",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314",
       "title": "Tickets for The Tallest Man On Earth, The Still Tide",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
@@ -282,28 +287,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804",
-      "title": "Tickets for Rebuke",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
       "title": "Tickets for Ewan McVicar",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804",
+      "title": "Tickets for Rebuke",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
       "title": "Tickets for GoGo Penguin with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334",
-      "title": "Tickets for Morgan Wade",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
-      "title": "Tickets for ANIKA with Lauren Early",
       "event_dt": null
     },
     {
@@ -314,6 +309,11 @@
     {
       "url": "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303",
       "title": "Tickets for Rend Collective Folk! Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
+      "title": "Tickets for ANIKA with Lauren Early",
       "event_dt": null
     },
     {
