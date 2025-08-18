@@ -1,6 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
-    "title": "Tickets for Tropical Fuck Storm with Special Guests",
+  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
+    "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -11,8 +11,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
-    "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
+  "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243": {
+    "title": "Tickets for Tropical Fuck Storm with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,14 +65,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
-    "title": "Tickets for Gui Boratto",
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
+  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
+    "title": "Tickets for Gui Boratto",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -197,14 +203,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
+    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013": {
     "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
-    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+  "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
+    "title": "Tickets for Wombo with Shower Curtain",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,20 +233,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
-    "title": "Tickets for Wombo with Shower Curtain",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
     "title": "Tickets for Night Tapes - portals//polarities World Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -275,20 +275,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
-    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
     "title": "Tickets for Naethan Apollo with Mars Mignon",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
-    "title": "Tickets for Ken Yates - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
+    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -299,14 +293,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
-    "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
+  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
+    "title": "Tickets for Ken Yates - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
     "title": "Tickets for Kiesza, Anjulie",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
+    "title": "Tickets for Panzerfaust & Groza at Lee's Palace",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -371,14 +371,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
-    "title": "Tickets for Playhouse Presents Ilan Bluestone",
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
-    "title": "Tickets for NorthsideBenji",
+  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
+    "title": "Tickets for Playhouse Presents Ilan Bluestone",
     "price": null,
     "soldout": true,
     "event_dt": null
