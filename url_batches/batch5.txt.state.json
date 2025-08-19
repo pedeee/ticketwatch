@@ -5,14 +5,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
-    "title": "Tickets for Be'lakor,   Solemn Vision",
+  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
+    "title": "Tickets for Skinshape with Sons of Sevilla",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
-    "title": "Tickets for Skinshape with Sons of Sevilla",
+  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
+    "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,20 +47,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093": {
     "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
-    "title": "Tickets for Maria Somerville with Special Guests",
+  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
+    "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
-    "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
+  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
+    "title": "Tickets for Maria Somerville with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -77,14 +83,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
-    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+  "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
+    "title": "Tickets for JO DOLO - Going Gold Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
-    "title": "Tickets for JO DOLO - Going Gold Tour",
+  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
+    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,14 +107,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
-    "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
+  "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283": {
+    "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283": {
-    "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
+  "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
+    "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -131,6 +137,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
     "title": "Tickets for Wombo with Shower Curtain",
     "price": null,
@@ -145,18 +157,6 @@
   },
   "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
     "title": "Tickets for Night Tapes - portals//polarities World Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
-    "title": "Tickets for Sacrifice",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -209,12 +209,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
-    "title": "Tickets for The Stews with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
     "title": "Tickets for Ken Yates - Presented By F7 Live",
     "price": null,
@@ -245,12 +239,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
     "title": "Tickets for Casey Lowery with Special Guests",
     "price": null,
@@ -269,20 +257,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
-    "title": "Tickets for FELLY with Breakup Shoes",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873": {
     "title": "Tickets for Crypta",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013": {
-    "title": "Tickets for Sextile & Automatic",
+  "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
+    "title": "Tickets for FELLY with Breakup Shoes",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
+    "title": "Tickets for Sacrifice",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -293,14 +281,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
-    "title": "Tickets for Playhouse Presents Ilan Bluestone",
+  "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013": {
+    "title": "Tickets for Sextile & Automatic",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
     "title": "Tickets for NorthsideBenji",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
+    "title": "Tickets for Playhouse Presents Ilan Bluestone",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -329,6 +323,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
+    "title": "Tickets for The Stews with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
     "title": "Tickets for The Brian Jonestown Massacre with Federale",
     "price": null,
@@ -341,14 +341,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
-    "title": "Tickets for TWINSICK",
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
+  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
+    "title": "Tickets for TWINSICK",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -395,14 +395,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
-    "title": "Tickets for The Exploited, Spades GT",
+  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
+    "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
-    "title": "Tickets for Corbin",
+  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
+    "title": "Tickets for The Exploited, Spades GT",
     "price": null,
     "soldout": true,
     "event_dt": null
