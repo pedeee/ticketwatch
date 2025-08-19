@@ -12,18 +12,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183",
-      "title": "Tickets for Next Music from Tokyo vol 17",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
       "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183",
+      "title": "Tickets for Next Music from Tokyo vol 17",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
       "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
+      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
@@ -40,11 +45,6 @@
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
-      "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
       "url": "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794",
@@ -77,23 +77,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
-      "title": "Tickets for Next Music from Tokyo vol 17",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104",
       "title": "Tickets for Chaser",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814",
-      "title": "Tickets for HORSEGIRL with Godcaster and Scarlet Fever",
+      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
+      "title": "Tickets for Next Music from Tokyo vol 17",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143",
       "title": "Tickets for Yukon Blonde with Atlameda",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814",
+      "title": "Tickets for HORSEGIRL with Godcaster and Scarlet Fever",
       "event_dt": null
     },
     {
@@ -104,11 +104,6 @@
     {
       "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
       "title": "Tickets for Ethan Low - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
-      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
@@ -222,6 +217,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
+      "title": "Tickets for Tony Ann - Late Show",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514",
       "title": "Tickets for Patrick Wolf with Special Guests",
       "event_dt": null
@@ -247,23 +247,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654",
       "title": "Tickets for dublon",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463",
       "title": "Tickets for Marcin - Solo Dragon Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
@@ -317,9 +317,9 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
-      "title": "Tickets for Tony Ann - Late Show",
-      "event_dt": null
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "event_dt": "2025-11-24T00:00:00+00:00"
     }
   ]
 }
