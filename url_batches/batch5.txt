@@ -10,12 +10,12 @@ https://www.ticketweb.ca/event/atrip-coda-tickets/13810364  # Tickets for ATRIP 
 https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984  # Tickets for Improvement Movement with Special Guests - No date found
 https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333  # Tickets for Oso Oso, Born Without Bones, Dart Trees - No date found
 https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173  # Tickets for Naethan Apollo with Mars Mignon - No date found
-https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473  # Unknown Event - No date found
-https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133  # Unknown Event - No date found
+https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473  # Tickets for Castle Rat with Faerie Ring - No date found
+https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133  # Tickets for Mystery Skulls - Ultra Rare Tour - No date found
 https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353  # Tickets for Be'lakor,   Solemn Vision - No date found
 https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513  # Tickets for Dwarves, Burnt Knives, Harm School - No date found
 https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633  # Tickets for Jazz Emu 'The Pleasure is All Yours Tour' - No date found
-https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943  # Tickets for The Dirty Nil - No date found
 https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083  # Tickets for Pypy with Special Guests - No date found
 https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684  # Tickets for Gui Boratto - No date found
 https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433  # Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers - No date found
@@ -40,18 +40,18 @@ https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-ti
 https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454  # Tickets for Future Palace, Half Me, Hawk - No date found
 https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964  # Tickets for Skinshape with Sons of Sevilla - No date found
 https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673  # Tickets for Frankie and the Witch Fingers with Population II - No date found
-https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293  # Tickets for Pixel Grip with Coatie Pop - No date found
 https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873  # Tickets for Crypta - No date found
 https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534  # Tickets for TWINSICK - No date found
 https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373  # Tickets for Sacrifice - No date found
 https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253  # Tickets for YIN YIN with Special Guests - No date found
-https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813  # Unknown Event - No date found
+https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813  # Tickets for Night Tapes - portals//polarities World Tour - No date found
 https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844  # Tickets for Bambara - No date found
 https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623  # Tickets for The Exploited, Burnt Knives - No date found
 https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583  # Tickets for The Exploited, Spades GT - No date found
 https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363  # Tickets for Hotel Mira with Bleeker - No date found
 https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013  # Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug - No date found
-https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394  # Unknown Event - No date found
+https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394  # Tickets for Anvil - No date found
 https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124  # Tickets for NorthsideBenji - No date found
 https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714  # Tickets for Hayden Pedigo, Jens Kuross - No date found
 https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643  # Tickets for Night Moves with Special Guests - No date found
