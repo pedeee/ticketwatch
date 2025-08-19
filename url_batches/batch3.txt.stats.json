@@ -2,8 +2,8 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
-      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
+      "title": "Tickets for French Police with Riki",
       "event_dt": null
     },
     {
@@ -12,18 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
-      "title": "Tickets for French Police with Riki",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804",
-      "title": "Tickets for Sun Kil Moon",
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883",
       "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804",
+      "title": "Tickets for Sun Kil Moon",
       "event_dt": null
     },
     {
@@ -42,18 +42,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
+      "url": "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554",
+      "title": "Tickets for Space 92",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954",
       "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554",
-      "title": "Tickets for Space 92",
       "event_dt": null
     },
     {
@@ -77,13 +72,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
+      "url": "https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234",
+      "title": "Tickets for Revocation, Judiciary, Inferi, Vomit Forth",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234",
-      "title": "Tickets for Revocation, Judiciary, Inferi, Vomit Forth",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
       "event_dt": null
     },
     {
@@ -92,23 +87,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
-      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744",
-      "title": "Tickets for Bambara",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294",
       "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203",
-      "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
       "event_dt": null
     },
     {
@@ -117,13 +97,28 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474",
-      "title": "Tickets for Jaques Greene + Nosaj Thing Live",
+      "url": "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744",
+      "title": "Tickets for Bambara",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
-      "title": "Tickets for Softcult with Wayside & Cherrypick",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
+      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203",
+      "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474",
+      "title": "Tickets for Jaques Greene + Nosaj Thing Live",
       "event_dt": null
     },
     {
@@ -132,13 +127,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
+      "title": "Tickets for Softcult with Wayside & Cherrypick",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053",
       "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -152,13 +152,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-sonic-hall-tickets/14469963",
-      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363",
+      "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363",
-      "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-sonic-hall-tickets/14469963",
+      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
       "event_dt": null
     },
     {
@@ -177,13 +177,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273",
-      "title": "Tickets for Hotel Mira with Bleeker",
+      "url": "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313",
+      "title": "Tickets for M\u00fam with Mr. Silla",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313",
-      "title": "Tickets for M\u00fam with Mr. Silla",
+      "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273",
+      "title": "Tickets for Hotel Mira with Bleeker",
       "event_dt": null
     },
     {
@@ -272,11 +272,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274",
       "title": "Tickets for Jeremy Olander (Open To Close)",
       "event_dt": null
@@ -292,13 +287,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774",
-      "title": "Tickets for Sun Kil Moon",
+      "url": "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634",
+      "title": "Tickets for French Police with Social Order",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634",
-      "title": "Tickets for French Police with Social Order",
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774",
+      "title": "Tickets for Sun Kil Moon",
       "event_dt": null
     },
     {
@@ -312,13 +312,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203",
-      "title": "Tickets for PUP, Snotty Nose Rez Kids",
+      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
+      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
-      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
+      "url": "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203",
+      "title": "Tickets for PUP, Snotty Nose Rez Kids",
       "event_dt": null
     }
   ]
