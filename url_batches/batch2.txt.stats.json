@@ -1,14 +1,14 @@
 {
-  "monitored_count": 68,
+  "monitored_count": 69,
   "sold_out_events": [
-    {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
-      "event_dt": null
-    },
     {
       "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
       "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
       "event_dt": null
     },
     {
@@ -17,13 +17,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
-      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
+      "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
+      "title": "Tickets for Sir Chloe with Venus & the Flytraps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
-      "title": "Tickets for Sir Chloe with Venus & the Flytraps",
+      "url": "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384",
+      "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
       "event_dt": null
     },
     {
@@ -37,8 +37,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
-      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
+      "title": "Tickets for Self Deception",
       "event_dt": null
     },
     {
@@ -87,18 +87,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463",
-      "title": "Tickets for Autoheart: The Heartlands Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/oceans-apart-w-quan-sneaky-dees-concert-venue-tickets/13866214",
       "title": "Tickets for Oceans Apart w/ Quan & Radd Ishh",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463",
+      "title": "Tickets for Autoheart: The Heartlands Tour",
       "event_dt": null
     },
     {
@@ -117,13 +112,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644",
-      "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
+      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184",
       "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644",
+      "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
       "event_dt": null
     },
     {
@@ -137,8 +137,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
-      "title": "Tickets for Self Deception",
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -147,23 +147,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693",
-      "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
       "title": "Tickets for Bop To The Top",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473",
-      "title": "Tickets for Autoheart: The Heartlands Tour",
+      "url": "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693",
+      "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
       "title": "Tickets for The Brokes: The Strokes Experience",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473",
+      "title": "Tickets for Autoheart: The Heartlands Tour",
       "event_dt": null
     },
     {
@@ -197,18 +197,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314",
       "title": "Tickets for The Tallest Man On Earth, The Still Tide",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
-      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
@@ -222,23 +217,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
-      "title": "Tickets for Ewan McVicar",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804",
       "title": "Tickets for Rebuke",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
-      "title": "Tickets for GoGo Penguin with Special Guests",
+      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
+      "title": "Tickets for Ewan McVicar",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/guaranteed-entry-4x2-coda-tickets/13911304",
       "title": "Tickets for Guaranteed Entry: 4x2",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
+      "title": "Tickets for GoGo Penguin with Special Guests",
       "event_dt": null
     },
     {
@@ -252,13 +247,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
-      "title": "Tickets for Shawn Desman, Jamie Fine",
+      "url": "https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914",
+      "title": "Tickets for BAMBU ft. HILLS",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914",
-      "title": "Tickets for BAMBU ft. HILLS",
+      "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
+      "title": "Tickets for Shawn Desman, Jamie Fine",
       "event_dt": null
     },
     {
@@ -322,8 +317,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
+      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
       "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514",
+      "title": "Tickets for ALEX PORAT WITH Lucette",
       "event_dt": null
     },
     {
@@ -332,13 +337,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013",
-      "title": "Tickets for Ingested, Ov Sulfur, CELL",
+      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344",
+      "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344",
-      "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+      "url": "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013",
+      "title": "Tickets for Ingested, Ov Sulfur, CELL",
       "event_dt": null
     }
   ]
