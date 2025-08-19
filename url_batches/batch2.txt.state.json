@@ -5,6 +5,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
+    "title": "Tickets for Anvil",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864": {
     "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
     "price": null,
@@ -13,12 +19,6 @@
   },
   "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703": {
     "title": "Tickets for Sir Chloe with Venus & the Flytraps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
-    "title": "Tickets for Anvil",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,14 +47,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
-    "title": "TicketWeb",
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
+    "title": "TicketWeb",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -185,14 +185,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
-    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
+    "title": "Tickets for Autoheart: The Heartlands Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
-    "title": "Tickets for Autoheart: The Heartlands Tour",
+  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
+    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -257,14 +257,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804": {
-    "title": "Tickets for Rebuke",
+  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
+    "title": "Tickets for GoGo Penguin with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
-    "title": "Tickets for GoGo Penguin with Special Guests",
+  "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804": {
+    "title": "Tickets for Rebuke",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
-    "title": "Tickets for Rend Collective Folk! Tour",
+  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
+    "title": "Tickets for ANIKA with Lauren Early",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
-    "title": "Tickets for ANIKA with Lauren Early",
+  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
+    "title": "Tickets for Rend Collective Folk! Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,14 +383,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053": {
-    "title": "Tickets for VOLA with Daedric & Zack Brannon",
+  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
+    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
-    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
+  "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053": {
+    "title": "Tickets for VOLA with Daedric & Zack Brannon",
     "price": null,
     "soldout": true,
     "event_dt": null
