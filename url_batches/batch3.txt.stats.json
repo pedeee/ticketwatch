@@ -2,18 +2,13 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
-      "title": "Tickets for French Police with Riki",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
       "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883",
-      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
+      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
+      "title": "Tickets for French Police with Riki",
       "event_dt": null
     },
     {
@@ -22,13 +17,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804",
-      "title": "Tickets for Sun Kil Moon",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883",
+      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
       "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804",
+      "title": "Tickets for Sun Kil Moon",
       "event_dt": null
     },
     {
@@ -42,18 +42,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
       "title": "Tickets for PUP with Snotty Nose Rez Kids",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954",
-      "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
       "event_dt": null
     },
     {
@@ -62,8 +52,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614",
-      "title": "Tickets for DIMENSION",
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
       "event_dt": null
     },
     {
@@ -72,18 +62,28 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954",
+      "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614",
+      "title": "Tickets for DIMENSION",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
       "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
+      "title": "Tickets for Mad Caddies",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
-      "title": "Tickets for Mad Caddies",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
       "event_dt": null
     },
     {
@@ -132,13 +132,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
+      "title": "Tickets for Billy Raffoul",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
-      "title": "Tickets for Billy Raffoul",
+      "url": "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -187,13 +187,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-mills-hardware-tickets/14469783",
-      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
+      "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273",
+      "title": "Tickets for Hotel Mira with Bleeker",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273",
-      "title": "Tickets for Hotel Mira with Bleeker",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-mills-hardware-tickets/14469783",
+      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
       "event_dt": null
     },
     {
@@ -282,13 +282,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673",
-      "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544",
+      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544",
-      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+      "url": "https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673",
+      "title": "Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour",
       "event_dt": null
     },
     {
@@ -302,23 +302,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513",
       "title": "Tickets for Ria Mae- Tiny Strands and Flashbanks",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203",
-      "title": "Tickets for PUP, Snotty Nose Rez Kids",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
       "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203",
+      "title": "Tickets for PUP, Snotty Nose Rez Kids",
       "event_dt": null
     }
   ]
