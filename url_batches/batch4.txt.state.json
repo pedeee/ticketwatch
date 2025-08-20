@@ -5,14 +5,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
-    "title": "Tickets for No Joy",
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Pacifica",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
+    "title": "Tickets for No Joy",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -29,6 +35,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
+    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
     "title": "Tickets for HOLY PRIEST",
     "price": null,
@@ -41,20 +53,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
+    "title": "Tickets for Bay Faction with Keep",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
     "title": "Tickets for KOMPANY - NEMESIS TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
-    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
-    "title": "Tickets for Bay Faction with Keep",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -67,12 +79,6 @@
   },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -103,12 +109,6 @@
   },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Pacifica",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,12 +263,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063": {
     "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
     "price": null,
@@ -341,8 +335,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
-    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
+    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,14 +347,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
-    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
+  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
+    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
-    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
+    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
