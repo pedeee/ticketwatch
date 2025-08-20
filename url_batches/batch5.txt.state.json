@@ -5,26 +5,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
-    "title": "Tickets for Skinshape with Sons of Sevilla",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
     "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
-    "title": "Tickets for Improvement Movement with Pretty",
+  "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
+    "title": "Tickets for Skinshape with Sons of Sevilla",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
     "title": "Tickets for Night Moves with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
+    "title": "Tickets for Improvement Movement with Pretty",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -43,6 +43,12 @@
   },
   "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
     "title": "Tickets for BONUS STAGE ULTIMATE",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
+    "title": "Tickets for Sacrifice",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,8 +113,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283": {
-    "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
+  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
+    "title": "Tickets for The Stews with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -119,14 +125,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
-    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+  "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283": {
+    "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
-    "title": "Tickets for Wombo with Shower Curtain",
+  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
+    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -143,20 +149,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
-    "title": "Tickets for Sacrifice",
+  "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
+    "title": "Tickets for Wombo with Shower Curtain",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
     "title": "Tickets for Spike and the Gimme Gimmes",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -197,32 +203,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
-    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
     "title": "Tickets for Anvil",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
-    "title": "Tickets for The Stews with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
-    "title": "Tickets for Ken Yates - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
+    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
     "title": "Tickets for Kiesza, Anjulie",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
+    "title": "Tickets for Ken Yates - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -245,14 +245,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
+  "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
+    "title": "Tickets for Casey Lowery with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
-    "title": "Tickets for Casey Lowery with Special Guests",
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -341,14 +341,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
+  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
+    "title": "Tickets for TWINSICK",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
-    "title": "Tickets for TWINSICK",
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
