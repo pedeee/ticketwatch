@@ -2,11 +2,6 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
-      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
       "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183",
       "title": "Tickets for Next Music from Tokyo vol 17",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
+      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
@@ -37,6 +37,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794",
+      "title": "Tickets for Surf Trash with Cheap Flavor",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
@@ -47,23 +52,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794",
-      "title": "Tickets for Surf Trash with Cheap Flavor",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153",
       "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -97,13 +97,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083",
+      "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083",
-      "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -117,23 +117,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193",
-      "title": "Tickets for Too Many Zooz: Caravan Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
       "title": "Tickets for PUP with Snotty Nose Rez Kids",
       "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
-      "url": "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403",
-      "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193",
+      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/wesghost-can-we-go-fortune-sound-club-tickets/14430223",
       "title": "Tickets for WesGhost \u2013 CAN WE GO BACK TO SLEEP TOUR, Kill Dyll, Call Me Karizma",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403",
+      "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
       "event_dt": null
     },
     {
@@ -212,6 +212,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
+      "title": "Tickets for Too Many Zooz: Caravan Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274",
       "title": "Tickets for Yung Singh",
       "event_dt": null
@@ -227,18 +232,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
       "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823",
-      "title": "Tickets for David Archuleta with Alexandra John",
       "event_dt": null
     },
     {
@@ -247,8 +242,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823",
+      "title": "Tickets for David Archuleta with Alexandra John",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654",
       "title": "Tickets for dublon",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
@@ -267,13 +272,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903",
+      "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903",
-      "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
@@ -289,11 +294,6 @@
     {
       "url": "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404",
       "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
-      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
