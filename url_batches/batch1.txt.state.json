@@ -47,26 +47,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794": {
-    "title": "Tickets for Surf Trash with Cheap Flavor",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
     "title": "Tickets for Too Many Zooz: Caravan Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
-    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
+  "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794": {
+    "title": "Tickets for Surf Trash with Cheap Flavor",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/big-sis-fortune-sound-club-tickets/13808844": {
     "title": "Tickets for BIG SIS",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
+    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,12 +155,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-11-24T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
     "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
     "price": null,
@@ -203,14 +197,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -227,26 +221,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694": {
-    "title": "Tickets for Ethan Low - Presented By F7 Live",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
     "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
-    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
+  "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663": {
     "title": "Tickets for Dune Rats w/ Brain Bent & More",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
+    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -269,6 +263,18 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-11-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
+    "title": "Tickets for Wilkinson",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
     "title": "Tickets for Patrick Wolf with Special Guests",
     "price": null,
@@ -277,12 +283,6 @@
   },
   "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934": {
     "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
-    "title": "Tickets for Wilkinson",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -325,6 +325,12 @@
   },
   "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
     "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
+    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
