@@ -1,6 +1,11 @@
 {
-  "monitored_count": 68,
+  "monitored_count": 69,
   "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
+      "event_dt": null
+    },
     {
       "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
       "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
@@ -12,18 +17,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
       "title": "Tickets for Sir Chloe with Venus & the Flytraps",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
-      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
       "event_dt": null
     },
     {
@@ -37,18 +32,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
-      "title": "Tickets for Alicia Moffet, Dominique Way",
+      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
+      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
       "title": "TicketWeb",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
+      "title": "Tickets for Alicia Moffet, Dominique Way",
       "event_dt": null
     },
     {
@@ -72,23 +67,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
-      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733",
       "title": "Tickets for KISS CF GOODBYE #9",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
-      "title": "Tickets for Jembaa Groove with Special Guests",
+      "url": "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994",
+      "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463",
       "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
+      "title": "Tickets for Jembaa Groove with Special Guests",
       "event_dt": null
     },
     {
@@ -127,13 +122,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
-      "title": "Tickets for Self Deception",
+      "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603",
+      "title": "Tickets for Between The Buried And Me & Hail The Sun",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
-      "title": "Tickets for Bop To The Top",
+      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
+      "title": "Tickets for Self Deception",
       "event_dt": null
     },
     {
@@ -142,13 +137,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
-      "title": "Tickets for The Brokes: The Strokes Experience",
+      "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
+      "title": "Tickets for Bop To The Top",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693",
       "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
+      "title": "Tickets for The Brokes: The Strokes Experience",
       "event_dt": null
     },
     {
@@ -187,13 +187,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour",
+      "url": "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314",
+      "title": "Tickets for The Tallest Man On Earth, The Still Tide",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314",
-      "title": "Tickets for The Tallest Man On Earth, The Still Tide",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour",
       "event_dt": null
     },
     {
@@ -217,13 +217,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
-      "title": "Tickets for GoGo Penguin with Special Guests",
+      "url": "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804",
+      "title": "Tickets for Rebuke",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804",
-      "title": "Tickets for Rebuke",
+      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
+      "title": "Tickets for GoGo Penguin with Special Guests",
       "event_dt": null
     },
     {
@@ -232,13 +232,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303",
-      "title": "Tickets for Rend Collective Folk! Tour",
+      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
+      "title": "Tickets for ANIKA with Lauren Early",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
-      "title": "Tickets for ANIKA with Lauren Early",
+      "url": "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303",
+      "title": "Tickets for Rend Collective Folk! Tour",
       "event_dt": null
     },
     {
@@ -252,6 +252,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
+      "title": "Tickets for Young Franco",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964",
       "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
@@ -262,8 +267,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
-      "title": "Tickets for Young Franco",
+      "url": "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963",
+      "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
       "event_dt": null
     },
     {
@@ -272,8 +277,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963",
-      "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -287,13 +292,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
+      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
-      "title": "Tickets for Brat Summer - Charli XCX Dance Party",
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -307,13 +312,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014",
-      "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
+      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
-      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+      "url": "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014",
+      "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
       "event_dt": null
     },
     {
