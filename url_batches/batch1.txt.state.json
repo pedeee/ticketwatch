@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
-    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293": {
     "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
     "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
+    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -46,12 +46,6 @@
     "price": null,
     "soldout": true,
     "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-11-24T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794": {
     "title": "Tickets for Surf Trash with Cheap Flavor",
@@ -125,8 +119,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
-    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,12 +149,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
     "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
     "price": null,
@@ -179,16 +167,16 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
-    "title": "Tickets for Darren Kiely",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
     "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
     "price": null,
     "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244": {
+    "title": "Tickets for Darren Kiely",
+    "price": 25.0,
+    "soldout": false,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
@@ -203,8 +191,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
+    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -215,20 +203,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243": {
-    "title": "Tickets for Comeback Kid, Prowl, Punitive Damage",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343": {
-    "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884": {
     "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243": {
+    "title": "Tickets for Comeback Kid, Prowl, Punitive Damage",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -245,14 +227,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
-    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
+  "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663": {
+    "title": "Tickets for Dune Rats w/ Brain Bent & More",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663": {
-    "title": "Tickets for Dune Rats w/ Brain Bent & More",
+  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
+    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -269,14 +251,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
-    "title": "Tickets for Yung Singh",
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
     "price": null,
     "soldout": true,
-    "event_dt": null
+    "event_dt": "2025-11-24T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
-    "title": "Tickets for Patrick Wolf with Special Guests",
+  "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
+    "title": "Tickets for Yung Singh",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -287,8 +269,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934": {
-    "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
+  "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514": {
+    "title": "Tickets for Patrick Wolf with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -299,14 +281,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
-    "title": "Tickets for David Archuleta with Alexandra John",
+  "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934": {
+    "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654": {
     "title": "Tickets for dublon",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
+    "title": "Tickets for David Archuleta with Alexandra John",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -341,6 +329,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
+    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
     "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
     "price": null,
@@ -359,14 +353,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
-    "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
     "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
+    "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
     "price": null,
     "soldout": true,
     "event_dt": null
