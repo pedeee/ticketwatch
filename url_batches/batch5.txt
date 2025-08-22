@@ -5,7 +5,7 @@ https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14
 https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093  # Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime - No date found
 https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714  # Tickets for This Paranormal Life - No date found
 https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423  # Tickets for Kiesza, Anjulie - No date found
-https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues  # Tickets for Boys Noize - No date found
+https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues  # Unknown Event - No date found
 https://www.ticketweb.ca/event/atrip-coda-tickets/13810364  # Tickets for ATRIP - No date found
 https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984  # Tickets for Improvement Movement with Pretty - No date found
 https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333  # Tickets for Oso Oso, Born Without Bones, Dart Trees - No date found
@@ -20,7 +20,7 @@ https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/1
 https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684  # Tickets for Gui Boratto - No date found
 https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433  # Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers - No date found
 https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883  # Tickets for Wombo with Shower Curtain - No date found
-https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124  # Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace - No date found
+https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124  # Unknown Event - No date found
 https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843  # Tickets for Next Music from Tokyo vol 17 - No date found
 https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393  # Tickets for RIELL with Special Guests - No date found
 https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534  # Tickets for MAD CADDIES with The Anti-Queens & The Corps - No date found
@@ -69,4 +69,4 @@ https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754  
 https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263  # Tickets for Mark William Lewis, Samba Jean-Baptiste - No date found
 https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604  # Tickets for Ken Yates - Presented By F7 Live - No date found
 https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314  # Tickets for Playhouse Pres: Ilan Bluestone - No date found
-https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483  # Tickets for Dakhabrakha - No date found
+https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483  # Unknown Event - No date found
