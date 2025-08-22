@@ -5,14 +5,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
-    "title": "Tickets for No Joy",
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
+    "title": "Tickets for No Joy",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -29,26 +29,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634": {
-    "title": "Tickets for KUMO 99 - FALL TOUR 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
     "title": "Tickets for HOLY PRIEST",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
-    "title": "Tickets for Bay Faction with Keep",
+  "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634": {
+    "title": "Tickets for KUMO 99 - FALL TOUR 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
     "title": "Tickets for KOMPANY - NEMESIS TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
+    "title": "Tickets for Bay Faction with Keep",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,20 +101,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
-    "title": "Tickets for Hotline TNT - Path of Totality",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
     "title": "Tickets for DEEPCUT",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
-    "title": "Tickets for Ben Caplan with Special Guests",
+  "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123": {
+    "title": "Tickets for Hotline TNT - Path of Totality",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -125,8 +119,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
-    "title": "Tickets for JO DOLO: Going Gold Tour",
+  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
+    "title": "Tickets for Ben Caplan with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,8 +131,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
-    "title": "Tickets for Balu Brigada with Tommy Newport",
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -149,8 +143,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
-    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
+    "title": "Tickets for Balu Brigada with Tommy Newport",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -161,14 +155,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
-    "title": "Tickets for Stereotype Friday's Pres: Zerb",
+  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
+    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
     "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
+    "title": "Tickets for Stereotype Friday's Pres: Zerb",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
-    "title": "Tickets for The Haunted House Tour",
+  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
+    "title": "Tickets for Friday Night Hard Rock Show",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
-    "title": "Tickets for Friday Night Hard Rock Show",
+  "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613": {
+    "title": "Tickets for The Haunted House Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -299,8 +299,98 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
+    "title": "TicketWeb",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
+    "title": "Tickets for Corbin",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
     "title": "Tickets for Amy Millan, Zoon",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/buddahvibes-presents-under-the-neon-palms-at-tickets/14493883": {
+    "title": "Tickets for BUDDAHVIBES PRESENTS",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763": {
+    "title": "Tickets for P'Tit Belliveau with V\u00e9loce Andr\u00e9",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
+    "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
+    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
+    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025 - TICKETS AT THE DOOR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393": {
+    "title": "Tickets for Ducks Ltd. & The Tubs with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
+    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
+    "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
+    "title": "Tickets for Nate Sib - NA LEG 2",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
+    "title": "Tickets for Hand Habits with Olivia Kaplan",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
+    "title": "Tickets for Lady Wray with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214": {
+    "title": "Tickets for Bed By 10pm Summer Edition",
     "price": null,
     "soldout": true,
     "event_dt": null
