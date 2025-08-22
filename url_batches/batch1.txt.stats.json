@@ -1,11 +1,6 @@
 {
-  "monitored_count": 64,
+  "monitored_count": 65,
   "sold_out_events": [
-    {
-      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
-      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-      "event_dt": null
-    },
     {
       "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
       "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
@@ -17,13 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
-      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
+      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
       "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
+      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
       "event_dt": null
     },
     {
@@ -44,6 +44,11 @@
     {
       "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
       "title": "Tickets for Too Many Zooz: Caravan Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794",
+      "title": "Tickets for Surf Trash with Cheap Flavor",
       "event_dt": null
     },
     {
@@ -87,18 +92,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814",
-      "title": "Tickets for HORSEGIRL with Godcaster and Scarlet Fever",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/horsegirl-with-godcaster-the-pearl-tickets/13673814",
+      "title": "Tickets for HORSEGIRL with Godcaster and Scarlet Fever",
       "event_dt": null
     },
     {
@@ -109,6 +109,11 @@
     {
       "url": "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083",
       "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -172,13 +177,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884",
-      "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884",
+      "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
       "event_dt": null
     },
     {
@@ -192,13 +197,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
-      "title": "Tickets for Yukon Blonde",
+      "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663",
+      "title": "Tickets for Dune Rats w/ Brain Bent & More",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663",
-      "title": "Tickets for Dune Rats w/ Brain Bent & More",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
+      "title": "Tickets for Yukon Blonde",
       "event_dt": null
     },
     {
@@ -277,13 +282,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033",
+      "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033",
-      "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
+      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783",
+      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
