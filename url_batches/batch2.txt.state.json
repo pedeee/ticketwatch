@@ -1,4 +1,10 @@
 {
+  "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864": {
+    "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
     "title": "Tickets for BABYTRON",
     "price": null,
@@ -11,20 +17,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864": {
-    "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703": {
+    "title": "Tickets for Sir Chloe with Venus & the Flytraps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
     "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703": {
-    "title": "Tickets for Sir Chloe with Venus & the Flytraps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -43,12 +43,6 @@
   },
   "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
     "title": "Tickets for Alicia Moffet, Dominique Way",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -77,14 +71,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
-    "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
+  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
-    "title": "Tickets for Allan Rayman",
+  "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
+    "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -103,12 +97,6 @@
   },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463": {
     "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,14 +125,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184": {
-    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
+  "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644": {
+    "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644": {
-    "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
+  "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184": {
+    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -161,14 +149,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
-    "title": "Tickets for Bop To The Top",
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -179,14 +167,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163": {
-    "title": "Tickets for The Brokes: The Strokes Experience",
+  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
+    "title": "Tickets for Bop To The Top",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
     "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163": {
+    "title": "Tickets for The Brokes: The Strokes Experience",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -239,6 +233,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
     "price": null,
@@ -269,8 +269,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -323,6 +323,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
     "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
     "price": null,
@@ -359,12 +365,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
     "price": null,
@@ -377,14 +377,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
-    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
+  "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014": {
+    "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014": {
-    "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
+    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -401,14 +401,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
-    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+  "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
+    "title": "Tickets for Ingested, Ov Sulfur, CELL",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
-    "title": "Tickets for Ingested, Ov Sulfur, CELL",
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
+    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
