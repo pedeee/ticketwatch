@@ -2,6 +2,11 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
       "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
       "event_dt": null
@@ -9,11 +14,6 @@
     {
       "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
       "title": "Tickets for Skinshape with Sons of Sevilla",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
       "event_dt": null
     },
     {
@@ -37,18 +37,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
-      "title": "Tickets for BONUS STAGE ULTIMATE",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
       "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
-      "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
+      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
+      "title": "Tickets for BONUS STAGE ULTIMATE",
       "event_dt": null
     },
     {
@@ -57,8 +52,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
-      "title": "Tickets for YIN YIN with Special Guests",
+      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
+      "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
       "event_dt": null
     },
     {
@@ -67,13 +62,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
-      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
+      "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
       "title": "Tickets for JO DOLO - Going Gold Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
+      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
       "event_dt": null
     },
     {
@@ -177,6 +177,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
       "title": "Tickets for Kiesza, Anjulie",
       "event_dt": null
@@ -192,13 +197,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
+      "url": "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844",
+      "title": "Tickets for Bambara",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844",
-      "title": "Tickets for Bambara",
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -212,23 +217,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873",
-      "title": "Tickets for Crypta",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
       "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
-      "title": "Tickets for FELLY with Breakup Shoes",
+      "url": "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873",
+      "title": "Tickets for Crypta",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
+      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
+      "title": "Tickets for FELLY with Breakup Shoes",
       "event_dt": null
     },
     {
@@ -297,13 +297,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
-      "title": "Tickets for Tropical Fuck Storm with Special Guests",
+      "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
+      "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
-      "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
+      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
+      "title": "Tickets for Tropical Fuck Storm with Special Guests",
       "event_dt": null
     },
     {
@@ -317,13 +317,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
-      "title": "Tickets for ATRIP",
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
+      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
+      "title": "Tickets for ATRIP",
       "event_dt": null
     },
     {
