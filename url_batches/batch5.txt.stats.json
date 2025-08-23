@@ -2,6 +2,11 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
+      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
       "title": "Tickets for Be'lakor,   Solemn Vision",
       "event_dt": null
@@ -12,13 +17,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
-      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
+      "title": "Tickets for Night Moves with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
-      "title": "Tickets for Night Moves with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -167,13 +172,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
+      "url": "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394",
+      "title": "Tickets for Anvil",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394",
-      "title": "Tickets for Anvil",
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -224,11 +229,6 @@
     {
       "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
       "title": "Tickets for FELLY with Breakup Shoes",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
-      "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     },
     {
@@ -297,11 +297,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133",
       "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
       "event_dt": null
@@ -312,13 +307,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
+      "title": "Tickets for Dakhabrakha",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
       "title": "Tickets for Hayden Pedigo, Jens Kuross",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
-      "title": "Tickets for Dakhabrakha",
+      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
+      "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     },
     {
@@ -337,13 +337,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
-      "title": "Tickets for Corbin",
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
+      "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
+      "title": "Tickets for Corbin",
       "event_dt": null
     }
   ]
