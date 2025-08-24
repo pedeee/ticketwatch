@@ -2,13 +2,13 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
+      "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
+      "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
-      "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
       "event_dt": null
     },
     {
@@ -19,6 +19,11 @@
     {
       "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
       "title": "Tickets for Sir Chloe with Venus & the Flytraps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
+      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
     },
     {
@@ -34,11 +39,6 @@
     {
       "url": "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773",
       "title": "Tickets for TOPS",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
-      "title": "Tickets for Self Deception",
       "event_dt": null
     },
     {
@@ -77,18 +77,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
-      "title": "Tickets for Jembaa Groove with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733",
       "title": "Tickets for KISS CF GOODBYE #9",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oceans-apart-w-quan-sneaky-dees-concert-venue-tickets/13866214",
-      "title": "Tickets for Oceans Apart w/ Quan & Radd Ishh",
+      "url": "https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033",
+      "title": "Tickets for Jembaa Groove with Special Guests",
       "event_dt": null
     },
     {
@@ -97,8 +92,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
-      "title": "Tickets for Pretty Pink",
+      "url": "https://www.ticketweb.ca/event/oceans-apart-w-quan-sneaky-dees-concert-venue-tickets/13866214",
+      "title": "Tickets for Oceans Apart w/ Quan & Radd Ishh",
       "event_dt": null
     },
     {
@@ -107,13 +102,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
-      "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
+      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
+      "title": "Tickets for Pretty Pink",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
-      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+      "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
+      "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
       "event_dt": null
     },
     {
@@ -122,13 +117,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184",
-      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
+      "url": "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543",
+      "title": "Tickets for Johnny Stimson",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543",
-      "title": "Tickets for Johnny Stimson",
+      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184",
+      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
       "event_dt": null
     },
     {
@@ -187,11 +182,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063",
-      "title": "Tickets for Emo Night Toronto at Sneaky Dee's - TICKETS AT THE DOOR",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853",
       "title": "Tickets for Belmont with Avoid & Super Sometimes",
       "event_dt": null
@@ -199,6 +189,11 @@
     {
       "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174",
       "title": "Tickets for The Brokes: The Strokes Experience",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063",
+      "title": "Tickets for Emo Night Toronto at Sneaky Dee's - TICKETS AT THE DOOR",
       "event_dt": null
     },
     {
@@ -217,18 +212,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
-      "title": "Tickets for Ewan McVicar",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023",
       "title": "Tickets for gunnr - North America Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
-      "title": "Tickets for GoGo Penguin with Special Guests",
+      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
+      "title": "Tickets for Ewan McVicar",
       "event_dt": null
     },
     {
@@ -237,8 +227,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
-      "title": "Tickets for ANIKA with Lauren Early",
+      "url": "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603",
+      "title": "Tickets for GoGo Penguin with Special Guests",
       "event_dt": null
     },
     {
@@ -247,13 +237,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
-      "title": "Tickets for Shawn Desman, Jamie Fine",
+      "url": "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024",
+      "title": "Tickets for ANIKA with Lauren Early",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303",
       "title": "Tickets for Rend Collective Folk! Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
+      "title": "Tickets for Shawn Desman, Jamie Fine",
       "event_dt": null
     },
     {
@@ -317,18 +312,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014",
-      "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
       "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053",
-      "title": "Tickets for VOLA with Daedric & Zack Brannon",
+      "url": "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014",
+      "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -337,8 +327,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053",
+      "title": "Tickets for VOLA with Daedric & Zack Brannon",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013",
       "title": "Tickets for Ingested, Ov Sulfur, CELL",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
+      "title": "Tickets for Self Deception",
       "event_dt": null
     },
     {
