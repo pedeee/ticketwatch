@@ -7,7 +7,7 @@ https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/
 # === Events without dates ===
 https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554  # Tickets for Space 92 - No date found
 https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203  # Tickets for Two Another – North American Tour, No Suits - No date found
-https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884  # Tickets for Michael Seyer with Blaize Jenkins & Serena Sun - No date found
+https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884  # Unknown Event - No date found
 https://www.ticketweb.ca/event/r3wire-coda-tickets/13882894?REFERRAL_ID=twvenues  # Tickets for Guaranteed Entry: R3WIRE - No date found
 https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774  # Tickets for Sun Kil Moon - No date found
 https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804  # Tickets for Sun Kil Moon - No date found
@@ -28,12 +28,12 @@ https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703
 https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - No date found
 https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774  # Tickets for Dying Fetus w/ Gates To Hell & Mugshot - No date found
 https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744  # Tickets for Bambara - No date found
-https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513  # Tickets for Nation of Language with Westerman - No date found
+https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513  # Unknown Event - No date found
 https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - No date found
 https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673  # Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour - No date found
 https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654  # Tickets for French Police with Riki - No date found
 https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking - No date found
-https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134  # Tickets for Pool Kids - No date found
+https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134  # Unknown Event - No date found
 https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093  # Tickets for Fly By Midnight with Special Guests - No date found
 https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Tickets for Wombo w/ Ribbon Skirt - No date found
 https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - No date found
@@ -43,7 +43,7 @@ https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/144642
 https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944  # Tickets for Hotel Mira, Bleeker - No date found
 https://www.ticketweb.ca/event/hotel-mira-with-bleeker-bridgeworks-tickets/14464333  # Tickets for Hotel Mira with Bleeker - No date found
 https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234  # Tickets for Revocation, Judiciary, Inferi, Vomit Forth - No date found
-https://www.ticketweb.ca/event/hotel-mira-with-bleeker-the-mansion-tickets/14464173  # Tickets for Hotel Mira with Bleeker - No date found
+https://www.ticketweb.ca/event/hotel-mira-with-bleeker-the-mansion-tickets/14464173  # Unknown Event - No date found
 https://www.ticketweb.ca/event/hotel-mira-bleeker-club-saw-tickets/13812214  # Tickets for Hotel Mira, Bleeker - No date found
 https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713  # Tickets for saturdays at your place these things happen tour - No date found
 https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574  # Tickets for COONE - No date found
