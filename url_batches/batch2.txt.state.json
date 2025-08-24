@@ -17,20 +17,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
-    "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703": {
     "title": "Tickets for Sir Chloe with Venus & the Flytraps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
-    "title": "Tickets for TOPS",
+  "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
+    "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -41,20 +35,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
-    "title": "Tickets for Alicia Moffet, Dominique Way",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
+    "title": "Tickets for TOPS",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
     "title": "TicketWeb",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
+    "title": "Tickets for Alicia Moffet, Dominique Way",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,20 +101,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+  "https://www.ticketweb.ca/event/oceans-apart-w-quan-sneaky-dees-concert-venue-tickets/13866214": {
+    "title": "Tickets for Oceans Apart w/ Quan & Radd Ishh",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733": {
     "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/oceans-apart-w-quan-sneaky-dees-concert-venue-tickets/13866214": {
-    "title": "Tickets for Oceans Apart w/ Quan & Radd Ishh",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -161,6 +149,18 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
@@ -185,14 +185,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
-    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
+    "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
-    "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
+  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
+    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -205,6 +205,12 @@
   },
   "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804": {
     "title": "Tickets for LAYTON GIORDANI",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -239,6 +245,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
     "price": null,
@@ -263,26 +275,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
     "title": "Tickets for GoGo Penguin with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
-    "title": "Tickets for ANIKA with Lauren Early",
+  "https://www.ticketweb.ca/event/guaranteed-entry-4x2-coda-tickets/13911304": {
+    "title": "Tickets for Guaranteed Entry: 4x2",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/guaranteed-entry-4x2-coda-tickets/13911304": {
-    "title": "Tickets for Guaranteed Entry: 4x2",
+  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
+    "title": "Tickets for ANIKA with Lauren Early",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -299,20 +305,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914": {
-    "title": "Tickets for Young Franco",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914": {
     "title": "Tickets for BAMBU ft. HILLS",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803": {
-    "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
+  "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914": {
+    "title": "Tickets for Young Franco",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -323,14 +323,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
-    "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803": {
+    "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353": {
-    "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
+  "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
+    "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -341,8 +341,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734": {
-    "title": "Tickets for Blue Hawaii",
+  "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353": {
+    "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,20 +353,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
-    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
+  "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734": {
+    "title": "Tickets for Blue Hawaii",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073": {
     "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
+    "title": "Tickets for Brat Summer - Charli XCX Dance Party",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,26 +383,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053": {
-    "title": "Tickets for VOLA with Daedric & Zack Brannon",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
     "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
-    "title": "Tickets for Ingested, Ov Sulfur, CELL",
+  "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053": {
+    "title": "Tickets for VOLA with Daedric & Zack Brannon",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514": {
     "title": "Tickets for ALEX PORAT WITH Lucette",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
+    "title": "Tickets for Ingested, Ov Sulfur, CELL",
     "price": null,
     "soldout": true,
     "event_dt": null
