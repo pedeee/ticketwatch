@@ -1,6 +1,11 @@
 {
-  "monitored_count": 69,
+  "monitored_count": 68,
   "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
+      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "event_dt": null
+    },
     {
       "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
       "title": "Tickets for Be'lakor,   Solemn Vision",
@@ -12,18 +17,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
-      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
+      "title": "Tickets for Improvement Movement with Pretty",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
       "title": "Tickets for Night Moves with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
-      "title": "Tickets for Improvement Movement with Pretty",
       "event_dt": null
     },
     {
@@ -37,18 +37,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
-      "title": "Tickets for Spike and the Gimme Gimmes",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
       "title": "Tickets for BONUS STAGE ULTIMATE",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
@@ -57,23 +47,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
-      "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
       "title": "Tickets for Maria Somerville with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
+      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
+      "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
       "title": "Tickets for YIN YIN with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
       "event_dt": null
     },
     {
@@ -102,23 +92,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283",
       "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
-      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -127,13 +102,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
-      "title": "Tickets for This Paranormal Life",
+      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
+      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
       "title": "Tickets for Wombo with Shower Curtain",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714",
+      "title": "Tickets for This Paranormal Life",
       "event_dt": null
     },
     {
@@ -147,6 +127,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943",
       "title": "Tickets for Ben Caplan with Special Guests",
       "event_dt": null
@@ -157,23 +142,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
       "title": "Tickets for Pixel Grip with Coatie Pop",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
-      "title": "Tickets for Pixel Grip with Psymon Spine & God Tongue",
+      "url": "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173",
+      "title": "Tickets for Naethan Apollo with Mars Mignon",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173",
-      "title": "Tickets for Naethan Apollo with Mars Mignon",
+      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
+      "title": "Tickets for Pixel Grip with Psymon Spine & God Tongue",
       "event_dt": null
     },
     {
@@ -189,6 +169,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
       "title": "Tickets for Ken Yates - Presented By F7 Live",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -237,6 +222,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
+      "title": "Tickets for Spike and the Gimme Gimmes",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
       "title": "Tickets for Castle Rat with Faerie Ring",
       "event_dt": null
@@ -252,13 +242,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues",
-      "title": "Tickets for Boys Noize",
+      "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
+      "title": "Tickets for Playhouse Pres: Ilan Bluestone",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
-      "title": "Tickets for Playhouse Pres: Ilan Bluestone",
+      "url": "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues",
+      "title": "Tickets for Boys Noize",
       "event_dt": null
     },
     {
@@ -282,13 +272,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
+      "title": "Tickets for Pypy with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
       "title": "Tickets for P'Tit Belliveau with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "title": "Tickets for Pypy with Special Guests",
+      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
+      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -297,8 +292,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "title": "Tickets for TWINSICK",
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
