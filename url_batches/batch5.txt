@@ -18,7 +18,7 @@ https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/142
 https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943  # Tickets for The Dirty Nil - No date found
 https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083  # Tickets for Pypy with Special Guests - No date found
 https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684  # Tickets for Gui Boratto - No date found
-https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433  # Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers - No date found
+https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433  # Unknown Event - No date found
 https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883  # Tickets for Wombo with Shower Curtain - No date found
 https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124  # Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace - No date found
 https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843  # Tickets for Next Music from Tokyo vol 17 - No date found
@@ -44,7 +44,7 @@ https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/1
 https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873  # Tickets for Crypta - No date found
 https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534  # Tickets for TWINSICK - No date found
 https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373  # Tickets for Sacrifice - No date found
-https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253  # Tickets for YIN YIN with Special Guests - No date found
+https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253  # Unknown Event - No date found
 https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813  # Tickets for Night Tapes - portals//polarities World Tour - No date found
 https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844  # Tickets for Bambara - No date found
 https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623  # Tickets for The Exploited, Burnt Knives - No date found
@@ -54,7 +54,7 @@ https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/142
 https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394  # Tickets for Anvil - No date found
 https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124  # Tickets for NorthsideBenji - No date found
 https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714  # Tickets for Hayden Pedigo, Jens Kuross - No date found
-https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643  # Tickets for Night Moves with Special Guests - No date found
+https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643  # Unknown Event - No date found
 https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423  # Tickets for L'Eclair with Special Guests - No date found
 https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283  # Tickets for Pixel Grip with Psymon Spine & God Tongue - No date found
 https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623  # Tickets for FELLY with Breakup Shoes - No date found
