@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
       "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
       "title": "Tickets for Anvil",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
       "event_dt": null
     },
     {
@@ -37,23 +37,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
-      "title": "Tickets for Self Deception",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
       "title": "Tickets for Alicia Moffet, Dominique Way",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863",
-      "title": "Tickets for JO DOLO: Going Gold Tour",
+      "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
+      "title": "TicketWeb",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
-      "title": "TicketWeb",
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863",
+      "title": "Tickets for JO DOLO: Going Gold Tour",
       "event_dt": null
     },
     {
@@ -102,18 +97,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
-      "title": "Tickets for Pretty Pink",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
       "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
-      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+      "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
+      "title": "Tickets for Pretty Pink",
       "event_dt": null
     },
     {
@@ -122,23 +112,28 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543",
-      "title": "Tickets for Johnny Stimson",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184",
       "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "url": "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543",
+      "title": "Tickets for Johnny Stimson",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603",
       "title": "Tickets for Between The Buried And Me & Hail The Sun",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
+      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -152,13 +147,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473",
-      "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
+      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
+      "title": "Tickets for The Brokes: The Strokes Experience",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163",
-      "title": "Tickets for The Brokes: The Strokes Experience",
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473",
+      "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
       "event_dt": null
     },
     {
@@ -174,6 +169,11 @@
     {
       "url": "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804",
       "title": "Tickets for LAYTON GIORDANI",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -202,13 +202,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023",
-      "title": "Tickets for gunnr - North America Tour",
+      "url": "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424",
+      "title": "Tickets for Kerala Dust",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424",
-      "title": "Tickets for Kerala Dust",
+      "url": "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023",
+      "title": "Tickets for gunnr - North America Tour",
       "event_dt": null
     },
     {
@@ -227,8 +227,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
-      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
+      "title": "Tickets for Self Deception",
       "event_dt": null
     },
     {
@@ -242,23 +242,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
-      "title": "Tickets for Shawn Desman, Jamie Fine",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303",
       "title": "Tickets for Rend Collective Folk! Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
-      "title": "Tickets for Young Franco",
+      "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
+      "title": "Tickets for Shawn Desman, Jamie Fine",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/bambu-ft-hills-dprtmnt-tickets/13783914",
       "title": "Tickets for BAMBU ft. HILLS",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914",
+      "title": "Tickets for Young Franco",
       "event_dt": null
     },
     {
@@ -269,11 +269,6 @@
     {
       "url": "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803",
       "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -299,6 +294,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
       "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
+      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
     },
     {
@@ -332,13 +332,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013",
-      "title": "Tickets for Ingested, Ov Sulfur, CELL",
+      "url": "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514",
+      "title": "Tickets for ALEX PORAT WITH Lucette",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514",
-      "title": "Tickets for ALEX PORAT WITH Lucette",
+      "url": "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013",
+      "title": "Tickets for Ingested, Ov Sulfur, CELL",
       "event_dt": null
     },
     {
