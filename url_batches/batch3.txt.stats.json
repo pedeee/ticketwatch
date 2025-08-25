@@ -2,13 +2,13 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
-      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
+      "title": "Tickets for French Police with Riki",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
-      "title": "Tickets for French Police with Riki",
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
@@ -122,6 +122,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213",
       "title": "Tickets for Allan Rayman",
       "event_dt": null
@@ -152,13 +157,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
+      "title": "Tickets for Hollerado",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513",
       "title": "Tickets for Nation of Language with Westerman",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
-      "title": "Tickets for Hollerado",
+      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
+      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
@@ -174,6 +184,11 @@
     {
       "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273",
       "title": "Tickets for Hotel Mira with Bleeker",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
       "event_dt": null
     },
     {
@@ -207,23 +222,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604",
       "title": "Tickets for MAD CADDIES with The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14446723",
+      "title": "Tickets for Hollerado",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14446723",
-      "title": "Tickets for Hollerado",
+      "url": "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
       "event_dt": null
     },
     {
@@ -244,11 +254,6 @@
     {
       "url": "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204",
       "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
-      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
@@ -274,11 +279,6 @@
     {
       "url": "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274",
       "title": "Tickets for Jeremy Olander (Open To Close)",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
       "event_dt": null
     },
     {
