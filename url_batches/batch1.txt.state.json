@@ -77,26 +77,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
     "title": "Tickets for Max Cooper, Tor",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
-    "title": "Tickets for Chaser",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203": {
     "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
+    "title": "Tickets for Chaser",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -149,12 +149,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
     "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
     "price": null,
@@ -185,6 +179,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
     "title": "Tickets for Bratmobile, PISS, Necking",
     "price": null,
@@ -199,12 +199,6 @@
   },
   "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794": {
     "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -358,6 +352,12 @@
     "price": null,
     "soldout": true,
     "event_dt": "2025-11-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
   },
   "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
     "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
