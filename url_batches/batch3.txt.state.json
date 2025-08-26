@@ -1,6 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654": {
-    "title": "Tickets for French Police with Riki",
+  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
+    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -11,8 +11,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
-    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+  "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654": {
+    "title": "Tickets for French Police with Riki",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -119,14 +119,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203": {
-    "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
+  "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474": {
+    "title": "Tickets for Jaques Greene + Nosaj Thing Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474": {
-    "title": "Tickets for Jaques Greene + Nosaj Thing Live",
+  "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203": {
+    "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -143,12 +143,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
-    "title": "Tickets for Hotel Mira with Special Guests",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-07T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
     "title": "Tickets for Allan Rayman",
     "price": null,
@@ -161,14 +155,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134": {
-    "title": "Tickets for Pool Kids",
+  "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-the-mansion-tickets/14464173": {
+    "title": "Tickets for Hotel Mira with Bleeker",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-the-mansion-tickets/14464173": {
-    "title": "Tickets for Hotel Mira with Bleeker",
+  "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134": {
+    "title": "Tickets for Pool Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,20 +215,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793": {
-    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+  "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113": {
+    "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/the-barr-brothers-the-bronson-tickets/13761264": {
     "title": "Tickets for The Barr Brothers, Land of Talk",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113": {
-    "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -256,6 +244,12 @@
     "price": null,
     "soldout": true,
     "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
+    "title": "Tickets for Hotel Mira with Special Guests",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-07T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
     "title": "Tickets for COONE",
@@ -337,6 +331,12 @@
   },
   "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274": {
     "title": "Tickets for Jeremy Olander (Open To Close)",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793": {
+    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
