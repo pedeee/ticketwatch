@@ -2,8 +2,8 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
-      "title": "Tickets for French Police with Riki",
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
@@ -12,8 +12,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
-      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
+      "title": "Tickets for French Police with Riki",
       "event_dt": null
     },
     {
@@ -44,6 +44,11 @@
     {
       "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
       "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
       "event_dt": null
     },
     {
@@ -92,13 +97,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744",
-      "title": "Tickets for Bambara",
+      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
+      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294",
       "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744",
+      "title": "Tickets for Bambara",
       "event_dt": null
     },
     {
@@ -212,11 +222,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604",
       "title": "Tickets for MAD CADDIES with The Corps",
       "event_dt": null
@@ -252,11 +257,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
-      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913",
       "title": "Tickets for The Dears with Special Guests",
       "event_dt": null
@@ -272,23 +272,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713",
-      "title": "Tickets for saturdays at your place these things happen tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274",
       "title": "Tickets for Jeremy Olander (Open To Close)",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544",
-      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+      "url": "https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713",
+      "title": "Tickets for saturdays at your place these things happen tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
-      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-anti-biltmore-theatre-tickets/13687544",
+      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
       "event_dt": null
     },
     {
@@ -319,6 +314,11 @@
     {
       "url": "https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203",
       "title": "Tickets for PUP, Snotty Nose Rez Kids",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
+      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
       "event_dt": null
     }
   ]
