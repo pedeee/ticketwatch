@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
-    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
     "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
@@ -17,14 +11,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
-    "title": "Tickets for Night Moves with Special Guests",
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
+    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
+  "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
+    "title": "Tickets for Night Moves with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -53,8 +47,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093": {
-    "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -65,14 +59,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
-    "title": "Tickets for Maria Somerville with Special Guests",
+  "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093": {
+    "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
     "title": "Tickets for YIN YIN with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
+    "title": "Tickets for Maria Somerville with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -125,6 +125,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
     "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
     "price": null,
@@ -137,26 +143,32 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
-    "title": "Tickets for Fly By Midnight with Moontower",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883": {
     "title": "Tickets for Wombo with Shower Curtain",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943": {
-    "title": "Tickets for Ben Caplan with Special Guests",
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour",
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
+    "title": "Tickets for Fly By Midnight with Moontower",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
+    "title": "Tickets for Sacrifice",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943": {
+    "title": "Tickets for Ben Caplan with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -185,14 +197,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
-    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+  "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
+    "title": "Tickets for Naethan Apollo with Mars Mignon",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
-    "title": "Tickets for Naethan Apollo with Mars Mignon",
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
+    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -203,20 +215,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
+    "title": "Tickets for The Stews with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
     "title": "Tickets for Ken Yates - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
-    "title": "Tickets for Kiesza, Anjulie",
+  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
+    "title": "Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
-    "title": "Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace",
+  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
+    "title": "Tickets for Kiesza, Anjulie",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,12 +281,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
-    "title": "Tickets for Sacrifice",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
     "title": "Tickets for Castle Rat with Faerie Ring",
     "price": null,
@@ -299,26 +311,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
-    "title": "Tickets for Future Palace, Half Me, Hawk",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
     "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
-    "title": "Tickets for The Exploited, Burnt Knives",
+  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
+    "title": "Tickets for Future Palace, Half Me, Hawk",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
-    "title": "Tickets for The Stews with Special Guests",
+  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
+    "title": "Tickets for The Exploited, Burnt Knives",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -377,8 +383,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
+  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
+    "title": "Tickets for RIELL with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -389,20 +395,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393": {
-    "title": "Tickets for RIELL with Special Guests",
+  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
+    "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
     "title": "Tickets for The Exploited, Spades GT",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
-    "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
