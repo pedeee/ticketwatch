@@ -2,13 +2,13 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
-      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
+      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
+      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
-      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
+      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
+      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
@@ -27,13 +27,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/deltron3030-the-concert-hall-tickets/14389983",
-      "title": "Tickets for DELTRON3030",
+      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-park-theatre-tickets/14424633",
+      "title": "Tickets for Comeback Kid - Wake The Dead Anniversary Canadian Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-park-theatre-tickets/14424633",
-      "title": "Tickets for Comeback Kid - Wake The Dead Anniversary Canadian Tour",
+      "url": "https://www.ticketweb.ca/event/deltron3030-the-concert-hall-tickets/14389983",
+      "title": "Tickets for DELTRON3030",
       "event_dt": null
     },
     {
@@ -107,19 +107,14 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723",
-      "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733",
       "title": "Tickets for Pile with NNAMDI & Down The Lees",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
-      "event_dt": "2025-11-24T00:00:00+00:00"
+      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723",
+      "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
+      "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193",
@@ -152,13 +147,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794",
-      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "url": "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713",
+      "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713",
-      "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794",
+      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
     },
     {
@@ -179,11 +174,6 @@
     {
       "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
       "title": "Tickets for Ethan Low - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
-      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
@@ -210,6 +200,11 @@
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
       "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
@@ -279,6 +274,11 @@
     {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563",
       "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
+      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
