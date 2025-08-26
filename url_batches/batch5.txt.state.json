@@ -23,12 +23,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
     "title": "Tickets for Improvement Movement with Pretty",
     "price": null,
@@ -89,14 +83,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
-    "title": "Tickets for Frankie and the Witch Fingers with Population II",
+  "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
+    "title": "Tickets for JO DOLO - Going Gold Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
-    "title": "Tickets for JO DOLO - Going Gold Tour",
+  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
+    "title": "Tickets for Frankie and the Witch Fingers with Population II",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -113,20 +107,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013": {
-    "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283": {
     "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
-    "title": "Tickets for This Paranormal Life",
+  "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013": {
+    "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,8 +125,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
-    "title": "Tickets for Fly By Midnight with Moontower",
+  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
+    "title": "Tickets for This Paranormal Life",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -149,14 +137,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour",
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
+    "title": "Tickets for Fly By Midnight with Moontower",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
-    "title": "Tickets for Sacrifice",
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -209,12 +197,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
-    "title": "Tickets for The Stews with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
     "title": "Tickets for Ken Yates - Presented By F7 Live",
     "price": null,
@@ -251,14 +233,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
-    "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
+  "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943": {
+    "title": "Tickets for The Dirty Nil",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943": {
-    "title": "Tickets for The Dirty Nil",
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
+    "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -275,6 +257,18 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
+    "title": "Tickets for Sacrifice",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
     "title": "Tickets for Castle Rat with Faerie Ring",
     "price": null,
@@ -287,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
-    "title": "Tickets for Playhouse Pres: Ilan Bluestone",
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
-    "title": "Tickets for NorthsideBenji",
+  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
+    "title": "Tickets for Playhouse Pres: Ilan Bluestone",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -319,6 +313,12 @@
   },
   "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
     "title": "Tickets for The Exploited, Burnt Knives",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
+    "title": "Tickets for The Stews with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,6 +353,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
     "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
     "price": null,
@@ -373,12 +379,6 @@
   },
   "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
     "title": "Tickets for Dakhabrakha",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
