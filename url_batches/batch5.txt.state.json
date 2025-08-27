@@ -1,18 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
-    "title": "Tickets for Be'lakor,   Solemn Vision",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
     "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
-    "title": "Tickets for Night Moves with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -23,8 +11,32 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
+    "title": "Tickets for Be'lakor,   Solemn Vision",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
+    "title": "Tickets for Night Moves with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
     "title": "Tickets for Improvement Movement with Pretty",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
+    "title": "Tickets for Gui Boratto",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,20 +71,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
-    "title": "Tickets for YIN YIN with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
     "title": "Tickets for Maria Somerville with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
-    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+  "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
+    "title": "Tickets for YIN YIN with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -83,14 +89,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
-    "title": "Tickets for Frankie and the Witch Fingers with Population II",
+  "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513": {
+    "title": "Tickets for Dwarves, Burnt Knives, Harm School",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094": {
     "title": "Tickets for JO DOLO - Going Gold Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
+    "title": "Tickets for Frankie and the Witch Fingers with Population II",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,14 +167,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813": {
-    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633": {
+    "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633": {
-    "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
+  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813": {
+    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -185,14 +197,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
-    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+  "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
+    "title": "Tickets for Anvil",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
-    "title": "Tickets for Anvil",
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
+    "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,14 +233,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
-    "title": "Tickets for Bambara",
+  "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
+    "title": "Tickets for Casey Lowery with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383": {
-    "title": "Tickets for Casey Lowery with Special Guests",
+  "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
+    "title": "Tickets for Bambara",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -293,20 +305,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
-    "title": "Tickets for Gui Boratto",
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
     "title": "Tickets for Future Palace, Half Me, Hawk",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,12 +359,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
     "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
     "price": null,
@@ -395,14 +395,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
-    "title": "Tickets for Corbin",
+  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
+    "title": "Tickets for The Exploited, Spades GT",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
-    "title": "Tickets for The Exploited, Spades GT",
+  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
+    "title": "Tickets for Corbin",
     "price": null,
     "soldout": true,
     "event_dt": null
