@@ -1,12 +1,12 @@
 {
-  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
-    "title": "Tickets for Be'lakor,   Solemn Vision",
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
+    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
-    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
+    "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -17,20 +17,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
     "title": "Tickets for Night Moves with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
-    "title": "Tickets for Improvement Movement with Pretty",
+  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
+    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
-    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
+    "title": "Tickets for Improvement Movement with Pretty",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -233,14 +239,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
-    "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
+  "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943": {
+    "title": "Tickets for The Dirty Nil",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943": {
-    "title": "Tickets for The Dirty Nil",
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
+    "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -253,12 +259,6 @@
   },
   "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
     "title": "Tickets for FELLY with Breakup Shoes",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,20 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
-    "title": "Tickets for NorthsideBenji",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
     "title": "Tickets for Playhouse Pres: Ilan Bluestone",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,14 +299,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
-    "title": "Tickets for The Exploited, Burnt Knives",
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
     "title": "Tickets for Future Palace, Half Me, Hawk",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
+    "title": "Tickets for The Exploited, Burnt Knives",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,12 +353,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
     "title": "Tickets for Mystery Skulls - Ultra Rare Tour",
     "price": null,
@@ -379,6 +373,12 @@
   },
   "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483": {
     "title": "Tickets for Dakhabrakha",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
