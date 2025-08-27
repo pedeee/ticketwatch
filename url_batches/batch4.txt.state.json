@@ -5,14 +5,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654": {
-    "title": "Tickets for New Delta w/ low midi & Taylynn",
+  "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
+    "title": "Tickets for No Joy",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084": {
-    "title": "Tickets for No Joy",
+  "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654": {
+    "title": "Tickets for New Delta w/ low midi & Taylynn",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,8 +47,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
+    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -71,14 +71,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,6 +107,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Pacifica",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
     "title": "Tickets for DEEPCUT",
     "price": null,
@@ -131,20 +137,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
-    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
     "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
-    "title": "Tickets for Kota The Friend",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,8 +149,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
+    "title": "Tickets for Kota The Friend",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723": {
     "title": "Tickets for Balu Brigada with Tommy Newport",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -187,12 +193,6 @@
   },
   "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013": {
     "title": "Tickets for The Deep Dark Woods with Bob Sumner",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Pacifica",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -235,6 +235,12 @@
   },
   "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
     "title": "Tickets for Ty Segall",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
+    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,20 +341,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
-    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025 - TICKETS AT THE DOOR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
     "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
-    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
+    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025 - TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,8 +359,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
-    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
+    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,14 +383,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214": {
-    "title": "Tickets for Bed By 10pm Summer Edition",
+  "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
+    "title": "Tickets for Lady Wray with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404": {
-    "title": "Tickets for Lady Wray with Special Guests",
+  "https://www.ticketweb.ca/event/bed-by-10pm-summer-edition-noir-inside-rebel-tickets/13776214": {
+    "title": "Tickets for Bed By 10pm Summer Edition",
     "price": null,
     "soldout": true,
     "event_dt": null
