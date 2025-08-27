@@ -2,23 +2,23 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
-      "title": "Tickets for French Police with Riki",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-bridgeworks-tickets/14464333",
-      "title": "Tickets for Hotel Mira with Bleeker",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
       "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
+      "title": "Tickets for French Police with Riki",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883",
       "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hotel-mira-with-bleeker-bridgeworks-tickets/14464333",
+      "title": "Tickets for Hotel Mira with Bleeker",
       "event_dt": null
     },
     {
@@ -37,13 +37,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554",
-      "title": "Tickets for Space 92",
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "url": "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554",
+      "title": "Tickets for Space 92",
       "event_dt": null
     },
     {
@@ -64,11 +64,6 @@
     {
       "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
       "title": "Tickets for Allan Rayman",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
-      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
       "event_dt": null
     },
     {
@@ -127,13 +122,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
-      "title": "Tickets for Billy Raffoul",
+      "url": "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
+      "title": "Tickets for Billy Raffoul",
       "event_dt": null
     },
     {
@@ -157,11 +152,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
-      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-the-anti-queens-overflow-brewing-co-tickets/14461363",
       "title": "Tickets for Mad Caddies, The Anti-Queens, The Corps",
       "event_dt": null
@@ -172,13 +162,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884",
-      "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
+      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
+      "title": "Tickets for Hollerado",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
-      "title": "Tickets for Hollerado",
+      "url": "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884",
+      "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
       "event_dt": null
     },
     {
@@ -202,13 +192,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093",
-      "title": "Tickets for Fly By Midnight with Moontower",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113",
+      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113",
-      "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
+      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093",
+      "title": "Tickets for Fly By Midnight with Moontower",
       "event_dt": null
     },
     {
@@ -219,6 +209,11 @@
     {
       "url": "https://www.ticketweb.ca/event/allan-rayman-london-music-hall-tickets/14464563",
       "title": "Tickets for Allan Rayman",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
       "event_dt": null
     },
     {
@@ -242,18 +237,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944",
-      "title": "Tickets for Hotel Mira, Bleeker",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703",
       "title": "Tickets for Flyte with Ken Pomeroy",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944",
+      "title": "Tickets for Hotel Mira, Bleeker",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204",
       "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
+      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
@@ -292,18 +292,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774",
+      "title": "Tickets for Sun Kil Moon",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/french-police-with-social-order-lees-palace-tickets/13713634",
       "title": "Tickets for French Police with Social Order",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774",
-      "title": "Tickets for Sun Kil Moon",
+      "url": "https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513",
+      "title": "Tickets for Ria Mae- Tiny Strands and Flashbanks",
       "event_dt": null
     },
     {
@@ -312,8 +312,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ria-mae-tiny-strands-biltmore-theatre-tickets/14327513",
-      "title": "Tickets for Ria Mae- Tiny Strands and Flashbanks",
+      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
+      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
       "event_dt": null
     },
     {
