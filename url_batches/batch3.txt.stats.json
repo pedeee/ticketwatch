@@ -2,8 +2,8 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
-      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
+      "title": "Tickets for French Police with Riki",
       "event_dt": null
     },
     {
@@ -12,8 +12,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
-      "title": "Tickets for French Police with Riki",
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
@@ -67,18 +67,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
-      "title": "Tickets for Mad Caddies",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343",
       "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234",
-      "title": "Tickets for Revocation, Judiciary, Inferi, Vomit Forth",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
+      "title": "Tickets for Mad Caddies",
       "event_dt": null
     },
     {
@@ -87,13 +82,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294",
-      "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
+      "url": "https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234",
+      "title": "Tickets for Revocation, Judiciary, Inferi, Vomit Forth",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744",
       "title": "Tickets for Bambara",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294",
+      "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
       "event_dt": null
     },
     {
@@ -124,11 +124,6 @@
     {
       "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
       "title": "Tickets for Billy Raffoul",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
       "event_dt": null
     },
     {
@@ -172,18 +167,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
-      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
+      "url": "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884",
+      "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/mum-with-special-guests-the-pearl-tickets/13827313",
       "title": "Tickets for M\u00fam with Mr. Silla",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884",
-      "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
       "event_dt": null
     },
     {
@@ -222,6 +212,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604",
       "title": "Tickets for MAD CADDIES with The Corps",
       "event_dt": null
@@ -254,6 +249,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204",
       "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
+      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
