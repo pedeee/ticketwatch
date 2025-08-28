@@ -5,14 +5,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293": {
-    "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
+  "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293": {
+    "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -40,6 +40,12 @@
     "price": null,
     "soldout": true,
     "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-11-24T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
@@ -119,6 +125,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
+    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083": {
     "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
     "price": null,
@@ -131,32 +143,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-the-starlite-room-tickets/14275193": {
     "title": "Tickets for Too Many Zooz: Caravan Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
-    "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-11-24T00:00:00+00:00"
-  },
-  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743": {
-    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Presented. by MODO-Live and New Ground Booking",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -167,8 +161,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
-    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+  "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403": {
+    "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -179,14 +173,26 @@
     "soldout": false,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713": {
-    "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
+  "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-palace-theatre-tickets/14420743": {
+    "title": "Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374": {
+    "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214": {
     "title": "Tickets for Bratmobile, PISS, Necking",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713": {
+    "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,12 +227,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
-    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
     "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
     "price": null,
@@ -253,12 +253,6 @@
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,14 +329,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
+    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
-    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -355,6 +349,12 @@
   },
   "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404": {
     "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
     "price": null,
     "soldout": true,
     "event_dt": null
