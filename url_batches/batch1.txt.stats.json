@@ -2,11 +2,6 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
-      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
       "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
       "event_dt": null
@@ -17,13 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
-      "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
+      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
       "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
+      "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
       "event_dt": null
     },
     {
@@ -47,8 +47,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/big-sis-fortune-sound-club-tickets/13808844",
+      "title": "Tickets for BIG SIS",
       "event_dt": null
     },
     {
@@ -57,8 +57,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/big-sis-fortune-sound-club-tickets/13808844",
-      "title": "Tickets for BIG SIS",
+      "url": "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864",
+      "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -67,18 +67,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864",
-      "title": "Tickets for Ethan Low - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
       "title": "Tickets for Max Cooper, Tor",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
-      "title": "Tickets for Tony Ann - Late Show",
       "event_dt": null
     },
     {
@@ -109,11 +99,6 @@
     {
       "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
       "title": "Tickets for Ethan Low - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
-      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
@@ -157,6 +142,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
+      "title": "Tickets for Tony Ann - Late Show",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214",
       "title": "Tickets for Bratmobile, PISS, Necking",
       "event_dt": null
@@ -192,6 +182,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
+      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
       "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
       "event_dt": null
@@ -207,6 +202,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
       "title": "Tickets for Yukon Blonde",
       "event_dt": null
@@ -217,8 +217,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514",
+      "title": "Tickets for Patrick Wolf with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
+      "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
       "event_dt": null
     },
     {
@@ -227,18 +232,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514",
-      "title": "Tickets for Patrick Wolf with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014",
       "title": "Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
-      "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
       "event_dt": null
     },
     {
@@ -313,6 +308,11 @@
     },
     {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
