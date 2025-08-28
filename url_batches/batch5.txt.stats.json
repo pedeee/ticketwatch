@@ -2,11 +2,6 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
       "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
       "event_dt": null
@@ -14,6 +9,16 @@
     {
       "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
       "title": "Tickets for Skinshape with Sons of Sevilla",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
+      "title": "Tickets for Improvement Movement with Pretty",
       "event_dt": null
     },
     {
@@ -27,8 +32,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
-      "title": "Tickets for Improvement Movement with Pretty",
+      "url": "https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363",
+      "title": "Tickets for Hotel Mira with Bleeker",
       "event_dt": null
     },
     {
@@ -37,8 +42,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363",
-      "title": "Tickets for Hotel Mira with Bleeker",
+      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
+      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
       "event_dt": null
     },
     {
@@ -47,18 +52,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
-      "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
       "title": "Tickets for YIN YIN with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Special Guests",
       "event_dt": null
     },
     {
@@ -87,23 +87,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
-      "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283",
       "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
-      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
+      "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
+      "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
       "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
+      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
       "event_dt": null
     },
     {
@@ -257,13 +257,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843",
-      "title": "Tickets for Next Music from Tokyo vol 17",
+      "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
+      "title": "Tickets for Future Palace, Half Me, Hawk",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
-      "title": "Tickets for Future Palace, Half Me, Hawk",
+      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843",
+      "title": "Tickets for Next Music from Tokyo vol 17",
       "event_dt": null
     },
     {
@@ -282,13 +282,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
-      "title": "Tickets for P'Tit Belliveau with Special Guests",
+      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
+      "title": "Tickets for Pypy with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "title": "Tickets for Pypy with Special Guests",
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
+      "title": "Tickets for P'Tit Belliveau with Special Guests",
       "event_dt": null
     },
     {
@@ -322,13 +322,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
-      "title": "Tickets for RIELL with Special Guests",
+      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
+      "title": "Tickets for ATRIP",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
-      "title": "Tickets for ATRIP",
+      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
+      "title": "Tickets for RIELL with Special Guests",
       "event_dt": null
     },
     {
