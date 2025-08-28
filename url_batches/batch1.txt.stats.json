@@ -2,8 +2,8 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
-      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
+      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
+      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
@@ -12,18 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
-      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
-      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
+      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
       "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
+      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
       "event_dt": null
     },
     {
@@ -142,11 +142,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
-      "title": "Tickets for Tony Ann - Late Show",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214",
       "title": "Tickets for Bratmobile, PISS, Necking",
       "event_dt": null
@@ -172,18 +167,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884",
-      "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
       "title": "Tickets for Ethan Low - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
-      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-i-friendship-bos-bar-stage-tickets/13801884",
+      "title": "Tickets for YUKON BLONDE I FRIENDSHIP & ROCK 'N' ROLL",
       "event_dt": null
     },
     {
@@ -197,18 +187,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
+      "title": "Tickets for Yukon Blonde",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663",
       "title": "Tickets for Dune Rats w/ Brain Bent & More",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
+      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
-      "title": "Tickets for Yukon Blonde",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
@@ -222,13 +217,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
-      "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
+      "url": "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954",
+      "title": "Tickets for Wilkinson",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954",
-      "title": "Tickets for Wilkinson",
+      "url": "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943",
+      "title": "Tickets for Tony Ann - Late Show",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
+      "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
       "event_dt": null
     },
     {
@@ -244,6 +244,11 @@
     {
       "url": "https://www.ticketweb.ca/event/dublon-village-studios-tickets/13800654",
       "title": "Tickets for dublon",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
@@ -272,6 +277,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
+      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033",
       "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
       "event_dt": null
@@ -284,11 +294,6 @@
     {
       "url": "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404",
       "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
-      "title": "Tickets for Too Many Zooz: Caravan Tour",
       "event_dt": null
     },
     {
@@ -308,11 +313,6 @@
     },
     {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
