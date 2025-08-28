@@ -2,13 +2,13 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
-      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
+      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
       "event_dt": null
     },
     {
@@ -39,6 +39,11 @@
     {
       "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
       "title": "Tickets for BONUS STAGE ULTIMATE",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
@@ -84,6 +89,11 @@
     {
       "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
       "title": "Tickets for L'Eclair with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -227,23 +237,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
       "title": "Tickets for Castle Rat with Faerie Ring",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
-      "title": "Tickets for Sextile & Automatic",
+      "url": "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124",
+      "title": "Tickets for NorthsideBenji",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124",
-      "title": "Tickets for NorthsideBenji",
+      "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
+      "title": "Tickets for Sextile & Automatic",
       "event_dt": null
     },
     {
@@ -272,18 +277,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
       "title": "Tickets for The Brian Jonestown Massacre with Federale",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
-      "title": "Tickets for P'Tit Belliveau with Special Guests",
       "event_dt": null
     },
     {
@@ -292,13 +287,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
-      "title": "Tickets for DUKE DUMONT",
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
+      "title": "Tickets for P'Tit Belliveau with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
       "title": "Tickets for TWINSICK",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
+      "title": "Tickets for DUKE DUMONT",
       "event_dt": null
     },
     {
@@ -322,13 +322,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
-      "title": "Tickets for RIELL with Special Guests",
+      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
+      "title": "Tickets for ATRIP",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
-      "title": "Tickets for ATRIP",
+      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
+      "title": "Tickets for RIELL with Special Guests",
       "event_dt": null
     },
     {
