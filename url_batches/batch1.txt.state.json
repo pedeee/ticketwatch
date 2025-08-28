@@ -1,4 +1,10 @@
 {
+  "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
+    "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293": {
     "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
     "price": null,
@@ -19,12 +25,6 @@
   },
   "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793": {
     "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
-    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,14 +59,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
-    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
+  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
-    "title": "Tickets for Ethan Low - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
+    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -77,14 +77,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
-    "title": "Tickets for Chaser",
+  "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
+    "title": "Tickets for Max Cooper, Tor",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634": {
-    "title": "Tickets for Max Cooper, Tor",
+  "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104": {
+    "title": "Tickets for Chaser",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -119,14 +119,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
-    "title": "Tickets for Pile with NNAMDI & Down The Lees",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083": {
     "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733": {
+    "title": "Tickets for Pile with NNAMDI & Down The Lees",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,14 +227,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
+    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663": {
     "title": "Tickets for Dune Rats w/ Brain Bent & More",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784": {
-    "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
+  "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424": {
+    "title": "Tickets for Yukon Blonde",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -239,11 +251,11 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424": {
-    "title": "Tickets for Yukon Blonde",
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
     "price": null,
     "soldout": true,
-    "event_dt": null
+    "event_dt": "2025-11-24T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274": {
     "title": "Tickets for Yung Singh",
@@ -269,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
-    "title": "Tickets for David Archuleta with Alexandra John",
+  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014": {
+    "title": "Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014": {
-    "title": "Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall",
+  "https://www.ticketweb.ca/event/david-archuleta-w-alexandra-john-hollywood-theatre-tickets/14402823": {
+    "title": "Tickets for David Archuleta with Alexandra John",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -317,14 +329,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
-    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
+  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
+    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
-    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
+    "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,11 +347,11 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
+    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
     "price": null,
     "soldout": true,
-    "event_dt": "2025-11-24T00:00:00+00:00"
+    "event_dt": null
   },
   "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
     "title": "Tickets for Too Many Zooz: Caravan Tour",
@@ -365,20 +377,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
     "title": "Tickets for Tony Ann - Late Show",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
