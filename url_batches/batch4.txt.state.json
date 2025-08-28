@@ -23,12 +23,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
-    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
     "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
     "price": null,
@@ -47,26 +41,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
-    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
     "title": "Tickets for KOMPANY - NEMESIS TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
-    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
     "title": "Tickets for Bay Faction with Keep",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
+    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,12 +101,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Pacifica",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
@@ -139,6 +127,12 @@
   },
   "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973": {
     "title": "Tickets for Ben Caplan with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
+    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -269,14 +263,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
-    "title": "Tickets for P'tit Belliveau",
+  "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063": {
+    "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063": {
-    "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
+  "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
+    "title": "Tickets for P'tit Belliveau",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -307,6 +301,12 @@
   },
   "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453": {
     "title": "Tickets for Amy Millan, Zoon",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Pacifica",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,26 +359,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
+    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13908724": {
     "title": "Tickets for Floyd Factor / Tribute to Pink Floyd, No Remorse",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
+    "title": "Tickets for Nate Sib - NA LEG 2",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064": {
     "title": "Tickets for Hand Habits with Olivia Kaplan",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474": {
-    "title": "Tickets for Nate Sib - NA LEG 2",
     "price": null,
     "soldout": true,
     "event_dt": null
