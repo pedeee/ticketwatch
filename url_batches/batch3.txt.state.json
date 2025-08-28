@@ -65,20 +65,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963": {
-    "title": "Tickets for Allan Rayman",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614": {
     "title": "Tickets for DIMENSION",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163": {
-    "title": "Tickets for Mad Caddies",
+  "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -89,14 +83,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163": {
+    "title": "Tickets for Mad Caddies",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234": {
     "title": "Tickets for Revocation, Judiciary, Inferi, Vomit Forth",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -113,14 +113,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203": {
-    "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
+  "https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694": {
+    "title": "Tickets for bar italia, voyeur",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bar-italia-hollywood-theatre-tickets/13805694": {
-    "title": "Tickets for bar italia, voyeur",
+  "https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203": {
+    "title": "Tickets for Two Another \u2013 North American Tour, No Suits",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -149,14 +149,14 @@
     "soldout": true,
     "event_dt": "2025-10-07T00:00:00+00:00"
   },
-  "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
-    "title": "Tickets for Allan Rayman",
+  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053": {
+    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053": {
-    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+  "https://www.ticketweb.ca/event/allan-rayman-the-starlite-room-tickets/14454213": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,14 +359,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
-    "title": "Tickets for Sun Kil Moon",
+  "https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213": {
+    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213": {
-    "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+  "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
+    "title": "Tickets for Sun Kil Moon",
     "price": null,
     "soldout": true,
     "event_dt": null
