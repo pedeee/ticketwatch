@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
-    "title": "Tickets for Be'lakor,   Solemn Vision",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
     "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
     "title": "Tickets for Skinshape with Sons of Sevilla",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
+    "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -227,14 +227,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
-    "title": "Tickets for Kiesza, Anjulie",
+  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
+    "title": "Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
-    "title": "Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace",
+  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
+    "title": "Tickets for Kiesza, Anjulie",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,20 +263,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873": {
-    "title": "Tickets for Crypta",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073": {
     "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
-    "title": "Tickets for Castle Rat with Faerie Ring",
+  "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873": {
+    "title": "Tickets for Crypta",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -287,8 +281,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
-    "title": "Tickets for NorthsideBenji",
+  "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
+    "title": "Tickets for Castle Rat with Faerie Ring",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,6 +299,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues": {
     "title": "Tickets for Boys Noize",
     "price": null,
@@ -317,26 +317,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
-    "title": "Tickets for Future Palace, Half Me, Hawk",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
     "title": "Tickets for The Exploited, Burnt Knives",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
-    "title": "Tickets for The Brian Jonestown Massacre with Federale",
+  "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
+    "title": "Tickets for Future Palace, Half Me, Hawk",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083": {
     "title": "Tickets for Pypy with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
+    "title": "Tickets for The Brian Jonestown Massacre with Federale",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,14 +353,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
-    "title": "Tickets for DUKE DUMONT",
+  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
+    "title": "Tickets for Mystery Skulls - Ultra Rare Tour w/ NITE",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
-    "title": "Tickets for Mystery Skulls - Ultra Rare Tour w/ NITE",
+  "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414": {
+    "title": "Tickets for DUKE DUMONT",
     "price": null,
     "soldout": true,
     "event_dt": null
