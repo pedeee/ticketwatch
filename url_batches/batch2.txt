@@ -1,7 +1,7 @@
 # Ticketwatch URLs - Automatically sorted by event date
 # Format: URL  # Event Name - Date
 
-https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544  # Tickets for Self Deception - No date found
+https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544  # Unknown Event - No date found
 https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494  # TicketWeb - No date found
 https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644  # Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven - No date found
 https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/14028063  # Tickets for Emo Night Toronto at Sneaky Dee's - TICKETS AT THE DOOR - No date found
@@ -34,7 +34,7 @@ https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/1430
 https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954  # Tickets for Ewan McVicar - No date found
 https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334  # Tickets for Morgan Wade - No date found
 https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013  # Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service - No date found
-https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824  # Tickets for Peter Dreams, MOONRIIVR - No date found
+https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824  # Unknown Event - No date found
 https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543  # Tickets for Johnny Stimson - No date found
 https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713  # Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus - No date found
 https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964  # Tickets for MAD CADDIES with Authority Zero & The Corps - No date found
@@ -56,7 +56,7 @@ https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets
 https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974  # Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek - No date found
 https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703  # Tickets for Sir Chloe with Venus & the Flytraps - No date found
 https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463  # Tickets for Autoheart: The Heartlands Tour w/ Shayfer James - No date found
-https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473  # Tickets for Autoheart: The Heartlands Tour w/ Shayfer James - No date found
+https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473  # Unknown Event - No date found
 https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603  # Tickets for GoGo Penguin with Special Guests - No date found
 https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - No date found
 https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - No date found
