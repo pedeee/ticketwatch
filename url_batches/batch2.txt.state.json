@@ -29,26 +29,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
-    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
     "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
-    "title": "Tickets for Alicia Moffet, Dominique Way",
+  "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
+    "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
     "title": "Tickets for TOPS",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
+    "title": "Tickets for Alicia Moffet, Dominique Way",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -65,14 +65,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
-    "title": "Tickets for Peter Dreams, MOONRIIVR",
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
-    "title": "Tickets for JO DOLO: Going Gold Tour",
+  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
+    "title": "Tickets for Peter Dreams, MOONRIIVR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -91,12 +91,6 @@
   },
   "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
     "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
-    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -341,14 +335,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334": {
-    "title": "Tickets for Morgan Wade",
+  "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734": {
+    "title": "Tickets for Blue Hawaii",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734": {
-    "title": "Tickets for Blue Hawaii",
+  "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334": {
+    "title": "Tickets for Morgan Wade",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -373,6 +367,12 @@
   },
   "https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974": {
     "title": "Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -407,8 +407,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
+    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
