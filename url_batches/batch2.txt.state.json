@@ -23,12 +23,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
     "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
     "price": null,
@@ -49,12 +43,6 @@
   },
   "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
     "title": "Tickets for Alicia Moffet, Dominique Way",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -109,12 +97,6 @@
   },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463": {
     "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -227,14 +209,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174": {
-    "title": "Tickets for The Brokes: The Strokes Experience",
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
+  "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174": {
+    "title": "Tickets for The Brokes: The Strokes Experience",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,20 +245,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804": {
-    "title": "Tickets for Rebuke",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
     "title": "Tickets for GoGo Penguin with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804": {
+    "title": "Tickets for Rebuke",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/guaranteed-entry-4x2-coda-tickets/13911304": {
     "title": "Tickets for Guaranteed Entry: 4x2",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,20 +323,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734": {
-    "title": "Tickets for Blue Hawaii",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334": {
     "title": "Tickets for Morgan Wade",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734": {
+    "title": "Tickets for Blue Hawaii",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -371,14 +365,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
+  "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014": {
+    "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014": {
-    "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -403,6 +397,12 @@
   },
   "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
     "title": "Tickets for Ingested, Ov Sulfur, CELL",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
