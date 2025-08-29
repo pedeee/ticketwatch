@@ -1,7 +1,7 @@
 # Ticketwatch URLs - Automatically sorted by event date
 # Format: URL  # Event Name - Date
 
-https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073  # Unknown Event - No date found
+https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073  # Tickets for Spike and the Gimme Gimmes - No date found
 https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093  # Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime - No date found
 https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714  # Tickets for This Paranormal Life - No date found
 https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423  # Tickets for Kiesza, Anjulie - No date found
