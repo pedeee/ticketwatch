@@ -2,6 +2,11 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
+      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
       "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
@@ -12,18 +17,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
-      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
+      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
+      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
       "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
-      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
       "event_dt": null
     },
     {
@@ -102,13 +102,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083",
-      "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
+      "url": "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733",
+      "title": "Tickets for Pile with NNAMDI & Down The Lees",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pile-with-nnamdi-the-pearl-tickets/14160733",
-      "title": "Tickets for Pile with NNAMDI & Down The Lees",
+      "url": "https://www.ticketweb.ca/event/laura-jane-grace-with-trapper-the-pearl-tickets/14319083",
+      "title": "Tickets for Laura Jane Grace with Trapper Schoepp & Team Nonexistent",
       "event_dt": null
     },
     {
@@ -187,13 +187,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663",
+      "title": "Tickets for Dune Rats w/ Brain Bent & More",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
       "title": "Tickets for Yukon Blonde",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663",
-      "title": "Tickets for Dune Rats w/ Brain Bent & More",
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
@@ -202,8 +207,8 @@
       "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
+      "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
       "event_dt": null
     },
     {
@@ -212,8 +217,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
-      "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
+      "url": "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514",
+      "title": "Tickets for Patrick Wolf with Special Guests",
       "event_dt": null
     },
     {
@@ -222,18 +227,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514",
-      "title": "Tickets for Patrick Wolf with Special Guests",
+      "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
+      "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-the-pearl-tickets/13759014",
       "title": "Tickets for Rhapsody Of Fire + Enforcer + Striker + Witherfall",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/emo-night-vancouver-at-hollywood-hollywood-theatre-tickets/13822934",
-      "title": "Tickets for Emo Night Vancouver at Hollywood Theatre - Aug 16 2025",
       "event_dt": null
     },
     {
