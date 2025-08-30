@@ -2,18 +2,8 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
-      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
       "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
-      "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
       "event_dt": null
     },
     {
@@ -22,13 +12,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
-      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
+      "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
+      "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
-      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014",
+      "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pigs-pigs-pigs-pigs-pigs-the-pearl-tickets/13978793",
+      "title": "Tickets for PIGS PIGS PIGS PIGS PIGS PIGS PIGS with The Paranoyds",
       "event_dt": null
     },
     {
@@ -45,6 +40,11 @@
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
       "url": "https://www.ticketweb.ca/event/surf-trash-with-special-guests-the-pearl-tickets/13683794",
@@ -82,13 +82,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
-      "title": "Tickets for Next Music from Tokyo vol 17",
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143",
+      "title": "Tickets for Yukon Blonde with Atlameda",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-with-atlameda-double-dragon-tickets/14488143",
-      "title": "Tickets for Yukon Blonde with Atlameda",
+      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
+      "title": "Tickets for Next Music from Tokyo vol 17",
       "event_dt": null
     },
     {
@@ -104,6 +104,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
       "title": "Tickets for Ethan Low - Presented By F7 Live",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
+      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
@@ -127,11 +132,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
-      "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403",
       "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
       "event_dt": null
@@ -152,6 +152,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
+      "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214",
       "title": "Tickets for Bratmobile, PISS, Necking",
       "event_dt": null
@@ -164,11 +169,6 @@
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794",
       "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333",
-      "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
@@ -197,18 +197,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784",
-      "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/dune-rats-w-brain-bent-the-buckingham-tickets/14420663",
       "title": "Tickets for Dune Rats w/ Brain Bent & More",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
-      "title": "Tickets for Yukon Blonde",
+      "url": "https://www.ticketweb.ca/event/smells-like-c6-tour-circle6-the-pearl-tickets/13796784",
+      "title": "Tickets for SMELLS LIKE C6 TOUR: CIRCLE6 x NO FATE",
       "event_dt": null
     },
     {
@@ -217,18 +212,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424",
+      "title": "Tickets for Yukon Blonde",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/yung-singh-fortune-sound-club-tickets/13766274",
       "title": "Tickets for Yung Singh",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954",
-      "title": "Tickets for Wilkinson",
+      "url": "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514",
+      "title": "Tickets for Patrick Wolf with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/patrick-wolf-w-special-guests-the-fox-cabaret-tickets/13738514",
-      "title": "Tickets for Patrick Wolf with Special Guests",
+      "url": "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954",
+      "title": "Tickets for Wilkinson",
       "event_dt": null
     },
     {
@@ -257,23 +257,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463",
-      "title": "Tickets for Marcin - Solo Dragon Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903",
-      "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/amistat-emily-james-hollywood-theatre-tickets/13750804",
       "title": "Tickets for Amistat, Emily James",
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463",
+      "title": "Tickets for Marcin - Solo Dragon Tour",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563",
       "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903",
+      "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
       "event_dt": null
     },
     {
@@ -292,9 +292,9 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
-      "event_dt": "2025-11-24T00:00:00+00:00"
+      "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
+      "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
+      "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174",
