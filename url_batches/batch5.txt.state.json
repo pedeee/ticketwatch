@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
-    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
     "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
     "title": "Tickets for Skinshape with Sons of Sevilla",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
+    "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -49,12 +49,6 @@
   },
   "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754": {
     "title": "Tickets for BONUS STAGE ULTIMATE",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
-    "title": "Tickets for Sacrifice",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -107,20 +101,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423": {
-    "title": "Tickets for L'Eclair with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
-    "title": "Tickets for The Stews with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
     "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423": {
+    "title": "Tickets for L'Eclair with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,14 +125,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
-    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
+    "title": "Tickets for This Paranormal Life",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/this-paranormal-life-the-royal-theatre-tickets/13717714": {
-    "title": "Tickets for This Paranormal Life",
+  "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263": {
+    "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,14 +143,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
-    "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
+  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
+    "title": "Tickets for Fly By Midnight with Moontower",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073": {
-    "title": "Tickets for Fly By Midnight with Moontower",
+  "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
+    "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -173,14 +161,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633": {
-    "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
+  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813": {
+    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813": {
-    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633": {
+    "title": "Tickets for Jazz Emu 'The Pleasure is All Yours Tour'",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,14 +209,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
-    "title": "Tickets for Kiesza, Anjulie",
+  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
+    "title": "Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124": {
-    "title": "Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace",
+  "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423": {
+    "title": "Tickets for Kiesza, Anjulie",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -275,6 +263,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
+    "title": "Tickets for Sacrifice",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
     "title": "Tickets for Castle Rat with Faerie Ring",
     "price": null,
@@ -287,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
-    "title": "Tickets for NorthsideBenji",
+  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
+    "title": "Tickets for Playhouse Pres: Ilan Bluestone",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314": {
-    "title": "Tickets for Playhouse Pres: Ilan Bluestone",
+  "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
+    "title": "Tickets for NorthsideBenji",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -323,6 +317,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
+    "title": "Tickets for The Stews with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
     "title": "Tickets for The Brian Jonestown Massacre with Federale",
     "price": null,
@@ -335,14 +335,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
-    "title": "Tickets for P'Tit Belliveau with Special Guests",
+  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
+    "title": "Tickets for TWINSICK",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534": {
-    "title": "Tickets for TWINSICK",
+  "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733": {
+    "title": "Tickets for P'Tit Belliveau with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
