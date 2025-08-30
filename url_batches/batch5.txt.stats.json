@@ -22,11 +22,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
       "title": "Tickets for Improvement Movement with Pretty",
       "event_dt": null
@@ -47,6 +42,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
       "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
       "event_dt": null
@@ -62,23 +62,28 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
       "title": "Tickets for YIN YIN with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
-      "title": "Tickets for JO DOLO - Going Gold Tour",
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
       "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
+      "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
     },
     {
@@ -89,6 +94,11 @@
     {
       "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
       "title": "Tickets for L'Eclair with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -109,6 +119,11 @@
     {
       "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
       "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -252,18 +267,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
-      "title": "Tickets for The Exploited, Burnt Knives",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
       "title": "Tickets for Future Palace, Half Me, Hawk",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "title": "Tickets for Pypy with Special Guests",
       "event_dt": null
     },
     {
@@ -272,8 +277,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "title": "Tickets for TWINSICK",
+      "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
+      "title": "Tickets for The Exploited, Burnt Knives",
       "event_dt": null
     },
     {
@@ -282,8 +287,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
+      "title": "Tickets for Pypy with Special Guests",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
       "title": "Tickets for DUKE DUMONT",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
+      "title": "Tickets for TWINSICK",
       "event_dt": null
     },
     {
@@ -307,16 +322,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
-      "title": "Tickets for Spike and the Gimme Gimmes",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
       "title": "Tickets for ATRIP",
       "event_dt": null
@@ -337,13 +342,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
+      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
+      "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     }
   ]
