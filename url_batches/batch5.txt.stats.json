@@ -1,6 +1,11 @@
 {
-  "monitored_count": 69,
+  "monitored_count": 68,
   "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "event_dt": null
+    },
     {
       "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
       "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
@@ -12,18 +17,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
       "title": "Tickets for Night Moves with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -44,11 +39,6 @@
     {
       "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
       "title": "Tickets for BONUS STAGE ULTIMATE",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
       "event_dt": null
     },
     {
@@ -82,11 +72,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
       "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
@@ -102,11 +87,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333",
       "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
       "event_dt": null
@@ -117,13 +97,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
-      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
+      "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
+      "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
-      "title": "Tickets for Mark William Lewis, Samba Jean-Baptiste",
+      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
+      "title": "Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug",
       "event_dt": null
     },
     {
@@ -177,6 +157,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
       "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
       "event_dt": null
@@ -192,11 +177,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
-      "title": "Tickets for Kiesza, Anjulie",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
       "title": "Tickets for Panzerfaust w/ Groza, Where The Light Fades & Drofnosura at Lee's Palace",
       "event_dt": null
@@ -204,6 +184,11 @@
     {
       "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
       "title": "Tickets for ANIKA with Avishag Cohen Rodrigues",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -322,6 +307,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
       "title": "Tickets for ATRIP",
       "event_dt": null
@@ -339,6 +329,11 @@
     {
       "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
       "title": "Tickets for Corbin",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
