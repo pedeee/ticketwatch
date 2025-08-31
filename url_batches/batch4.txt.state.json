@@ -1,4 +1,10 @@
 {
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654": {
     "title": "Tickets for New Delta w/ low midi & Taylynn",
     "price": null,
@@ -11,8 +17,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
+    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -23,8 +29,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-cybertronic-spree-with-dragon-lees-palace-tickets/13894164": {
-    "title": "Tickets for THE CYBERTRONIC SPREE with Dragon Sound & Wordburglar",
+  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
+    "title": "Tickets for HOLY PRIEST",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -35,8 +41,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744": {
-    "title": "Tickets for HOLY PRIEST",
+  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
+    "title": "Tickets for KOMPANY - NEMESIS TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -47,8 +53,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
-    "title": "Tickets for KOMPANY - NEMESIS TOUR",
+  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
+    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,20 +65,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
-    "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Pacifica",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -101,20 +95,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
-    "title": "Tickets for DEEPCUT",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
     "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
-    "title": "Tickets for Rachael & Vilray w/ Kate Kortum",
+  "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264": {
+    "title": "Tickets for DEEPCUT",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -131,8 +119,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
-    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
+  "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614": {
+    "title": "Tickets for Rachael & Vilray w/ Kate Kortum",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -143,8 +131,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
-    "title": "Tickets for Kota The Friend",
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074": {
+    "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,8 +143,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093": {
+    "title": "Tickets for Kota The Friend",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
+    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -167,14 +161,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
-    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
+  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
+    "title": "Tickets for Stereotype Friday's Pres: Zerb",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664": {
-    "title": "Tickets for Stereotype Friday's Pres: Zerb",
+  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
+    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -209,6 +203,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Pacifica",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/inoi-music-festival-rebel-tickets/13811144": {
     "title": "Tickets for INOI MUSIC FESTIVAL",
     "price": null,
@@ -221,20 +221,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
-    "title": "Tickets for Danko Jones, Iconoclast",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893": {
     "title": "Tickets for Ty Segall",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
-    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+  "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534": {
+    "title": "Tickets for Danko Jones, Iconoclast",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -269,8 +263,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
-    "title": "Tickets for P'tit Belliveau",
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,8 +275,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
-    "title": "Tickets for Friday Night Hard Rock Show",
+  "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784": {
+    "title": "Tickets for P'tit Belliveau",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -293,14 +287,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
-    "title": "TicketWeb",
+  "https://www.ticketweb.ca/event/friday-night-hard-rock-show-the-cave-tickets/13751694": {
+    "title": "Tickets for Friday Night Hard Rock Show",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764": {
     "title": "Tickets for Ben Bankas",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914": {
+    "title": "TicketWeb",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -341,6 +341,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
+    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
     "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025 - TICKETS AT THE DOOR",
     "price": null,
@@ -355,12 +361,6 @@
   },
   "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
     "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
-    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
