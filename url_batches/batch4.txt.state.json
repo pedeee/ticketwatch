@@ -41,26 +41,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
-    "title": "Tickets for Bay Faction with Keep",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254": {
     "title": "Tickets for KOMPANY - NEMESIS TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593": {
+    "title": "Tickets for Bay Faction with Keep",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/hernan-cattaneo-and-danny-tenaglia-evergreen-brickworks-tickets/13823584": {
     "title": "Tickets for Hernan Cattaneo and Danny Tenaglia",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -89,20 +89,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
-    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364": {
     "title": "Tickets for BUNT.",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
-    "title": "Tickets for Balu Brigada with Pacifica",
+  "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443": {
+    "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,14 +149,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
-    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
+  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
+    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
-    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
+  "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633": {
+    "title": "Tickets for Jess Moskaluke - Life For Me Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -175,6 +169,12 @@
   },
   "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654": {
     "title": "Tickets for SABAI - I'M ALRIGHT TOUR",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/sneaky-80s-90s-night-sneaky-dees-concert-venue-tickets/13884914": {
+    "title": "Tickets for Sneaky 80s & 90s Night at Sneaky Dee's - Aug 23 2025",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -227,6 +227,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
+    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524": {
     "title": "Tickets for BEN BANKAS I 51st STATE TOUR",
     "price": null,
@@ -257,8 +263,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963": {
-    "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
+    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,6 +311,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783": {
+    "title": "Tickets for Balu Brigada with Pacifica",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774": {
     "title": "Tickets for Corbin",
     "price": null,
@@ -323,26 +335,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
-    "title": "Tickets for Model/Actriz with Kassie Krut",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263": {
     "title": "Tickets for Miki Berenyi Trio, Gina Birch and The Unreasonables",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963": {
-    "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
-    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025 - TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023": {
+    "title": "Tickets for Model/Actriz with Kassie Krut",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,14 +353,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
-    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+  "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453": {
+    "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025 - TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983": {
-    "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
+  "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584": {
+    "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
     "price": null,
     "soldout": true,
     "event_dt": null
