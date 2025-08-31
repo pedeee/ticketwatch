@@ -17,20 +17,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
-    "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703": {
     "title": "Tickets for Sir Chloe with Venus & the Flytraps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
-    "title": "Tickets for TOPS",
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
+    "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -41,8 +41,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
-    "title": "TicketWeb",
+  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
+    "title": "Tickets for TOPS",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -53,14 +53,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
-    "title": "Tickets for Peter Dreams, MOONRIIVR",
+  "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494": {
+    "title": "TicketWeb",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
     "title": "Tickets for JO DOLO: Going Gold Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
+    "title": "Tickets for Peter Dreams, MOONRIIVR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -167,14 +173,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163": {
-    "title": "Tickets for The Brokes: The Strokes Experience",
+  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
+    "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473": {
-    "title": "Tickets for Autoheart: The Heartlands Tour w/ Shayfer James",
+  "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163": {
+    "title": "Tickets for The Brokes: The Strokes Experience",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -221,20 +227,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314": {
-    "title": "Tickets for The Tallest Man On Earth, The Still Tide",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
-    "title": "Tickets for gunnr - North America Tour",
+  "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314": {
+    "title": "Tickets for The Tallest Man On Earth, The Still Tide",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -245,14 +245,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804": {
-    "title": "Tickets for Rebuke",
+  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
+    "title": "Tickets for gunnr - North America Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
     "title": "Tickets for GoGo Penguin with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804": {
+    "title": "Tickets for Rebuke",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -283,12 +289,6 @@
   },
   "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473": {
     "title": "Tickets for Shawn Desman, Jamie Fine",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
-    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -347,12 +347,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
@@ -383,6 +377,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
     "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
     "price": null,
@@ -395,20 +395,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514": {
-    "title": "Tickets for ALEX PORAT WITH Lucette",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013": {
     "title": "Tickets for Ingested, Ov Sulfur, CELL",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
+  "https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514": {
+    "title": "Tickets for ALEX PORAT WITH Lucette",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
+    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
