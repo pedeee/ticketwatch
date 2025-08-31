@@ -1,9 +1,34 @@
 {
-  "monitored_count": 61,
+  "monitored_count": 68,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
-      "title": "Tickets for BONUS STAGE ULTIMATE",
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
+      "title": "Tickets for Skinshape with Sons of Sevilla",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
+      "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
+      "title": "Tickets for Night Moves with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
+      "title": "Tickets for Improvement Movement with Pretty",
       "event_dt": null
     },
     {
@@ -12,8 +37,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
-      "title": "Tickets for Spike and the Gimme Gimmes",
+      "url": "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534",
+      "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
       "event_dt": null
     },
     {
@@ -22,8 +47,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "title": "Tickets for Maria Somerville with Fleur Electra",
+      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
+      "title": "Tickets for BONUS STAGE ULTIMATE",
       "event_dt": null
     },
     {
@@ -32,8 +57,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
+      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
+      "title": "Tickets for Maria Somerville with Fleur Electra",
       "event_dt": null
     },
     {
@@ -42,13 +67,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
-      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
+      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
+      "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
-      "title": "Tickets for JO DOLO - Going Gold Tour",
+      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
+      "title": "Tickets for Dwarves, Burnt Knives, Harm School",
       "event_dt": null
     },
     {
@@ -57,8 +82,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
-      "title": "Tickets for L'Eclair with Special Guests",
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
+      "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
     },
     {
@@ -82,8 +107,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
+      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
+      "title": "Tickets for Wombo with Shower Curtain & SAP",
       "event_dt": null
     },
     {
@@ -92,18 +117,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
-      "title": "Tickets for Wombo with Shower Curtain & SAP",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
       "title": "Tickets for Fly By Midnight with Moontower",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
       "event_dt": null
     },
     {
@@ -112,8 +127,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
       "event_dt": null
     },
     {
@@ -127,13 +142,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
-      "title": "Tickets for Pixel Grip with Psymon Spine & God Tongue",
+      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
+      "title": "Tickets for Haru Nemuri - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
-      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
+      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
+      "title": "Tickets for Pixel Grip with Psymon Spine & God Tongue",
       "event_dt": null
     },
     {
@@ -142,8 +157,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
-      "title": "Tickets for Ken Yates - Presented By F7 Live",
+      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
+      "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
       "event_dt": null
     },
     {
@@ -154,6 +169,11 @@
     {
       "url": "https://www.ticketweb.ca/event/kiesza-club-saw-tickets/14488423",
       "title": "Tickets for Kiesza, Anjulie",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
+      "title": "Tickets for Ken Yates - Presented By F7 Live",
       "event_dt": null
     },
     {
@@ -177,18 +197,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
-      "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943",
       "title": "Tickets for The Dirty Nil",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
-      "title": "Tickets for FELLY with Breakup Shoes",
+      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
+      "title": "Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby",
       "event_dt": null
     },
     {
@@ -197,8 +212,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
+      "title": "Tickets for FELLY with Breakup Shoes",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
       "title": "Tickets for Castle Rat with Faerie Ring",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     },
     {
@@ -217,8 +247,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843",
+      "title": "Tickets for Next Music from Tokyo vol 17",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/boys-noize-coda-tickets/13860974?REFERRAL_ID=twvenues",
       "title": "Tickets for Boys Noize",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
+      "title": "Tickets for The Exploited, Burnt Knives",
       "event_dt": null
     },
     {
@@ -227,8 +267,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
-      "title": "Tickets for The Exploited, Burnt Knives",
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -262,13 +302,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
-      "title": "Tickets for Hayden Pedigo, Jens Kuross",
+      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
+      "title": "Tickets for Tropical Fuck Storm with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
-      "title": "Tickets for Tropical Fuck Storm with Special Guests",
+      "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
+      "title": "Tickets for Hayden Pedigo, Jens Kuross",
       "event_dt": null
     },
     {
@@ -277,8 +317,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
+      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
+      "title": "Tickets for RIELL with Special Guests",
       "event_dt": null
     },
     {
@@ -297,13 +337,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
+      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
+      "title": "Tickets for Spike and the Gimme Gimmes",
       "event_dt": null
     }
   ]
