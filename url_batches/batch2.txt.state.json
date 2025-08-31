@@ -1,6 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
-    "title": "Tickets for BABYTRON",
+  "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864": {
+    "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -11,14 +11,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864": {
-    "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
+    "title": "Tickets for BABYTRON",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703": {
     "title": "Tickets for Sir Chloe with Venus & the Flytraps",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,26 +143,32 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
-    "title": "Tickets for Between The Buried And Me & Hail The Sun",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
     "title": "Tickets for Johnny Stimson",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
+    "title": "Tickets for Between The Buried And Me & Hail The Sun",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
     "title": "Tickets for Bop To The Top",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -173,8 +185,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
-    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
+    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -191,14 +203,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
-    "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
+  "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804": {
+    "title": "Tickets for LAYTON GIORDANI",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804": {
-    "title": "Tickets for LAYTON GIORDANI",
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -233,20 +245,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
-    "title": "Tickets for Kerala Dust",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
     "title": "Tickets for gunnr - North America Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
+    "title": "Tickets for Kerala Dust",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -263,32 +269,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
-    "title": "Tickets for GoGo Penguin with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/guaranteed-entry-4x2-coda-tickets/13911304": {
     "title": "Tickets for Guaranteed Entry: 4x2",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
-    "title": "Tickets for Rend Collective Folk! Tour",
+  "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
+    "title": "Tickets for GoGo Penguin with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
     "title": "Tickets for ANIKA with Lauren Early",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
+    "title": "Tickets for Rend Collective Folk! Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -317,20 +317,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803": {
-    "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
     "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803": {
+    "title": "Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,6 +377,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
     "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
     "price": null,
@@ -407,8 +407,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
+    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
