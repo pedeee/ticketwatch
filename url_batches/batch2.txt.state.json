@@ -29,12 +29,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
-    "title": "Tickets for TOPS",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314": {
     "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
     "price": null,
@@ -47,8 +41,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
+    "title": "Tickets for TOPS",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,14 +59,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
-    "title": "Tickets for JO DOLO: Going Gold Tour",
+  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
+    "title": "Tickets for Peter Dreams, MOONRIIVR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
-    "title": "Tickets for Peter Dreams, MOONRIIVR",
+  "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-drake-underground-tickets/14411863": {
+    "title": "Tickets for JO DOLO: Going Gold Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -77,14 +77,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
-    "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
+  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
-    "title": "Tickets for Allan Rayman",
+  "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
+    "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,6 +137,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/the-bunny-the-bear-dawn-the-rockpile-bar-nightclub-tickets/13865644": {
     "title": "Tickets for THE BUNNY THE BEAR, Dawn Vally, Zigseven",
     "price": null,
@@ -155,26 +161,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
     "title": "Tickets for Between The Buried And Me & Hail The Sun",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
-    "title": "Tickets for Bop To The Top",
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+  "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124": {
+    "title": "Tickets for Bop To The Top",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -245,20 +245,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
+    "title": "Tickets for gunnr - North America Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/gunnr-north-america-drake-underground-tickets/14487023": {
-    "title": "Tickets for gunnr - North America Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -379,6 +373,12 @@
   },
   "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014": {
     "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
