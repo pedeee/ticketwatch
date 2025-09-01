@@ -2,6 +2,11 @@
   "monitored_count": 66,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004",
+      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654",
       "title": "Tickets for New Delta w/ low midi & Taylynn",
       "event_dt": null
@@ -9,11 +14,6 @@
     {
       "url": "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084",
       "title": "Tickets for No Joy",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004",
-      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
     },
     {
@@ -42,8 +42,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963",
-      "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
+      "url": "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593",
+      "title": "Tickets for Bay Faction with Keep",
       "event_dt": null
     },
     {
@@ -52,23 +52,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593",
-      "title": "Tickets for Bay Faction with Keep",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864",
       "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533",
-      "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923",
+      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923",
-      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533",
+      "title": "Tickets for MATING RITUAL: Shangri Blah North American Tour 2025",
       "event_dt": null
     },
     {
@@ -92,13 +87,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264",
-      "title": "Tickets for DEEPCUT",
+      "url": "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123",
+      "title": "Tickets for Hotline TNT - Path of Totality",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123",
-      "title": "Tickets for Hotline TNT - Path of Totality",
+      "url": "https://www.ticketweb.ca/event/deepcut-the-dance-cave-tickets/13801264",
+      "title": "Tickets for DEEPCUT",
       "event_dt": null
     },
     {
@@ -112,8 +107,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963",
-      "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
+      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074",
+      "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
       "event_dt": null
     },
     {
@@ -122,8 +117,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-the-starlite-room-tickets/13759074",
-      "title": "Tickets for Teenage Bottlerocket w/ Broadway Calls, The Old Wives & Chuck Spadina",
+      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723",
+      "title": "Tickets for Balu Brigada with Tommy Newport",
       "event_dt": null
     },
     {
@@ -132,8 +127,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723",
-      "title": "Tickets for Balu Brigada with Tommy Newport",
+      "url": "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963",
+      "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
       "event_dt": null
     },
     {
@@ -194,6 +189,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893",
       "title": "Tickets for Ty Segall",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963",
+      "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
       "event_dt": null
     },
     {
