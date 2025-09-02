@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
-    "title": "Tickets for Be'lakor,   Solemn Vision",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
     "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
@@ -17,20 +11,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
+    "title": "Tickets for Be'lakor,   Solemn Vision",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643": {
     "title": "Tickets for Night Moves with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
-    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
+  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
+    "title": "Tickets for Improvement Movement with Pretty",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984": {
-    "title": "Tickets for Improvement Movement with Pretty",
+  "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534": {
+    "title": "Tickets for MAD CADDIES with The Anti-Queens & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,14 +59,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
-    "title": "Tickets for Maria Somerville with Fleur Electra",
+  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
+    "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
-    "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
+  "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
+    "title": "Tickets for Maria Somerville with Fleur Electra",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -95,26 +95,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
-    "title": "Tickets for Frankie and the Witch Fingers with Population II",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423": {
     "title": "Tickets for L'Eclair with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
-    "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
+  "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673": {
+    "title": "Tickets for Frankie and the Witch Fingers with Population II",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283": {
     "title": "Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/oso-oso-born-without-bones-the-brass-monkey-tickets/14430333": {
+    "title": "Tickets for Oso Oso, Born Without Bones, Dart Trees",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -155,12 +155,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
-    "title": "Tickets for Sacrifice",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813": {
     "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
     "price": null,
@@ -191,14 +185,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283": {
-    "title": "Tickets for Pixel Grip with Psymon Spine & God Tongue",
+  "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
+    "title": "Tickets for Naethan Apollo with Mars Mignon",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/naethan-apollo-with-special-guests-hard-luck-bar-tickets/14488173": {
-    "title": "Tickets for Naethan Apollo with Mars Mignon",
+  "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283": {
+    "title": "Tickets for Pixel Grip with Psymon Spine & God Tongue",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -211,12 +205,6 @@
   },
   "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
     "title": "Tickets for Anvil",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
-    "title": "Tickets for The Stews with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -275,26 +263,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
-    "title": "Tickets for FELLY with Breakup Shoes",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473": {
     "title": "Tickets for Castle Rat with Faerie Ring",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013": {
-    "title": "Tickets for Sextile & Automatic",
+  "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
+    "title": "Tickets for FELLY with Breakup Shoes",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124": {
     "title": "Tickets for NorthsideBenji",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013": {
+    "title": "Tickets for Sextile & Automatic",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -317,26 +305,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
-    "title": "Tickets for The Exploited, Burnt Knives",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454": {
     "title": "Tickets for Future Palace, Half Me, Hawk",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083": {
-    "title": "Tickets for Pypy with Flake & Flush",
+  "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623": {
+    "title": "Tickets for The Exploited, Burnt Knives",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453": {
     "title": "Tickets for The Brian Jonestown Massacre with Federale",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083": {
+    "title": "Tickets for Pypy with Flake & Flush",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,6 +371,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373": {
+    "title": "Tickets for Sacrifice",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364": {
     "title": "Tickets for ATRIP",
     "price": null,
@@ -403,6 +397,12 @@
   },
   "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
     "title": "Tickets for Corbin",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313": {
+    "title": "Tickets for The Stews with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
