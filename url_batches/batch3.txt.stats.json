@@ -2,18 +2,13 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
-      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
       "title": "Tickets for French Police with Riki",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883",
-      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
@@ -22,8 +17,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774",
-      "title": "Tickets for Dying Fetus w/ Gates To Hell & Mugshot",
+      "url": "https://www.ticketweb.ca/event/billy-raffoul-fall-25-north-the-27-club-tickets/14469883",
+      "title": "Tickets for Billy Raffoul Fall '25 North American Tour with Anna Graves",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
+      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
+      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
       "event_dt": null
     },
     {
@@ -32,8 +37,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "url": "https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774",
+      "title": "Tickets for Dying Fetus w/ Gates To Hell & Mugshot",
       "event_dt": null
     },
     {
@@ -42,8 +47,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
       "event_dt": null
     },
     {
@@ -62,13 +67,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614",
+      "title": "Tickets for DIMENSION",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614",
-      "title": "Tickets for DIMENSION",
+      "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -92,11 +97,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
-      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/layz-blackout-no-noir-inside-rebel-tickets/13838294",
       "title": "Tickets for LAYZ - BLACKOUT: NO SIGNAL 360",
       "event_dt": null
@@ -117,13 +117,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
-      "title": "Tickets for Softcult with Wayside & Cherrypick",
+      "url": "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474",
+      "title": "Tickets for Jaques Greene + Nosaj Thing Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jaques-greene-nosaj-thing-fortune-sound-club-tickets/13813474",
-      "title": "Tickets for Jaques Greene + Nosaj Thing Live",
+      "url": "https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653",
+      "title": "Tickets for Softcult with Wayside & Cherrypick",
       "event_dt": null
     },
     {
@@ -137,13 +137,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053",
-      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134",
-      "title": "Tickets for Pool Kids",
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-bronson-tickets/14391053",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
@@ -197,18 +197,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093",
-      "title": "Tickets for Fly By Midnight with Moontower",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476113",
       "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-london-music-hall-tickets/14464563",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093",
+      "title": "Tickets for Fly By Midnight with Moontower",
       "event_dt": null
     },
     {
@@ -217,9 +212,14 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE",
-      "title": "Tickets for Hotel Mira with Zach Riley",
-      "event_dt": "2025-10-07T00:00:00+00:00"
+      "url": "https://www.ticketweb.ca/event/allan-rayman-london-music-hall-tickets/14464563",
+      "title": "Tickets for Allan Rayman",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
+      "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604",
@@ -237,13 +237,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703",
-      "title": "Tickets for Flyte with Ken Pomeroy",
+      "url": "https://www.ticketweb.ca/event/r3wire-coda-tickets/13882894?REFERRAL_ID=twvenues",
+      "title": "Tickets for Guaranteed Entry: R3WIRE",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/r3wire-coda-tickets/13882894?REFERRAL_ID=twvenues",
-      "title": "Tickets for Guaranteed Entry: R3WIRE",
+      "url": "https://www.ticketweb.ca/event/flyte-with-ken-pomeroy-the-pearl-tickets/14031703",
+      "title": "Tickets for Flyte with Ken Pomeroy",
       "event_dt": null
     },
     {
@@ -254,6 +254,11 @@
     {
       "url": "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204",
       "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
+      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
@@ -279,11 +284,6 @@
     {
       "url": "https://www.ticketweb.ca/event/jeremy-olander-open-to-close-coda-tickets/13802274",
       "title": "Tickets for Jeremy Olander (Open To Close)",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793",
-      "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
       "event_dt": null
     },
     {
@@ -322,9 +322,9 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/its-murph-through-dprtmnt-tickets/13807324",
-      "title": "Tickets for IT\u2019S MURPH - \"THROUGH MY SYSTEM TOUR\"",
-      "event_dt": null
+      "url": "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE",
+      "title": "Tickets for Hotel Mira with Zach Riley",
+      "event_dt": "2025-10-07T00:00:00+00:00"
     }
   ]
 }
