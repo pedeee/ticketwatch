@@ -2,13 +2,13 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
-      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
+      "title": "Tickets for French Police with Riki",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654",
-      "title": "Tickets for French Police with Riki",
+      "url": "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733",
+      "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
       "event_dt": null
     },
     {
@@ -42,6 +42,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
+      "title": "Tickets for COONE",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383",
       "title": "Tickets for PUP with Snotty Nose Rez Kids",
       "event_dt": null
@@ -57,23 +62,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823",
-      "title": "Tickets for DURRY - Your Friend From The Real World Tour, Gully Boys",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/dimension-131-mccormack-street-tickets/13785614",
       "title": "Tickets for DIMENSION",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
-      "title": "Tickets for Allan Rayman",
+      "url": "https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823",
+      "title": "Tickets for DURRY - Your Friend From The Real World Tour, Gully Boys",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/mad-caddies-rum-runners-tickets/14462163",
       "title": "Tickets for Mad Caddies",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/allan-rayman-the-park-theatre-tickets/14465963",
+      "title": "Tickets for Allan Rayman",
       "event_dt": null
     },
     {
@@ -89,6 +94,11 @@
     {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-w-special-guests-lees-palace-tickets/14495443",
       "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
+      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
@@ -124,11 +134,6 @@
     {
       "url": "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593",
       "title": "Tickets for Billy Raffoul",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574",
-      "title": "Tickets for COONE",
       "event_dt": null
     },
     {
@@ -169,11 +174,6 @@
     {
       "url": "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14346563",
       "title": "Tickets for Hollerado",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254",
-      "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
       "event_dt": null
     },
     {
