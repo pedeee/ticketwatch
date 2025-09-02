@@ -1,6 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
-    "title": "Tickets for BABYTRON",
+  "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864": {
+    "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -11,8 +11,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864": {
-    "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
+  "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
+    "title": "Tickets for BABYTRON",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -65,26 +65,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
-    "title": "Tickets for Allan Rayman",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
     "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733": {
-    "title": "Tickets for KISS CF GOODBYE #9",
+  "https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913": {
+    "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/lazara-w-attention-span-left-sneaky-dees-concert-venue-tickets/13888994": {
     "title": "Tickets for Lazara w/ Attention Span, Left In Exile & Personas",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733": {
+    "title": "Tickets for KISS CF GOODBYE #9",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -137,20 +137,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
-    "title": "Tickets for Between The Buried And Me & Hail The Sun",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543": {
     "title": "Tickets for Johnny Stimson",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603": {
+    "title": "Tickets for Between The Buried And Me & Hail The Sun",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -191,6 +185,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
+    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113": {
     "title": "Tickets for White Denim with Johanna Samuels & Sam Plecker",
     "price": null,
@@ -199,12 +199,6 @@
   },
   "https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804": {
     "title": "Tickets for LAYTON GIORDANI",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -229,6 +223,12 @@
   },
   "https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174": {
     "title": "Tickets for The Brokes: The Strokes Experience",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -269,8 +269,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -281,14 +281,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
-    "title": "Tickets for Rend Collective Folk! Tour",
+  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
+    "title": "Tickets for ANIKA with Lauren Early",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024": {
-    "title": "Tickets for ANIKA with Lauren Early",
+  "https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303": {
+    "title": "Tickets for Rend Collective Folk! Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,14 +305,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964": {
-    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+  "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914": {
+    "title": "Tickets for Young Franco",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914": {
-    "title": "Tickets for Young Franco",
+  "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964": {
+    "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -325,6 +325,12 @@
   },
   "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
     "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -349,12 +355,6 @@
   },
   "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153": {
     "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -407,8 +407,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
-    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
