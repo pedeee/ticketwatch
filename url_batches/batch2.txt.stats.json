@@ -2,23 +2,23 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
-      "title": "Tickets for BABYTRON",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
       "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
-      "title": "Tickets for Anvil",
+      "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
+      "title": "Tickets for BABYTRON",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703",
       "title": "Tickets for Sir Chloe with Venus & the Flytraps",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384",
+      "title": "Tickets for Anvil",
       "event_dt": null
     },
     {
@@ -39,6 +39,11 @@
     {
       "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
       "title": "Tickets for Alicia Moffet, Dominique Way",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
+      "title": "Tickets for Self Deception",
       "event_dt": null
     },
     {
@@ -97,13 +102,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
+      "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues",
       "title": "Tickets for Pretty Pink",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
-      "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
+      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
     },
     {
@@ -127,23 +137,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544",
-      "title": "Tickets for Self Deception",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193",
       "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
-      "title": "Tickets for Bop To The Top",
+      "url": "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693",
+      "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693",
-      "title": "Tickets for The Chameleons : Arctic Moon Tour 2025",
+      "url": "https://www.ticketweb.ca/event/bop-to-the-top-the-opera-house-tickets/13772124",
+      "title": "Tickets for Bop To The Top",
       "event_dt": null
     },
     {
@@ -187,23 +192,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
-      "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314",
       "title": "Tickets for The Tallest Man On Earth, The Still Tide",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
-      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424",
-      "title": "Tickets for Kerala Dust",
+      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713",
+      "title": "Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus",
       "event_dt": null
     },
     {
@@ -212,13 +207,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
-      "title": "Tickets for Ewan McVicar",
+      "url": "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424",
+      "title": "Tickets for Kerala Dust",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804",
       "title": "Tickets for Rebuke",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954",
+      "title": "Tickets for Ewan McVicar",
       "event_dt": null
     },
     {
@@ -292,13 +292,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
-      "title": "Tickets for Blue Hawaii",
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
+      "title": "Tickets for Blue Hawaii",
       "event_dt": null
     },
     {
