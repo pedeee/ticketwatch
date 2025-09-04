@@ -1,6 +1,11 @@
 {
-  "monitored_count": 68,
+  "monitored_count": 69,
   "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/sneaky-2000s-dance-party-at-sneaky-dees-concert-venue-tickets/13884864",
+      "title": "Tickets for Sneaky 2000s Dance Party at Sneaky Dee's - Aug 16 2025 - TICKETS AT THE DOOR",
+      "event_dt": null
+    },
     {
       "url": "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074",
       "title": "Tickets for BABYTRON",
@@ -22,23 +27,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
-      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773",
       "title": "Tickets for TOPS",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
-      "title": "Tickets for Alicia Moffet, Dominique Way",
+      "url": "https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314",
+      "title": "Tickets for Ninajirachi - 'I Love My Computer' Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/tribal-kush-dprtmnt-tickets/13839494",
       "title": "TicketWeb",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973",
+      "title": "Tickets for Alicia Moffet, Dominique Way",
       "event_dt": null
     },
     {
@@ -99,11 +104,6 @@
     {
       "url": "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784",
       "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
-      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
       "event_dt": null
     },
     {
@@ -237,6 +237,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163",
+      "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473",
       "title": "Tickets for Shawn Desman, Jamie Fine",
       "event_dt": null
@@ -267,23 +272,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353",
-      "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
-      "title": "Tickets for Blue Hawaii",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334",
       "title": "Tickets for Morgan Wade",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
-      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+      "url": "https://www.ticketweb.ca/event/duckwrth-all-american-the-phoenix-concert-theatre-tickets/14397353",
+      "title": "Tickets for DUCKWRTH - All American Freak Show Tour",
       "event_dt": null
     },
     {
@@ -292,13 +287,18 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734",
+      "title": "Tickets for Blue Hawaii",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454",
       "title": "Tickets for Brat Summer - Charli XCX Dance Party",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073",
-      "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013",
+      "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
       "event_dt": null
     },
     {
@@ -307,18 +307,23 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073",
+      "title": "Tickets for GoldLink Presents \"Enoch\" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014",
       "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
-      "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
+      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
+      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584",
-      "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
+      "url": "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214",
+      "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
       "event_dt": null
     },
     {
