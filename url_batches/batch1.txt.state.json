@@ -17,6 +17,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
+    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/yukon-blonde-friendship-the-park-theatre-tickets/13776014": {
     "title": "Tickets for Yukon Blonde - Friendship & Rock 'n' Roll",
     "price": null,
@@ -53,12 +59,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
-    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/big-sis-fortune-sound-club-tickets/13808844": {
     "title": "Tickets for BIG SIS",
     "price": null,
@@ -67,6 +67,12 @@
   },
   "https://www.ticketweb.ca/event/ethan-low-presented-the-fox-cabaret-tickets/13758864": {
     "title": "Tickets for Ethan Low - Presented By F7 Live",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/yukon-blonde-friendship-rock-modern-love-tickets/14488153": {
+    "title": "Tickets for Yukon Blonde: Friendship & Rock 'n' Roll with Altameda",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -233,14 +239,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424": {
+    "title": "Tickets for Yukon Blonde",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yukon-blonde-rum-runners-tickets/13800424": {
-    "title": "Tickets for Yukon Blonde",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -265,12 +271,6 @@
   },
   "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954": {
     "title": "Tickets for Wilkinson",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
-    "title": "Tickets for Tony Ann - Late Show",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,14 +305,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
+  "https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463": {
+    "title": "Tickets for Marcin - Solo Dragon Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/marcin-solo-dragon-the-pearl-tickets/14208463": {
-    "title": "Tickets for Marcin - Solo Dragon Tour",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -335,12 +335,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
-    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/joel-sunny-volume-3-global-hollywood-theatre-tickets/14311033": {
     "title": "Tickets for Joel Sunny: Volume 3 Global Tour",
     "price": null,
@@ -358,6 +352,12 @@
     "price": null,
     "soldout": true,
     "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-11-24T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/rocco-the-smoking-hollywood-theatre-tickets/13828174": {
     "title": "Tickets for Rocco - The Smoking Gun Tour, rafayel, Skyler Jade",
@@ -377,16 +377,16 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
+    "title": "Tickets for Tony Ann - Late Show",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
-    "price": null,
-    "soldout": true,
-    "event_dt": "2025-11-24T00:00:00+00:00"
   }
 }
