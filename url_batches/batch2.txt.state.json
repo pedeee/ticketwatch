@@ -5,14 +5,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
+    "title": "Tickets for BABYTRON",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384": {
     "title": "Tickets for Anvil",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074": {
-    "title": "Tickets for BABYTRON",
+  "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
+    "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -29,20 +35,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/eden-a-midsummer-nights-fantasy-noir-inside-rebel-tickets/13871384": {
-    "title": "Tickets for EDEN: A Midsummer Night's Fantasy",
+  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
+    "title": "Tickets for TOPS",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973": {
     "title": "Tickets for Alicia Moffet, Dominique Way",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773": {
-    "title": "Tickets for TOPS",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -59,14 +65,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
-    "title": "Tickets for Peter Dreams, MOONRIIVR",
+  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
+    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314": {
-    "title": "Tickets for WILKINSON - NORTH AMERICA TOUR",
+  "https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824": {
+    "title": "Tickets for Peter Dreams, MOONRIIVR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -121,6 +127,12 @@
   },
   "https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784": {
     "title": "Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -257,12 +269,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
     "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
@@ -353,12 +359,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
     "title": "Tickets for Brat Summer - Charli XCX Dance Party",
     "price": null,
@@ -383,14 +383,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
-    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
+  "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053": {
+    "title": "Tickets for VOLA with Daedric & Zack Brannon",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053": {
-    "title": "Tickets for VOLA with Daedric & Zack Brannon",
+  "https://www.ticketweb.ca/event/super-not-okay-w-mixed-sneaky-dees-concert-venue-tickets/13876214": {
+    "title": "Tickets for Super Not Okay w/ Mixed Signal, Cage Stains & Bellows",
     "price": null,
     "soldout": true,
     "event_dt": null
