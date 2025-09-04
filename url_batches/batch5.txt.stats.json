@@ -2,18 +2,13 @@
   "monitored_count": 69,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "title": "Tickets for Be'lakor,   Solemn Vision",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
       "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
-      "title": "Tickets for Night Moves with Special Guests",
+      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
+      "title": "Tickets for Be'lakor,   Solemn Vision",
       "event_dt": null
     },
     {
@@ -22,13 +17,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "title": "Tickets for Pool Kids",
+      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
+      "title": "Tickets for Night Moves with Special Guests",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/improvement-movement-w-special-the-dance-cave-tickets/13807984",
       "title": "Tickets for Improvement Movement with Pretty",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
+      "title": "Tickets for Pool Kids",
       "event_dt": null
     },
     {
@@ -42,18 +42,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
-      "title": "Tickets for BONUS STAGE ULTIMATE",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "title": "Tickets for Sacrifice",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/guerilla-poubelle-brendan-kelly-sam-the-27-club-tickets/14404093",
       "title": "Tickets for Guerilla Poubelle, Brendan Kelly, Sam Russo, In The Meantime",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
+      "title": "Tickets for BONUS STAGE ULTIMATE",
       "event_dt": null
     },
     {
@@ -82,11 +77,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "title": "Tickets for Gui Boratto",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
       "title": "Tickets for JO DOLO - Going Gold Tour",
       "event_dt": null
@@ -99,11 +89,6 @@
     {
       "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
       "title": "Tickets for L'Eclair with Special Guests",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -232,13 +217,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
-      "title": "Tickets for Castle Rat with Faerie Ring",
+      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
+      "title": "Tickets for FELLY with Breakup Shoes",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
-      "title": "Tickets for FELLY with Breakup Shoes",
+      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
+      "title": "Tickets for Sacrifice",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/castle-rat-with-faerie-ring-lees-palace-tickets/14294473",
+      "title": "Tickets for Castle Rat with Faerie Ring",
       "event_dt": null
     },
     {
@@ -274,6 +264,11 @@
     {
       "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
       "title": "Tickets for The Exploited, Burnt Knives",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
+      "title": "Tickets for The Stews with Special Guests",
       "event_dt": null
     },
     {
@@ -322,6 +317,11 @@
       "event_dt": null
     },
     {
+      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
+      "title": "Tickets for Spike and the Gimme Gimmes",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/atrip-coda-tickets/13810364",
       "title": "Tickets for ATRIP",
       "event_dt": null
@@ -342,8 +342,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073",
-      "title": "Tickets for Spike and the Gimme Gimmes",
+      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
+      "title": "Tickets for Gui Boratto",
       "event_dt": null
     }
   ]
