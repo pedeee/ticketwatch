@@ -1,10 +1,4 @@
 {
-  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
-    "title": "Tickets for Be'lakor,   Solemn Vision",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223": {
     "title": "Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby",
     "price": null,
@@ -13,6 +7,12 @@
   },
   "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964": {
     "title": "Tickets for Skinshape with Sons of Sevilla",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353": {
+    "title": "Tickets for Be'lakor,   Solemn Vision",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -53,26 +53,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
-    "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713": {
     "title": "Tickets for Maria Somerville with Fleur Electra & huxlii (solo)",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
-    "title": "Tickets for YIN YIN with Special Guests",
+  "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433": {
+    "title": "Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
     "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253": {
+    "title": "Tickets for YIN YIN with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -185,26 +185,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
-    "title": "Tickets for Gui Boratto",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604": {
     "title": "Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
-    "title": "Tickets for Ken Yates - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
+    "title": "Tickets for Anvil",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394": {
-    "title": "Tickets for Anvil",
+  "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604": {
+    "title": "Tickets for Ken Yates - Presented By F7 Live",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -229,12 +223,6 @@
   },
   "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844": {
     "title": "Tickets for Bambara",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
-    "title": "Tickets for Pool Kids",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -265,6 +253,12 @@
   },
   "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623": {
     "title": "Tickets for FELLY with Breakup Shoes",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
+    "title": "Tickets for Spike and the Gimme Gimmes",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -359,6 +353,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504": {
+    "title": "Tickets for Pool Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/mystery-skulls-ultra-lees-palace-tickets/14274133": {
     "title": "Tickets for Mystery Skulls - Ultra Rare Tour w/ NITE",
     "price": null,
@@ -395,20 +395,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
-    "title": "Tickets for Corbin",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583": {
     "title": "Tickets for The Exploited, Spades GT",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/spike-and-the-gimme-gimmes-the-bronson-tickets/14404073": {
-    "title": "Tickets for Spike and the Gimme Gimmes",
+  "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754": {
+    "title": "Tickets for Corbin",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684": {
+    "title": "Tickets for Gui Boratto",
     "price": null,
     "soldout": true,
     "event_dt": null
