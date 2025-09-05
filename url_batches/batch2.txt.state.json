@@ -179,8 +179,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
+    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/monkey-wrench-foo-fighters-tribute-the-rockpile-bar-nightclub-tickets/13862864": {
     "title": "Tickets for Monkey Wrench (Foo Fighters Tribute), Red Astro Band - Tribute to Red Hot Chili Peppers",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
+    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -227,6 +239,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
+    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424": {
     "title": "Tickets for Kerala Dust",
     "price": null,
@@ -253,18 +271,6 @@
   },
   "https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603": {
     "title": "Tickets for GoGo Penguin with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
-    "title": "Tickets for Self Deception",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
-    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -317,12 +323,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163": {
-    "title": "Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963": {
     "title": "Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell",
     "price": null,
@@ -353,12 +353,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013": {
-    "title": "Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/brat-summer-charli-lees-palace-tickets/13919454": {
     "title": "Tickets for Brat Summer - Charli XCX Dance Party",
     "price": null,
@@ -379,6 +373,12 @@
   },
   "https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014": {
     "title": "Tickets for grandson - INERTIA Tour - Presented By F7 Live",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584": {
+    "title": "Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -407,8 +407,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344": {
-    "title": "Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die",
+  "https://www.ticketweb.ca/event/self-deception-the-cave-tickets/13802544": {
+    "title": "Tickets for Self Deception",
     "price": null,
     "soldout": true,
     "event_dt": null
