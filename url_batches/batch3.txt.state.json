@@ -1,6 +1,6 @@
 {
-  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
-    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
+  "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654": {
+    "title": "Tickets for French Police with Riki",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -11,8 +11,8 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654": {
-    "title": "Tickets for French Police with Riki",
+  "https://www.ticketweb.ca/event/the-dirty-nil-heart-attack-the-venue-tickets/14395733": {
+    "title": "Tickets for The Dirty Nil, Heart Attack Man, Spite House",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -29,14 +29,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
-    "title": "Tickets for Sun Kil Moon",
+  "https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774": {
+    "title": "Tickets for Dying Fetus w/ Gates To Hell & Mugshot",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774": {
-    "title": "Tickets for Dying Fetus w/ Gates To Hell & Mugshot",
+  "https://www.ticketweb.ca/event/sun-kil-moon-the-pearl-tickets/13806804": {
+    "title": "Tickets for Sun Kil Moon",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -53,14 +53,20 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954": {
-    "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
+  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
+    "title": "Tickets for COONE",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554": {
     "title": "Tickets for Space 92",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/jp-saxe-make-the-bronson-tickets/13791954": {
+    "title": "Tickets for JP Saxe - Make Yourself At Home Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -113,6 +119,12 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254": {
+    "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744": {
     "title": "Tickets for Bambara",
     "price": null,
@@ -145,12 +157,6 @@
   },
   "https://www.ticketweb.ca/event/billy-raffoul-rum-runners-tickets/14496593": {
     "title": "Tickets for Billy Raffoul",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/coone-noir-inside-rebel-tickets/13812574": {
-    "title": "Tickets for COONE",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -203,12 +209,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/entheos-fallujah-the-zenith-passage-lees-palace-tickets/13809254": {
-    "title": "Tickets for Entheos, Fallujah, The Zenith Passage, Tracheotomy",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884": {
     "title": "Tickets for Michael Seyer with Blaize Jenkins & Serena Sun",
     "price": null,
@@ -257,26 +257,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604": {
-    "title": "Tickets for MAD CADDIES with The Corps",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/allan-rayman-london-music-hall-tickets/14464563": {
     "title": "Tickets for Allan Rayman",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14446723": {
-    "title": "Tickets for Hollerado",
+  "https://www.ticketweb.ca/event/mad-caddies-with-the-corps-the-grand-tickets/13687604": {
+    "title": "Tickets for MAD CADDIES with The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233": {
     "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/hollerado-club-saw-tickets/14446723": {
+    "title": "Tickets for Hollerado",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -293,26 +293,26 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204": {
-    "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944": {
     "title": "Tickets for Hotel Mira, Bleeker",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476123": {
-    "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
+  "https://www.ticketweb.ca/event/ria-mae-tiny-london-music-hall-tickets/13767204": {
+    "title": "Tickets for RIA MAE - Tiny Strands & Flashbacks",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
   "https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14440913": {
     "title": "Tickets for The Dears with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/mad-caddies-authority-the-park-theatre-tickets/14476123": {
+    "title": "Tickets for Mad Caddies - Authority Zero - The Corps",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,17 +353,17 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
-    "title": "Tickets for Hotel Mira with Zach Riley",
-    "price": 25.0,
-    "soldout": false,
-    "event_dt": "2025-10-07T00:00:00+00:00"
-  },
   "https://www.ticketweb.ca/event/sun-kil-moon-lees-palace-tickets/13806774": {
     "title": "Tickets for Sun Kil Moon",
     "price": null,
     "soldout": true,
     "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/14489393?pl=MODO-LIVE": {
+    "title": "Tickets for Hotel Mira with Zach Riley",
+    "price": 25.0,
+    "soldout": false,
+    "event_dt": "2025-10-07T00:00:00+00:00"
   },
   "https://www.ticketweb.ca/event/boys-night-out-the-park-theatre-tickets/14435213": {
     "title": "Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour",
