@@ -5,14 +5,20 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
+    "title": "Tickets for Next Music from Tokyo vol 17",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343": {
     "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183": {
-    "title": "Tickets for Next Music from Tokyo vol 17",
+  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
+    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -179,12 +185,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
-    "title": "Tickets for Tony Ann - Late Show",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713": {
     "title": "Tickets for Be'lakor \u2013 North America Tour 2025",
     "price": null,
@@ -221,12 +221,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673": {
-    "title": "Tickets for Iniko - Awakening The Empire North American Tour",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293": {
     "title": "Tickets for Autoheart - The Heartlands Tour w/ Shayfer James",
     "price": null,
@@ -253,12 +247,6 @@
   },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
-  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
-    "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -305,12 +293,6 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363": {
     "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
@@ -329,20 +311,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
-    "title": "Tickets for Robyn Ottolini with Special Guests",
-    "price": null,
-    "soldout": true,
-    "event_dt": null
-  },
   "https://www.ticketweb.ca/event/landmvrks-w-thornhill-silly-goose-the-palace-theatre-tickets/14431903": {
     "title": "Tickets for LANDMVRKS w/ Novelists, Silly Goose & Resolve",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
-    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -353,8 +329,26 @@
     "soldout": true,
     "event_dt": null
   },
+  "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783": {
+    "title": "Tickets for Haru Nemuri - Presented By F7 Live",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
   "https://www.ticketweb.ca/event/sidewalks-and-skeletons-ft-cashforgold-the-pearl-tickets/13814404": {
     "title": "Tickets for SIDEWALKS AND SKELETONS (ft. CASHFORGOLD)  with Special Guests",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
+    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+    "price": null,
+    "soldout": true,
+    "event_dt": "2025-11-24T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203": {
+    "title": "Tickets for Too Many Zooz: Caravan Tour w/ JOASH CHARLES",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -365,14 +359,14 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
-    "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
+  "https://www.ticketweb.ca/event/landmvrks-north-america-2025-union-hall-tickets/14432853": {
+    "title": "Tickets for LANDMVRKS \" NORTH AMERICA 2025\" TOUR - Presented ConcertWorks",
     "price": null,
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/landmvrks-north-america-2025-union-hall-tickets/14432853": {
-    "title": "Tickets for LANDMVRKS \" NORTH AMERICA 2025\" TOUR - Presented ConcertWorks",
+  "https://www.ticketweb.ca/event/dystincts-bababa-world-tour-hollywood-theatre-tickets/14396953": {
+    "title": "Tickets for DYSTINCT\u2019S BABABA WORLD TOUR",
     "price": null,
     "soldout": true,
     "event_dt": null
@@ -383,10 +377,16 @@
     "soldout": true,
     "event_dt": null
   },
-  "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE": {
-    "title": "Tickets for PUP with Snotty Nose Rez Kids",
+  "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-sonic-hall-tickets/14495333": {
+    "title": "Tickets for Robyn Ottolini with Special Guests",
     "price": null,
     "soldout": true,
-    "event_dt": "2025-11-24T00:00:00+00:00"
+    "event_dt": null
+  },
+  "https://www.ticketweb.ca/event/tony-ann-late-the-grand-tickets/14340943": {
+    "title": "Tickets for Tony Ann - Late Show",
+    "price": null,
+    "soldout": true,
+    "event_dt": null
   }
 }
