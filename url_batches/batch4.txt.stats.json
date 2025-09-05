@@ -2,6 +2,11 @@
   "monitored_count": 66,
   "sold_out_events": [
     {
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004",
+      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "event_dt": null
+    },
+    {
       "url": "https://www.ticketweb.ca/event/new-delta-w-low-midi-sneaky-dees-concert-venue-tickets/13911654",
       "title": "Tickets for New Delta w/ low midi & Taylynn",
       "event_dt": null
@@ -12,13 +17,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004",
-      "title": "Tickets for MAD CADDIES with Authority Zero & The Corps",
+      "url": "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083",
+      "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083",
-      "title": "Tickets for LEISURE - WELCOME TO THE MOOD TOUR",
+      "url": "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744",
+      "title": "Tickets for HOLY PRIEST",
       "event_dt": null
     },
     {
@@ -32,11 +37,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744",
-      "title": "Tickets for HOLY PRIEST",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254",
       "title": "Tickets for KOMPANY - NEMESIS TOUR",
       "event_dt": null
@@ -44,6 +44,11 @@
     {
       "url": "https://www.ticketweb.ca/event/bay-faction-w-keep-the-dance-cave-tickets/14400593",
       "title": "Tickets for Bay Faction with Keep",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963",
+      "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
       "event_dt": null
     },
     {
@@ -107,8 +112,8 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963",
-      "title": "Tickets for JO DOLO: Going Gold Tour",
+      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963",
+      "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
       "event_dt": null
     },
     {
@@ -117,13 +122,18 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723",
-      "title": "Tickets for Balu Brigada with Tommy Newport",
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963",
+      "title": "Tickets for JO DOLO: Going Gold Tour",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093",
       "title": "Tickets for Kota The Friend",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723",
+      "title": "Tickets for Balu Brigada with Tommy Newport",
       "event_dt": null
     },
     {
@@ -212,16 +222,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/michael-cera-palin-w-summer-sneaky-dees-concert-venue-tickets/14423963",
-      "title": "Tickets for Michael Cera Palin w/ Summer Heights, Bit Depth & FXRRVST at Sneaky Dee's - LIMITED TICKETS AT THE DOOR",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983",
-      "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/simon-patterson-b2b-john-askew-coda-tickets/14260063",
       "title": "Tickets for Simon Patterson B2B John Askew (All Night Long)",
       "event_dt": null
@@ -287,11 +287,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963",
-      "title": "Tickets for Teenage Bottlerocket, We Were Sharks",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/emo-night-toronto-my-chemical-sneaky-dees-concert-venue-tickets/14028453",
       "title": "Tickets for Emo Night Toronto: My Chemical Romance Edition - Aug 22 2025 - TICKETS AT THE DOOR",
       "event_dt": null
@@ -304,6 +299,11 @@
     {
       "url": "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584",
       "title": "Tickets for NAHKO AND MEDICINE FOR THE PEOPLE",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983",
+      "title": "Tickets for ODETARI \u2013 VARIA 0.5 \u2013 NORTH AMERICA TOUR",
       "event_dt": null
     },
     {
