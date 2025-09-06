@@ -2,11 +2,6 @@
   "monitored_count": 65,
   "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
-      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/bit-brigade-performs-mega-man-the-pearl-tickets/14294293",
       "title": "Tickets for Bit Brigade Performs \"Mega Man X\" LIVE with dannyBstyle",
       "event_dt": null
@@ -14,6 +9,11 @@
     {
       "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442183",
       "title": "Tickets for Next Music from Tokyo vol 17",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/wisp-if-not-winter-tour-the-pearl-tickets/14294343",
+      "title": "Tickets for Wisp: If Not Winter Tour with Dream, Ivory & Photographic Memory",
       "event_dt": null
     },
     {
@@ -62,23 +62,23 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
-      "title": "Tickets for Max Cooper, Tor",
-      "event_dt": null
-    },
-    {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-warehouse-concert-hall-tickets/14495353",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
-      "title": "Tickets for Next Music from Tokyo vol 17",
+      "url": "https://www.ticketweb.ca/event/max-cooper-hollywood-theatre-tickets/13784634",
+      "title": "Tickets for Max Cooper, Tor",
       "event_dt": null
     },
     {
       "url": "https://www.ticketweb.ca/event/chaser-dominion-tavern-tickets/13826104",
       "title": "Tickets for Chaser, Holly Acres, Speedbump Sally",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
+      "title": "Tickets for Next Music from Tokyo vol 17",
       "event_dt": null
     },
     {
@@ -122,11 +122,6 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
-      "title": "Tickets for PUP with Snotty Nose Rez Kids",
-      "event_dt": "2025-11-24T00:00:00+00:00"
-    },
-    {
       "url": "https://www.ticketweb.ca/event/sweet-sour-the-pearl-tickets/14499403",
       "title": "Tickets for Sweet & Sour - The ultimate tribute to Olivia Rodrigo and Sabrina Carpenter",
       "event_dt": null
@@ -142,13 +137,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214",
-      "title": "Tickets for Bratmobile, PISS, Necking",
+      "url": "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374",
+      "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374",
-      "title": "Tickets for Johnnie Guilbert - Violent Dream Tour",
+      "url": "https://www.ticketweb.ca/event/bratmobile-piss-necking-hollywood-theatre-tickets/13698214",
+      "title": "Tickets for Bratmobile, PISS, Necking",
       "event_dt": null
     },
     {
@@ -162,13 +157,13 @@
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243",
-      "title": "Tickets for Comeback Kid, Prowl, Punitive Damage, Same Fears",
+      "url": "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343",
+      "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
       "event_dt": null
     },
     {
-      "url": "https://www.ticketweb.ca/event/kyle-mooney-the-the-pearl-tickets/14454343",
-      "title": "Tickets for Kyle Mooney - The Real Me / Fake Me Tour",
+      "url": "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243",
+      "title": "Tickets for Comeback Kid, Prowl, Punitive Damage, Same Fears",
       "event_dt": null
     },
     {
@@ -179,11 +174,6 @@
     {
       "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
       "title": "Tickets for Ethan Low - Presented By F7 Live",
-      "event_dt": null
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
-      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
@@ -210,6 +200,11 @@
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
       "title": "Tickets for Robyn Ottolini with Special Guests",
       "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE",
+      "title": "Tickets for PUP with Snotty Nose Rez Kids",
+      "event_dt": "2025-11-24T00:00:00+00:00"
     },
     {
       "url": "https://www.ticketweb.ca/event/too-many-zooz-caravan-tour-dickens-pub-tickets/14274203",
@@ -279,6 +274,11 @@
     {
       "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-hub-tickets/14495563",
       "title": "Tickets for Robyn Ottolini with Special Guests",
+      "event_dt": null
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
+      "title": "Tickets for Iniko - Awakening The Empire North American Tour",
       "event_dt": null
     },
     {
