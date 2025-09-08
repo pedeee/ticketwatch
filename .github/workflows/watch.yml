@@ -93,7 +93,7 @@ jobs:
         # Check if there are changes to commit
         if ! git diff --quiet; then
           echo "📝 Committing state changes for ${{ matrix.batch_file }}"
-          git add "${{ matrix.batch_file }}.state.json" "${{ matrix.batch_file }}"
+          git add "${{ matrix.batch_file }}.state.json" "${{ matrix.batch_file }}" "${{ matrix.batch_file }}.stats.json"
           git commit -m "auto: update ${{ matrix.batch_file }}.state.json"
           
           # Simple push with basic retry (no reset!)
