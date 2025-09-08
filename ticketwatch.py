@@ -41,7 +41,7 @@ if len(sys.argv) > 1 and sys.argv[1]:
     STATE_FILE = f"{URL_FILE}.state.json"   # e.g. url_batches/batch3.txt.state.json
 
 # ─── Configuration ────────────────────────────────────────────────────────
-HEADERS         = {"User-Agent": "Mozilla/5.0 (ticketwatch/2.0)"}
+HEADERS         = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 MAX_CONCURRENT  = 20                 # concurrent requests
@@ -122,7 +122,7 @@ def extract_status(html: str) -> Dict[str, Any]:
     if date_str:
         try:
             event_dt = dtparse.parse(date_str).astimezone(tz.tzutc())
-        except Exception as e:
+        except (ValueError, TypeError, dtparse.ParserError) as e:
             if DEBUG_DATE:
                 print("DEBUG parse fail:", e, date_str)
 
@@ -175,7 +175,7 @@ def telegram_push(title: str, message: str, url: str = None):
                       data={"chat_id": TG_CHAT, "text": msg,
                             "parse_mode": "HTML", "disable_web_page_preview": True},
                       timeout=10)
-    except Exception as e:
+    except (requests.RequestException, requests.Timeout) as e:
         print("✖ Telegram error:", e)
 
 def telegram_batch_changes(changes: List[Change]):
@@ -244,7 +244,7 @@ def main():
         try:
             r = scraper.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
-        except Exception as e:
+        except (requests.RequestException, cloudscraper.exceptions.CloudflareChallengeError) as e:
             print(f"✖ {url}: {e}")
             continue
 

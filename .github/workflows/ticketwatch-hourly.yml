@@ -15,12 +15,13 @@ on:
 jobs:
   ticketwatch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45  # Increased timeout for slower requests
     
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
       TG_CHAT: ${{ secrets.TG_CHAT }}
       PRIMARY: "true"
+      GITHUB_ACTIONS: "true"  # Enable GitHub Actions optimizations
       
     steps:
     - name: 🚀 Checkout repository
@@ -57,13 +58,29 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
+        # Pull latest changes first to avoid conflicts
+        git pull origin main --rebase --autostash || true
+        
         # Check if there are changes to commit
         if [[ `git status --porcelain` ]]; then
           echo "📝 Changes detected, committing..."
-          git add state.json urls.txt
-          git commit -m "🤖 Update state and URLs ($(date))"
-          git push
-          echo "✅ Changes pushed to repository"
+          git add state.json urls.txt failed_urls.json
+          git commit -m "🤖 Update state, URLs, and failed URL tracking ($(date))" || echo "⚠️ Commit failed or no changes"
+          
+          # Try to push with retry
+          for i in {1..3}; do
+            if git push; then
+              echo "✅ Changes pushed to repository"
+              break
+            else
+              echo "⚠️ Push failed, attempt $i/3. Pulling latest changes..."
+              git pull origin main --rebase --autostash || true
+              if [ $i -eq 3 ]; then
+                echo "❌ Failed to push after 3 attempts"
+                exit 1
+              fi
+            fi
+          done
         else
           echo "✅ No changes to commit"
         fi

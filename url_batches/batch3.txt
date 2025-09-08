@@ -2,8 +2,8 @@
 # Format: URL  # Event Name - Date
 
 # === August 2025 ===
-https://www.ticketweb.ca/event/jerk-x-jollof-toronto-the-mod-club-formerly-known-tickets/14440003  # Tickets for Jerk X Jollof: Toronto (Caribana Edition) - Aug 03
 https://www.ticketweb.ca/event/celebs-pride-pres-lsdxoxo-at-village-studios-tickets/13772004  # Tickets for Celebs Pride pres. LSDXOXO at CUM TOGETHER: Sweet & Sticky - Aug 03
+https://www.ticketweb.ca/event/jerk-x-jollof-toronto-the-mod-club-formerly-known-tickets/14440003  # Tickets for Jerk X Jollof: Toronto (Caribana Edition) - Aug 03
 https://www.ticketweb.ca/event/space-92-village-studios-tickets/13818554  # Tickets for Space 92 - Aug 08
 https://www.ticketweb.ca/event/two-another-north-american-fortune-sound-club-tickets/14310203  # Tickets for Two Another – North American Tour, No Suits - Aug 13
 https://www.ticketweb.ca/event/michael-seyer-with-blaize-jenkins-the-fox-cabaret-tickets/13742884  # Tickets for Michael Seyer with Blaize Jenkins & Serena Sun - Aug 15
@@ -33,18 +33,20 @@ https://www.ticketweb.ca/event/hotel-mira-with-special-guests-sidestage-tickets/
 https://www.ticketweb.ca/event/dying-fetus-w-gates-to-rickshaw-theatre-tickets/13833774  # Tickets for Dying Fetus w/ Gates To Hell & Mugshot - Oct 08
 https://www.ticketweb.ca/event/bambara-the-fox-cabaret-tickets/13683744  # Tickets for Bambara - Oct 08
 https://www.ticketweb.ca/event/nation-of-language-with-westerman-the-pearl-tickets/14034513  # Tickets for Nation of Language with Westerman - Oct 08
-https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673  # Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour - Oct 09
 https://www.ticketweb.ca/event/boys-night-out-the-palace-theatre-tickets/14435233  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Oct 09
+https://www.ticketweb.ca/event/mo-lowda-the-humble-the-pearl-tickets/14034673  # Tickets for Mo Lowda & the Humble- Tailing the Ghost Tour - Oct 09
 https://www.ticketweb.ca/event/french-police-with-riki-the-fox-cabaret-tickets/13713654  # Tickets for French Police with Riki - Oct 10
 https://www.ticketweb.ca/event/boys-night-out-union-hall-tickets/14435343  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Presented By MODO-LIVE & New Ground Booking - Oct 10
 https://www.ticketweb.ca/event/pool-kids-the-fox-cabaret-tickets/13785134  # Tickets for Pool Kids - Oct 11
 https://www.ticketweb.ca/event/fly-by-midnight-with-special-the-pearl-tickets/14024093  # Tickets for Fly By Midnight with Special Guests - Oct 11
+https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Tickets for Wombo w/ Ribbon Skirt - Oct 11
 https://www.ticketweb.ca/event/boys-night-out-the-pearl-tickets/14434793  # Tickets for Boys Night Out - Trainwreck 20th Anniversary Tour - Oct 12
 https://www.ticketweb.ca/event/durry-your-friend-the-fox-cabaret-tickets/14340823  # Tickets for DURRY - Your Friend From The Real World Tour, Gully Boys - Oct 14
 https://www.ticketweb.ca/event/softcult-w-wayside-the-pearl-tickets/14452653  # Tickets for Softcult with Wayside & Cherrypick - Oct 16
 https://www.ticketweb.ca/event/hotel-mira-with-bleeker-sonic-hall-tickets/14464273  # Tickets for Hotel Mira with Bleeker - Oct 16
 https://www.ticketweb.ca/event/hotel-mira-bleeker-rum-runners-tickets/13816944  # Tickets for Hotel Mira, Bleeker - Oct 17
 https://www.ticketweb.ca/event/hotel-mira-with-bleeker-bridgeworks-tickets/14464333  # Tickets for Hotel Mira with Bleeker - Oct 18
+https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234  # Tickets for Revocation, Judiciary, Inferi, Vomit Forth - Oct 20
 https://www.ticketweb.ca/event/hotel-mira-with-bleeker-the-mansion-tickets/14464173  # Tickets for Hotel Mira with Bleeker - Oct 22
 https://www.ticketweb.ca/event/hotel-mira-bleeker-club-saw-tickets/13812214  # Tickets for Hotel Mira, Bleeker - Oct 24
 https://www.ticketweb.ca/event/saturdays-at-your-place-these-the-pearl-tickets/14309713  # Tickets for saturdays at your place these things happen tour - Oct 25
@@ -76,9 +78,3 @@ https://www.ticketweb.ca/event/the-dears-w-special-guests-lees-palace-tickets/14
 # === December 2025 ===
 https://www.ticketweb.ca/event/pup-snotty-nose-rez-kids-the-bronson-tickets/14412203  # Tickets for PUP, Snotty Nose Rez Kids - Dec 07
 https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-bond-st-event-centre-tickets/14298383  # Tickets for PUP with Snotty Nose Rez Kids - Dec 12
-
-# === Events without dates ===
-https://www.ticketweb.ca/event/revocation-judiciary-inferi-vomit-forth-lees-palace-tickets/13809234  # Unknown Event - No date found
-https://www.ticketweb.ca/event/wombo-kingsway-club-tickets/14450053  # Unknown Event - No date found
-https://www.ticketweb.ca/event/cozy-worldwide-throwback-current-rb-the-mod-club-formerly-known-tickets/14383853  # Unknown Event - No date found
-https://www.ticketweb.ca/event/the-lazys-cevilain-the-space-the-27-club-tickets/14378793  # Unknown Event - No date found

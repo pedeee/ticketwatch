@@ -15,13 +15,14 @@ Features
 Configuration
 ─────────────
 PRICE_SELECTOR = "lowest" | "highest"
-MAX_CONCURRENT = 20        # concurrent requests
-REQUEST_DELAY  = 0.1       # seconds between requests
+# Conservative settings for GitHub Actions to avoid IP blocking
+MAX_CONCURRENT = 5 if IS_GITHUB_ACTIONS else 20        # concurrent requests
+REQUEST_DELAY  = 2.0 if IS_GITHUB_ACTIONS else 0.1     # seconds between requests
 BATCH_SIZE     = 10        # changes per notification batch
 DEBUG_DATE     = False     # detailed date parsing debug
 """
 
-import json, os, re, sys, requests, cloudscraper
+import json, os, re, sys, requests, cloudscraper, random
 import asyncio, aiohttp, time, ssl
 from typing import Dict, Any, List, Tuple, Optional
 from bs4 import BeautifulSoup
@@ -33,21 +34,50 @@ from dataclasses import dataclass
 # ─── Files & constants ────────────────────────────────────────────────────
 URL_FILE   = "urls.txt"        # default when you run locally
 STATE_FILE = "state.json"
+FAILED_URLS_FILE = "failed_urls.json"  # track URLs that failed in previous runs
 
 # If the workflow passes a batch file (url_batches/batchN.txt),
 # use that for both URLs and state so each job is isolated.
 if len(sys.argv) > 1 and sys.argv[1]:
     URL_FILE   = sys.argv[1]
     STATE_FILE = f"{URL_FILE}.state.json"   # e.g. url_batches/batch3.txt.state.json
+    FAILED_URLS_FILE = f"{URL_FILE}.failed.json"  # e.g. url_batches/batch3.txt.failed.json
 
 # ─── Configuration ────────────────────────────────────────────────────────
-HEADERS         = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+# ─── Enhanced headers for GitHub Actions ─────────────────────────────────
+def get_enhanced_headers():
+    """Get enhanced headers that work better in GitHub Actions"""
+    return {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Cache-Control": "max-age=0"
+    }
+
+HEADERS = get_enhanced_headers()
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
-MAX_CONCURRENT  = 10                 # concurrent requests (reduced for GitHub Actions)
-REQUEST_DELAY   = 0.5                # seconds between requests (increased for stability)  
+
+# Conservative settings for GitHub Actions to avoid IP blocking
+IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
+if IS_GITHUB_ACTIONS:
+    # Even more conservative for batch system to ensure all URLs get scanned
+    MAX_CONCURRENT  = 2              # Very conservative for GitHub Actions batch jobs
+    REQUEST_DELAY   = 3.0            # Longer delay to avoid rate limiting across 5 parallel jobs
+    RETRY_ATTEMPTS  = 2              # Fewer retries to avoid persistent blocking
+else:
+    MAX_CONCURRENT  = 10             # Faster for local runs
+    REQUEST_DELAY   = 0.5            # Normal delay for local
+    RETRY_ATTEMPTS  = 3              # Normal retries
+
 BATCH_SIZE      = 10                 # changes per notification batch
-RETRY_ATTEMPTS  = 3                  # retry failed requests
 DEBUG_DATE      = False              # detailed date parsing debug
 
 @dataclass
@@ -59,11 +89,21 @@ class Change:
     url: str
     event_dt: Optional[str] = None
 
-# ─── Cloudflare-bypass session (fallback only) ───────────────────────────
-scraper = cloudscraper.create_scraper(
-    browser={'browser': 'firefox', 'platform': 'darwin', 'mobile': False},
-    delay=3000                       # ms between CF challenge retries
-)
+# ─── Enhanced Cloudflare-bypass session ───────────────────────────────────
+def create_enhanced_scraper():
+    """Create a more sophisticated scraper for GitHub Actions"""
+    return cloudscraper.create_scraper(
+        browser={
+            'browser': 'chrome', 
+            'platform': 'linux',  # GitHub Actions runs on Linux
+            'mobile': False
+        },
+        delay=5000,  # Longer delay for GitHub Actions
+        debug=False
+    )
+
+# Create scraper instance
+scraper = create_enhanced_scraper()
 
 # ─── Telegram credentials (set as repo Secrets) ───────────────────────────
 TG_TOKEN = os.getenv("TG_TOKEN")
@@ -88,13 +128,60 @@ def extract_status(html: str) -> Dict[str, Any]:
     soup  = BeautifulSoup(html, "html.parser")
     text  = soup.get_text(" ", strip=True)
 
-    # 1. Event date ---------------------------------------------------------
+    # 1. Check for various event status indicators first -------------------
+    is_cancelled = False
+    is_terminated = False
+    is_presale = False
+    is_sold_out = False
+    
+    # Check for cancelled/postponed events
+    cancelled_indicators = soup.find_all(string=re.compile(r'(event cancelled|event canceled|event postponed)', re.I))
+    if cancelled_indicators:
+        is_cancelled = True
+        if DEBUG_DATE:
+            print("DEBUG: Event is cancelled/postponed")
+    
+    # Check for terminated events (past events)
+    terminated_indicators = soup.find_all(string=re.compile(r'(ticket sales terminated|tickets are currently unavailable)', re.I))
+    if terminated_indicators:
+        is_terminated = True
+        if DEBUG_DATE:
+            print("DEBUG: Event ticket sales are terminated")
+    
+    # Check for presale events
+    presale_indicators = soup.find_all(string=re.compile(r'(on sale soon|sale starts|presale)', re.I))
+    if presale_indicators:
+        is_presale = True
+        if DEBUG_DATE:
+            print("DEBUG: Event is on presale/coming soon")
+    
+    # Check for sold out events
+    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|sold out|check back soon)', re.I))
+    if soldout_indicators:
+        is_sold_out = True
+        if DEBUG_DATE:
+            print("DEBUG: Event is sold out")
+
+    # 2. Event date ---------------------------------------------------------
     date_str = None
 
+    # Try structured data first (JSON-LD)
+    json_scripts = soup.find_all('script', type='application/ld+json')
+    for script in json_scripts:
+        try:
+            data = json.loads(script.string)
+            if isinstance(data, dict) and data.get('@type') == 'Event':
+                if data.get('startDate'):
+                    date_str = data['startDate']
+                    break
+        except:
+            pass
+
     # meta property="event:start_time"
-    mtag = soup.find("meta", property="event:start_time")
-    if mtag and mtag.get("content"):
-        date_str = mtag["content"]
+    if not date_str:
+        mtag = soup.find("meta", property="event:start_time")
+        if mtag and mtag.get("content"):
+            date_str = mtag["content"]
 
     # <time> tag
     if not date_str:
@@ -122,35 +209,92 @@ def extract_status(html: str) -> Dict[str, Any]:
     if date_str:
         try:
             event_dt = dtparse.parse(date_str).astimezone(tz.tzutc())
-        except Exception as e:
+        except (ValueError, TypeError, dtparse.ParserError) as e:
             if DEBUG_DATE:
                 print("DEBUG parse fail:", e, date_str)
 
-    # 2. Title --------------------------------------------------------------
+    # 3. Title --------------------------------------------------------------
     meta = soup.find("meta", property="og:title")
     title = (meta["content"].strip() if meta and meta.get("content")
              else soup.title.string.strip() if soup.title and soup.title.string
              else "<unknown event>")
     title = re.sub(r"\s+\|.*$", "", title)
 
-    # 3. Price search (skip fee lines) --------------------------------------
-    prices: list[float] = []
-    for m in re.finditer(r"\$([0-9]{1,5}\.[0-9]{2})", text):
-        window = text[max(0, m.start() - 20): m.end() + 20].lower()
-        if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
-            continue
-        prices.append(float(m.group(1)))
-
-    price   = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices)) if prices else None
-    soldout = not prices
+    # 4. Price detection (updated for new Ticketweb structure) -------------
+    price = None
+    price_range = None
+    
+    # First, try to get price from structured data
+    for script in json_scripts:
+        try:
+            data = json.loads(script.string)
+            if isinstance(data, dict) and data.get('@type') == 'Event':
+                offers = data.get('offers', {})
+                if isinstance(offers, dict):
+                    price_str = offers.get('price', '')
+                    if price_str and price_str.strip():
+                        try:
+                            # Remove currency symbols and parse
+                            price_value = float(re.sub(r'[^\d.]', '', price_str))
+                            price = price_value
+                            break
+                        except ValueError:
+                            pass
+        except:
+            pass
+    
+    # Enhanced HTML text search for prices (handles new Ticketweb patterns)
+    if price is None:
+        prices: List[float] = []
+        
+        # Look for single prices like "$25", "$40.00"
+        for m in re.finditer(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)", text):
+            window = text[max(0, m.start() - 20): m.end() + 20].lower()
+            if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
+                continue
+            prices.append(float(m.group(1)))
+        
+        # Look for price ranges like "$26.39 - $38.08"
+        price_ranges = re.findall(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)\s*-\s*\$([0-9]{1,5}(?:\.[0-9]{2})?)", text)
+        if price_ranges:
+            try:
+                min_price = float(price_ranges[0][0])
+                max_price = float(price_ranges[0][1])
+                price_range = f"${min_price:.2f} - ${max_price:.2f}"
+                prices.append(min_price)  # Use minimum price as the main price
+            except ValueError:
+                pass
+        
+        if prices:
+            price = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices))
+    
+    # Determine if sold out based on all status indicators
+    soldout = False
+    
+    # If cancelled, terminated, presale, or explicitly sold out, mark as sold out
+    if is_cancelled or is_terminated or is_presale or is_sold_out:
+        soldout = True
+    # If no price found and no explicit status indicators, check for sold out indicators
+    elif price is None:
+        sold_out_indicators = soup.find_all(string=re.compile(r'(sold out|sold-out|unavailable)', re.I))
+        soldout = len(sold_out_indicators) > 0
+        # If no explicit sold out indicators, assume available (price might be hidden)
+        if not soldout:
+            soldout = False  # Don't assume sold out if no clear indicators
 
     if DEBUG_DATE:
-        print("DEBUG date:", title, event_dt)
+        print("DEBUG:", title, "Price:", price, "Price Range:", price_range, "Sold out:", soldout, 
+              "Cancelled:", is_cancelled, "Terminated:", is_terminated, "Presale:", is_presale, "Sold Out Banner:", is_sold_out)
 
     return {
         "title": title,
         "price": price,
+        "price_range": price_range,
         "soldout": soldout,
+        "cancelled": is_cancelled,
+        "terminated": is_terminated,
+        "presale": is_presale,
+        "sold_out_banner": is_sold_out,
         "event_dt": event_dt.isoformat() if event_dt else None,
     }
 
@@ -214,8 +358,48 @@ def telegram_push(title: str, message: str, url: str = None):
                       data={"chat_id": TG_CHAT, "text": msg,
                             "parse_mode": "HTML", "disable_web_page_preview": True},
                       timeout=10)
-    except Exception as e:
+    except (requests.RequestException, requests.Timeout) as e:
         print("✖ Telegram error:", e)
+
+def send_sold_out_reminders(sold_out_events):
+    """Send hourly reminders for sold-out events with clickable links"""
+    if not (TG_TOKEN and TG_CHAT) or not sold_out_events:
+        return
+    
+    # Sort all events by date (earliest first)
+    sorted_events = sorted(sold_out_events, key=lambda x: x["event_dt"] or "9999")
+    
+    # Create simple sold-out reminder
+    reminder_msg = f"""🔴 <b>{len(sold_out_events)} events sold out:</b>
+
+"""
+    
+    # Show all sold-out events in date order
+    for i, event in enumerate(sorted_events[:15], 1):  # Show up to 15 events
+        title = event['title'].replace("Tickets for ", "").strip()
+        if len(title) > 45:
+            title = title[:42] + "..."
+        
+        date_str = "TBD"
+        if event["event_dt"]:
+            try:
+                dt_obj = dtparse.parse(event["event_dt"])
+                date_str = dt_obj.strftime("%a, %b %d")
+            except:
+                pass
+        
+        reminder_msg += f" {i:2}. 🚫 <b>{title}</b>\n"
+        reminder_msg += f"    📅 {date_str}\n"
+        reminder_msg += f"    🔗 <a href='{event['url']}'>Check Availability</a>\n\n"
+    
+    # Show remaining count if there are more
+    if len(sorted_events) > 15:
+        reminder_msg += f"    ... and {len(sorted_events) - 15} more sold-out events\n\n"
+    
+    # No extra footer text needed
+    
+    # Send reminder
+    telegram_push("🚫 Sold Out Reminder", reminder_msg)
 
 def telegram_batch_changes(changes: List[Change]):
     """Send beautifully formatted batch change notifications"""
@@ -270,10 +454,9 @@ def telegram_batch_changes(changes: List[Change]):
         for i in range(0, len(group_changes), BATCH_SIZE):
             batch = group_changes[i:i + BATCH_SIZE]
             
-            # Create beautiful header
+            # Create simple header
             header = f"{group_emoji} <b>{group_title}</b>\n"
-            header += f"{'═' * 30}\n"
-            header += f"📊 <i>{len(batch)} events found</i>\n\n"
+            header += f"📊 {len(batch)} events found\n\n"
             
             msg_lines = [header]
             
@@ -304,11 +487,10 @@ def telegram_batch_changes(changes: List[Change]):
                 msg_lines.append(f"{j:2}. {status_emoji} <b>{title}</b>")
                 msg_lines.append(f"    {urgency_emoji} {date_str}")
                 msg_lines.append(f"    💰 {change.old_status} → <b>{change.new_status}</b>")
+                msg_lines.append(f"    🔗 <a href='{change.url}'>View Event</a>")
                 msg_lines.append("")
             
-            # Add footer
-            msg_lines.append("─" * 25)
-            msg_lines.append("🎫 <i>Ticketwatch Alert System</i>")
+            # No footer needed
             
             msg = "\n".join(msg_lines)
             
@@ -340,6 +522,60 @@ def load_lines(path: str) -> list[str]:
                 if url:
                     urls.append(url)
         return urls
+
+def load_failed_urls() -> set:
+    """Load URLs that failed in previous runs"""
+    try:
+        if os.path.exists(FAILED_URLS_FILE):
+            with open(FAILED_URLS_FILE) as f:
+                failed_data = json.load(f)
+                return set(failed_data.get("failed_urls", []))
+    except:
+        pass
+    return set()
+
+def save_failed_urls(failed_urls: set):
+    """Save URLs that failed this run for priority next time"""
+    try:
+        failed_data = {
+            "failed_urls": list(failed_urls),
+            "timestamp": dt.datetime.now().isoformat(),
+            "count": len(failed_urls)
+        }
+        with open(FAILED_URLS_FILE, "w") as f:
+            json.dump(failed_data, f, indent=2)
+    except Exception as e:
+        print(f"⚠️ Could not save failed URLs: {e}")
+
+def select_urls_with_priority(all_urls: list[str], target_count: int = 250) -> list[str]:
+    """Select URLs with priority for previously failed ones"""
+    # Load previously failed URLs
+    failed_urls = load_failed_urls()
+    
+    # Separate failed and successful URLs
+    priority_urls = [url for url in all_urls if url in failed_urls]
+    other_urls = [url for url in all_urls if url not in failed_urls]
+    
+    # Always include all failed URLs (they get priority)
+    selected_urls = priority_urls[:]
+    
+    # Fill remaining slots with random selection from other URLs
+    remaining_slots = target_count - len(priority_urls)
+    if remaining_slots > 0 and other_urls:
+        # Shuffle other URLs for random selection
+        random.shuffle(other_urls)
+        selected_urls.extend(other_urls[:remaining_slots])
+    
+    # If we have fewer URLs than target, just return all
+    if len(selected_urls) < target_count and len(all_urls) < target_count:
+        selected_urls = all_urls[:]
+    
+    print(f"📊 URL Selection Strategy:")
+    print(f"   🔴 Priority (failed): {len(priority_urls)} URLs")
+    print(f"   🔀 Random selection: {min(remaining_slots, len(other_urls))} URLs") 
+    print(f"   🎯 Total selected: {len(selected_urls)}/{len(all_urls)} URLs")
+    
+    return selected_urls
 
 def load_state(path: str):
     if os.path.exists(path):
@@ -412,25 +648,32 @@ def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str,
 async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]]]:
     """Fetch a single URL with retry logic and rate limiting"""
     async with semaphore:  # Limit concurrent requests
+        # Add delay between requests for GitHub Actions
+        if IS_GITHUB_ACTIONS and REQUEST_DELAY > 0:
+            await asyncio.sleep(REQUEST_DELAY)
         for attempt in range(RETRY_ATTEMPTS):
             try:
-                await asyncio.sleep(REQUEST_DELAY)  # Rate limiting
-                async with session.get(url, headers=HEADERS, timeout=30) as response:
+                # Add randomized delay to look more human-like
+                if IS_GITHUB_ACTIONS:
+                    base_delay = REQUEST_DELAY
+                    randomized_delay = base_delay + random.uniform(0, base_delay * 0.5)  # Add 0-50% random variation
+                    await asyncio.sleep(randomized_delay)
+                
+                # Longer timeout for GitHub Actions
+                timeout = 45 if IS_GITHUB_ACTIONS else 30
+                async with session.get(url, headers=HEADERS, timeout=timeout) as response:
                     response.raise_for_status()
                     html = await response.text()
                     return url, extract_status(html)
-            except Exception as e:
+            except (aiohttp.ClientError, asyncio.TimeoutError, ValueError) as e:
                 if attempt == RETRY_ATTEMPTS - 1:
-                    # Try cloudscraper as fallback for the final attempt
+                    # Try enhanced cloudscraper as fallback for the final attempt
                     try:
-                        scraper = cloudscraper.create_scraper(
-                            browser={'browser': 'firefox', 'platform': 'darwin', 'mobile': False},
-                            delay=3000
-                        )
-                        response = scraper.get(url, timeout=30)
+                        enhanced_scraper = create_enhanced_scraper()
+                        response = enhanced_scraper.get(url, timeout=30, headers=HEADERS)
                         response.raise_for_status()
                         return url, extract_status(response.text)
-                    except Exception as cloudscraper_e:
+                    except (requests.RequestException, cloudscraper.exceptions.CloudflareChallengeError) as cloudscraper_e:
                         print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (aiohttp: {e}, cloudscraper: {cloudscraper_e})")
                         return url, None
                 await asyncio.sleep(2 ** attempt)  # Exponential backoff
@@ -461,12 +704,14 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
             if status:
                 results[url] = status
             
-            # Progress reporting
-            if completed % 50 == 0 or completed == len(urls):
+            # Progress reporting (more frequent for GitHub Actions)
+            report_interval = 20 if IS_GITHUB_ACTIONS else 50
+            if completed % report_interval == 0 or completed == len(urls):
                 elapsed = time.time() - start_time
                 rate = completed / elapsed if elapsed > 0 else 0
+                success_rate = len(results) / completed * 100 if completed > 0 else 0
                 print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
-                      f"- {rate:.1f} URLs/sec")
+                      f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
     
     elapsed = time.time() - start_time
     print(f"✅ Completed in {elapsed:.1f}s - {len(results)} successful, {len(urls) - len(results)} failed")
@@ -477,11 +722,29 @@ async def main():
     """Main async processing function"""
     print("🎟️ Ticketwatch starting...")
     
-    urls = load_lines(URL_FILE)
+    # Load all URLs from file
+    all_urls = load_lines(URL_FILE)
+    
+    # For batch system: scan ALL URLs in the batch file
+    # For consolidated system: use smart selection
+    if len(sys.argv) > 1 and sys.argv[1]:
+        # Running with batch file - scan ALL URLs in this batch
+        selected_urls = all_urls
+        print(f"🎯 Batch mode: Scanning ALL {len(selected_urls)} URLs")
+    else:
+        # Running with consolidated urls.txt - use smart selection
+        target_count = 200 if IS_GITHUB_ACTIONS else 280
+        try:
+            selected_urls = select_urls_with_priority(all_urls, target_count)
+            print(f"🎯 Consolidated mode: Selected {len(selected_urls)}/{len(all_urls)} URLs")
+        except Exception as e:
+            print(f"❌ URL selection failed: {e}, using all URLs")
+            selected_urls = all_urls[:target_count]
+    
     before = load_state(STATE_FILE)
     
-    # Fetch all URLs concurrently  
-    after = await fetch_all_urls(urls)
+    # Fetch selected URLs concurrently  
+    after = await fetch_all_urls(selected_urls)
     
     # Process results
     past_events = []  # Store past events for notification (but don't remove)
@@ -513,8 +776,18 @@ async def main():
             )
             changes.append(change)
     
-    # Always re-sort URLs by date for better organization
-    save_sorted_urls(URL_FILE, urls, after)
+    # Track failed URLs for priority next time
+    successful_urls = set(after.keys())
+    failed_urls = set(selected_urls) - successful_urls
+    save_failed_urls(failed_urls)
+    
+    if failed_urls:
+        print(f"🔴 {len(failed_urls)} URLs failed - will get priority next run")
+    else:
+        print("🟢 All selected URLs succeeded!")
+    
+    # Always re-sort URLs by date for better organization (use all URLs, not just selected)
+    save_sorted_urls(URL_FILE, all_urls, after)
     
     # Send beautiful past events notification
     if past_events:
@@ -523,10 +796,7 @@ async def main():
         # Sort past events by how long ago they were
         sorted_past_events = sorted(past_events, key=lambda x: x["event_dt"] or "")
         
-        cleanup_msg = f"""🧹 <b>Cleanup Suggestion</b>
-═══════════════════════════
-
-⚠️ Found <b>{len(past_events)} past events</b> that could be removed
+        cleanup_msg = f"""⚠️ Found <b>{len(past_events)} past events</b> that could be removed
 
 🗓️ <b>Past Events:</b>"""
         
@@ -557,11 +827,7 @@ async def main():
         cleanup_msg += f"""
 
 🛠️ <b>Manual Cleanup Required:</b>
-<code>python3 batch_manager.py clean --review</code>
-
-💡 <i>Past events are kept until manual removal</i>
-───────────────────────
-🎫 <i>Ticketwatch Alert System</i>"""
+<code>python3 batch_manager.py clean --review</code>"""
         
         # Send past events notification 
         if TG_TOKEN and TG_CHAT and len(past_events) > 0:
@@ -569,6 +835,69 @@ async def main():
     
     # Save state
     save_state(STATE_FILE, after)
+    
+    # Save batch stats for aggregation
+    batch_stats = {
+        "monitored_count": len(after),
+        "sold_out_events": []
+    }
+    
+    # Collect sold-out events from current batch
+    for url, event_data in after.items():
+        if event_data.get("soldout"):
+            batch_stats["sold_out_events"].append({
+                "url": url,
+                "title": event_data.get("title", "Unknown Event"),
+                "event_dt": event_data.get("event_dt")
+            })
+    
+    # Save stats to shared file for primary batch to aggregate
+    if len(sys.argv) > 1 and sys.argv[1]:
+        # For batch files, save in url_batches directory
+        stats_file = f"{URL_FILE}.stats.json"
+    else:
+        # For consolidated urls.txt, save in root
+        stats_file = "batch_stats.json"
+    
+    print(f"📊 Saving stats to: {stats_file}")
+    with open(stats_file, "w") as f:
+        json.dump(batch_stats, f, indent=2)
+    print(f"✅ Stats saved: {batch_stats['monitored_count']} monitored, {len(batch_stats['sold_out_events'])} sold out")
+    
+    print(f"🔴 Found {len(batch_stats['sold_out_events'])} sold-out events in this batch")
+    
+    # Aggregate all batch stats (only for primary batch)
+    is_primary = os.getenv("PRIMARY", "false").lower() == "true"
+    if is_primary:
+        # Collect stats from all batches
+        total_monitored = 0
+        all_sold_out_events = []
+        
+        # Check all possible batch stats files
+        for batch_num in range(1, 6):  # batch1.txt to batch5.txt
+            batch_stats_path = f"url_batches/batch{batch_num}.txt.stats.json"
+            print(f"🔍 Checking: {batch_stats_path}")
+            try:
+                if os.path.exists(batch_stats_path):
+                    with open(batch_stats_path, 'r') as f:
+                        batch_data = json.load(f)
+                        total_monitored += batch_data.get("monitored_count", 0)
+                        all_sold_out_events.extend(batch_data.get("sold_out_events", []))
+                        print(f"📊 Batch {batch_num}: {batch_data.get('monitored_count', 0)} monitored, {len(batch_data.get('sold_out_events', []))} sold out")
+                else:
+                    print(f"❌ File not found: {batch_stats_path}")
+            except (FileNotFoundError, json.JSONDecodeError) as e:
+                print(f"❌ Error reading {batch_stats_path}: {e}")
+                # Batch file doesn't exist or is invalid, skip
+                pass
+        
+        print(f"🎯 TOTAL AGGREGATED: {total_monitored} monitored, {len(all_sold_out_events)} sold out")
+        sold_out_events = all_sold_out_events
+        monitored_count = total_monitored
+    else:
+        # Non-primary batches use their own counts
+        sold_out_events = batch_stats["sold_out_events"] 
+        monitored_count = len(after)
     
     # Handle notifications
     if changes:
@@ -582,22 +911,19 @@ async def main():
         # Send batched notifications
         telegram_batch_changes(changes)
         
-    else:
-        # Send beautiful health check notification
+    # Always send sold-out reminders (every hour) regardless of changes
+    if sold_out_events and is_primary:
+        send_sold_out_reminders(sold_out_events)
+        
+    # Send health check notification only if no changes AND no sold-out reminders
+    if not changes and is_primary:
+        # Send health check notification
         print("✅ No changes detected")
-        if os.getenv("PRIMARY", "false").lower() == "true":
-            current_time = dt.datetime.now().strftime('%H:%M %Z')
-            health_msg = f"""🟢 <b>System Status: All Clear</b>
-═══════════════════════════
-
-✅ <b>No price changes detected</b>
-📊 Successfully monitored <b>{len(after)} events</b>
-🕐 Scan completed at <b>{current_time}</b>
-
-💡 <i>Your tickets are being watched!</i>
-───────────────────────
-🎫 <i>Ticketwatch Alert System</i>"""
-            telegram_push("🟢 Health Check", health_msg)
+        current_time = dt.datetime.now().strftime('%H:%M %Z')
+        health_msg = f"""✅ No price changes detected
+📊 Monitored {monitored_count} events
+🔴 Currently sold out: {len(sold_out_events)} events"""
+        telegram_push("🟢 Health Check", health_msg)
 
 def run_main():
     """Wrapper to run async main function"""

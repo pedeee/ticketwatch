@@ -93,7 +93,7 @@ def run_ticketwatch():
             print(f"❌ Ticketwatch failed with exit code {result.returncode}")
             return False
             
-    except Exception as e:
+    except (subprocess.SubprocessError, FileNotFoundError, OSError) as e:
         print(f"💥 Error running ticketwatch: {e}")
         return False
 
