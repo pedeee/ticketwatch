@@ -743,7 +743,8 @@ async def main():
         print(f"🎯 Batch mode: Scanning ALL {len(selected_urls)} URLs")
     else:
         # Running with consolidated urls.txt - use smart selection
-        target_count = 372 if IS_GITHUB_ACTIONS else 280  # Process all URLs in GitHub Actions
+        # Process all URLs in GitHub Actions, or up to 280 locally
+        target_count = len(all_urls) if IS_GITHUB_ACTIONS else min(280, len(all_urls))
         try:
             selected_urls = select_urls_with_priority(all_urls, target_count)
             print(f"🎯 Consolidated mode: Selected {len(selected_urls)}/{len(all_urls)} URLs")
@@ -796,8 +797,12 @@ async def main():
     else:
         print("🟢 All selected URLs succeeded!")
     
-    # Always re-sort URLs by date for better organization (use all URLs, not just selected)
-    save_sorted_urls(URL_FILE, all_urls, after)
+    # Only re-sort URLs if we successfully fetched data (don't overwrite on failure)
+    if after and len(after) > 0:
+        save_sorted_urls(URL_FILE, all_urls, after)
+        print("✅ URLs re-sorted by date")
+    else:
+        print("⚠️ Skipping URL re-sort due to fetch failure")
     
     # Send beautiful past events notification
     if past_events:
