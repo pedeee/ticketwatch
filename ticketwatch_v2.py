@@ -21,7 +21,7 @@ Configuration
 • BATCH_SIZE = 10 changes per notification batch
 """
 
-import json, os, re, sys, requests, cloudscraper, random
+import json, os, re, sys, requests, random
 import asyncio, aiohttp, time, ssl
 from typing import Dict, Any, List, Tuple, Optional
 from bs4 import BeautifulSoup
@@ -92,24 +92,7 @@ class Change:
     url: str
     event_dt: Optional[str] = None
 
-# ─── Enhanced Cloudflare-bypass session ───────────────────────────────────
-def create_enhanced_scraper():
-    """Create a more sophisticated scraper for GitHub Actions"""
-    scraper = cloudscraper.create_scraper(
-        browser={
-            'browser': 'chrome',
-            'platform': 'linux',  # GitHub Actions runs on Linux
-            'mobile': False
-        },
-        delay=8000,  # Even longer delay for GitHub Actions (increased from 5000)
-        debug=False
-    )
-    # Disable SSL verification for the scraper
-    scraper.verify = False
-    return scraper
-
-# Create scraper instance
-scraper = create_enhanced_scraper()
+# ─── Simple HTTP session ───────────────────────────────────────────────────
 
 # ─── Telegram credentials (set as repo Secrets) ───────────────────────────
 TG_TOKEN = os.getenv("TG_TOKEN")
@@ -673,15 +656,8 @@ async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semapho
                     return url, extract_status(html)
             except (aiohttp.ClientError, asyncio.TimeoutError, ValueError) as e:
                 if attempt == RETRY_ATTEMPTS - 1:
-                    # Try enhanced cloudscraper as fallback for the final attempt
-                    try:
-                        enhanced_scraper = create_enhanced_scraper()
-                        response = enhanced_scraper.get(url, timeout=30, headers=HEADERS, verify=False)
-                        response.raise_for_status()
-                        return url, extract_status(response.text)
-                    except (requests.RequestException, cloudscraper.exceptions.CloudflareChallengeError) as cloudscraper_e:
-                        print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (aiohttp: {e}, cloudscraper: {cloudscraper_e})")
-                        return url, None
+                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (aiohttp: {e})")
+                    return url, None
                 await asyncio.sleep(2 ** attempt)  # Exponential backoff
     return url, None
 
