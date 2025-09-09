@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-ticketwatch.py — High-performance monitor for Ticketweb event pages.
+ticketwatch_v2.py — High-performance monitor for Ticketweb event pages.
 
 Features
 ────────
-• Concurrent processing (handles 400-500 URLs efficiently)
+• Batch processing system (handles 281 URLs across 5 batches)
 • Intelligent rate limiting to avoid IP blocks
+• Enhanced anti-bot protection for GitHub Actions
 • Batched notifications (summarizes changes, reduces spam)
 • Single health check when no changes occur
 • Robust error handling with retries
@@ -14,12 +15,10 @@ Features
 
 Configuration
 ─────────────
-PRICE_SELECTOR = "lowest" | "highest"
-# Conservative settings for GitHub Actions to avoid IP blocking
-MAX_CONCURRENT = 3 if IS_GITHUB_ACTIONS else 20        # concurrent requests (reduced from 5)
-REQUEST_DELAY  = 3.0 if IS_GITHUB_ACTIONS else 0.1     # seconds between requests (increased from 2.0)
-BATCH_SIZE     = 10        # changes per notification batch
-DEBUG_DATE     = False     # detailed date parsing debug
+• Conservative settings for GitHub Actions to avoid IP blocking
+• MAX_CONCURRENT = 3 (GitHub Actions) / 20 (local)
+• REQUEST_DELAY = 3.0s (GitHub Actions) / 0.1s (local)
+• BATCH_SIZE = 10 changes per notification batch
 """
 
 import json, os, re, sys, requests, cloudscraper, random
@@ -30,18 +29,22 @@ from subprocess import run, DEVNULL
 from dateutil import parser as dtparse, tz
 import datetime as dt
 from dataclasses import dataclass
+import urllib3
+
+# Disable SSL warnings for local testing
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ─── Files & constants ────────────────────────────────────────────────────
-URL_FILE   = "urls.txt"        # default when you run locally
-STATE_FILE = "state.json"
-FAILED_URLS_FILE = "failed_urls.json"  # track URLs that failed in previous runs
-
-# If the workflow passes a batch file (url_batches/batchN.txt),
-# use that for both URLs and state so each job is isolated.
+# Batch system: each batch file has its own state and failed URLs tracking
 if len(sys.argv) > 1 and sys.argv[1]:
-    URL_FILE   = sys.argv[1]
-    STATE_FILE = f"{URL_FILE}.state.json"   # e.g. url_batches/batch3.txt.state.json
-    FAILED_URLS_FILE = f"{URL_FILE}.failed.json"  # e.g. url_batches/batch3.txt.failed.json
+    URL_FILE = sys.argv[1]  # e.g. url_batches/batch1.txt
+    STATE_FILE = f"{URL_FILE}.state.json"
+    FAILED_URLS_FILE = f"{URL_FILE}.failed.json"
+else:
+    # Fallback for local testing (not used in production)
+    URL_FILE = "urls.txt"
+    STATE_FILE = "state.json"
+    FAILED_URLS_FILE = "failed_urls.json"
 
 # ─── Configuration ────────────────────────────────────────────────────────
 # ─── Enhanced headers for GitHub Actions ─────────────────────────────────
@@ -670,7 +673,7 @@ async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semapho
                     # Try enhanced cloudscraper as fallback for the final attempt
                     try:
                         enhanced_scraper = create_enhanced_scraper()
-                        response = enhanced_scraper.get(url, timeout=30, headers=HEADERS)
+                        response = enhanced_scraper.get(url, timeout=30, headers=HEADERS, verify=False)
                         response.raise_for_status()
                         return url, extract_status(response.text)
                     except (requests.RequestException, cloudscraper.exceptions.CloudflareChallengeError) as cloudscraper_e:
@@ -688,12 +691,8 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
     print(f"🔄 Starting to check {len(urls)} URLs...")
     start_time = time.time()
     
-    # Create SSL context that handles certificate verification issues
-    ssl_context = ssl.create_default_context()
-    ssl_context.check_hostname = False
-    ssl_context.verify_mode = ssl.CERT_NONE
-    
-    connector = aiohttp.TCPConnector(ssl=ssl_context)
+    # Disable SSL verification for local testing
+    connector = aiohttp.TCPConnector(ssl=False, limit=100, limit_per_host=30)
     async with aiohttp.ClientSession(connector=connector) as session:
         tasks = [fetch_url_with_retry(session, url, semaphore) for url in urls]
         
