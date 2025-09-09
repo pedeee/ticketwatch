@@ -43,14 +43,32 @@ jobs:
     - name: 🔍 System health check
       run: |
         echo "🔍 Checking system health..."
-        echo "📊 URL count: $(grep -v '^#' urls.txt | grep -c 'http' || echo '0')"
+        echo "📊 Batch URLs:"
+        for file in url_batches/batch*.txt; do
+          count=$(grep -v '^#' "$file" | grep -c 'http' || echo '0')
+          echo "  - $(basename "$file"): $count URLs"
+        done
+        total=$(find url_batches -name "batch*.txt" -exec grep -v '^#' {} \; | grep -c 'http' || echo '0')
+        echo "📊 Total batch URLs: $total"
         echo "📄 State file size: $(wc -l < state.json || echo '0') lines"
         echo "🌍 Environment: GitHub Actions"
         
-    - name: 🎟️ Run Ticketwatch
+    - name: 🎟️ Run Ticketwatch (Batch System)
       run: |
-        echo "🚀 Starting Ticketwatch..."
-        python run_hourly.py --github
+        echo "🚀 Starting Ticketwatch with batch system..."
+        echo "📊 Processing all batch files in parallel..."
+        
+        # Run each batch file in parallel
+        python ticketwatch_v2.py url_batches/batch1.txt &
+        python ticketwatch_v2.py url_batches/batch2.txt &
+        python ticketwatch_v2.py url_batches/batch3.txt &
+        python ticketwatch_v2.py url_batches/batch4.txt &
+        python ticketwatch_v2.py url_batches/batch5.txt &
+        
+        # Wait for all batches to complete
+        wait
+        
+        echo "✅ All batches completed"
         
     - name: 💾 Commit and push changes
       run: |
@@ -92,7 +110,13 @@ jobs:
         echo "🎟️ TICKETWATCH RUN SUMMARY"
         echo "=================================="
         echo "⏰ Completed at: $(date)"
-        echo "📊 Monitored URLs: $(grep -v '^#' urls.txt | grep -c 'http' || echo '0')"
+        echo "📊 Batch URLs processed:"
+        for file in url_batches/batch*.txt; do
+          count=$(grep -v '^#' "$file" | grep -c 'http' || echo '0')
+          echo "  - $(basename "$file"): $count URLs"
+        done
+        total=$(find url_batches -name "batch*.txt" -exec grep -v '^#' {} \; | grep -c 'http' || echo '0')
+        echo "📊 Total URLs: $total"
         echo "📄 State entries: $(wc -l < state.json || echo '0') lines"
         echo "🔄 Status: ${{ job.status }}"
         echo "=================================="
