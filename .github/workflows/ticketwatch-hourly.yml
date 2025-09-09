@@ -56,19 +56,34 @@ jobs:
     - name: 🎟️ Run Ticketwatch (Batch System)
       run: |
         echo "🚀 Starting Ticketwatch with batch system..."
-        echo "📊 Processing all batch files in parallel..."
+        echo "📊 Processing all batch files sequentially..."
         
-        # Run each batch file in parallel
-        python ticketwatch_v2.py url_batches/batch1.txt &
-        python ticketwatch_v2.py url_batches/batch2.txt &
-        python ticketwatch_v2.py url_batches/batch3.txt &
-        python ticketwatch_v2.py url_batches/batch4.txt &
-        python ticketwatch_v2.py url_batches/batch5.txt &
+        # Check if batch files exist
+        for batch in batch1.txt batch2.txt batch3.txt batch4.txt batch5.txt; do
+          if [ ! -f "url_batches/$batch" ]; then
+            echo "❌ Error: url_batches/$batch not found!"
+            exit 1
+          fi
+          echo "✅ Found url_batches/$batch"
+        done
         
-        # Wait for all batches to complete
-        wait
+        # Run each batch file sequentially to avoid resource conflicts
+        echo "🔄 Processing batch1.txt..."
+        python ticketwatch_v2.py url_batches/batch1.txt || { echo "❌ batch1.txt failed"; exit 1; }
         
-        echo "✅ All batches completed"
+        echo "🔄 Processing batch2.txt..."
+        python ticketwatch_v2.py url_batches/batch2.txt || { echo "❌ batch2.txt failed"; exit 1; }
+        
+        echo "🔄 Processing batch3.txt..."
+        python ticketwatch_v2.py url_batches/batch3.txt || { echo "❌ batch3.txt failed"; exit 1; }
+        
+        echo "🔄 Processing batch4.txt..."
+        python ticketwatch_v2.py url_batches/batch4.txt || { echo "❌ batch4.txt failed"; exit 1; }
+        
+        echo "🔄 Processing batch5.txt..."
+        python ticketwatch_v2.py url_batches/batch5.txt || { echo "❌ batch5.txt failed"; exit 1; }
+        
+        echo "✅ All batches completed successfully"
         
     - name: 💾 Commit and push changes
       run: |
