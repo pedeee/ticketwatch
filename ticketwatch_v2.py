@@ -51,8 +51,8 @@ else:
 def get_enhanced_headers():
     """Get enhanced headers that work better in GitHub Actions"""
     return {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "Accept-Language": "en-US,en;q=0.9",
         "Accept-Encoding": "gzip, deflate, br",
         "DNT": "1",
@@ -61,24 +61,28 @@ def get_enhanced_headers():
         "Sec-Fetch-Dest": "document",
         "Sec-Fetch-Mode": "navigate",
         "Sec-Fetch-Site": "none",
-        "Cache-Control": "max-age=0"
+        "Sec-Fetch-User": "?1",
+        "Cache-Control": "max-age=0",
+        "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"'
     }
 
 HEADERS = get_enhanced_headers()
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 
-# Conservative settings for GitHub Actions to avoid IP blocking
+# Very conservative settings for GitHub Actions to avoid anti-bot detection
 IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
 if IS_GITHUB_ACTIONS:
-    # Even more conservative for batch system to ensure all URLs get scanned
-    MAX_CONCURRENT  = 2              # Very conservative for GitHub Actions batch jobs
-    REQUEST_DELAY   = 3.0            # Longer delay to avoid rate limiting across 5 parallel jobs
-    RETRY_ATTEMPTS  = 2              # Fewer retries to avoid persistent blocking
+    # Extremely conservative to avoid Ticketweb's anti-bot protection
+    MAX_CONCURRENT  = 1              # Process only 1 URL at a time
+    REQUEST_DELAY   = 10.0           # 10 second delay between requests
+    RETRY_ATTEMPTS  = 1              # Only 1 retry to avoid persistent blocking
 else:
-    MAX_CONCURRENT  = 10             # Faster for local runs
-    REQUEST_DELAY   = 0.5            # Normal delay for local
-    RETRY_ATTEMPTS  = 3              # Normal retries
+    MAX_CONCURRENT  = 5              # Conservative for local runs
+    REQUEST_DELAY   = 2.0            # Longer delay for local
+    RETRY_ATTEMPTS  = 2              # Fewer retries
 
 BATCH_SIZE      = 10                 # changes per notification batch
 DEBUG_DATE      = False              # detailed date parsing debug
