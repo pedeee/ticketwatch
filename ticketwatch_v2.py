@@ -95,7 +95,7 @@ class Change:
 # ─── Enhanced Cloudflare-bypass session ───────────────────────────────────
 def create_enhanced_scraper():
     """Create a more sophisticated scraper for GitHub Actions"""
-    return cloudscraper.create_scraper(
+    scraper = cloudscraper.create_scraper(
         browser={
             'browser': 'chrome',
             'platform': 'linux',  # GitHub Actions runs on Linux
@@ -104,6 +104,9 @@ def create_enhanced_scraper():
         delay=8000,  # Even longer delay for GitHub Actions (increased from 5000)
         debug=False
     )
+    # Disable SSL verification for the scraper
+    scraper.verify = False
+    return scraper
 
 # Create scraper instance
 scraper = create_enhanced_scraper()

@@ -13,125 +13,152 @@ on:
         default: 'false'
 
 jobs:
-  ticketwatch:
+  batch1:
     runs-on: ubuntu-latest
-    timeout-minutes: 45  # Increased timeout for slower requests
+    timeout-minutes: 15
     
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
       TG_CHAT: ${{ secrets.TG_CHAT }}
-      PRIMARY: "true"
-      GITHUB_ACTIONS: "true"  # Enable GitHub Actions optimizations
+      GITHUB_ACTIONS: "true"
       
     steps:
     - name: 🚀 Checkout repository
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: 🐍 Setup Python
+
+    - name: 🐍 Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
-        cache: 'pip'
-        
+        python-version: '3.12'
+
     - name: 📦 Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        
-    - name: 🔍 System health check
+
+    - name: 🎟️ Run Batch 1
       run: |
-        echo "🔍 Checking system health..."
-        echo "📊 Batch URLs:"
-        for file in url_batches/batch*.txt; do
-          count=$(grep -v '^#' "$file" | grep -c 'http' || echo '0')
-          echo "  - $(basename "$file"): $count URLs"
-        done
-        total=$(find url_batches -name "batch*.txt" -exec grep -v '^#' {} \; | grep -c 'http' || echo '0')
-        echo "📊 Total batch URLs: $total"
-        echo "📄 State file size: $(wc -l < state.json || echo '0') lines"
-        echo "🌍 Environment: GitHub Actions"
-        
-    - name: 🎟️ Run Ticketwatch (Batch System)
-      run: |
-        echo "🚀 Starting Ticketwatch with batch system..."
-        echo "📊 Processing all batch files sequentially..."
-        
-        # Check if batch files exist
-        for batch in batch1.txt batch2.txt batch3.txt batch4.txt batch5.txt; do
-          if [ ! -f "url_batches/$batch" ]; then
-            echo "❌ Error: url_batches/$batch not found!"
-            exit 1
-          fi
-          echo "✅ Found url_batches/$batch"
-        done
-        
-        # Run each batch file sequentially to avoid resource conflicts
         echo "🔄 Processing batch1.txt..."
-        python ticketwatch_v2.py url_batches/batch1.txt || { echo "❌ batch1.txt failed"; exit 1; }
-        
+        python ticketwatch_v2.py url_batches/batch1.txt
+
+  batch2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    env:
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT: ${{ secrets.TG_CHAT }}
+      GITHUB_ACTIONS: "true"
+      
+    steps:
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: 🎟️ Run Batch 2
+      run: |
         echo "🔄 Processing batch2.txt..."
-        python ticketwatch_v2.py url_batches/batch2.txt || { echo "❌ batch2.txt failed"; exit 1; }
-        
+        python ticketwatch_v2.py url_batches/batch2.txt
+
+  batch3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    env:
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT: ${{ secrets.TG_CHAT }}
+      GITHUB_ACTIONS: "true"
+      
+    steps:
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: 🎟️ Run Batch 3
+      run: |
         echo "🔄 Processing batch3.txt..."
-        python ticketwatch_v2.py url_batches/batch3.txt || { echo "❌ batch3.txt failed"; exit 1; }
-        
+        python ticketwatch_v2.py url_batches/batch3.txt
+
+  batch4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    env:
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT: ${{ secrets.TG_CHAT }}
+      GITHUB_ACTIONS: "true"
+      
+    steps:
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: 🎟️ Run Batch 4
+      run: |
         echo "🔄 Processing batch4.txt..."
-        python ticketwatch_v2.py url_batches/batch4.txt || { echo "❌ batch4.txt failed"; exit 1; }
-        
+        python ticketwatch_v2.py url_batches/batch4.txt
+
+  batch5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    env:
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT: ${{ secrets.TG_CHAT }}
+      GITHUB_ACTIONS: "true"
+      
+    steps:
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: 🎟️ Run Batch 5
+      run: |
         echo "🔄 Processing batch5.txt..."
-        python ticketwatch_v2.py url_batches/batch5.txt || { echo "❌ batch5.txt failed"; exit 1; }
-        
-        echo "✅ All batches completed successfully"
-        
-    - name: 💾 Commit and push changes
-      run: |
-        # Configure git
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        # Pull latest changes first to avoid conflicts
-        git pull origin main --rebase --autostash || true
-        
-        # Check if there are changes to commit
-        if [[ `git status --porcelain` ]]; then
-          echo "📝 Changes detected, committing..."
-          git add state.json urls.txt failed_urls.json
-          git commit -m "🤖 Update state, URLs, and failed URL tracking ($(date))" || echo "⚠️ Commit failed or no changes"
-          
-          # Try to push with retry
-          for i in {1..3}; do
-            if git push; then
-              echo "✅ Changes pushed to repository"
-              break
-            else
-              echo "⚠️ Push failed, attempt $i/3. Pulling latest changes..."
-              git pull origin main --rebase --autostash || true
-              if [ $i -eq 3 ]; then
-                echo "❌ Failed to push after 3 attempts"
-                exit 1
-              fi
-            fi
-          done
-        else
-          echo "✅ No changes to commit"
-        fi
-        
-    - name: 📊 Run summary
-      if: always()
-      run: |
-        echo "=================================="
-        echo "🎟️ TICKETWATCH RUN SUMMARY"
-        echo "=================================="
-        echo "⏰ Completed at: $(date)"
-        echo "📊 Batch URLs processed:"
-        for file in url_batches/batch*.txt; do
-          count=$(grep -v '^#' "$file" | grep -c 'http' || echo '0')
-          echo "  - $(basename "$file"): $count URLs"
-        done
-        total=$(find url_batches -name "batch*.txt" -exec grep -v '^#' {} \; | grep -c 'http' || echo '0')
-        echo "📊 Total URLs: $total"
-        echo "📄 State entries: $(wc -l < state.json || echo '0') lines"
-        echo "🔄 Status: ${{ job.status }}"
-        echo "=================================="
+        python ticketwatch_v2.py url_batches/batch5.txt
