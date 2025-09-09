@@ -16,8 +16,8 @@ Configuration
 ─────────────
 PRICE_SELECTOR = "lowest" | "highest"
 # Conservative settings for GitHub Actions to avoid IP blocking
-MAX_CONCURRENT = 5 if IS_GITHUB_ACTIONS else 20        # concurrent requests
-REQUEST_DELAY  = 2.0 if IS_GITHUB_ACTIONS else 0.1     # seconds between requests
+MAX_CONCURRENT = 3 if IS_GITHUB_ACTIONS else 20        # concurrent requests (reduced from 5)
+REQUEST_DELAY  = 3.0 if IS_GITHUB_ACTIONS else 0.1     # seconds between requests (increased from 2.0)
 BATCH_SIZE     = 10        # changes per notification batch
 DEBUG_DATE     = False     # detailed date parsing debug
 """
@@ -94,11 +94,11 @@ def create_enhanced_scraper():
     """Create a more sophisticated scraper for GitHub Actions"""
     return cloudscraper.create_scraper(
         browser={
-            'browser': 'chrome', 
+            'browser': 'chrome',
             'platform': 'linux',  # GitHub Actions runs on Linux
             'mobile': False
         },
-        delay=5000,  # Longer delay for GitHub Actions
+        delay=8000,  # Even longer delay for GitHub Actions (increased from 5000)
         debug=False
     )
 
@@ -714,7 +714,17 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
                       f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
     
     elapsed = time.time() - start_time
-    print(f"✅ Completed in {elapsed:.1f}s - {len(results)} successful, {len(urls) - len(results)} failed")
+    failed_count = len(urls) - len(results)
+    success_rate = len(results) / len(urls) * 100 if len(urls) > 0 else 0
+    
+    print(f"✅ Completed in {elapsed:.1f}s - {len(results)} successful, {failed_count} failed")
+    print(f"📊 Success rate: {success_rate:.1f}% ({len(results)}/{len(urls)})")
+    
+    if failed_count > 0:
+        print(f"⚠️  {failed_count} URLs failed to fetch - this may indicate anti-bot protection")
+        if IS_GITHUB_ACTIONS:
+            print("🔧 GitHub Actions: Consider increasing delays or reducing concurrency")
+    
     return results
 
 # ─── Main processing logic ────────────────────────────────────────────────
@@ -733,7 +743,7 @@ async def main():
         print(f"🎯 Batch mode: Scanning ALL {len(selected_urls)} URLs")
     else:
         # Running with consolidated urls.txt - use smart selection
-        target_count = 200 if IS_GITHUB_ACTIONS else 280
+        target_count = 372 if IS_GITHUB_ACTIONS else 280  # Process all URLs in GitHub Actions
         try:
             selected_urls = select_urls_with_priority(all_urls, target_count)
             print(f"🎯 Consolidated mode: Selected {len(selected_urls)}/{len(all_urls)} URLs")
