@@ -22,17 +22,14 @@ Configuration
 """
 
 import json, os, re, sys, requests, random
-import asyncio, aiohttp, time, ssl
+import asyncio, time
 from typing import Dict, Any, List, Tuple, Optional
 from bs4 import BeautifulSoup
 from subprocess import run, DEVNULL
 from dateutil import parser as dtparse, tz
 import datetime as dt
 from dataclasses import dataclass
-import urllib3
-
-# Disable SSL warnings for local testing
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+from playwright.async_api import async_playwright
 
 # ─── Files & constants ────────────────────────────────────────────────────
 # Batch system: each batch file has its own state and failed URLs tracking
@@ -72,17 +69,17 @@ HEADERS = get_enhanced_headers()
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 
-# Very conservative settings for GitHub Actions to avoid anti-bot detection
+# Playwright settings - more reasonable since we're using real browser
 IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
 if IS_GITHUB_ACTIONS:
-    # Extremely conservative to avoid Ticketweb's anti-bot protection
-    MAX_CONCURRENT  = 1              # Process only 1 URL at a time
-    REQUEST_DELAY   = 10.0           # 10 second delay between requests
-    RETRY_ATTEMPTS  = 1              # Only 1 retry to avoid persistent blocking
+    # Conservative but not extreme - Playwright looks like real browser
+    MAX_CONCURRENT  = 2              # Process 2 URLs at a time
+    REQUEST_DELAY   = 3.0            # 3 second delay between requests
+    RETRY_ATTEMPTS  = 2              # 2 retries for reliability
 else:
-    MAX_CONCURRENT  = 5              # Conservative for local runs
-    REQUEST_DELAY   = 2.0            # Longer delay for local
-    RETRY_ATTEMPTS  = 2              # Fewer retries
+    MAX_CONCURRENT  = 3              # Moderate for local runs
+    REQUEST_DELAY   = 2.0            # 2 second delay for local
+    RETRY_ATTEMPTS  = 2              # 2 retries
 
 BATCH_SIZE      = 10                 # changes per notification batch
 DEBUG_DATE      = False              # detailed date parsing debug
@@ -638,12 +635,13 @@ def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str,
         print(f"⚠️  {len(urls_without_dates)} URLs missing event dates")
 
 # ─── Async fetching with rate limiting ───────────────────────────────────
-async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]]]:
-    """Fetch a single URL with retry logic and rate limiting"""
-    async with semaphore:  # Limit concurrent requests
-        # Add delay between requests for GitHub Actions
-        if IS_GITHUB_ACTIONS and REQUEST_DELAY > 0:
+async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]]]:
+    """Fetch a single URL using Playwright with retry logic and rate limiting"""
+    async with semaphore:
+        # Add delay between requests
+        if REQUEST_DELAY > 0:
             await asyncio.sleep(REQUEST_DELAY)
+            
         for attempt in range(RETRY_ATTEMPTS):
             try:
                 # Add randomized delay to look more human-like
@@ -652,17 +650,49 @@ async def fetch_url_with_retry(session: aiohttp.ClientSession, url: str, semapho
                     randomized_delay = base_delay + random.uniform(0, base_delay * 0.5)  # Add 0-50% random variation
                     await asyncio.sleep(randomized_delay)
                 
-                # Longer timeout for GitHub Actions
-                timeout = 45 if IS_GITHUB_ACTIONS else 30
-                async with session.get(url, headers=HEADERS, timeout=timeout) as response:
-                    response.raise_for_status()
-                    html = await response.text()
+                async with async_playwright() as p:
+                    # Launch browser with realistic settings
+                    browser = await p.chromium.launch(
+                        headless=True,
+                        args=[
+                            '--no-sandbox',
+                            '--disable-dev-shm-usage',
+                            '--disable-blink-features=AutomationControlled',
+                            '--disable-features=VizDisplayCompositor'
+                        ]
+                    )
+                    
+                    # Create context with realistic settings
+                    context = await browser.new_context(
+                        viewport={'width': 1920, 'height': 1080},
+                        user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        locale='en-US',
+                        timezone_id='America/New_York'
+                    )
+                    
+                    # Create page
+                    page = await context.new_page()
+                    
+                    # Navigate to URL
+                    await page.goto(url, timeout=30000, wait_until='networkidle')
+                    
+                    # Wait a bit to look human-like
+                    await page.wait_for_timeout(random.randint(1000, 3000))
+                    
+                    # Get page content
+                    html = await page.content()
+                    
+                    # Close browser
+                    await browser.close()
+                    
                     return url, extract_status(html)
-            except (aiohttp.ClientError, asyncio.TimeoutError, ValueError) as e:
+                    
+            except Exception as e:
                 if attempt == RETRY_ATTEMPTS - 1:
-                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (aiohttp: {e})")
+                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (playwright: {e})")
                     return url, None
                 await asyncio.sleep(2 ** attempt)  # Exponential backoff
+                
     return url, None
 
 async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
@@ -671,29 +701,28 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
     results = {}
     completed = 0
     
-    print(f"🔄 Starting to check {len(urls)} URLs...")
+    print(f"🔄 Starting to check {len(urls)} URLs with Playwright...")
     start_time = time.time()
     
-    # Disable SSL verification for local testing
-    connector = aiohttp.TCPConnector(ssl=False, limit=100, limit_per_host=30)
-    async with aiohttp.ClientSession(connector=connector) as session:
-        tasks = [fetch_url_with_retry(session, url, semaphore) for url in urls]
+    # Create tasks for all URLs using Playwright
+    tasks = [fetch_url_with_playwright(url, semaphore) for url in urls]
+    
+    # Process completed tasks
+    for coro in asyncio.as_completed(tasks):
+        url, status = await coro
+        completed += 1
         
-        for coro in asyncio.as_completed(tasks):
-            url, status = await coro
-            completed += 1
-            
-            if status:
-                results[url] = status
-            
-            # Progress reporting (more frequent for GitHub Actions)
-            report_interval = 20 if IS_GITHUB_ACTIONS else 50
-            if completed % report_interval == 0 or completed == len(urls):
-                elapsed = time.time() - start_time
-                rate = completed / elapsed if elapsed > 0 else 0
-                success_rate = len(results) / completed * 100 if completed > 0 else 0
-                print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
-                      f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
+        if status:
+            results[url] = status
+        
+        # Progress reporting (more frequent for GitHub Actions)
+        report_interval = 10 if IS_GITHUB_ACTIONS else 20
+        if completed % report_interval == 0 or completed == len(urls):
+            elapsed = time.time() - start_time
+            rate = completed / elapsed if elapsed > 0 else 0
+            success_rate = len(results) / completed * 100 if completed > 0 else 0
+            print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
+                  f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
     
     elapsed = time.time() - start_time
     failed_count = len(urls) - len(results)
@@ -705,7 +734,7 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
     if failed_count > 0:
         print(f"⚠️  {failed_count} URLs failed to fetch - this may indicate anti-bot protection")
         if IS_GITHUB_ACTIONS:
-            print("🔧 GitHub Actions: Consider increasing delays or reducing concurrency")
+            print("🔧 GitHub Actions: Using Playwright for better anti-bot evasion")
     
     return results
 

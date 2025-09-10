@@ -37,6 +37,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        playwright install chromium
 
     - name: 🎟️ Run Batch 1
       run: |
@@ -67,6 +68,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        playwright install chromium
 
     - name: 🎟️ Run Batch 2
       run: |
@@ -97,6 +99,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        playwright install chromium
 
     - name: 🎟️ Run Batch 3
       run: |
@@ -127,6 +130,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        playwright install chromium
 
     - name: 🎟️ Run Batch 4
       run: |
@@ -157,6 +161,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        playwright install chromium
 
     - name: 🎟️ Run Batch 5
       run: |
