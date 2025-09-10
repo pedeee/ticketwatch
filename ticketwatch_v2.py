@@ -152,8 +152,8 @@ def extract_status(html: str) -> Dict[str, Any]:
         if DEBUG_DATE:
             print("DEBUG: Event is on presale/coming soon")
     
-    # Check for sold out events
-    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|sold out|check back soon|advance tickets sold out)', re.I))
+    # Check for sold out events (comprehensive patterns)
+    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|sold out|check back soon|advance tickets sold out|not currently available|event is canceled|event is cancelled|tickets unavailable|no tickets available)', re.I))
     if soldout_indicators:
         is_sold_out = True
         if DEBUG_DATE:
@@ -746,18 +746,21 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                         pass
                     
                     # Final fallback: wait a bit more
-                    await page.wait_for_timeout(3000)
+                    await page.wait_for_timeout(5000)
                     
                     # Wait a bit more to look human-like
-                    await page.wait_for_timeout(random.randint(1000, 3000))
+                    await page.wait_for_timeout(random.randint(2000, 4000))
                     
                     # Get page content
                     html = await page.content()
                     
+                    # Extract data before closing browser
+                    event_data = extract_status(html)
+                    
                     # Close browser
                     await browser.close()
                     
-                    return url, extract_status(html)
+                    return url, event_data
                     
             except Exception as e:
                 if attempt == RETRY_ATTEMPTS - 1:
