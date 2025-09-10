@@ -117,6 +117,14 @@ def is_past(event_iso: str) -> bool:
 def extract_status(html: str) -> Dict[str, Any]:
     soup  = BeautifulSoup(html, "html.parser")
     text  = soup.get_text(" ", strip=True)
+    
+    # Debug: Log HTML length and first 500 chars in GitHub Actions
+    if IS_GITHUB_ACTIONS:
+        print(f"🔍 HTML length: {len(html)} chars, text length: {len(text)} chars")
+        if len(text) < 1000:
+            print(f"🔍 First 500 chars of text: {text[:500]}")
+        else:
+            print(f"🔍 Text looks normal (length: {len(text)})")
 
     # 1. Check for various event status indicators first -------------------
     is_cancelled = False
@@ -319,7 +327,7 @@ def extract_status(html: str) -> Dict[str, Any]:
         print("DEBUG:", title, "Price:", price, "Price Range:", price_range, "Sold out:", soldout, 
               "Cancelled:", is_cancelled, "Terminated:", is_terminated, "Presale:", is_presale, "Sold Out Banner:", is_sold_out)
 
-    return {
+    result = {
         "title": title,
         "price": price,
         "price_range": price_range,
@@ -330,6 +338,12 @@ def extract_status(html: str) -> Dict[str, Any]:
         "sold_out_banner": is_sold_out,
         "event_dt": event_dt.isoformat() if event_dt else None,
     }
+    
+    # Debug: Log extraction result in GitHub Actions
+    if IS_GITHUB_ACTIONS:
+        print(f"🔍 Extraction result: {result}")
+    
+    return result
 
 # ─── Notification wrappers ────────────────────────────────────────────────
 def mac_banner(title: str, message: str, url: str):
@@ -959,12 +973,27 @@ async def main():
     if IS_GITHUB_ACTIONS:
         try:
             import subprocess
-            subprocess.run(["git", "add", STATE_FILE], check=True, capture_output=True)
-            subprocess.run(["git", "commit", "-m", f"Update state file - {len(after)} events monitored"], check=True, capture_output=True)
-            subprocess.run(["git", "push", "origin", "main"], check=True, capture_output=True)
+            # Configure git user
+            subprocess.run(["git", "config", "user.email", "bot@github-actions.com"], check=True, capture_output=True)
+            subprocess.run(["git", "config", "user.name", "GitHub Actions Bot"], check=True, capture_output=True)
+            
+            # Add and commit state file
+            result = subprocess.run(["git", "add", STATE_FILE], capture_output=True, text=True)
+            if result.returncode != 0:
+                print(f"⚠️ Git add failed: {result.stderr}")
+                return
+            
+            result = subprocess.run(["git", "commit", "-m", f"Update state file - {len(after)} events monitored"], capture_output=True, text=True)
+            if result.returncode != 0:
+                print(f"⚠️ Git commit failed: {result.stderr}")
+                return
+                
+            result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
+            if result.returncode != 0:
+                print(f"⚠️ Git push failed: {result.stderr}")
+                return
+                
             print("✅ State file committed to repository")
-        except subprocess.CalledProcessError as e:
-            print(f"⚠️ Failed to commit state file: {e}")
         except Exception as e:
             print(f"⚠️ Error committing state file: {e}")
     
