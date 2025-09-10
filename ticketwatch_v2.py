@@ -153,7 +153,7 @@ def extract_status(html: str) -> Dict[str, Any]:
             print("DEBUG: Event is on presale/coming soon")
     
     # Check for sold out events
-    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|sold out|check back soon)', re.I))
+    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|sold out|check back soon|advance tickets sold out)', re.I))
     if soldout_indicators:
         is_sold_out = True
         if DEBUG_DATE:
@@ -204,8 +204,9 @@ def extract_status(html: str) -> Dict[str, Any]:
     
     # Additional patterns for current Ticketweb structure
     if not date_str:
-        # Look for patterns like "Sep 12", "September 20", etc.
+        # Look for patterns like "Fri, 12 Sep, 7:30 PM EDT"
         date_patterns = [
+            r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+\d{1,2}\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec),\s+\d{1,2}:\d{2}\s+(AM|PM)\s+(EST|EDT|PST|PDT|CST|CDT|MST|MDT)",
             r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}",
             r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}",
             r"\d{1,2}/\d{1,2}/\d{4}",
