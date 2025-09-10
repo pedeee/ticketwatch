@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "monitored_count": 62,
   "sold_out_events": [
     {
@@ -152,4 +153,8 @@
       "event_dt": "2025-09-28T23:00:00+00:00"
     }
   ]
+=======
+  "monitored_count": 0,
+  "sold_out_events": []
+>>>>>>> 95ddf771c1ab4cc5cdcac2412aac0ea141ea8e9a
 }
