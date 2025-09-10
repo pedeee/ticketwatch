@@ -124,6 +124,13 @@ def extract_status(html: str) -> Dict[str, Any]:
     is_presale = False
     is_sold_out = False
     
+    # Check for "not available" message (current Ticketweb issue)
+    not_available_indicators = soup.find_all(string=re.compile(r'(the event you\'re looking for is not available|event not available|not available)', re.I))
+    if not_available_indicators:
+        if DEBUG_DATE:
+            print("DEBUG: Event shows 'not available' - likely Angular app issue")
+        # Don't mark as sold out, just return unknown status
+    
     # Check for cancelled/postponed events
     cancelled_indicators = soup.find_all(string=re.compile(r'(event cancelled|event canceled|event postponed)', re.I))
     if cancelled_indicators:
@@ -194,6 +201,22 @@ def extract_status(html: str) -> Dict[str, Any]:
         )
         if m:
             date_str = m.group(0)
+    
+    # Additional patterns for current Ticketweb structure
+    if not date_str:
+        # Look for patterns like "Sep 12", "September 20", etc.
+        date_patterns = [
+            r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}",
+            r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}",
+            r"\d{1,2}/\d{1,2}/\d{4}",
+            r"\d{4}-\d{2}-\d{2}"
+        ]
+        
+        for pattern in date_patterns:
+            m = re.search(pattern, text)
+            if m:
+                date_str = m.group(0)
+                break
 
     event_dt = None
     if date_str:
@@ -673,10 +696,43 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     # Create page
                     page = await context.new_page()
                     
-                    # Navigate to URL
+                    # Navigate to URL and wait for network to be idle
                     await page.goto(url, timeout=30000, wait_until='networkidle')
                     
-                    # Wait a bit to look human-like
+                    # Wait for Angular app to load and render content
+                    # Try multiple approaches to ensure content is loaded
+                    
+                    # Approach 1: Wait for any dynamic content to appear
+                    try:
+                        await page.wait_for_function(
+                            "document.querySelector('.event-details, .ticket-info, .price-info, .event-info, .event-title, .event-date') !== null",
+                            timeout=10000
+                        )
+                    except:
+                        pass
+                    
+                    # Approach 2: Wait for the "not available" message to disappear
+                    try:
+                        await page.wait_for_function(
+                            "!document.querySelector('p.message-sub') || !document.querySelector('p.message-sub').textContent.includes('not available')",
+                            timeout=10000
+                        )
+                    except:
+                        pass
+                    
+                    # Approach 3: Wait for any text content to change from initial state
+                    try:
+                        await page.wait_for_function(
+                            "document.body.textContent.length > 1000 && !document.body.textContent.includes('The event you')",
+                            timeout=10000
+                        )
+                    except:
+                        pass
+                    
+                    # Final fallback: wait a bit more
+                    await page.wait_for_timeout(3000)
+                    
+                    # Wait a bit more to look human-like
                     await page.wait_for_timeout(random.randint(1000, 3000))
                     
                     # Get page content
