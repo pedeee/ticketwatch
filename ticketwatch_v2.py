@@ -262,8 +262,9 @@ def extract_status(html: str) -> Dict[str, Any]:
         
         # Look for single prices like "$25", "$40.00"
         for m in re.finditer(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)", text):
-            window = text[max(0, m.start() - 20): m.end() + 20].lower()
-            if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window:
+            window = text[max(0, m.start() - 30): m.end() + 30].lower()
+            # Be more restrictive about excluding prices
+            if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window or "unavailable" in window:
                 continue
             prices.append(float(m.group(1)))
         
@@ -278,22 +279,36 @@ def extract_status(html: str) -> Dict[str, Any]:
             except ValueError:
                 pass
         
+        # Look for prices without $ symbol (e.g., "25.00", "40")
+        for m in re.finditer(r"\b([0-9]{1,3}(?:\.[0-9]{2})?)\b", text):
+            window = text[max(0, m.start() - 20): m.end() + 20].lower()
+            # Only consider if it looks like a price (not a date, time, etc.)
+            if ("price" in window or "ticket" in window or "cost" in window) and not any(h in window for h in EXCLUDE_HINTS):
+                try:
+                    price_val = float(m.group(1))
+                    if 5 <= price_val <= 1000:  # Reasonable price range
+                        prices.append(price_val)
+                except ValueError:
+                    pass
+        
         if prices:
             price = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices))
     
     # Determine if sold out based on all status indicators
     soldout = False
     
-    # If cancelled, terminated, presale, or explicitly sold out, mark as sold out
+    # Only mark as sold out if we have EXPLICIT indicators
     if is_cancelled or is_terminated or is_presale or is_sold_out:
         soldout = True
-    # If no price found and no explicit status indicators, check for sold out indicators
-    elif price is None:
-        sold_out_indicators = soup.find_all(string=re.compile(r'(sold out|sold-out|unavailable)', re.I))
-        soldout = len(sold_out_indicators) > 0
-        # If no explicit sold out indicators, assume available (price might be hidden)
-        if not soldout:
-            soldout = False  # Don't assume sold out if no clear indicators
+    # Be more conservative - only mark as sold out if we find explicit "sold out" text
+    elif is_sold_out or any('sold out' in text.lower() for text in soup.find_all(string=re.compile(r'sold out', re.I))):
+        soldout = True
+    # If we have "not available" message, don't assume sold out - just mark as unknown
+    elif not_available_indicators:
+        soldout = False  # Don't assume sold out for "not available" messages
+    # If no price found, don't assume sold out - price might be hidden or in different format
+    else:
+        soldout = False  # Conservative approach - only mark sold out with explicit indicators
 
     if DEBUG_DATE:
         print("DEBUG:", title, "Price:", price, "Price Range:", price_range, "Sold out:", soldout, 
@@ -864,10 +879,17 @@ async def main():
     else:
         print("🟢 All selected URLs succeeded!")
     
-    # Only re-sort URLs if we successfully fetched data (don't overwrite on failure)
+    # Only re-sort URLs if we successfully fetched REAL data (not "Unknown Event")
     if after and len(after) > 0:
-        save_sorted_urls(URL_FILE, all_urls, after)
-        print("✅ URLs re-sorted by date")
+        # Check if we have any real event data (not just "Unknown Event" entries)
+        real_events = [url for url, data in after.items() 
+                      if data and data.get("title") and not data.get("title").startswith("Unknown Event")]
+        
+        if real_events:
+            save_sorted_urls(URL_FILE, all_urls, after)
+            print("✅ URLs re-sorted by date")
+        else:
+            print("⚠️ Skipping URL re-sort - no real event data found (all Unknown Events)")
     else:
         print("⚠️ Skipping URL re-sort due to fetch failure")
     
