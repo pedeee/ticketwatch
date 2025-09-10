@@ -284,7 +284,11 @@ def extract_status(html: str) -> Dict[str, Any]:
         for m in re.finditer(r"\b([0-9]{1,3}(?:\.[0-9]{2})?)\b", text):
             window = text[max(0, m.start() - 20): m.end() + 20].lower()
             # Only consider if it looks like a price (not a date, time, etc.)
-            if ("price" in window or "ticket" in window or "cost" in window) and not any(h in window for h in EXCLUDE_HINTS):
+            # Exclude time patterns like "7:30", "7:30 PM", "7:30 AM"
+            if (("price" in window or "ticket" in window or "cost" in window) and 
+                not any(h in window for h in EXCLUDE_HINTS) and
+                not re.search(r'\d+:\d+', window) and  # Exclude time patterns
+                not re.search(r'\d+\s*(am|pm)', window)):  # Exclude AM/PM patterns
                 try:
                     price_val = float(m.group(1))
                     if 5 <= price_val <= 1000:  # Reasonable price range
@@ -676,6 +680,9 @@ def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str,
 # ─── Async fetching with rate limiting ───────────────────────────────────
 async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]]]:
     """Fetch a single URL using Playwright with retry logic and rate limiting"""
+    # Strip comments from URL (URLs in batch files may have comments after #)
+    clean_url = url.split('#')[0].strip()
+    
     async with semaphore:
         # Add delay between requests
         if REQUEST_DELAY > 0:
@@ -713,7 +720,7 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     page = await context.new_page()
                     
                     # Navigate to URL and wait for network to be idle
-                    await page.goto(url, timeout=30000, wait_until='networkidle')
+                    await page.goto(clean_url, timeout=30000, wait_until='networkidle')
                     
                     # Wait for Angular app to load and render content
                     # Try multiple approaches to ensure content is loaded
@@ -760,7 +767,7 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     # Close browser
                     await browser.close()
                     
-                    return url, event_data
+                    return clean_url, event_data
                     
             except Exception as e:
                 if attempt == RETRY_ATTEMPTS - 1:
