@@ -69,16 +69,16 @@ HEADERS = get_enhanced_headers()
 PRICE_SELECTOR  = "lowest"           # or "highest"
 EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 
-# Playwright settings - more reasonable since we're using real browser
+# Playwright settings - enhanced anti-bot evasion
 IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
 if IS_GITHUB_ACTIONS:
-    # Conservative but not extreme - Playwright looks like real browser
-    MAX_CONCURRENT  = 2              # Process 2 URLs at a time
-    REQUEST_DELAY   = 3.0            # 3 second delay between requests
-    RETRY_ATTEMPTS  = 2              # 2 retries for reliability
+    # Enhanced anti-bot evasion settings
+    MAX_CONCURRENT  = 1              # Process 1 URL at a time (more human-like)
+    REQUEST_DELAY   = 8.0            # 8 second delay between requests
+    RETRY_ATTEMPTS  = 3              # 3 retries for reliability
 else:
-    MAX_CONCURRENT  = 3              # Moderate for local runs
-    REQUEST_DELAY   = 2.0            # 2 second delay for local
+    MAX_CONCURRENT  = 2              # Moderate for local runs
+    REQUEST_DELAY   = 3.0            # 3 second delay for local
     RETRY_ATTEMPTS  = 2              # 2 retries
 
 BATCH_SIZE      = 10                 # changes per notification batch
@@ -711,23 +711,66 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     await asyncio.sleep(randomized_delay)
                 
                 async with async_playwright() as p:
-                    # Launch browser with realistic settings
+                    # Enhanced anti-bot evasion browser settings
                     browser = await p.chromium.launch(
                         headless=True,
                         args=[
                             '--no-sandbox',
                             '--disable-dev-shm-usage',
                             '--disable-blink-features=AutomationControlled',
-                            '--disable-features=VizDisplayCompositor'
+                            '--disable-features=VizDisplayCompositor',
+                            '--disable-web-security',
+                            '--disable-features=TranslateUI',
+                            '--disable-ipc-flooding-protection',
+                            '--disable-renderer-backgrounding',
+                            '--disable-backgrounding-occluded-windows',
+                            '--disable-client-side-phishing-detection',
+                            '--disable-sync',
+                            '--disable-default-apps',
+                            '--disable-extensions',
+                            '--no-first-run',
+                            '--no-default-browser-check',
+                            '--disable-background-timer-throttling',
+                            '--disable-backgrounding-occluded-windows',
+                            '--disable-renderer-backgrounding'
                         ]
                     )
                     
-                    # Create context with realistic settings
+                    # Rotate user agents for better evasion
+                    user_agents = [
+                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+                        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
+                        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15'
+                    ]
+                    selected_user_agent = random.choice(user_agents)
+                    
+                    # Create context with enhanced realistic settings
                     context = await browser.new_context(
-                        viewport={'width': 1920, 'height': 1080},
-                        user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        viewport={'width': 1366, 'height': 768},  # More common resolution
+                        user_agent=selected_user_agent,
                         locale='en-US',
-                        timezone_id='America/New_York'
+                        timezone_id='America/New_York',
+                        # Add more realistic browser features
+                        java_script_enabled=True,
+                        accept_downloads=False,
+                        has_touch=False,
+                        is_mobile=False,
+                        device_scale_factor=1,
+                        # Add extra headers
+                        extra_http_headers={
+                            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+                            'Accept-Language': 'en-US,en;q=0.9',
+                            'Accept-Encoding': 'gzip, deflate, br',
+                            'DNT': '1',
+                            'Connection': 'keep-alive',
+                            'Upgrade-Insecure-Requests': '1',
+                            'Sec-Fetch-Dest': 'document',
+                            'Sec-Fetch-Mode': 'navigate',
+                            'Sec-Fetch-Site': 'none',
+                            'Cache-Control': 'max-age=0'
+                        }
                     )
                     
                     # Create page
@@ -736,6 +779,20 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     # Navigate to URL and wait for network to be idle
                     await page.goto(clean_url, timeout=30000, wait_until='networkidle')
                     
+                    # Add human-like behavior patterns
+                    if IS_GITHUB_ACTIONS:
+                        # Random mouse movement
+                        await page.mouse.move(random.randint(100, 800), random.randint(100, 600))
+                        await page.wait_for_timeout(random.randint(500, 1500))
+                        
+                        # Random scroll behavior
+                        await page.evaluate(f"window.scrollTo(0, {random.randint(100, 500)})")
+                        await page.wait_for_timeout(random.randint(800, 2000))
+                        
+                        # Random click (not on anything important)
+                        await page.mouse.click(random.randint(50, 200), random.randint(50, 200))
+                        await page.wait_for_timeout(random.randint(300, 800))
+                    
                     # Wait for Angular app to load and render content
                     # Try multiple approaches to ensure content is loaded
                     
@@ -743,7 +800,7 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     try:
                         await page.wait_for_function(
                             "document.querySelector('.event-details, .ticket-info, .price-info, .event-info, .event-title, .event-date') !== null",
-                            timeout=10000
+                            timeout=15000
                         )
                     except:
                         pass
@@ -752,7 +809,7 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     try:
                         await page.wait_for_function(
                             "!document.querySelector('p.message-sub') || !document.querySelector('p.message-sub').textContent.includes('not available')",
-                            timeout=10000
+                            timeout=15000
                         )
                     except:
                         pass
@@ -761,16 +818,16 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     try:
                         await page.wait_for_function(
                             "document.body.textContent.length > 1000 && !document.body.textContent.includes('The event you')",
-                            timeout=10000
+                            timeout=15000
                         )
                     except:
                         pass
                     
-                    # Final fallback: wait a bit more
-                    await page.wait_for_timeout(5000)
+                    # Final fallback: wait a bit more with human-like timing
+                    await page.wait_for_timeout(random.randint(3000, 7000))
                     
-                    # Wait a bit more to look human-like
-                    await page.wait_for_timeout(random.randint(2000, 4000))
+                    # Additional human-like delay
+                    await page.wait_for_timeout(random.randint(1000, 3000))
                     
                     # Get page content
                     html = await page.content()

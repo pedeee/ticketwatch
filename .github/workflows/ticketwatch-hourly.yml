@@ -2,8 +2,8 @@ name: 🎟️ Ticketwatch Hourly Monitor
 
 on:
   schedule:
-    # Run every hour at minute 0
-    - cron: '0 * * * *'
+    # Run every 6 hours at minute 0
+    - cron: '0 */6 * * *'
   workflow_dispatch:
     # Allow manual trigger
     inputs:

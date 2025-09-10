@@ -69,6 +69,4 @@ https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/143882
 https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363  # Tickets for Robyn Ottolini with Special Guests - Nov 14
 https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-broom-factory-tickets/14495603  # Tickets for Robyn Ottolini with Special Guests - Nov 21
 https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-the-27-club-tickets/14495503  # Tickets for Robyn Ottolini with Special Guests - Nov 22
-
-# === Events without dates ===
-https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pup-with-snotty-nose-rez-the-pearl-tickets/13710624?pl=MODO-LIVE  # Tickets for PUP with Snotty Nose Rez Kids - Nov 25
