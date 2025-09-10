@@ -879,6 +879,10 @@ async def main():
                 event_dt=now.get("event_dt")
             )
             changes.append(change)
+        else:
+            # Debug: show why no change was detected
+            if IS_GITHUB_ACTIONS and len(changes) < 5:  # Only show first few for debugging
+                print(f"🔍 No change for {now['title'][:30]}... - old: {fmt(old)}, new: {fmt(now)}")
     
     # Track failed URLs for priority next time
     successful_urls = set(after.keys())
@@ -950,6 +954,19 @@ async def main():
     
     # Save state
     save_state(STATE_FILE, after)
+    
+    # In GitHub Actions, commit the state file so it persists between runs
+    if IS_GITHUB_ACTIONS:
+        try:
+            import subprocess
+            subprocess.run(["git", "add", STATE_FILE], check=True, capture_output=True)
+            subprocess.run(["git", "commit", "-m", f"Update state file - {len(after)} events monitored"], check=True, capture_output=True)
+            subprocess.run(["git", "push", "origin", "main"], check=True, capture_output=True)
+            print("✅ State file committed to repository")
+        except subprocess.CalledProcessError as e:
+            print(f"⚠️ Failed to commit state file: {e}")
+        except Exception as e:
+            print(f"⚠️ Error committing state file: {e}")
     
     # Save batch stats for aggregation
     batch_stats = {
@@ -1025,6 +1042,17 @@ async def main():
         
         # Send batched notifications
         telegram_batch_changes(changes)
+    else:
+        print(f"\n✅ No changes detected")
+        print(f"📊 Monitored {len(after)} events")
+        print(f"🔍 Debug: before={len(before)} entries, after={len(after)} entries")
+        
+        # Show sample of current data
+        if after:
+            sample_url = list(after.keys())[0]
+            sample_data = after[sample_url]
+            print(f"📋 Sample data: {sample_data}")
+            print(f"📋 Sample formatted: {fmt(sample_data)}")
         
     # Always send sold-out reminders (every hour) regardless of changes
     if sold_out_events and is_primary:
