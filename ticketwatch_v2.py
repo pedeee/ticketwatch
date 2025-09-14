@@ -266,8 +266,8 @@ def extract_status(html: str) -> Dict[str, Any]:
             pass
     
     # Enhanced HTML text search for prices (handles new Ticketweb patterns)
+    prices: List[float] = []
     if price is None:
-        prices: List[float] = []
         
         # Look for single prices like "$25", "$40.00" - but exclude prices near "sold out" text
         for m in re.finditer(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)", text):
@@ -319,11 +319,11 @@ def extract_status(html: str) -> Dict[str, Any]:
     # For presale events, don't mark as sold out - they're just not on sale yet
     elif is_presale:
         soldout = False
-    # Only mark as sold out if we find explicit "sold out" text AND no prices found
-    elif is_sold_out and not prices:
+    # Only mark as sold out if we find explicit "sold out" text AND no prices found (from any source)
+    elif is_sold_out and not price and not prices:
         soldout = True
-    # If we have available prices, don't mark as sold out regardless of "sold out" text
-    elif prices:
+    # If we have available prices (from structured data or HTML), don't mark as sold out regardless of "sold out" text
+    elif price or prices:
         soldout = False
     # If we have "not available" message, don't assume sold out - just mark as unknown
     elif not_available_indicators:
@@ -335,6 +335,7 @@ def extract_status(html: str) -> Dict[str, Any]:
     if DEBUG_DATE:
         print("DEBUG:", title, "Price:", price, "Price Range:", price_range, "Sold out:", soldout, 
               "Cancelled:", is_cancelled, "Terminated:", is_terminated, "Presale:", is_presale, "Sold Out Banner:", is_sold_out)
+        print("DEBUG Prices found:", prices)
 
     result = {
         "title": title,
