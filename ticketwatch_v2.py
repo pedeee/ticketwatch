@@ -73,8 +73,8 @@ EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
 if IS_GITHUB_ACTIONS:
     # Enhanced anti-bot evasion settings
-    MAX_CONCURRENT  = 1              # Process 1 URL at a time (more human-like)
-    REQUEST_DELAY   = 8.0            # 8 second delay between requests
+    MAX_CONCURRENT  = 3              # Process 3 URLs at a time (balanced)
+    REQUEST_DELAY   = 2.0            # 2 second delay between requests
     RETRY_ATTEMPTS  = 3              # 3 retries for reliability
 else:
     MAX_CONCURRENT  = 2              # Moderate for local runs
