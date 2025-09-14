@@ -72,10 +72,10 @@ EXCLUDE_HINTS   = ("fee", "fees", "service", "processing")
 # Playwright settings - enhanced anti-bot evasion
 IS_GITHUB_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
 if IS_GITHUB_ACTIONS:
-    # Enhanced anti-bot evasion settings
-    MAX_CONCURRENT  = 3              # Process 3 URLs at a time (balanced)
-    REQUEST_DELAY   = 2.0            # 2 second delay between requests
-    RETRY_ATTEMPTS  = 3              # 3 retries for reliability
+    # Ultra-conservative anti-bot evasion settings
+    MAX_CONCURRENT  = 1              # Process 1 URL at a time (most human-like)
+    REQUEST_DELAY   = 10.0           # 10 second delay between requests
+    RETRY_ATTEMPTS  = 2              # 2 retries for reliability
 else:
     MAX_CONCURRENT  = 2              # Moderate for local runs
     REQUEST_DELAY   = 3.0            # 3 second delay for local

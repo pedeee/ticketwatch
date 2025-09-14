@@ -15,7 +15,7 @@ on:
 jobs:
   batch1:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
@@ -46,7 +46,7 @@ jobs:
 
   batch2:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
@@ -77,7 +77,7 @@ jobs:
 
   batch3:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
@@ -108,7 +108,7 @@ jobs:
 
   batch4:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
@@ -139,7 +139,7 @@ jobs:
 
   batch5:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     
     env:
       TG_TOKEN: ${{ secrets.TG_TOKEN }}
