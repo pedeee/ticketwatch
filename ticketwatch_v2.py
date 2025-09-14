@@ -391,6 +391,7 @@ def get_urgency_emoji(event_dt: str) -> str:
 
 def telegram_push(title: str, message: str, url: str = None):
     if not (TG_TOKEN and TG_CHAT):
+        print(f"⚠️ Telegram credentials missing: TG_TOKEN={'✓' if TG_TOKEN else '✗'}, TG_CHAT={'✓' if TG_CHAT else '✗'}")
         return
     api = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
     
@@ -401,10 +402,12 @@ def telegram_push(title: str, message: str, url: str = None):
         msg = f"🎫 <b>{title}</b>\n\n{message}"
     
     try:
-        requests.post(api,
+        print(f"📱 Sending Telegram notification: {title}")
+        response = requests.post(api,
                       data={"chat_id": TG_CHAT, "text": msg,
                             "parse_mode": "HTML", "disable_web_page_preview": True},
                       timeout=10)
+        print(f"✅ Telegram sent successfully: {response.status_code}")
     except (requests.RequestException, requests.Timeout) as e:
         print("✖ Telegram error:", e)
 
@@ -1148,10 +1151,12 @@ async def main():
     if not changes and is_primary:
         # Send health check notification
         print("✅ No changes detected")
+        print(f"📊 Monitored {monitored_count} events, {len(sold_out_events)} sold out")
         current_time = dt.datetime.now().strftime('%H:%M %Z')
         health_msg = f"""✅ No price changes detected
 📊 Monitored {monitored_count} events
 🔴 Currently sold out: {len(sold_out_events)} events"""
+        print("📱 Attempting to send health check notification...")
         telegram_push("🟢 Health Check", health_msg)
 
 def run_main():
