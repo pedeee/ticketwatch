@@ -269,11 +269,14 @@ def extract_status(html: str) -> Dict[str, Any]:
     if price is None:
         prices: List[float] = []
         
-        # Look for single prices like "$25", "$40.00"
+        # Look for single prices like "$25", "$40.00" - but exclude prices near "sold out" text
         for m in re.finditer(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)", text):
-            window = text[max(0, m.start() - 30): m.end() + 30].lower()
-            # Be more restrictive about excluding prices
-            if any(h in window for h in EXCLUDE_HINTS) or "this show is currently sold out" in window or "advance tickets sold out" in window:
+            window = text[max(0, m.start() - 50): m.end() + 50].lower()
+            # Be more restrictive about excluding prices - only exclude if the specific tier is sold out
+            if (any(h in window for h in EXCLUDE_HINTS) or 
+                "this show is currently sold out" in window or 
+                "advance tickets sold out" in window or
+                ("sold out" in window and "tier" not in window)):  # Allow prices from tiers even if some tiers are sold out
                 continue
             prices.append(float(m.group(1)))
         
@@ -310,12 +313,18 @@ def extract_status(html: str) -> Dict[str, Any]:
     # Determine if sold out based on all status indicators
     soldout = False
     
-    # Only mark as sold out if we have EXPLICIT indicators
-    if is_cancelled or is_terminated or is_presale or is_sold_out:
+    # Only mark as sold out if we have EXPLICIT indicators AND no available prices
+    if is_cancelled or is_terminated:
         soldout = True
-    # Be more conservative - only mark as sold out if we find explicit "sold out" text
-    elif is_sold_out or any('sold out' in text.lower() for text in soup.find_all(string=re.compile(r'sold out', re.I))):
+    # For presale events, don't mark as sold out - they're just not on sale yet
+    elif is_presale:
+        soldout = False
+    # Only mark as sold out if we find explicit "sold out" text AND no prices found
+    elif is_sold_out and not prices:
         soldout = True
+    # If we have available prices, don't mark as sold out regardless of "sold out" text
+    elif prices:
+        soldout = False
     # If we have "not available" message, don't assume sold out - just mark as unknown
     elif not_available_indicators:
         soldout = False  # Don't assume sold out for "not available" messages
