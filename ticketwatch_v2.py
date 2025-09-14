@@ -422,7 +422,48 @@ def telegram_push(title: str, message: str, url: str = None):
     except (requests.RequestException, requests.Timeout) as e:
         print("✖ Telegram error:", e)
 
-def send_sold_out_reminders(sold_out_events):
+def send_failed_urls_notification(failed_urls):
+    """Send notification about URLs that failed to scan"""
+    if not (TG_TOKEN and TG_CHAT) or not failed_urls:
+        return
+    
+    # Group failures by reason
+    failures_by_reason = {}
+    for failed_url in failed_urls:
+        reason = failed_url.get("reason", "Unknown")
+        if reason not in failures_by_reason:
+            failures_by_reason[reason] = []
+        failures_by_reason[reason].append(failed_url)
+    
+    # Create notification message
+    total_failed = len(failed_urls)
+    msg = f"""⚠️ <b>{total_failed} URLs Failed to Scan</b>
+
+🔍 <b>Manual Review Required:</b>
+
+"""
+    
+    # Show failures by reason
+    for reason, urls in failures_by_reason.items():
+        msg += f"📋 <b>{reason}</b> ({len(urls)} URLs):\n"
+        for i, failed_url in enumerate(urls[:3], 1):  # Show first 3 URLs per reason
+            url = failed_url.get("url", "")
+            # Extract event name from URL if possible
+            event_name = url.split("/")[-1].replace("-", " ").title() if "/" in url else url[:30]
+            msg += f" {i}. 🔗 <a href='{url}'>Check Manually</a>\n"
+        
+        if len(urls) > 3:
+            msg += f"    ... and {len(urls) - 3} more\n"
+        msg += "\n"
+    
+    msg += f"""🛠️ <b>Next Steps:</b>
+• Check URLs manually for sold-out status
+• Remove permanently sold-out events
+• Retry blocked URLs later"""
+    
+    telegram_push("⚠️ Failed to Scan", msg)
+
+def send_sold_out_reminders(sold_out_events, failed_count=0):
     """Send hourly reminders for sold-out events with clickable links"""
     if not (TG_TOKEN and TG_CHAT) or not sold_out_events:
         return
@@ -457,7 +498,9 @@ def send_sold_out_reminders(sold_out_events):
     if len(sorted_events) > 15:
         reminder_msg += f"    ... and {len(sorted_events) - 15} more sold-out events\n\n"
     
-    # No extra footer text needed
+    # Add failed URLs note if any
+    if failed_count > 0:
+        reminder_msg += f"⚠️ <b>Note:</b> {failed_count} URLs failed to scan - manual review needed\n\n"
     
     # Send reminder
     telegram_push("🚫 Sold Out Reminder", reminder_msg)
@@ -706,8 +749,14 @@ def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str,
         print(f"⚠️  {len(urls_without_dates)} URLs missing event dates")
 
 # ─── Async fetching with rate limiting ───────────────────────────────────
-async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]]]:
-    """Fetch a single URL using Playwright with retry logic and rate limiting"""
+async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]], Optional[str]]:
+    """Fetch a single URL using Playwright with retry logic and rate limiting
+    
+    Returns:
+        Tuple of (url, event_data, failure_reason)
+        - event_data: Dict with event info if successful, None if failed
+        - failure_reason: String describing why it failed, None if successful
+    """
     # Strip comments from URL (URLs in batch files may have comments after #)
     clean_url = url.split('#')[0].strip()
     
@@ -846,26 +895,54 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     # Get page content
                     html = await page.content()
                     
+                    # Check for anti-bot detection patterns
+                    if "Access Denied" in html or "blocked" in html.lower() or "cloudflare" in html.lower():
+                        await browser.close()
+                        return clean_url, None, "Anti-bot protection detected"
+                    
+                    # Check for timeout/loading issues
+                    if len(html) < 1000 or "Timeout" in html or "Loading" in html:
+                        await browser.close()
+                        return clean_url, None, "Page timeout or loading issue"
+                    
                     # Extract data before closing browser
                     event_data = extract_status(html)
+                    
+                    # Check if extraction failed (no meaningful data)
+                    if not event_data or not event_data.get("title") or event_data.get("title") == "<unknown event>":
+                        await browser.close()
+                        return clean_url, None, "Failed to extract event data"
                     
                     # Close browser
                     await browser.close()
                     
-                    return clean_url, event_data
+                    return clean_url, event_data, None
                     
             except Exception as e:
                 if attempt == RETRY_ATTEMPTS - 1:
-                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts (playwright: {e})")
-                    return url, None
+                    error_msg = str(e)
+                    if "Timeout" in error_msg:
+                        failure_reason = "Timeout exceeded"
+                    elif "blocked" in error_msg.lower() or "denied" in error_msg.lower():
+                        failure_reason = "Anti-bot protection"
+                    else:
+                        failure_reason = f"Technical error: {error_msg[:50]}"
+                    
+                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts ({failure_reason})")
+                    return url, None, failure_reason
                 await asyncio.sleep(2 ** attempt)  # Exponential backoff
                 
-    return url, None
+    return url, None, "All retry attempts failed"
 
-async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
-    """Fetch all URLs concurrently with progress reporting"""
+async def fetch_all_urls(urls: List[str]) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, str]]:
+    """Fetch all URLs concurrently with progress reporting
+    
+    Returns:
+        Tuple of (successful_results, failed_urls_with_reasons)
+    """
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
     results = {}
+    failed_urls = {}
     completed = 0
     
     print(f"🔄 Starting to check {len(urls)} URLs with Playwright...")
@@ -876,11 +953,13 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
     
     # Process completed tasks
     for coro in asyncio.as_completed(tasks):
-        url, status = await coro
+        url, status, failure_reason = await coro
         completed += 1
         
         if status:
             results[url] = status
+        else:
+            failed_urls[url] = failure_reason or "Unknown failure"
         
         # Progress reporting (more frequent for GitHub Actions)
         report_interval = 10 if IS_GITHUB_ACTIONS else 20
@@ -892,18 +971,19 @@ async def fetch_all_urls(urls: List[str]) -> Dict[str, Dict[str, Any]]:
                   f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
     
     elapsed = time.time() - start_time
-    failed_count = len(urls) - len(results)
     success_rate = len(results) / len(urls) * 100 if len(urls) > 0 else 0
     
-    print(f"✅ Completed in {elapsed:.1f}s - {len(results)} successful, {failed_count} failed")
+    print(f"✅ Completed in {elapsed:.1f}s - {len(results)} successful, {len(failed_urls)} failed")
     print(f"📊 Success rate: {success_rate:.1f}% ({len(results)}/{len(urls)})")
     
-    if failed_count > 0:
-        print(f"⚠️  {failed_count} URLs failed to fetch - this may indicate anti-bot protection")
-        if IS_GITHUB_ACTIONS:
-            print("🔧 GitHub Actions: Using Playwright for better anti-bot evasion")
+    if failed_urls:
+        print(f"⚠️  {len(failed_urls)} URLs failed to scan:")
+        for url, reason in list(failed_urls.items())[:5]:  # Show first 5 failures
+            print(f"   • {reason}: {url[:60]}...")
+        if len(failed_urls) > 5:
+            print(f"   ... and {len(failed_urls) - 5} more failed URLs")
     
-    return results
+    return results, failed_urls
 
 # ─── Main processing logic ────────────────────────────────────────────────
 async def main():
@@ -933,17 +1013,13 @@ async def main():
     before = load_state(STATE_FILE)
     
     # Fetch selected URLs concurrently  
-    after = await fetch_all_urls(selected_urls)
+    after, failed_urls_with_reasons = await fetch_all_urls(selected_urls)
     
     # Process results
     past_events = []  # Store past events for notification (but don't remove)
     changes = []
     
     for url, now in after.items():
-        # Skip failed fetches
-        if not now:
-            continue
-            
         # Identify past shows (but don't remove them)
         if is_past(now["event_dt"]):
             past_events.append({
@@ -1071,7 +1147,9 @@ async def main():
     # Save batch stats for aggregation
     batch_stats = {
         "monitored_count": len(after),
-        "sold_out_events": []
+        "failed_count": len(failed_urls_with_reasons),
+        "sold_out_events": [],
+        "failed_urls": []
     }
     
     # Collect sold-out events from current batch
@@ -1082,6 +1160,14 @@ async def main():
                 "title": event_data.get("title", "Unknown Event"),
                 "event_dt": event_data.get("event_dt")
             })
+    
+    # Collect failed URLs with reasons
+    for url, reason in failed_urls_with_reasons.items():
+        batch_stats["failed_urls"].append({
+            "url": url,
+            "reason": reason,
+            "timestamp": dt.datetime.now().isoformat()
+        })
     
     # Save stats to shared file for primary batch to aggregate
     if len(sys.argv) > 1 and sys.argv[1]:
@@ -1094,16 +1180,20 @@ async def main():
     print(f"📊 Saving stats to: {stats_file}")
     with open(stats_file, "w") as f:
         json.dump(batch_stats, f, indent=2)
-    print(f"✅ Stats saved: {batch_stats['monitored_count']} monitored, {len(batch_stats['sold_out_events'])} sold out")
+    print(f"✅ Stats saved: {batch_stats['monitored_count']} monitored, {len(batch_stats['sold_out_events'])} sold out, {batch_stats['failed_count']} failed")
     
     print(f"🔴 Found {len(batch_stats['sold_out_events'])} sold-out events in this batch")
+    if batch_stats['failed_count'] > 0:
+        print(f"⚠️  {batch_stats['failed_count']} URLs failed to scan - manual review needed")
     
     # Aggregate all batch stats (only for primary batch)
     is_primary = os.getenv("PRIMARY", "false").lower() == "true"
     if is_primary:
         # Collect stats from all batches
         total_monitored = 0
+        total_failed = 0
         all_sold_out_events = []
+        all_failed_urls = []
         
         # Check all possible batch stats files
         for batch_num in range(1, 6):  # batch1.txt to batch5.txt
@@ -1114,8 +1204,10 @@ async def main():
                     with open(batch_stats_path, 'r') as f:
                         batch_data = json.load(f)
                         total_monitored += batch_data.get("monitored_count", 0)
+                        total_failed += batch_data.get("failed_count", 0)
                         all_sold_out_events.extend(batch_data.get("sold_out_events", []))
-                        print(f"📊 Batch {batch_num}: {batch_data.get('monitored_count', 0)} monitored, {len(batch_data.get('sold_out_events', []))} sold out")
+                        all_failed_urls.extend(batch_data.get("failed_urls", []))
+                        print(f"📊 Batch {batch_num}: {batch_data.get('monitored_count', 0)} monitored, {len(batch_data.get('sold_out_events', []))} sold out, {batch_data.get('failed_count', 0)} failed")
                 else:
                     print(f"❌ File not found: {batch_stats_path}")
             except (FileNotFoundError, json.JSONDecodeError) as e:
@@ -1123,13 +1215,17 @@ async def main():
                 # Batch file doesn't exist or is invalid, skip
                 pass
         
-        print(f"🎯 TOTAL AGGREGATED: {total_monitored} monitored, {len(all_sold_out_events)} sold out")
+        print(f"🎯 TOTAL AGGREGATED: {total_monitored} monitored, {len(all_sold_out_events)} sold out, {total_failed} failed")
         sold_out_events = all_sold_out_events
+        failed_urls = all_failed_urls
         monitored_count = total_monitored
+        failed_count = total_failed
     else:
         # Non-primary batches use their own counts
         sold_out_events = batch_stats["sold_out_events"] 
+        failed_urls = batch_stats["failed_urls"]
         monitored_count = len(after)
+        failed_count = len(failed_urls_with_reasons)
     
     # Handle notifications
     if changes:
@@ -1156,17 +1252,28 @@ async def main():
         
     # Always send sold-out reminders (every hour) regardless of changes
     if sold_out_events and is_primary:
-        send_sold_out_reminders(sold_out_events)
+        send_sold_out_reminders(sold_out_events, failed_count)
+    
+    # Send failed URLs notification if any
+    if failed_urls and is_primary:
+        send_failed_urls_notification(failed_urls)
         
     # Send health check notification only if no changes AND no sold-out reminders
     if not changes and is_primary:
         # Send health check notification
         print("✅ No changes detected")
-        print(f"📊 Monitored {monitored_count} events, {len(sold_out_events)} sold out")
+        print(f"📊 Monitored {monitored_count} events, {len(sold_out_events)} sold out, {failed_count} failed")
         current_time = dt.datetime.now().strftime('%H:%M %Z')
         health_msg = f"""✅ No price changes detected
 📊 Monitored {monitored_count} events
 🔴 Currently sold out: {len(sold_out_events)} events"""
+        
+        # Add failed URLs section if any
+        if failed_count > 0:
+            health_msg += f"""
+⚠️ Failed to scan: {failed_count} events
+🔍 Manual review needed for blocked URLs"""
+        
         print("📱 Attempting to send health check notification...")
         telegram_push("🟢 Health Check", health_msg)
 
