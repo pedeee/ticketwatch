@@ -160,8 +160,8 @@ def extract_status(html: str) -> Dict[str, Any]:
         if DEBUG_DATE:
             print("DEBUG: Event is on presale/coming soon")
     
-    # Check for sold out events (comprehensive patterns)
-    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|sold out|check back soon|advance tickets sold out|not currently available|event is canceled|event is cancelled|tickets unavailable|no tickets available)', re.I))
+    # Check for sold out events (more specific patterns to avoid false positives)
+    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|sold out|advance tickets sold out|event is canceled|event is cancelled)', re.I))
     if soldout_indicators:
         is_sold_out = True
         if DEBUG_DATE:
@@ -273,7 +273,7 @@ def extract_status(html: str) -> Dict[str, Any]:
         for m in re.finditer(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)", text):
             window = text[max(0, m.start() - 30): m.end() + 30].lower()
             # Be more restrictive about excluding prices
-            if any(h in window for h in EXCLUDE_HINTS) or "sold out" in window or "unavailable" in window:
+            if any(h in window for h in EXCLUDE_HINTS) or "this show is currently sold out" in window or "advance tickets sold out" in window:
                 continue
             prices.append(float(m.group(1)))
         
