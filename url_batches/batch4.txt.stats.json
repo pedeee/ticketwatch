@@ -1,4 +1,247 @@
 {
   "monitored_count": 0,
-  "sold_out_events": []
+  "failed_count": 48,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/kota-the-friend-the-bronson-tickets/14452093",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496828"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496834"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/lady-wray-with-special-guests-the-pearl-tickets/13821404",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496836"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-lees-palace-tickets/14495393",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496837"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ben-bankas-london-music-hall-tickets/13733764",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496838"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-dance-cave-tickets/14305923",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496843"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/teenage-bottlerocket-we-were-sharks-the-27-club-tickets/14490963",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496844"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ari-abdul-change-fortune-sound-club-tickets/13808764",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496845"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/carnival-of-death-tour-2025-lees-palace-tickets/13776224",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496846"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-haunted-house-tour-the-pearl-tickets/14489613",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496848"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ty-segall-rickshaw-theatre-tickets/14262893",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496849"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/dan-mangan-bells-larsen-the-bronson-tickets/14342843",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496850"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/bunt-celebrities-nightclub-tickets/13835364",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496851"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-vloce-andr-broom-factory-tickets/13949763",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496852"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-louis-pub-tickets/13688004",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496854"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13829254",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496855"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/nate-sib-na-fortune-sound-club-tickets/13839474",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496856"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jess-moskaluke-life-the-phoenix-concert-theatre-tickets/14408633",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496857"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/no-joy-the-27-club-tickets/13827084",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496858"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/miki-berenyi-trio-gina-birch-hollywood-theatre-tickets/14336263",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496860"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jo-dolo-going-gold-tour-the-27-club-tickets/14411963",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496861"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/nahko-and-medicine-for-the-lees-palace-tickets/13768584",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496862"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/amy-millan-first-baptist-church-tickets/14430453",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496863"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/modelactriz-with-special-guests-lees-palace-tickets/14086023",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496864"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/danko-jones-overflow-brewing-co-tickets/13767534",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496865"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/stereotype-fridays-pres-zerb-celebrities-nightclub-tickets/13839664",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496867"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496868"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/goldlink-presents-enoch-the-bronson-tickets/14311083",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496869"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ben-bankas-i-51st-state-bos-bar-stage-tickets/13736524",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496870"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/holy-priest-dprtmnt-tickets/13792744",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496871"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-deep-dark-woods-w-the-fox-cabaret-tickets/14258013",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496873"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ptit-belliveau-the-27-club-tickets/13773784",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496874"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/kumo-99-fall-fortune-sound-club-tickets/13808634",
+      "reason": "Timeout exceeded",
+      "timestamp": "2025-09-14T17:06:06.496875"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hand-habits-with-special-guests-the-fox-cabaret-tickets/13756064",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496876"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-fox-cabaret-tickets/14339533",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496877"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/leisure-welcome-to-the-concert-hall-tickets/13717083",
+      "reason": "Timeout exceeded",
+      "timestamp": "2025-09-14T17:06:06.496878"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-bos-bar-stage-tickets/13687864",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496880"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496881"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hotline-tnt-path-hollywood-theatre-tickets/14319123",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496882"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/corbin-the-concert-hall-tickets/13761774",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496883"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ben-bankas-the-bronson-tickets/13735124",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496884"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-concert-hall-tickets/14087783",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496885"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ducks-ltd-the-tubs-the-27-club-tickets/13828664",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496887"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mating-ritual-shangri-blah-north-the-dance-cave-tickets/14361443",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496888"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/odetari-varia-05-fortune-sound-club-tickets/14428983",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496889"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/rachael-vilray-hollywood-theatre-tickets/13706614",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496890"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/balu-brigada-with-special-guests-the-pearl-tickets/14087723",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496891"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sabai-im-alright-dprtmnt-tickets/13877654",
+      "reason": "Page timeout or loading issue",
+      "timestamp": "2025-09-14T17:06:06.496892"
+    }
+  ]
 }

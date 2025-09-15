@@ -774,123 +774,28 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                     await asyncio.sleep(randomized_delay)
                 
                 async with async_playwright() as p:
-                    # Enhanced anti-bot evasion browser settings
+                    # Basic approach that actually works (stealth mode causes 530 errors)
                     browser = await p.chromium.launch(
                         headless=True,
                         args=[
                             '--no-sandbox',
-                            '--disable-dev-shm-usage',
-                            '--disable-blink-features=AutomationControlled',
-                            '--disable-features=VizDisplayCompositor',
-                            '--disable-web-security',
-                            '--disable-features=TranslateUI',
-                            '--disable-ipc-flooding-protection',
-                            '--disable-renderer-backgrounding',
-                            '--disable-backgrounding-occluded-windows',
-                            '--disable-client-side-phishing-detection',
-                            '--disable-sync',
-                            '--disable-default-apps',
-                            '--disable-extensions',
-                            '--no-first-run',
-                            '--no-default-browser-check',
-                            '--disable-background-timer-throttling',
-                            '--disable-backgrounding-occluded-windows',
-                            '--disable-renderer-backgrounding'
+                            '--disable-dev-shm-usage'
                         ]
                     )
                     
-                    # Rotate user agents for better evasion
-                    user_agents = [
-                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-                        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
-                        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15'
-                    ]
-                    selected_user_agent = random.choice(user_agents)
-                    
-                    # Create context with enhanced realistic settings
+                    # Simple context that works (basic approach)
                     context = await browser.new_context(
-                        viewport={'width': 1366, 'height': 768},  # More common resolution
-                        user_agent=selected_user_agent,
-                        locale='en-US',
-                        timezone_id='America/New_York',
-                        # Add more realistic browser features
-                        java_script_enabled=True,
-                        accept_downloads=False,
-                        has_touch=False,
-                        is_mobile=False,
-                        device_scale_factor=1,
-                        # Add extra headers
-                        extra_http_headers={
-                            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-                            'Accept-Language': 'en-US,en;q=0.9',
-                            'Accept-Encoding': 'gzip, deflate, br',
-                            'DNT': '1',
-                            'Connection': 'keep-alive',
-                            'Upgrade-Insecure-Requests': '1',
-                            'Sec-Fetch-Dest': 'document',
-                            'Sec-Fetch-Mode': 'navigate',
-                            'Sec-Fetch-Site': 'none',
-                            'Cache-Control': 'max-age=0'
-                        }
+                        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                     )
                     
                     # Create page
                     page = await context.new_page()
                     
-                    # Navigate to URL and wait for network to be idle
-                    await page.goto(clean_url, timeout=30000, wait_until='networkidle')
+                    # Navigate to URL with basic approach that works
+                    await page.goto(clean_url, timeout=60000, wait_until="domcontentloaded")
                     
-                    # Add human-like behavior patterns
-                    if IS_GITHUB_ACTIONS:
-                        # Random mouse movement
-                        await page.mouse.move(random.randint(100, 800), random.randint(100, 600))
-                        await page.wait_for_timeout(random.randint(500, 1500))
-                        
-                        # Random scroll behavior
-                        await page.evaluate(f"window.scrollTo(0, {random.randint(100, 500)})")
-                        await page.wait_for_timeout(random.randint(800, 2000))
-                        
-                        # Random click (not on anything important)
-                        await page.mouse.click(random.randint(50, 200), random.randint(50, 200))
-                        await page.wait_for_timeout(random.randint(300, 800))
-                    
-                    # Wait for Angular app to load and render content
-                    # Try multiple approaches to ensure content is loaded
-                    
-                    # Approach 1: Wait for any dynamic content to appear
-                    try:
-                        await page.wait_for_function(
-                            "document.querySelector('.event-details, .ticket-info, .price-info, .event-info, .event-title, .event-date') !== null",
-                            timeout=15000
-                        )
-                    except:
-                        pass
-                    
-                    # Approach 2: Wait for the "not available" message to disappear
-                    try:
-                        await page.wait_for_function(
-                            "!document.querySelector('p.message-sub') || !document.querySelector('p.message-sub').textContent.includes('not available')",
-                            timeout=15000
-                        )
-                    except:
-                        pass
-                    
-                    # Approach 3: Wait for any text content to change from initial state
-                    try:
-                        await page.wait_for_function(
-                            "document.body.textContent.length > 1000 && !document.body.textContent.includes('The event you')",
-                            timeout=15000
-                        )
-                    except:
-                        pass
-                    
-                    # Final fallback: wait a bit more with human-like timing
-                    await page.wait_for_timeout(random.randint(3000, 7000))
-                    
-                    # Additional human-like delay
-                    await page.wait_for_timeout(random.randint(1000, 3000))
+                    # Simple wait for page to load (basic approach)
+                    await page.wait_for_timeout(2000)
                     
                     # Get page content
                     html = await page.content()
@@ -900,8 +805,15 @@ async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> T
                         await browser.close()
                         return clean_url, None, "Anti-bot protection detected"
                     
-                    # Check for timeout/loading issues
-                    if len(html) < 1000 or "Timeout" in html or "Loading" in html:
+                    # Check for timeout/loading issues (more specific)
+                    if len(html) < 1000:
+                        await browser.close()
+                        return clean_url, None, "Page timeout or loading issue"
+                    
+                    # Check for actual timeout/loading errors (not just the words in content)
+                    # Look for actual error messages, not just the words "timeout" or "error"
+                    if ("timeout" in html.lower() and ("error" in html.lower() or "failed" in html.lower()) and 
+                        ("connection" in html.lower() or "request" in html.lower() or "network" in html.lower())):
                         await browser.close()
                         return clean_url, None, "Page timeout or loading issue"
                     

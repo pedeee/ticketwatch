@@ -1,1 +1,24 @@
-{}
+{
+  "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694": {
+    "title": "Tickets for Ethan Low - Presented By F7 Live",
+    "price": 34.57,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": true,
+    "sold_out_banner": false,
+    "event_dt": "2025-09-27T22:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744": {
+    "title": "Tickets for Ethan Low & KAYAM - Presented By F7 Live",
+    "price": 34.13,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": true,
+    "sold_out_banner": false,
+    "event_dt": "2025-09-28T23:00:00+00:00"
+  }
+}
