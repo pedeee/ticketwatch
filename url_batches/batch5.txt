@@ -2,14 +2,6 @@
 # Format: URL  # Event Name - Date
 
 # === September 2025 ===
-https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353  # Tickets for Be'lakor, Solemn Vision - Sep 12
-https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513  # Tickets for Dwarves, Burnt Knives, Harm School - Sep 12
-https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943  # Tickets for The Dirty Nil - Sep 12
-https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633  # Tickets for Jazz Emu 'The Pleasure is All Yours Tour' - Sep 13
-https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083  # Tickets for Pypy with Flake & Flush - Sep 14
-https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684  # Tickets for Gui Boratto - Sep 14
-https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433  # Tickets for Hunx & His Punx with Tchotchke & Shiv & The Carvers - Sep 15
-https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883  # Tickets for Wombo with Shower Curtain & SAP - Sep 16
 https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124  # Tickets for Panzerfaust w/ Groza & Drofnosura at Lee's Palace - Sep 18
 https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393  # Tickets for RIELL with CMAGIC5 - Sep 20
 https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843  # Tickets for Next Music from Tokyo vol 17 - Sep 20
