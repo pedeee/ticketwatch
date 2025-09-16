@@ -53,5 +53,3 @@ https://www.ticketweb.ca/event/kompany-nemesis-tour-noir-inside-rebel-tickets/13
 https://www.ticketweb.ca/event/ben-caplan-w-special-guests-lees-palace-tickets/14440973  # Tickets for Ben Caplan with Special Guests - Dec 13
 
 # === Events without dates ===
-https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-starlite-room-tickets/14473673  # jimi - No date found
-https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-melissas-missteak-tickets/13687914  # jimi - No date found
