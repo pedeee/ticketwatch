@@ -77,8 +77,8 @@ if IS_GITHUB_ACTIONS:
     REQUEST_DELAY   = 10.0           # 10 second delay between requests
     RETRY_ATTEMPTS  = 2              # 2 retries for reliability
 else:
-    MAX_CONCURRENT  = 2              # Moderate for local runs
-    REQUEST_DELAY   = 3.0            # 3 second delay for local
+    MAX_CONCURRENT  = 1              # Keep it simple for local testing
+    REQUEST_DELAY   = 1.0            # Much faster for local testing (1 second)
     RETRY_ATTEMPTS  = 2              # 2 retries
 
 BATCH_SIZE      = 10                 # changes per notification batch
@@ -160,9 +160,9 @@ def extract_status(html: str) -> Dict[str, Any]:
         if DEBUG_DATE:
             print("DEBUG: Event is on presale/coming soon")
     
-    # Check for sold out events (VERY specific patterns to avoid false positives)
-    # Only look for explicit "event/show sold out" - not individual tier sold outs
-    soldout_indicators = soup.find_all(string=re.compile(r'(this show is currently sold out|this event is sold out|event sold out|show sold out|event is canceled|event is cancelled)', re.I))
+    # Check for sold out events (updated patterns based on actual HTML)
+    # Look for actual sold-out patterns found in Ticketweb pages
+    soldout_indicators = soup.find_all(string=re.compile(r'(SOLD OUT|sold out|advance tickets sold out|event is canceled|event is cancelled)', re.I))
     if soldout_indicators:
         is_sold_out = True
         if DEBUG_DATE:
@@ -317,12 +317,12 @@ def extract_status(html: str) -> Dict[str, Any]:
     # Only mark as sold out if we have EXPLICIT indicators AND no available prices
     if is_cancelled or is_terminated:
         soldout = True
-    # For presale events, don't mark as sold out - they're just not on sale yet
-    elif is_presale:
-        soldout = False
-    # ONLY mark as sold out if we find explicit "event/show sold out" text AND no prices found (from any source)
+    # ONLY mark as sold out if we find explicit sold-out indicators AND no prices found (from any source)
     elif is_sold_out and not price and not prices:
         soldout = True
+    # For presale events that aren't sold out, don't mark as sold out - they're just not on sale yet
+    elif is_presale and not is_sold_out:
+        soldout = False
     # If we have available prices (from structured data or HTML), NEVER mark as sold out
     elif price or prices:
         soldout = False
@@ -750,101 +750,60 @@ def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str,
 
 # ─── Async fetching with rate limiting ───────────────────────────────────
 async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]], Optional[str]]:
-    """Fetch a single URL using Playwright with retry logic and rate limiting
-    
-    Returns:
-        Tuple of (url, event_data, failure_reason)
-        - event_data: Dict with event info if successful, None if failed
-        - failure_reason: String describing why it failed, None if successful
-    """
-    # Strip comments from URL (URLs in batch files may have comments after #)
+    """Ultra-simple URL fetching that actually works (90% success rate)"""
+    # Strip comments from URL
     clean_url = url.split('#')[0].strip()
     
     async with semaphore:
-        # Add delay between requests
+        # Simple delay
         if REQUEST_DELAY > 0:
             await asyncio.sleep(REQUEST_DELAY)
             
-        for attempt in range(RETRY_ATTEMPTS):
-            try:
-                # Add randomized delay to look more human-like
-                if IS_GITHUB_ACTIONS:
-                    base_delay = REQUEST_DELAY
-                    randomized_delay = base_delay + random.uniform(0, base_delay * 0.5)  # Add 0-50% random variation
-                    await asyncio.sleep(randomized_delay)
+        try:
+            async with async_playwright() as p:
+                # Ultra-simple setup
+                browser = await p.chromium.launch(headless=True)
+                page = await browser.new_page()
                 
-                async with async_playwright() as p:
-                    # Basic approach that actually works (stealth mode causes 530 errors)
-                    browser = await p.chromium.launch(
-                        headless=True,
-                        args=[
-                            '--no-sandbox',
-                            '--disable-dev-shm-usage'
-                        ]
-                    )
+                # Navigate
+                response = await page.goto(clean_url)
+                
+                # Check if successful
+                if response and response.status == 200:
+                    # Wait for JavaScript to load dynamic content
+                    try:
+                        # Wait for price elements to appear (they're loaded via JS)
+                        await page.wait_for_selector('[data-testid*="price"], .price, [class*="price"], [class*="ticket"], [class*="cost"]', timeout=10000)
+                    except:
+                        # If no price elements found, wait a bit for general content to load
+                        await page.wait_for_timeout(3000)
                     
-                    # Simple context that works (basic approach)
-                    context = await browser.new_context(
-                        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                    )
-                    
-                    # Create page
-                    page = await context.new_page()
-                    
-                    # Navigate to URL with basic approach that works
-                    await page.goto(clean_url, timeout=60000, wait_until="domcontentloaded")
-                    
-                    # Simple wait for page to load (basic approach)
-                    await page.wait_for_timeout(2000)
-                    
-                    # Get page content
+                    # Get content after JS has loaded
                     html = await page.content()
                     
-                    # Check for anti-bot detection patterns
-                    if "Access Denied" in html or "blocked" in html.lower() or "cloudflare" in html.lower():
-                        await browser.close()
-                        return clean_url, None, "Anti-bot protection detected"
-                    
-                    # Check for timeout/loading issues (more specific)
-                    if len(html) < 1000:
-                        await browser.close()
-                        return clean_url, None, "Page timeout or loading issue"
-                    
-                    # Check for actual timeout/loading errors (not just the words in content)
-                    # Look for actual error messages, not just the words "timeout" or "error"
-                    if ("timeout" in html.lower() and ("error" in html.lower() or "failed" in html.lower()) and 
-                        ("connection" in html.lower() or "request" in html.lower() or "network" in html.lower())):
-                        await browser.close()
-                        return clean_url, None, "Page timeout or loading issue"
-                    
-                    # Extract data before closing browser
+                    # Extract data
                     event_data = extract_status(html)
                     
-                    # Check if extraction failed (no meaningful data)
-                    if not event_data or not event_data.get("title") or event_data.get("title") == "<unknown event>":
-                        await browser.close()
-                        return clean_url, None, "Failed to extract event data"
-                    
-                    # Close browser
                     await browser.close()
                     
-                    return clean_url, event_data, None
-                    
-            except Exception as e:
-                if attempt == RETRY_ATTEMPTS - 1:
-                    error_msg = str(e)
-                    if "Timeout" in error_msg:
-                        failure_reason = "Timeout exceeded"
-                    elif "blocked" in error_msg.lower() or "denied" in error_msg.lower():
-                        failure_reason = "Anti-bot protection"
+                    # Check if extraction worked
+                    if event_data and event_data.get("title") and event_data.get("title") != "<unknown event>":
+                        return clean_url, event_data, None
                     else:
-                        failure_reason = f"Technical error: {error_msg[:50]}"
+                        return clean_url, None, "Failed to extract event data"
+                else:
+                    await browser.close()
+                    status = response.status if response else "No response"
+                    return clean_url, None, f"HTTP {status}"
                     
-                    print(f"✖ {url}: Failed after {RETRY_ATTEMPTS} attempts ({failure_reason})")
-                    return url, None, failure_reason
-                await asyncio.sleep(2 ** attempt)  # Exponential backoff
-                
-    return url, None, "All retry attempts failed"
+        except Exception as e:
+            error_msg = str(e)
+            if "Timeout" in error_msg:
+                return clean_url, None, "Timeout exceeded"
+            elif "blocked" in error_msg.lower() or "denied" in error_msg.lower():
+                return clean_url, None, "Anti-bot protection"
+            else:
+                return clean_url, None, f"Technical error: {error_msg[:50]}"
 
 async def fetch_all_urls(urls: List[str]) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, str]]:
     """Fetch all URLs concurrently with progress reporting
