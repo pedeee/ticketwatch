@@ -1,0 +1,82 @@
+{
+  "monitored_count": 5,
+  "failed_count": 15,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/cochemea-with-jungle-fire-the-pearl-tickets/14682873",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959161"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/flyingfish-with-love-letter-the-dance-cave-tickets/14522383",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959164"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gary-numan-the-concert-hall-tickets/14623943",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959165"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/indigo-de-souza-hollywood-theatre-tickets/14557613",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959166"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/flyingfish-with-love-letter-what-the-dance-cave-tickets/14522383",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959167"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/indigo-de-souza-moth-hollywood-theatre-tickets/14557613",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959168"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-watchmen-with-special-guests-elements-tickets/13991244",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959169"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/redveil-the-sankofa-fortune-sound-club-tickets/14666093",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959170"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-watchmen-with-special-guests-bondst-event-centre-tickets/13991264",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959171"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/benee-the-concert-hall-tickets/14665913",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959172"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/traitrs-with-automelodi-and-modele-lees-palace-tickets/14526593",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959173"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/friction-presents-synergy-runnymede-hall-tickets/14053964",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959174"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jay-electronica-the-bronson-tickets/14027374",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959175"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/devin-kennedy-with-taylor-bickett-the-pearl-tickets/14557843",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959176"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/electric-equinox-light-the-pearl-tickets/14055464",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:21.959177"
+    }
+  ]
+}

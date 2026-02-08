@@ -1,0 +1,28 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === April 2026 ===
+https://www.ticketweb.ca/event/the-messthetics-and-james-brandon-the-wise-hall-tickets/14062504  # Tickets for The Messthetics and James Brandon Lewis - Apr 20
+https://www.ticketweb.ca/event/unprocessed-the-pearl-tickets/14506763  # Tickets for Unprocessed - Apr 21
+https://www.ticketweb.ca/event/sports-w-chrissy-lees-palace-tickets/14608373  # Tickets for Sports w/ Chrissy - Apr 22
+https://www.ticketweb.ca/event/trym-dprtmnt-tickets/14073034  # Tickets for TRYM - Apr 25
+https://www.ticketweb.ca/event/temptress-w-space-queen-the-starlite-room-tickets/14096494  # Tickets for TEMPTRESS w/ SPACE QUEEN & TBD - Apr 28
+
+# === May 2026 ===
+https://www.ticketweb.ca/event/dry-cleaning-the-concert-hall-tickets/14609893  # Tickets for Dry Cleaning - May 01
+https://www.ticketweb.ca/event/stoog3s-class-clowns-noir-inside-rebel-tickets/14075904  # Tickets for STOOG3S - CLASS CLOWNS TOUR - May 02
+https://www.ticketweb.ca/event/royal-wood-have-st-james-hall-tickets/14553033  # Tickets for Royal Wood - Have A Heart Tour - May 11
+https://www.ticketweb.ca/event/the-anti-queens-road-to-lees-palace-tickets/14002774  # Tickets for The Anti-Queens: Road to Pouzza with Make War & Iron Roses - May 16
+https://www.ticketweb.ca/event/rz-coda-tickets/14732203  # Tickets for RØZ - May 23
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/the-growlers-the-phoenix-concert-theatre-tickets/14683443  # Unknown Event - No date found
+https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954  # Unknown Event - No date found
+https://www.ticketweb.ca/event/uada-mortiis-lees-palace-tickets/13990284  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-obgms-polluted-rum-runners-tickets/14727683  # Unknown Event - No date found
+https://www.ticketweb.ca/event/rod-clarkes-crazy-babies-spot-1-grill-music-tickets/14547503  # Unknown Event - No date found
+https://www.ticketweb.ca/event/remember-sports-with-cusp-the-garrison-tickets/14713323  # Unknown Event - No date found
+https://www.ticketweb.ca/event/my-son-the-hurricane-the-london-music-hall-tickets/14545983  # Unknown Event - No date found
+https://www.ticketweb.ca/event/sacha-siriusxm-spotlight-series-at-the-mod-club-tickets/14091134  # Unknown Event - No date found
+https://www.ticketweb.ca/event/punk-rock-factory-lees-palace-tickets/14656833  # Unknown Event - No date found
+https://www.ticketweb.ca/event/spite-emmure-psycho-frame-rev3rent-the-phoenix-concert-theatre-tickets/14013914  # Unknown Event - No date found

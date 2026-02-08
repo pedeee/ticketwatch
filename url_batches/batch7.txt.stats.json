@@ -1,0 +1,82 @@
+{
+  "monitored_count": 5,
+  "failed_count": 15,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/siakol-union-hall-tickets/14706943",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812932"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/rossi-coda-tickets/14724663",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812936"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hawksley-workman-the-starlite-room-tickets/14017814",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812937"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/stacked-pres-nikita-the-wicked-village-studios-tickets/14674483",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812939"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/twilight-symphony-broadway-casa-loma-tickets/13989334",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812940"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/charli-xcx-night-the-pearl-tickets/14106894",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812941"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ampocalypse-w-juliet-ruin-all-the-starlite-room-tickets/13987064",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812942"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/bad-cupid-k-pop-dance-the-park-theatre-tickets/14671083",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812944"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/facs-with-so-tired-the-dance-cave-tickets/14648933",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812945"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gothic-valentines-with-give-my-the-dance-cave-tickets/14083914",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812946"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/glitterer-graham-hunt-prize-horse-rainbow-bistro-tickets/14622613",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812947"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gorilla-biscuits-the-pearl-tickets/14006284",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812948"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/anthems-a-tribute-good-co-granville-tickets/14108354",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812950"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/chencho-corleone-rebel-tickets/13975754",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812951"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ben-bankas-the-venue-tickets/14100084",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:00.812952"
+    }
+  ]
+}

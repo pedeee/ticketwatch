@@ -1,0 +1,83 @@
+{
+  "monitored_count": 7,
+  "failed_count": 13,
+  "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/badlands-music-festival-with-disco-badlands-tent-tickets/14638673",
+      "title": "Tickets for Badlands Music Festival With Disco Lines",
+      "event_dt": "2026-07-03T22:00:00+00:00"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/playhouse-pres-jeremy-olander-celebrities-nightclub-tickets/13887554",
+      "title": "Tickets for Playhouse Pres: Jeremy Olander",
+      "event_dt": "2026-05-31T02:00:00+00:00"
+    }
+  ],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/headwaters-ram-rodeo-orangeville-agricultural-society-oas-event-tickets/14727673",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820446"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/master-boot-record-lees-palace-tickets/14006894",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820450"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/le-youth-who-are-you-rebel-tickets/14009034",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820451"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/royal-wood-have-west-end-cultural-centre-tickets/14595543",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820452"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/just-mustard-with-special-guests-the-fox-cabaret-tickets/14626083",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820453"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/badlands-music-festival-with-mau-badlands-tent-tickets/14010444",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820454"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/orangeman-spot-1-grill-music-tickets/14694253",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820455"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jigitz-commonwealth-bar-stage-tickets/14073834",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820456"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/lambrini-girls-north-america-spring-the-concert-hall-tickets/14734753",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820457"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/badlands-music-festival-with-knock2-badlands-tent-tickets/14722993",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820458"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/heavenly-the-umbrellas-swansea-sound-hollywood-theatre-tickets/14008634",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820459"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/inner-wave-los-mesoneros-fortune-sound-club-tickets/14068604",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820460"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/isobel-campbell-with-special-guests-the-pearl-tickets/14595523",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:12.820461"
+    }
+  ]
+}

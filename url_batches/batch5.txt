@@ -1,60 +1,34 @@
 # Ticketwatch URLs - Automatically sorted by event date
 # Format: URL  # Event Name - Date
 
-# === September 2025 ===
-https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124  # Tickets for Panzerfaust w/ Groza & Drofnosura at Lee's Palace - Sep 18
-https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393  # Tickets for RIELL with CMAGIC5 - Sep 20
-https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843  # Tickets for Next Music from Tokyo vol 17 - Sep 20
-https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283  # Tickets for System A LA Down, Blimplizkit, Black Sunrise, Zigseven, Devilz By Definition - Sep 20
-https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604  # Tickets for Rhapsody of Fire, Enforcer, Striker, Witherfall - Sep 20
-https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534  # Tickets for MAD CADDIES with The Anti-Queens & The Corps - Sep 21
-https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013  # Tickets for Sextile & Automatic - Sep 21
-https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243  # Tickets for Tropical Fuck Storm with The Retail Simps - Sep 22
-https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223  # Tickets for The Bridge City Sinners, Dead on a Sunday, Joshua Quimby - Sep 24
-https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813  # Tickets for Haru Nemuri - Presented By F7 Live - Sep 25
-https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073  # Tickets for The Bridge City Sinners w/ Dead On Sunday & Joshua Quimby - Sep 26
-https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733  # Tickets for P'Tit Belliveau with The Lemon Pistols - Sep 28
-https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504  # Tickets for Pool Kids - Sep 28
-https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713  # Tickets for Maria Somerville with Fleur Electra & huxlii (solo) - Sep 29
-https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694  # Tickets for ANIKA with Avishag Cohen Rodrigues - Sep 29
-https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073  # Tickets for Fly By Midnight with Moontower - Sep 29
-https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454  # Tickets for Future Palace, Half Me, Hawk - Sep 30
+# === April 2026 ===
+https://www.ticketweb.ca/event/brigitte-calls-me-baby-the-fox-cabaret-tickets/14058554  # Tickets for Brigitte Calls Me Baby – Irreversible Tour - Apr 25
 
-# === October 2025 ===
-https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964  # Tickets for Skinshape with Sons of Sevilla - Oct 02
-https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673  # Tickets for Frankie and the Witch Fingers with Population II - Oct 08
-https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873  # Tickets for Crypta - Oct 08
-https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293  # Tickets for Pixel Grip with Coatie Pop - Oct 09
-https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534  # Tickets for TWINSICK - Oct 11
-https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373  # Tickets for Sacrifice - Oct 11
-https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253  # Tickets for YIN YIN with Terror/Cactus - Oct 13
-https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813  # Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus - Oct 17
-https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844  # Tickets for Bambara - Oct 18
-https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623  # Tickets for The Exploited, Burnt Knives - Oct 18
-https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583  # Tickets for The Exploited, Spades GT - Oct 19
-https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363  # Tickets for Hotel Mira with Bleeker & Altered By Mom - Oct 19
-https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394  # Tickets for Anvil - Oct 25
-https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013  # Tickets for Willi Carlisle - Winged Victory Tour w/ Olive Klug - Oct 26
-https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124  # Tickets for NorthsideBenji - Oct 27
-https://www.ticketweb.ca/event/frost-children-the-fox-cabaret-tickets/14234363  # Tickets for FROST CHILDREN - Oct 29
+# === May 2026 ===
+https://www.ticketweb.ca/event/corrosion-of-conformity-whores-the-phoenix-concert-theatre-tickets/14087864  # Tickets for Corrosion of Conformity, Whores - May 05
+https://www.ticketweb.ca/event/foxtide-drake-underground-tickets/14061814  # Tickets for Foxtide - May 05
+https://www.ticketweb.ca/event/bobby-bazini-with-special-guests-the-fox-cabaret-tickets/14557833  # Tickets for BOBBY BAZINI with Special Guests - May 16
+https://www.ticketweb.ca/event/fit-for-a-king-london-music-hall-tickets/14088494  # Tickets for Fit For A King - Lonely God North America Tour - May 27
 
-# === November 2025 ===
-https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643  # Tickets for Night Moves with Special Guests - Nov 01
-https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714  # Tickets for Hayden Pedigo, Jens Kuross - Nov 02
-https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423  # Tickets for L'Eclair with Special Guests - Nov 06
-https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283  # Tickets for Pixel Grip with Psymon Spine & God Tongue - Nov 06
-https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623  # Tickets for FELLY with Breakup Shoes - Nov 08
-https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414  # Tickets for DUKE DUMONT - Nov 09
-https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313  # Tickets for The Stews with Special Guests - Nov 14
-https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293  # Tickets for Autoheart - The Heartlands Tour w/ Shayfer James - Nov 14
-https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943  # Tickets for Ben Caplan with Special Guests - Nov 15
-https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383  # Tickets for Casey Lowery with Special Guests - Nov 16
-https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453  # Tickets for The Brian Jonestown Massacre with Federale - Nov 18
-https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754  # Tickets for Corbin - Nov 22
-https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754  # Tickets for BONUS STAGE ULTIMATE - Nov 23
-https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263  # Tickets for Mark William Lewis, Samba Jean-Baptiste - Nov 28
+# === June 2026 ===
+https://www.ticketweb.ca/event/country-greats-a-tribute-to-ferndale-banquet-hall-tickets/14561713  # Tickets for Country Greats: A Tribute to Zac Brown Band, Garth Brooks & Alabama - Jun 24
+https://www.ticketweb.ca/event/great-big-sea-tribute-off-spot-1-grill-music-tickets/14113044  # Tickets for GREAT BIG SEA Tribute OFF THE ROCK - Jun 28
 
-# === December 2025 ===
-https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604  # Tickets for Ken Yates - Presented By F7 Live - Dec 04
-https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314  # Tickets for Playhouse Pres: Ilan Bluestone - Dec 07
-https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483  # Tickets for Dakhabrakha - Dec 12
+# === September 2026 ===
+https://www.ticketweb.ca/event/aldous-harding-hollywood-theatre-tickets/14012894  # Tickets for Aldous Harding - Sep 25
+
+# === October 2026 ===
+https://www.ticketweb.ca/event/armand-hammer-lees-palace-tickets/13990314  # Tickets for Armand Hammer - Oct 08
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/antonio-larosa-honeybear-the-pearl-tickets/13970954  # Unknown Event - No date found
+https://www.ticketweb.ca/event/saxsquatch-with-special-guests-the-pearl-tickets/13951324  # Unknown Event - No date found
+https://www.ticketweb.ca/event/clan-of-xymox-with-rosa-the-phoenix-concert-theatre-tickets/14683013  # Unknown Event - No date found
+https://www.ticketweb.ca/event/archspire-long-roads-the-phoenix-concert-theatre-tickets/13999204  # Unknown Event - No date found
+https://www.ticketweb.ca/event/emeline-emotional-virgin-drake-underground-tickets/14057644  # Unknown Event - No date found
+https://www.ticketweb.ca/event/children-of-metal-with-full-lees-palace-tickets/14608253  # Unknown Event - No date found
+https://www.ticketweb.ca/event/alpha-wolf-let-it-rip-rum-runners-tickets/14084384  # Unknown Event - No date found
+https://www.ticketweb.ca/event/80s-gone-wild-spot-1-grill-music-tickets/14082144  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dallas-snl-orangeman-dallas-tickets/14668213  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dead-calm-lees-palace-tickets/14093264  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ian-bw-w-vends-ghoulfriend-sneaky-dees-concert-venue-tickets/14055074  # Unknown Event - No date found

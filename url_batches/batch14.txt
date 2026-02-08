@@ -1,0 +1,26 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === April 2026 ===
+https://www.ticketweb.ca/event/skullcrusher-drake-underground-tickets/14607353  # Tickets for Skullcrusher - Apr 09
+https://www.ticketweb.ca/event/peekaboo-are-we-dprtmnt-tickets/13969444  # Tickets for PEEKABOO - ARE WE DREAMING? - Apr 11
+https://www.ticketweb.ca/event/nobro-with-standard-issue-pleasure-studio-919-previously-known-as-tickets/14569933  # Tickets for NOBRO With Standard Issue Pleasure Model - Apr 18
+https://www.ticketweb.ca/event/said-the-whale-the-starlite-room-tickets/14640773  # Tickets for Said The Whale - Apr 18
+https://www.ticketweb.ca/event/limblifter-grapes-of-wrath-the-concert-hall-tickets/14732963  # Tickets for Limblifter, Grapes of Wrath - Apr 18
+https://www.ticketweb.ca/event/nobro-w-special-guests-commonwealth-bar-stage-tickets/14622823  # Tickets for NOBRO w/ Special Guests - Apr 23
+https://www.ticketweb.ca/event/soul-blind-the-pearl-tickets/14656733  # Tickets for SOUL BLIND - Apr 24
+https://www.ticketweb.ca/event/nobro-with-the-soundoff-sidestage-tickets/14569973  # Tickets for NOBRO With The Soundoff - Apr 26
+https://www.ticketweb.ca/event/omnom-spring-2026-tour-at-rum-runners-tickets/14070764  # Tickets for OMNOM Spring 2026 Tour at System Saturdays - Apr 26
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/queen-its-a-kinda-magic-london-music-hall-tickets/14626003  # Unknown Event - No date found
+https://www.ticketweb.ca/event/robyn-hitchcock-live-and-the-horseshoe-tavern-tickets/13986834  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kranium-pawn-shop-live-formally-known-tickets/14107334  # Unknown Event - No date found
+https://www.ticketweb.ca/event/raven-slackjaw-the-horseshoe-tavern-tickets/14075154  # Unknown Event - No date found
+https://www.ticketweb.ca/event/showtek-presented-by-pawn-shop-live-formally-known-tickets/14605433  # Unknown Event - No date found
+https://www.ticketweb.ca/event/nobro-w-special-guests-the-starlite-room-tickets/14573083  # Unknown Event - No date found
+https://www.ticketweb.ca/event/remember-sports-with-youbet-the-wise-hall-tickets/14713213  # Unknown Event - No date found
+https://www.ticketweb.ca/event/omar-coda-tickets/14053944  # Unknown Event - No date found
+https://www.ticketweb.ca/event/rz-oye-estados-unidos-pt2-village-studios-tickets/14724493  # Unknown Event - No date found
+https://www.ticketweb.ca/event/san-pacho-celebrities-nightclub-tickets/14073974  # Unknown Event - No date found
+https://www.ticketweb.ca/event/pink-pop-party-toronto-the-mod-club-tickets/13989624  # Unknown Event - No date found

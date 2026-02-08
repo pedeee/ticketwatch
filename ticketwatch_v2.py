@@ -77,9 +77,9 @@ if IS_GITHUB_ACTIONS:
     REQUEST_DELAY   = 10.0           # 10 second delay between requests
     RETRY_ATTEMPTS  = 2              # 2 retries for reliability
 else:
-    MAX_CONCURRENT  = 1              # Keep it simple for local testing
-    REQUEST_DELAY   = 1.0            # Much faster for local testing (1 second)
-    RETRY_ATTEMPTS  = 2              # 2 retries
+    MAX_CONCURRENT  = 3              # Moderate concurrency (worked best)
+    REQUEST_DELAY   = 1.0            # Base 1s + random 0-2s = 1-3s per request  
+    RETRY_ATTEMPTS  = 1              # No retries
 
 BATCH_SIZE      = 10                 # changes per notification batch
 DEBUG_DATE      = False              # detailed date parsing debug
@@ -126,11 +126,12 @@ def extract_status(html: str) -> Dict[str, Any]:
         else:
             print(f"🔍 Text looks normal (length: {len(text)})")
 
+
     # 1. Check for various event status indicators first -------------------
     is_cancelled = False
     is_terminated = False
     is_presale = False
-    is_sold_out = False
+    banner_sold_out = False
     
     # Check for "not available" message (current Ticketweb issue)
     not_available_indicators = soup.find_all(string=re.compile(r'(the event you\'re looking for is not available|event not available|not available)', re.I))
@@ -160,13 +161,40 @@ def extract_status(html: str) -> Dict[str, Any]:
         if DEBUG_DATE:
             print("DEBUG: Event is on presale/coming soon")
     
-    # Check for sold out events (updated patterns based on actual HTML)
-    # Look for actual sold-out patterns found in Ticketweb pages
-    soldout_indicators = soup.find_all(string=re.compile(r'(SOLD OUT|sold out|advance tickets sold out|event is canceled|event is cancelled)', re.I))
-    if soldout_indicators:
-        is_sold_out = True
+    # Check for GLOBAL sold out banner ONLY (not tier-level "Sold Out" labels)
+    # Look for the specific global banner patterns
+    soldout_indicators = soup.find_all(
+        string=re.compile(
+            r'this show is currently sold out',
+            re.I,
+        )
+    )
+    
+    # Also check full text for the global banner pattern
+    full_text_lower = text.lower()
+    has_global_banner = (
+        'this show is currently sold out' in full_text_lower or
+        ('currently sold out' in full_text_lower and 'check back soon' in full_text_lower) or
+        ('join the waitlist' in full_text_lower and 'sold out' in full_text_lower)
+    )
+    
+    # Check if there are active quantity selectors (strong signal tickets are available)
+    has_quantity_selector = bool(
+        soup.find('input', {'type': 'number'}) or
+        soup.find('input', {'name': re.compile(r'quantity', re.I)}) or
+        soup.find('button', string=re.compile(r'[\+\-]')) or
+        (soup.find('button', string=re.compile(r'buy tickets', re.I)) and not soup.find('button', {'disabled': True}))
+    )
+    
+    # Only mark as sold out if global banner exists AND no quantity selectors
+    if (soldout_indicators or has_global_banner) and not has_quantity_selector:
+        banner_sold_out = True
         if DEBUG_DATE:
-            print("DEBUG: Event is sold out")
+            print("DEBUG: Event is sold out (global banner, no quantity selectors)")
+    else:
+        banner_sold_out = False
+        if DEBUG_DATE and (soldout_indicators or has_global_banner):
+            print("DEBUG: Has sold-out text but quantity selectors present - NOT marking as sold out")
 
     # 2. Event date ---------------------------------------------------------
     date_str = None
@@ -247,84 +275,192 @@ def extract_status(html: str) -> Dict[str, Any]:
     price = None
     price_range = None
     
-    # First, try to get price from structured data
-    for script in json_scripts:
-        try:
-            data = json.loads(script.string)
-            if isinstance(data, dict) and data.get('@type') == 'Event':
-                offers = data.get('offers', {})
-                if isinstance(offers, dict):
-                    price_str = offers.get('price', '')
-                    if price_str and price_str.strip():
-                        try:
-                            # Remove currency symbols and parse
-                            price_value = float(re.sub(r'[^\d.]', '', price_str))
-                            price = price_value
-                            break
-                        except ValueError:
-                            pass
-        except:
-            pass
-    
-    # Enhanced HTML text search for prices (handles new Ticketweb patterns)
-    prices: List[float] = []
-    if price is None:
-        
-        # Look for single prices like "$25", "$40.00" - but exclude prices near "sold out" text
-        for m in re.finditer(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)", text):
-            window = text[max(0, m.start() - 50): m.end() + 50].lower()
-            # Be more restrictive about excluding prices - only exclude if the specific tier is sold out
-            if (any(h in window for h in EXCLUDE_HINTS) or 
-                "this show is currently sold out" in window or 
-                "advance tickets sold out" in window or
-                ("sold out" in window and "tier" not in window)):  # Allow prices from tiers even if some tiers are sold out
-                continue
-            prices.append(float(m.group(1)))
-        
-        # Look for price ranges like "$26.39 - $38.08"
-        price_ranges = re.findall(r"\$([0-9]{1,5}(?:\.[0-9]{2})?)\s*-\s*\$([0-9]{1,5}(?:\.[0-9]{2})?)", text)
-        if price_ranges:
+    has_available_tier: Optional[bool] = None
+
+    # Skip price detection if a global sold-out banner is detected
+    # (prices might still appear in HTML for reference, but aren't available)
+    if banner_sold_out:
+        price = None
+    else:
+        # First, try to get price from structured data
+        for script in json_scripts:
             try:
-                min_price = float(price_ranges[0][0])
-                max_price = float(price_ranges[0][1])
-                price_range = f"${min_price:.2f} - ${max_price:.2f}"
-                prices.append(min_price)  # Use minimum price as the main price
-            except ValueError:
+                data = json.loads(script.string)
+                if isinstance(data, dict) and data.get('@type') == 'Event':
+                    offers = data.get('offers', {})
+                    if isinstance(offers, dict):
+                        price_str = offers.get('price', '')
+                        if price_str and price_str.strip():
+                            try:
+                                # Remove currency symbols and parse
+                                price_value = float(re.sub(r'[^\d.]', '', price_str))
+                                # Check if this structured data price corresponds to a sold-out tier
+                                price_str_formatted = f"${price_value:.2f}"
+                                price_matches = list(re.finditer(re.escape(price_str_formatted), text))
+                                is_sold_out_price = False
+                                for match in price_matches:
+                                    context = text[max(0, match.start() - 100): match.end() + 100].lower()
+                                    if "sold out" in context:
+                                        is_sold_out_price = True
+                                        break
+                                
+                                # Only use structured data price if it's not sold out
+                                if not is_sold_out_price:
+                                    price = price_value
+                                    break
+                            except ValueError:
+                                pass
+            except:
                 pass
-        
-        # Look for prices without $ symbol (e.g., "25.00", "40")
-        for m in re.finditer(r"\b([0-9]{1,3}(?:\.[0-9]{2})?)\b", text):
-            window = text[max(0, m.start() - 20): m.end() + 20].lower()
-            # Only consider if it looks like a price (not a date, time, etc.)
-            # Exclude time patterns like "7:30", "7:30 PM", "7:30 AM"
-            if (("price" in window or "ticket" in window or "cost" in window) and 
-                not any(h in window for h in EXCLUDE_HINTS) and
-                not re.search(r'\d+:\d+', window) and  # Exclude time patterns
-                not re.search(r'\d+\s*(am|pm)', window)):  # Exclude AM/PM patterns
-                try:
-                    price_val = float(m.group(1))
-                    if 5 <= price_val <= 1000:  # Reasonable price range
-                        prices.append(price_val)
-                except ValueError:
-                    pass
-        
-        if prices:
-            price = (min(prices) if PRICE_SELECTOR == "lowest" else max(prices))
     
-    # Determine if sold out based on all status indicators - ULTRA CONSERVATIVE
+        # Smart Tier Detection System - Parse ticket tiers intelligently
+        prices: List[float] = []
+        available_tiers = []
+        has_available_tier = False
+        
+        # First check: do we have ANY active quantity selectors on the page?
+        # This is a strong signal that tickets are available
+        has_any_quantity_controls = bool(
+            soup.find('input', {'type': 'number'}) or
+            soup.find('input', {'name': re.compile(r'quantity', re.I)}) or
+            soup.find('select', {'name': re.compile(r'quantity', re.I)}) or
+            soup.find('button', string=re.compile(r'[\+\-]', re.I)) or
+            soup.find('button', string=re.compile(r'add to cart', re.I))
+        )
+        
+        if price is None:
+            # Get all text content for analysis
+            full_text = soup.get_text()
+            
+            # Look for ticket tier patterns in the HTML
+            tier_patterns = [
+                r'GA\d+',  # GA1, GA2, GA3
+                r'Early Bird',
+                r'Advance',
+                r'General Admission',
+                r'VIP',
+                r'Balcony',
+                r'Premium'
+            ]
+            
+            # Find all price patterns in the text
+            price_matches = list(re.finditer(r'\$([0-9]{1,5}(?:\.[0-9]{2})?)', full_text))
+            
+            # Group prices by their context to identify base prices vs fees
+            price_groups = {}
+            
+            for match in price_matches:
+                price_val = float(match.group(1))
+                price_str = f"${match.group(1)}"
+                
+                # Get context around this price
+                context_start = max(0, match.start() - 100)
+                context_end = min(len(full_text), match.end() + 100)
+                context = full_text[context_start:context_end]
+                
+                # Skip very low prices (likely not ticket prices)
+                if price_val < 8:
+                    continue
+                
+                # Check if this is a base ticket price (not a fee)
+                is_base_price = any(indicator in context.lower() for indicator in ['ga', 'general admission', 'advance', 'early bird', 'vip', 'balcony'])
+                
+                # Check if this is explicitly a fee
+                is_fee = any(fee_word in context.lower() for fee_word in ['(+$', 'fee', 'tax', 'service charge'])
+                
+                if is_fee and not is_base_price:
+                    continue
+                
+                # Determine availability - check for sold out text AND quantity selectors
+                tier_sold_out = "sold out" in context.lower()
+                
+                # If we see quantity selector elements, this tier is likely available
+                has_quantity_controls = any(control in context.lower() for control in ['quantity', 'select', 'add to cart', '+', '-', 'buy tickets'])
+                
+                # Override sold out status if we have quantity controls (more reliable indicator)
+                if has_quantity_controls:
+                    tier_sold_out = False
+                
+                # Identify tier name
+                tier_name = "Unknown"
+                for pattern in tier_patterns:
+                    if re.search(pattern, context, re.I):
+                        tier_name = re.search(pattern, context, re.I).group(0)
+                        break
+                
+                # Store tier information
+                tier_key = f"{tier_name}_{price_val}"
+                if tier_key not in price_groups:
+                    price_groups[tier_key] = {
+                        'price': price_val,
+                        'name': tier_name,
+                        'available': not tier_sold_out,
+                        'context': context[:100]
+                    }
+                    available_tiers.append(price_groups[tier_key])
+            
+            # Sort tiers by price (lowest first)
+            available_tiers.sort(key=lambda x: x['price'])
+            
+            # Find the lowest available tier
+            lowest_available_tier = None
+            for tier in available_tiers:
+                if tier['available']:
+                    lowest_available_tier = tier
+                    has_available_tier = True
+                    break
+            
+            if lowest_available_tier:
+                price = lowest_available_tier['price']
+                # Check if this is VIP-only scenario
+                if price > 100:
+                    ga_indicators = ["general admission", "ga", "advance", "early bird", "standard"]
+                    has_ga_evidence = any(indicator in text.lower() for indicator in ga_indicators)
+                    if has_ga_evidence:
+                        # High prices + GA evidence = GA is sold out, only VIP available
+                        price = None
+            else:
+                # No available tiers found explicitly
+                price = None
+                # However, if we detected quantity controls on the page,
+                # it means tickets ARE available (we just didn't parse price correctly)
+                if has_any_quantity_controls:
+                    has_available_tier = True
+                else:
+                    has_available_tier = False
+                has_available_tier = False
+    
+    # Determine if sold out based on all status indicators
     soldout = False
     
-    # Only mark as sold out if we have EXPLICIT indicators AND no available prices
+    # Only mark as sold out if we have EXPLICIT indicators
     if is_cancelled or is_terminated:
         soldout = True
-    # ONLY mark as sold out if we find explicit sold-out indicators AND no prices found (from any source)
-    elif is_sold_out and not price and not prices:
+        price = None  # Clear price when sold out
+    # If we detect global sold-out banner (and no quantity selectors), mark as sold out
+    elif banner_sold_out:
         soldout = True
-    # For presale events that aren't sold out, don't mark as sold out - they're just not on sale yet
-    elif is_presale and not is_sold_out:
+        price = None  # Clear price when sold out
+    # If any tier is clearly available (has quantity controls), do NOT mark sold out
+    elif has_available_tier is True:
         soldout = False
-    # If we have available prices (from structured data or HTML), NEVER mark as sold out
-    elif price or prices:
+    # If no available tiers found and no price, likely sold out
+    elif has_available_tier is False and price is None:
+        soldout = True
+    # Check for VIP-only scenarios (high prices with GA evidence)
+    elif price and price > 100:
+        ga_indicators = ["general admission", "ga", "advance", "early bird", "standard"]
+        has_ga_evidence = any(indicator in text.lower() for indicator in ga_indicators)
+        
+        if has_ga_evidence:
+            # High prices + GA evidence = GA is sold out, only VIP available
+            soldout = True
+            price = None  # Don't report VIP prices
+        else:
+            # High prices but no GA evidence = legitimate high-priced event
+            soldout = False
+    # For presale events that aren't sold out, don't mark as sold out - they're just not on sale yet
+    elif is_presale:
         soldout = False
     # If we have "not available" message, don't assume sold out - just mark as unknown
     elif not_available_indicators:
@@ -335,7 +471,7 @@ def extract_status(html: str) -> Dict[str, Any]:
 
     if DEBUG_DATE:
         print("DEBUG:", title, "Price:", price, "Price Range:", price_range, "Sold out:", soldout, 
-              "Cancelled:", is_cancelled, "Terminated:", is_terminated, "Presale:", is_presale, "Sold Out Banner:", is_sold_out)
+              "Cancelled:", is_cancelled, "Terminated:", is_terminated, "Presale:", is_presale, "Sold Out Banner:", banner_sold_out)
         print("DEBUG Prices found:", prices)
 
     result = {
@@ -346,7 +482,7 @@ def extract_status(html: str) -> Dict[str, Any]:
         "cancelled": is_cancelled,
         "terminated": is_terminated,
         "presale": is_presale,
-        "sold_out_banner": is_sold_out,
+        "sold_out_banner": banner_sold_out,
         "event_dt": event_dt.isoformat() if event_dt else None,
     }
     
@@ -749,63 +885,56 @@ def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str,
         print(f"⚠️  {len(urls_without_dates)} URLs missing event dates")
 
 # ─── Async fetching with rate limiting ───────────────────────────────────
-async def fetch_url_with_playwright(url: str, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]], Optional[str]]:
-    """Ultra-simple URL fetching that actually works (90% success rate)"""
-    # Strip comments from URL
+async def fetch_url_with_playwright(url: str, browser, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]], Optional[str]]:
+    """Fetch URL using shared browser"""
     clean_url = url.split('#')[0].strip()
     
     async with semaphore:
-        # Simple delay
         if REQUEST_DELAY > 0:
-            await asyncio.sleep(REQUEST_DELAY)
+            # Add random variation to delay (more human-like)
+            actual_delay = REQUEST_DELAY + random.uniform(0, 2.0)
+            await asyncio.sleep(actual_delay)
             
+        page = None
         try:
-            async with async_playwright() as p:
-                # Ultra-simple setup
-                browser = await p.chromium.launch(headless=True)
-                page = await browser.new_page()
+            # Create page directly from browser (simpler, more reliable)
+            page = await browser.new_page()
+            response = await page.goto(clean_url, wait_until="domcontentloaded", timeout=40000)
+            
+            if response and response.status == 200:
+                # Shorter wait (2s) since pages load fast
+                await page.wait_for_timeout(2000)
+                html = await page.content()
+                event_data = extract_status(html)
                 
-                # Navigate
-                response = await page.goto(clean_url)
-                
-                # Check if successful
-                if response and response.status == 200:
-                    # Wait for JavaScript to load dynamic content
-                    try:
-                        # Wait for price elements to appear (they're loaded via JS)
-                        await page.wait_for_selector('[data-testid*="price"], .price, [class*="price"], [class*="ticket"], [class*="cost"]', timeout=10000)
-                    except:
-                        # If no price elements found, wait a bit for general content to load
-                        await page.wait_for_timeout(3000)
-                    
-                    # Get content after JS has loaded
-                    html = await page.content()
-                    
-                    # Extract data
-                    event_data = extract_status(html)
-                    
-                    await browser.close()
-                    
-                    # Check if extraction worked
-                    if event_data and event_data.get("title") and event_data.get("title") != "<unknown event>":
-                        return clean_url, event_data, None
-                    else:
-                        return clean_url, None, "Failed to extract event data"
+                if event_data and event_data.get("title") and event_data.get("title") != "<unknown event>":
+                    return clean_url, event_data, None
                 else:
-                    await browser.close()
-                    status = response.status if response else "No response"
-                    return clean_url, None, f"HTTP {status}"
+                    return clean_url, None, "Failed to extract event data"
+            else:
+                status = response.status if response else "No response"
+                return clean_url, None, f"HTTP {status}"
                     
+        except asyncio.TimeoutError:
+            return clean_url, None, "Timeout exceeded"
         except Exception as e:
             error_msg = str(e)
             if "Timeout" in error_msg:
                 return clean_url, None, "Timeout exceeded"
-            elif "blocked" in error_msg.lower() or "denied" in error_msg.lower():
-                return clean_url, None, "Anti-bot protection"
             else:
-                return clean_url, None, f"Technical error: {error_msg[:50]}"
+                return clean_url, None, f"Error: {error_msg[:50]}"
+        finally:
+            if page:
+                try:
+                    await page.close()
+                except:
+                    pass
 
-async def fetch_all_urls(urls: List[str]) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, str]]:
+async def fetch_all_urls(
+    urls: List[str],
+    state_path: Optional[str] = None,
+    base_state: Optional[Dict[str, Dict[str, Any]]] = None,
+) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, str]]:
     """Fetch all URLs concurrently with progress reporting
     
     Returns:
@@ -819,27 +948,57 @@ async def fetch_all_urls(urls: List[str]) -> Tuple[Dict[str, Dict[str, Any]], Di
     print(f"🔄 Starting to check {len(urls)} URLs with Playwright...")
     start_time = time.time()
     
-    # Create tasks for all URLs using Playwright
-    tasks = [fetch_url_with_playwright(url, semaphore) for url in urls]
-    
-    # Process completed tasks
-    for coro in asyncio.as_completed(tasks):
-        url, status, failure_reason = await coro
-        completed += 1
+    # Launch ONE browser for all URLs with anti-detection
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                '--disable-blink-features=AutomationControlled',
+            ]
+        )
         
-        if status:
-            results[url] = status
-        else:
-            failed_urls[url] = failure_reason or "Unknown failure"
-        
-        # Progress reporting (more frequent for GitHub Actions)
-        report_interval = 10 if IS_GITHUB_ACTIONS else 20
-        if completed % report_interval == 0 or completed == len(urls):
-            elapsed = time.time() - start_time
-            rate = completed / elapsed if elapsed > 0 else 0
-            success_rate = len(results) / completed * 100 if completed > 0 else 0
-            print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
-                  f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
+        try:
+            # Create tasks for all URLs
+            async def fetch_with_timeout(url: str):
+                try:
+                    return await asyncio.wait_for(
+                        fetch_url_with_playwright(url, browser, semaphore),
+                        timeout=60,  # Increased to 60 seconds
+                    )
+                except asyncio.TimeoutError:
+                    clean_url = url.split('#')[0].strip()
+                    return clean_url, None, "Timeout exceeded"
+
+            tasks = [fetch_with_timeout(url) for url in urls]
+            
+            # Process completed tasks
+            for coro in asyncio.as_completed(tasks):
+                url, status, failure_reason = await coro
+                completed += 1
+                
+                if status:
+                    results[url] = status
+                else:
+                    failed_urls[url] = failure_reason or "Unknown failure"
+                
+                # Progress reporting
+                report_interval = 10 if IS_GITHUB_ACTIONS else 20
+                if completed % report_interval == 0 or completed == len(urls):
+                    elapsed = time.time() - start_time
+                    rate = completed / elapsed if elapsed > 0 else 0
+                    success_rate = len(results) / completed * 100 if completed > 0 else 0
+                    print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
+                          f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
+                    if state_path and base_state is not None:
+                        try:
+                            merged_state = dict(base_state)
+                            merged_state.update(results)
+                            save_state(state_path, merged_state)
+                            print(f"💾 Partial state saved ({len(results)} updated)")
+                        except Exception as e:
+                            print(f"⚠️ Partial state save failed: {e}")
+        finally:
+            await browser.close()
     
     elapsed = time.time() - start_time
     success_rate = len(results) / len(urls) * 100 if len(urls) > 0 else 0
@@ -884,7 +1043,11 @@ async def main():
     before = load_state(STATE_FILE)
     
     # Fetch selected URLs concurrently  
-    after, failed_urls_with_reasons = await fetch_all_urls(selected_urls)
+    after, failed_urls_with_reasons = await fetch_all_urls(
+        selected_urls,
+        state_path=STATE_FILE,
+        base_state=before,
+    )
     
     # Process results
     past_events = []  # Store past events for notification (but don't remove)
@@ -984,8 +1147,10 @@ async def main():
         if TG_TOKEN and TG_CHAT and len(past_events) > 0:
             telegram_push("🧹 Cleanup Suggestion", cleanup_msg)
     
-    # Save state
-    save_state(STATE_FILE, after)
+    # Save state (merge with previous to avoid wiping on failed scans)
+    merged_state = dict(before)
+    merged_state.update(after)
+    save_state(STATE_FILE, merged_state)
     
     # In GitHub Actions, commit the state file so it persists between runs
     if IS_GITHUB_ACTIONS:

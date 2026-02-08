@@ -1,0 +1,28 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === February 2026 ===
+https://www.ticketweb.ca/event/danko-jones-with-speak-of-the-pearl-tickets/13861664  # Tickets for Danko Jones with Speak of the Devil - Feb 08
+https://www.ticketweb.ca/event/drezo-at-system-saturdays-rum-runners-tickets/13984054  # Tickets for DREZO at System Saturdays - Feb 08
+https://www.ticketweb.ca/event/cedric-burnside-with-jimi-the-pearl-tickets/13981794  # Tickets for Cedric Burnside with Jimi - Feb 09
+https://www.ticketweb.ca/event/brian-byrne-no-coma-the-pearl-tickets/14058134  # Tickets for Brian Byrne & No Coma with Special Guests Bend Sinister and Witiko - Feb 14
+https://www.ticketweb.ca/event/big-sugar-hemi-bos-bar-stage-tickets/14010234  # Tickets for Big Sugar - Hemi-Vision 30th Anniversary Tour - Feb 14
+https://www.ticketweb.ca/event/stacked-pres-mary-droppinz-village-studios-tickets/14695643  # Tickets for Stacked Pres: Mary Droppinz - Feb 15
+https://www.ticketweb.ca/event/last-dinosaurs-wellness-10yr-anniversary-the-starlite-room-tickets/14629023  # Tickets for Last Dinosaurs Wellness 10YR Anniversary Tour - Feb 16
+
+# === August 2026 ===
+https://www.ticketweb.ca/event/exeter-ram-rodeo-south-huron-recreation-centre-rodeo-tickets/14731183  # Tickets for Exeter RAM Rodeo - Sunday - Aug 09
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/braden-bales-x-ezra-with-the-fox-cabaret-tickets/14003114  # Unknown Event - No date found
+https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13985284  # Unknown Event - No date found
+https://www.ticketweb.ca/event/tep-no-with-special-guests-the-dance-cave-tickets/14726283  # Unknown Event - No date found
+https://www.ticketweb.ca/event/daft-punk-night-sidestage-tickets/14058234  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mk-dprtmnt-tickets/14720733  # Unknown Event - No date found
+https://www.ticketweb.ca/event/valiant-passenger-princess-deluxe-tour-rebel-tickets/14725733  # Unknown Event - No date found
+https://www.ticketweb.ca/event/christopher-owens-the-garrison-tickets/14698733  # Unknown Event - No date found
+https://www.ticketweb.ca/event/neil-diamond-tribute-featuring-will-spot-1-grill-music-tickets/13870464  # Unknown Event - No date found
+https://www.ticketweb.ca/event/crusy-coda-tickets/14725233  # Unknown Event - No date found
+https://www.ticketweb.ca/event/daft-punk-night-lees-palace-tickets/14058244  # Unknown Event - No date found
+https://www.ticketweb.ca/event/devault-at-system-saturdays-rum-runners-tickets/14079804  # Unknown Event - No date found
+https://www.ticketweb.ca/event/valentines-day-w-neon-steve-commonundrgrd-tickets/14076174  # Unknown Event - No date found

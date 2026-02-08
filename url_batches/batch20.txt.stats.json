@@ -1,0 +1,107 @@
+{
+  "monitored_count": 0,
+  "failed_count": 20,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/remember-sports-with-cusp-the-garrison-tickets/14713323",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437454"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/royal-wood-have-st-james-hall-tickets/14553033",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437459"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/unprocessed-the-pearl-tickets/14506763",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437460"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/my-son-the-hurricane-the-london-music-hall-tickets/14545983",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437461"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-anti-queens-road-to-lees-palace-tickets/14002774",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437462"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/rz-coda-tickets/14732203",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437464"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sports-w-chrissy-lees-palace-tickets/14608373",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437465"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/sacha-siriusxm-spotlight-series-at-the-mod-club-tickets/14091134",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437466"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/trym-dprtmnt-tickets/14073034",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437467"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-growlers-the-phoenix-concert-theatre-tickets/14683443",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437468"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/punk-rock-factory-lees-palace-tickets/14656833",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437469"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/temptress-w-space-queen-the-starlite-room-tickets/14096494",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437470"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/wilkinson-the-palace-theatre-tickets/13829954",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437471"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-messthetics-and-james-brandon-the-wise-hall-tickets/14062504",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437472"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/spite-emmure-psycho-frame-rev3rent-the-phoenix-concert-theatre-tickets/14013914",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437472"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/uada-mortiis-lees-palace-tickets/13990284",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437473"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/dry-cleaning-the-concert-hall-tickets/14609893",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437474"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/stoog3s-class-clowns-noir-inside-rebel-tickets/14075904",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437475"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-obgms-polluted-rum-runners-tickets/14727683",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437476"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/rod-clarkes-crazy-babies-spot-1-grill-music-tickets/14547503",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T18:54:09.437477"
+    }
+  ]
+}

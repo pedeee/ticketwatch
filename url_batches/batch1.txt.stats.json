@@ -1,82 +1,17 @@
 {
-  "monitored_count": 0,
-  "failed_count": 15,
-  "sold_out_events": [],
-  "failed_urls": [
+  "monitored_count": 20,
+  "failed_count": 0,
+  "sold_out_events": [
     {
-      "url": "https://www.ticketweb.ca/event/belakor-north-america-tour-dickens-pub-tickets/14278713",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766320"
+      "url": "https://www.ticketweb.ca/event/playhouse-pres-chris-lorenzo-celebrities-nightclub-tickets/14638783",
+      "title": "Tickets for Playhouse Pres: Chris Lorenzo",
+      "event_dt": "2026-02-15T03:00:00+00:00"
     },
     {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-double-dragon-tickets/13887694",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766330"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-wise-hall-tickets/14442203",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766332"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/darren-kiely-the-pearl-tickets/13827244",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766333"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-bridgeworks-tickets/14495283",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766335"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/comeback-kid-prowl-punitive-damage-overflow-brewing-co-tickets/14422243",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766336"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-union-hall-tickets/14422723",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766338"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/johnnie-guilbert-violent-hard-luck-bar-tickets/13816374",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766339"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/landmvrks-north-america-2025-union-hall-tickets/14432853",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766340"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/iniko-awakening-the-hollywood-theatre-tickets/14307673",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766342"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-with-authority-zero-dickens-pub-tickets/13687794",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766343"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/robyn-ottolini-with-special-guests-biltmore-theatre-tickets/14495363",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766345"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-fox-cabaret-tickets/14364783",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766346"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ethan-low-presented-modern-love-tickets/13887744",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766347"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "reason": "Technical error: BrowserType.launch: Executable doesn't exist at /h",
-      "timestamp": "2025-09-15T20:10:29.766348"
+      "url": "https://www.ticketweb.ca/event/playhouse-presents-karsten-sollors-celebrities-nightclub-tickets/14069354",
+      "title": "Tickets for Playhouse Presents: KARSTEN SOLLORS",
+      "event_dt": "2026-02-08T03:00:00+00:00"
     }
-  ]
+  ],
+  "failed_urls": []
 }

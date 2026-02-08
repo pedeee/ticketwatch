@@ -1,0 +1,62 @@
+{
+  "monitored_count": 9,
+  "failed_count": 11,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/phil-hanley-london-music-hall-tickets/14565313",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317806"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/lola-kirke-with-special-guests-the-wise-hall-tickets/14648403",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317809"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/new-liskeard-ram-rodeo-2026-new-liskeard-fair-grounds-tickets/13977334",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317810"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/harm-ease-the-27-club-tickets/14552423",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317811"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/new-liskeard-ram-rodeo-2026-new-liskeard-fair-grounds-tickets/13977344",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317812"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/strictly-sabbath-tribute-to-the-rockpile-bar-nightclub-tickets/14061684",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317813"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/badlands-music-festival-with-levity-badlands-tent-tickets/14058904",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317814"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/marlon-magne-of-la-femme-the-great-hall-tickets/14680433",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317815"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/stacked-pres-sota-van-village-studios-tickets/14663463",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317816"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hammerfall-freedom-world-the-phoenix-concert-theatre-tickets/13990574",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317817"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/afrogasm-presented-by-pawn-shop-live-formally-known-tickets/14053324",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:58:43.317818"
+    }
+  ]
+}

@@ -1,62 +1,30 @@
 # Ticketwatch URLs - Automatically sorted by event date
 # Format: URL  # Event Name - Date
 
-# === September 2025 ===
-https://www.ticketweb.ca/event/between-the-buried-and-me-the-bronson-tickets/13825344  # Tickets for Between The Buried And Me, Hail The Sun, The World Is A Beautiful Place & I Am No Longer Afraid To Die - Sep 16
-https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-the-27-club-tickets/13872174  # Tickets for The Brokes: The Strokes Experience - Sep 19
-https://www.ticketweb.ca/event/ninajirachi-i-love-fortune-sound-club-tickets/13794184  # Tickets for Ninajirachi - 'I Love My Computer' Tour - Sep 20
-https://www.ticketweb.ca/event/vola-the-pearl-tickets/14205053  # Tickets for VOLA with Daedric & Zack Brannon - Sep 20
-https://www.ticketweb.ca/event/ninajirachi-i-love-commonundrgrd-tickets/13794314  # Tickets for Ninajirachi - 'I Love My Computer' Tour - Sep 21
-https://www.ticketweb.ca/event/young-franco-village-studios-tickets/13859914  # Tickets for Young Franco - Sep 21
-https://www.ticketweb.ca/event/comeback-kid-wake-the-dead-the-pearl-tickets/14420733  # Tickets for Comeback Kid Wake The Dead 20 Year Anniversary Tour - Sep 22
-https://www.ticketweb.ca/event/white-denim-with-johanna-samuels-the-pearl-tickets/14319113  # Tickets for White Denim with Johanna Samuels & Sam Plecker - Sep 24
-https://www.ticketweb.ca/event/anika-with-lauren-early-the-pearl-tickets/13714024  # Tickets for ANIKA with Lauren Early - Sep 25
-https://www.ticketweb.ca/event/goldlink-presents-enoch-the-phoenix-concert-theatre-tickets/14311073  # Tickets for GoldLink Presents "Enoch" w/ Spark Houston, GRG Cult, Generous Poet, Ohbrreezy, TJM - Sep 25
-https://www.ticketweb.ca/event/babytron-the-phoenix-concert-theatre-tickets/13785074  # Tickets for BABYTRON - Sep 25
-https://www.ticketweb.ca/event/kiss-cf-goodbye-9-the-opera-house-tickets/14431733  # Tickets for KISS CF GOODBYE #9 - Sep 27
-https://www.ticketweb.ca/event/the-chameleons-arctic-moon-the-pearl-tickets/14302693  # Tickets for The Chameleons : Arctic Moon Tour 2025 - Sep 27
-https://www.ticketweb.ca/event/ewan-mcvicar-fortune-sound-club-tickets/13808954  # Tickets for Ewan McVicar - Sep 28
-https://www.ticketweb.ca/event/morgan-wade-the-starlite-room-tickets/13873334  # Tickets for Morgan Wade - Sep 29
-https://www.ticketweb.ca/event/modo-live-presents-the-legendary-the-pearl-tickets/14306013  # Tickets for Modo-Live Presents: The Legendary Pink Dots with Orbit Service - Sep 30
+# === February 2026 ===
+https://www.ticketweb.ca/event/leave-your-apps-at-home-bos-bar-stage-tickets/14062094  # Tickets for LEAVE YOUR APPS AT HOME - SINGLES VALENTINES DAY RAGER - Feb 15
 
-# === October 2025 ===
-https://www.ticketweb.ca/event/peter-dreams-moonriivr-the-27-club-tickets/13810824  # Tickets for Peter Dreams, MOONRIIVR - Oct 02
-https://www.ticketweb.ca/event/night-tapes-portalspolarities-the-pearl-tickets/14027713  # Tickets for Night Tapes - portals//polarities World Tour w/ Cult of Venus - Oct 03
-https://www.ticketweb.ca/event/johnny-stimson-lees-palace-tickets/14270543  # Tickets for Johnny Stimson - Oct 03
-https://www.ticketweb.ca/event/mad-caddies-w-authority-zero-the-pearl-tickets/13687964  # Tickets for MAD CADDIES with Authority Zero & The Corps - Oct 03
-https://www.ticketweb.ca/event/anvil-the-phoenix-concert-theatre-tickets/13802384  # Tickets for Anvil - Oct 04
-https://www.ticketweb.ca/event/jembaa-groove-w-special-guests-the-fox-cabaret-tickets/14402033  # Tickets for Jembaa Groove with Special Guests - Oct 04
-https://www.ticketweb.ca/event/the-brokes-the-strokes-experience-lees-palace-tickets/14274163  # Tickets for The Brokes: The Strokes Experience - Oct 05
-https://www.ticketweb.ca/event/rebuke-coda-tickets/13861804  # Tickets for Rebuke - Oct 10
-https://www.ticketweb.ca/event/oddisee-the-good-fortune-sound-club-tickets/13839584  # Tickets for Oddisee - The Good Fight 10 Year Anniversary Tour - Oct 11
-https://www.ticketweb.ca/event/blue-hawaii-fortune-sound-club-tickets/13857734  # Tickets for Blue Hawaii - Oct 12
-https://www.ticketweb.ca/event/wilkinson-north-america-dprtmnt-tickets/13826314  # Tickets for WILKINSON - NORTH AMERICA TOUR - Oct 13
-https://www.ticketweb.ca/event/between-the-buried-and-me-the-pearl-tickets/14342603  # Tickets for Between The Buried And Me & Hail The Sun - Oct 14
-https://www.ticketweb.ca/event/the-tallest-man-on-earth-the-bronson-tickets/13825314  # Tickets for The Tallest Man On Earth, The Still Tide - Oct 14
-https://www.ticketweb.ca/event/alex-porat-with-lucette-the-starlite-room-tickets/13824514  # Tickets for ALEX PORAT WITH Lucette - Oct 17
-https://www.ticketweb.ca/event/between-the-buried-and-me-union-hall-tickets/14342803  # Tickets for Between The Buried And Me & Hail The Sun - Presented by MODO-LIVE & New/Ground Booking - Oct 17
-https://www.ticketweb.ca/event/tops-bury-the-key-the-phoenix-concert-theatre-tickets/14181773  # Tickets for TOPS - Oct 18
-https://www.ticketweb.ca/event/pretty-pink-coda-tickets/13810504?REFERRAL_ID=twvenues  # Tickets for Pretty Pink - Oct 18
-https://www.ticketweb.ca/event/layton-giordani-the-palace-theatre-tickets/13882804  # Tickets for LAYTON GIORDANI - Oct 19
-https://www.ticketweb.ca/event/rend-collective-folk-tour-central-niagara-tickets/14373303  # Tickets for Rend Collective Folk! Tour - Oct 25
+# === March 2026 ===
+https://www.ticketweb.ca/event/led-by-zeppelin-the-rockpile-bar-nightclub-tickets/14027064  # Tickets for Led by Zeppelin - Mar 08
+https://www.ticketweb.ca/event/lil-gnar-lees-palace-tickets/14057334  # Tickets for lil Gnar - Mar 08
+https://www.ticketweb.ca/event/playhouse-pres-josh-harrison-celebrities-nightclub-tickets/14069334  # Tickets for Playhouse Pres: JOSH HARRISON - Mar 08
+https://www.ticketweb.ca/event/alexsucks-the-sound-garage-tickets/13976774  # Tickets for ALEXSUCKS - Mar 12
+https://www.ticketweb.ca/event/jane-inc-with-devours-the-fox-cabaret-tickets/14598423  # Tickets for Jane Inc. with Devours & Yawn - Mar 13
+https://www.ticketweb.ca/event/amplified-alpine-presents-emperor-the-concert-hall-tickets/14701333  # Tickets for Amplified Alpine presents EMPEROR - THE EMPERIAL WRATH TOUR - Mar 27
+https://www.ticketweb.ca/event/basstripper-noir-inside-rebel-tickets/14698703  # Tickets for BASSTRIPPER - Mar 28
 
-# === November 2025 ===
-https://www.ticketweb.ca/event/sir-chloe-with-venus-the-pearl-tickets/14305703  # Tickets for Sir Chloe with Venus & the Flytraps - Nov 05
-https://www.ticketweb.ca/event/margo-price-wild-hollywood-theatre-tickets/13868974  # Tickets for Margo Price - Wild At Heart Tour, Dillon Warnek - Nov 05
-https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-dickens-pub-tickets/14396463  # Tickets for Autoheart: The Heartlands Tour w/ Shayfer James - Nov 11
-https://www.ticketweb.ca/event/autoheart-the-heartlands-tour-the-starlite-room-tickets/14396473  # Tickets for Autoheart: The Heartlands Tour w/ Shayfer James - Nov 12
-https://www.ticketweb.ca/event/gogo-penguin-with-special-guests-the-palace-theatre-tickets/14294603  # Tickets for GoGo Penguin with Special Guests - Nov 13
-https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-dickens-pub-tickets/14436153  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - Nov 13
-https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-the-starlite-room-tickets/14436163  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - Nov 14
-https://www.ticketweb.ca/event/allan-rayman-overflow-brewing-co-tickets/14460913  # Tickets for Allan Rayman - Nov 16
-https://www.ticketweb.ca/event/ingested-w-ov-sulfur-cell-black-cat-tavern-tickets/14436193  # Tickets for INGESTED w/ Distant, Ov Sulfur, Cell & Crucifiction - Nov 16
-https://www.ticketweb.ca/event/ingested-evisceratour-2025-the-park-theatre-tickets/14440963  # Tickets for Ingested - Evisceratour 2025 with Ov Sulfur & Cell - Nov 16
-https://www.ticketweb.ca/event/kerala-dust-fortune-sound-club-tickets/13813424  # Tickets for Kerala Dust - Nov 17
-https://www.ticketweb.ca/event/ingested-ov-sulfur-cell-the-hub-tickets/14451013  # Tickets for Ingested, Ov Sulfur, CELL - Nov 21
-https://www.ticketweb.ca/event/alicia-moffet-dominique-way-the-bronson-tickets/14423973  # Tickets for Alicia Moffet, Dominique Way - Nov 30
+# === April 2026 ===
+https://www.ticketweb.ca/event/art-brut-bang-bang-rock-the-horseshoe-tavern-tickets/14676783  # Tickets for ART BRUT: Bang Bang Rock and Roll plus Greatest Hits - Apr 14
+https://www.ticketweb.ca/event/death-by-stereo-w-la-the-buckingham-tickets/14053904  # Tickets for Death By Stereo w/ La Armada & Knife Fight In The OR - Apr 14
+https://www.ticketweb.ca/event/the-antlers-longboat-hall-tickets/14646293  # Tickets for The Antlers - Apr 15
+https://www.ticketweb.ca/event/death-by-stereo-armada-bos-bar-stage-tickets/14066304  # Tickets for DEATH BY STEREO & ARMADA I BO'S BAR & STAGE - Apr 17
+https://www.ticketweb.ca/event/death-by-stereo-w-la-modern-love-tickets/14053924  # Tickets for Death By Stereo w/ La Armada & Pridelands - Apr 17
+https://www.ticketweb.ca/event/cancer-bats-celebrating-the-pearl-tickets/14011584  # Tickets for CANCER BATS - CELEBRATING 20 YEARS OF BIRTHING THE GIANT - Apr 18
+https://www.ticketweb.ca/event/bambu-ft-trace-dprtmnt-tickets/14076134  # Tickets for BAMBU ft. TRACE - Apr 18
+https://www.ticketweb.ca/event/bon-jovi-tribute-spot-1-grill-music-tickets/14599583  # Tickets for BON JOVI TRIBUTE - KEEP THE FAITH - Apr 19
+https://www.ticketweb.ca/event/courtney-marie-andrews-longboat-hall-tickets/14634313  # Tickets for Courtney Marie Andrews - The Valentine Tour - Apr 19
+https://www.ticketweb.ca/event/death-by-stereo-la-sidestage-tickets/14066854  # Tickets for Death By Stereo - Apr 22
+https://www.ticketweb.ca/event/coach-party-the-sound-garage-tickets/14620113  # Tickets for Coach Party - Apr 23
 
-# === December 2025 ===
-https://www.ticketweb.ca/event/vincent-lima-to-hollywood-theatre-tickets/13871784  # Tickets for Vincent Lima - To Love A Thing That Fades 2025 Tour, Sydney Ross Mitchell - Dec 06
-https://www.ticketweb.ca/event/belmont-with-avoid-super-lees-palace-tickets/14328853  # Tickets for Belmont with Avoid & Super Sometimes - Dec 09
-https://www.ticketweb.ca/event/shawn-desman-jamie-fine-the-bronson-tickets/14461473  # Tickets for Shawn Desman, Jamie Fine - Dec 11
-https://www.ticketweb.ca/event/grandson-inertia-tour-the-phoenix-concert-theatre-tickets/13801014  # Tickets for grandson - INERTIA Tour - Presented By F7 Live - Dec 13
+# === May 2026 ===
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-commonwealth-bar-stage-tickets/13937224  # Tickets for Gabriel Rutledge - Don't Read the Comments - May 05

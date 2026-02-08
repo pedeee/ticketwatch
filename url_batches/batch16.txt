@@ -1,0 +1,30 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === February 2026 ===
+https://www.ticketweb.ca/event/samm-henshaw-presents-it-could-fortune-sound-club-tickets/14616123  # Tickets for Samm Henshaw Presents: "IT COULD BE WORSE", Ivan Hartle - Feb 08
+https://www.ticketweb.ca/event/arayansh-phoenixes-w-not-sneaky-dees-concert-venue-tickets/14055044  # Tickets for Arayansh & Phoenixes w/ Not All Humans & The Last Armada - Feb 08
+https://www.ticketweb.ca/event/ashleys-birthday-bash-w-femme-the-starlite-room-tickets/14083904  # Tickets for Ashley's Birthday Bash w/ Femme Voyous & Sister Suzie with Trudy Looking Glass, Chelsea Horrendous & Emmonia - Feb 08
+https://www.ticketweb.ca/event/bon-jovi-forever-the-rockpile-bar-nightclub-tickets/14054164  # Tickets for Bon Jovi Forever - Feb 15
+https://www.ticketweb.ca/event/blackgold-motowns-greatest-hits-under-the-neon-palms-at-tickets/14672363  # Tickets for BLACKGOLD Motown's Greatest Hits! - Feb 15
+https://www.ticketweb.ca/event/arkona-north-american-paganist-tour-the-garrison-tickets/14012264  # Tickets for Arkona: North American Paganist Tour 2026 - Feb 19
+https://www.ticketweb.ca/event/practically-hip-1-tribute-to-spot-1-grill-music-tickets/14547463  # Tickets for PRACTICALLY HIP #1 Tribute to TRAGICALLY HIP - Feb 21
+
+# === July 2026 ===
+https://www.ticketweb.ca/event/jasmine-elyse-sidestage-tickets/14023854  # Tickets for Jasmine Elyse - Jul 31
+
+# === September 2026 ===
+https://www.ticketweb.ca/event/krush-4-riley-london-music-hall-tickets/13995204  # Tickets for KRUSH 4 Riley - Sep 06
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/badlands-music-festival-with-levity-badlands-tent-tickets/14058904  # Unknown Event - No date found
+https://www.ticketweb.ca/event/new-liskeard-ram-rodeo-2026-new-liskeard-fair-grounds-tickets/13977334  # Unknown Event - No date found
+https://www.ticketweb.ca/event/new-liskeard-ram-rodeo-2026-new-liskeard-fair-grounds-tickets/13977344  # Unknown Event - No date found
+https://www.ticketweb.ca/event/marlon-magne-of-la-femme-the-great-hall-tickets/14680433  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hammerfall-freedom-world-the-phoenix-concert-theatre-tickets/13990574  # Unknown Event - No date found
+https://www.ticketweb.ca/event/strictly-sabbath-tribute-to-the-rockpile-bar-nightclub-tickets/14061684  # Unknown Event - No date found
+https://www.ticketweb.ca/event/afrogasm-presented-by-pawn-shop-live-formally-known-tickets/14053324  # Unknown Event - No date found
+https://www.ticketweb.ca/event/phil-hanley-london-music-hall-tickets/14565313  # Unknown Event - No date found
+https://www.ticketweb.ca/event/lola-kirke-with-special-guests-the-wise-hall-tickets/14648403  # Unknown Event - No date found
+https://www.ticketweb.ca/event/harm-ease-the-27-club-tickets/14552423  # Unknown Event - No date found
+https://www.ticketweb.ca/event/stacked-pres-sota-van-village-studios-tickets/14663463  # Unknown Event - No date found

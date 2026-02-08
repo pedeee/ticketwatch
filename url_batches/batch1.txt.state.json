@@ -1,1 +1,222 @@
-{}
+{
+  "https://www.ticketweb.ca/event/soap-scum-presents-space-quest-sidestage-tickets/13979094": {
+    "title": "Tickets for Soap Scum Presents: Space Quest",
+    "price": 13.08,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-11T00:30:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/new-age-outlaws-w-derivative-sneaky-dees-concert-venue-tickets/14080204": {
+    "title": "Tickets for New Age Outlaws w/ Derivative & Low Midi",
+    "price": 16.48,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-14T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/perfect-limbs-w-endless-nullifier-hard-luck-bar-tickets/14062584": {
+    "title": "Tickets for Perfect Limbs w/ Endless, Nullifier & Living With Ghosts",
+    "price": 16.48,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-14T01:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/lydia-lunch-marc-hurtado-lees-palace-tickets/14593493": {
+    "title": "Tickets for Lydia Lunch & Marc Hurtado with Olga",
+    "price": 34.33,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-14T02:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/tyler-shaw-the-bronson-tickets/14724093": {
+    "title": "Tickets for Tyler Shaw, Patrick Thomas, Emma Lamontagne",
+    "price": 44.67,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": true,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-15T00:30:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/playhouse-pres-chris-lorenzo-celebrities-nightclub-tickets/14638783": {
+    "title": "Tickets for Playhouse Pres: Chris Lorenzo",
+    "price": null,
+    "price_range": null,
+    "soldout": true,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": true,
+    "event_dt": "2026-02-15T03:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/landon-conrath-the-sound-garage-tickets/14605273": {
+    "title": "Tickets for Landon Conrath",
+    "price": 28.75,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-03-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/puma-blue-lees-palace-tickets/14628733": {
+    "title": "Tickets for Puma Blue",
+    "price": 48.56,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-03-04T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kaivon-noir-inside-rebel-tickets/14677203": {
+    "title": "Tickets for KAIVON",
+    "price": 37.49,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": true,
+    "sold_out_banner": false,
+    "event_dt": "2026-03-29T02:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/baths-lees-palace-tickets/14678593": {
+    "title": "Tickets for Baths",
+    "price": 34.84,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-04-03T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/ahmed-soultan-the-dance-cave-tickets/13861794": {
+    "title": "Tickets for Ahmed Soultan",
+    "price": 57.9,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-04-05T01:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/honeymoon-suite-red-deer-resort-casino-tickets/13984944": {
+    "title": "Tickets for Honeymoon Suite",
+    "price": 82.09,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-15T01:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/harm-ease-the-mansion-tickets/14552443": {
+    "title": "Tickets for Harm & Ease - Afterlife Album Release Tour w/ Rogue Rising, Michelle Owen & The Works",
+    "price": 26.18,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-15T01:30:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/twilight-symphony-rock-casa-loma-tickets/13989304": {
+    "title": "Tickets for Twilight Symphony - Rock Symphony",
+    "price": 87.29,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-03-07T00:30:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/kiss-disco-harry-styles-x-the-starlite-room-tickets/14092854": {
+    "title": "Tickets for KISS DISCO: Harry Styles x 1D Dance Party Edmonton at Starlite Room",
+    "price": 10.0,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-03-07T02:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/miina-sidestage-tickets/14067224": {
+    "title": "Tickets for MIINA",
+    "price": 23.38,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-04-01T00:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/playhouse-presents-karsten-sollors-celebrities-nightclub-tickets/14069354": {
+    "title": "Tickets for Playhouse Presents: KARSTEN SOLLORS",
+    "price": null,
+    "price_range": null,
+    "soldout": true,
+    "cancelled": false,
+    "terminated": true,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-08T03:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/cedric-burnside-with-special-guests-the-pearl-tickets/13981794": {
+    "title": "Tickets for Cedric Burnside with Jimi",
+    "price": 34.33,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": false,
+    "sold_out_banner": false,
+    "event_dt": "2026-02-09T01:00:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/orbit-culture-ov-sulfur-atlas-the-bronson-tickets/14680063": {
+    "title": "Tickets for Orbit Culture, Ov Sulfur, Atlas",
+    "price": 52.65,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": true,
+    "sold_out_banner": false,
+    "event_dt": "2026-03-07T00:30:00+00:00"
+  },
+  "https://www.ticketweb.ca/event/danny-avila-north-dprtmnt-tickets/14730403": {
+    "title": "Tickets for DANNY AVILA - NORTH AMERICA TOUR",
+    "price": 41.84,
+    "price_range": null,
+    "soldout": false,
+    "cancelled": false,
+    "terminated": false,
+    "presale": true,
+    "sold_out_banner": false,
+    "event_dt": "2026-03-07T03:30:00+00:00"
+  }
+}

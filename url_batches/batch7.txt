@@ -1,0 +1,28 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === February 2026 ===
+https://www.ticketweb.ca/event/grateful-dead-tribute-pounds-of-lees-palace-tickets/14707453  # Tickets for Grateful Dead Tribute Pounds of Sin - Feb 22
+https://www.ticketweb.ca/event/margo-price-the-phoenix-concert-theatre-tickets/14593573  # Tickets for Margo Price - Feb 26
+
+# === March 2026 ===
+https://www.ticketweb.ca/event/damn-good-comedy-show-the-rec-room-tickets/14106664  # Tickets for Damn Good Comedy Show - Mar 01
+https://www.ticketweb.ca/event/dallas-snl-orangeman-dallas-tickets/14668183  # Tickets for Dallas SNL: Orangeman - Mar 08
+https://www.ticketweb.ca/event/led-zeppelin-tribute-zepology-spot-1-grill-music-tickets/14547523  # Tickets for LED ZEPPELIN Tribute ZEPOLOGY - Mar 08
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/bad-cupid-k-pop-dance-the-park-theatre-tickets/14671083  # Unknown Event - No date found
+https://www.ticketweb.ca/event/rossi-coda-tickets/14724663  # Unknown Event - No date found
+https://www.ticketweb.ca/event/stacked-pres-nikita-the-wicked-village-studios-tickets/14674483  # Unknown Event - No date found
+https://www.ticketweb.ca/event/charli-xcx-night-the-pearl-tickets/14106894  # Unknown Event - No date found
+https://www.ticketweb.ca/event/facs-with-so-tired-the-dance-cave-tickets/14648933  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gothic-valentines-with-give-my-the-dance-cave-tickets/14083914  # Unknown Event - No date found
+https://www.ticketweb.ca/event/anthems-a-tribute-good-co-granville-tickets/14108354  # Unknown Event - No date found
+https://www.ticketweb.ca/event/hawksley-workman-the-starlite-room-tickets/14017814  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ampocalypse-w-juliet-ruin-all-the-starlite-room-tickets/13987064  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gorilla-biscuits-the-pearl-tickets/14006284  # Unknown Event - No date found
+https://www.ticketweb.ca/event/chencho-corleone-rebel-tickets/13975754  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ben-bankas-the-venue-tickets/14100084  # Unknown Event - No date found
+https://www.ticketweb.ca/event/siakol-union-hall-tickets/14706943  # Unknown Event - No date found
+https://www.ticketweb.ca/event/twilight-symphony-broadway-casa-loma-tickets/13989334  # Unknown Event - No date found
+https://www.ticketweb.ca/event/glitterer-graham-hunt-prize-horse-rainbow-bistro-tickets/14622613  # Unknown Event - No date found

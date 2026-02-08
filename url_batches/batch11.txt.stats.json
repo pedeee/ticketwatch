@@ -1,0 +1,67 @@
+{
+  "monitored_count": 8,
+  "failed_count": 12,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/tep-no-with-special-guests-the-dance-cave-tickets/14726283",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575170"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/daft-punk-night-lees-palace-tickets/14058244",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575173"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/daft-punk-night-sidestage-tickets/14058234",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575174"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/devault-at-system-saturdays-rum-runners-tickets/14079804",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575175"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mk-dprtmnt-tickets/14720733",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575176"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/valentines-day-w-neon-steve-commonundrgrd-tickets/14076174",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575177"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/braden-bales-x-ezra-with-the-fox-cabaret-tickets/14003114",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575178"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/valiant-passenger-princess-deluxe-tour-rebel-tickets/14725733",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575179"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/christopher-owens-the-garrison-tickets/14698733",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575180"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/floyd-factor-tribute-to-the-rockpile-bar-nightclub-tickets/13985284",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575181"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/neil-diamond-tribute-featuring-will-spot-1-grill-music-tickets/13870464",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575182"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/crusy-coda-tickets/14725233",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:56:38.575183"
+    }
+  ]
+}

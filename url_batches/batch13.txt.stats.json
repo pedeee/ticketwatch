@@ -1,0 +1,82 @@
+{
+  "monitored_count": 5,
+  "failed_count": 15,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/infekt-port-zero-tour-dprtmnt-tickets/14602053",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773367"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/playhouse-pres-marco-strous-celebrities-nightclub-tickets/14093074",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773374"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/canadian-blues-music-awards-celebrating-the-phoenix-concert-theatre-tickets/14708623",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773376"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/east-coast-experience-the-bronson-tickets/14726703",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773377"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/crazy-babies-the-rockpile-bar-nightclub-tickets/14027104",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773378"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/yuuf-with-special-guests-the-fox-cabaret-tickets/14702323",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773380"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/curbi-village-studios-tickets/14013184",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773381"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/skrizzly-adams-the-27-club-tickets/14596213",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773382"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/daft-punk-night-the-27-club-tickets/14058264",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:22.773383"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/parlor-greens-with-special-guests-the-fox-cabaret-tickets/14632373",
+      "reason": "Error: Page.goto: net::ERR_NETWORK_CHANGED at https://www",
+      "timestamp": "2026-02-06T17:57:22.773384"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/dark-divine-w-not-enough-hard-luck-bar-tickets/14075934",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T17:57:22.773385"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/morre-the-dance-cave-tickets/14643063",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T17:57:22.773386"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/ely-oaks-village-studios-tickets/14726543",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T17:57:22.773387"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/westend-dprtmnt-tickets/13999454",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T17:57:22.773388"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/danny-avila-presented-pawn-shop-live-formally-known-tickets/14730483",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T17:57:22.773389"
+    }
+  ]
+}

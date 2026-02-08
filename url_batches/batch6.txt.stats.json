@@ -1,0 +1,73 @@
+{
+  "monitored_count": 8,
+  "failed_count": 12,
+  "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/big-sugar-hemi-upstairs-tickets/14699293",
+      "title": "Tickets for Big Sugar - Hemi-Vision 30th Anniversary Tour",
+      "event_dt": "2026-02-08T01:00:00+00:00"
+    }
+  ],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/20th-annual-bob-marley-birthday-lees-palace-tickets/14613143",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965708"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/hartlet-small-town-strip-club-rum-runners-tickets/14006214",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965711"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jade-eagleson-london-music-hall-tickets/14574453",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965713"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/harm-ease-with-army-biltmore-theatre-tickets/14003074",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965714"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/bassjackers-presented-by-pawn-shop-live-formally-known-tickets/13976784",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965715"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/lola-kirke-longboat-hall-tickets/14646273",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965716"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/for-real-fridays-celebrities-nightclub-tickets/14015534",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965717"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-war-and-treaty-rum-runners-tickets/14709193",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965718"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/harm-ease-with-special-drake-underground-tickets/14003004",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965719"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/the-itchy-scratchy-show-spot-1-grill-music-tickets/14075144",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965720"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/chords-for-care-the-park-theatre-tickets/14604503",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965721"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/mike-rita-stand-the-park-theatre-tickets/14591983",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:39.965722"
+    }
+  ]
+}

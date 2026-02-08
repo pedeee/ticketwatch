@@ -1,302 +1,68 @@
 {
-  "monitored_count": 0,
-  "failed_count": 59,
-  "sold_out_events": [],
+  "monitored_count": 9,
+  "failed_count": 11,
+  "sold_out_events": [
+    {
+      "url": "https://www.ticketweb.ca/event/aldous-harding-hollywood-theatre-tickets/14012894",
+      "title": "Tickets for Aldous Harding",
+      "event_dt": "2026-09-25T23:00:00+00:00"
+    }
+  ],
   "failed_urls": [
     {
-      "url": "https://www.ticketweb.ca/event/ptit-belliveau-with-special-guests-lees-palace-tickets/13949733",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626644"
+      "url": "https://www.ticketweb.ca/event/saxsquatch-with-special-guests-the-pearl-tickets/13951324",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595848"
     },
     {
-      "url": "https://www.ticketweb.ca/event/mark-william-lewis-samba-jean-the-fox-cabaret-tickets/14489263",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626653"
+      "url": "https://www.ticketweb.ca/event/children-of-metal-with-full-lees-palace-tickets/14608253",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595851"
     },
     {
-      "url": "https://www.ticketweb.ca/event/casey-lowery-with-special-guests-the-fox-cabaret-tickets/14294383",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626655"
+      "url": "https://www.ticketweb.ca/event/alpha-wolf-let-it-rip-rum-runners-tickets/14084384",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595852"
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-overflow-brewing-co-tickets/14458223",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626656"
+      "url": "https://www.ticketweb.ca/event/clan-of-xymox-with-rosa-the-phoenix-concert-theatre-tickets/14683013",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595853"
     },
     {
-      "url": "https://www.ticketweb.ca/event/the-stews-with-special-guests-the-fox-cabaret-tickets/14304313",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626657"
+      "url": "https://www.ticketweb.ca/event/archspire-long-roads-the-phoenix-concert-theatre-tickets/13999204",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595854"
     },
     {
-      "url": "https://www.ticketweb.ca/event/mad-caddies-w-the-anti-lees-palace-tickets/13687534",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626658"
+      "url": "https://www.ticketweb.ca/event/antonio-larosa-honeybear-the-pearl-tickets/13970954",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595855"
     },
     {
-      "url": "https://www.ticketweb.ca/event/riell-with-special-guests-the-dance-cave-tickets/14314393",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626659"
+      "url": "https://www.ticketweb.ca/event/ian-bw-w-vends-ghoulfriend-sneaky-dees-concert-venue-tickets/14055074",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595856"
     },
     {
-      "url": "https://www.ticketweb.ca/event/leclair-with-special-guests-the-fox-cabaret-tickets/14402423",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626660"
+      "url": "https://www.ticketweb.ca/event/80s-gone-wild-spot-1-grill-music-tickets/14082144",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595857"
     },
     {
-      "url": "https://www.ticketweb.ca/event/gui-boratto-coda-tickets/13804684",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626661"
+      "url": "https://www.ticketweb.ca/event/emeline-emotional-virgin-drake-underground-tickets/14057644",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595858"
     },
     {
-      "url": "https://www.ticketweb.ca/event/northsidebenji-the-pearl-tickets/13824124",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626662"
+      "url": "https://www.ticketweb.ca/event/dallas-snl-orangeman-dallas-tickets/14668213",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595859"
     },
     {
-      "url": "https://www.ticketweb.ca/event/dwarves-burnt-knives-harm-school-the-rockpile-bar-nightclub-tickets/14454513",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626663"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/the-exploited-spades-gt-the-rockpile-bar-nightclub-tickets/14454583",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626664"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/fly-by-midnight-with-special-lees-palace-tickets/14024073",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626665"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/yin-yin-with-special-guests-lees-palace-tickets/14454253",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626666"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/frankie-and-the-witch-fingers-lees-palace-tickets/14273673",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626667"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/twinsick-dprtmnt-tickets/13792534",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626668"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pool-kids-the-baby-g-tickets/13785504",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626669"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/jo-dolo-going-rum-runners-tickets/13781094",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626670"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ken-yates-presented-the-fox-cabaret-tickets/13804604",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626671"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/the-brian-jonestown-massacre-with-the-pearl-tickets/14217453",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626671"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sextile-automatic-velvet-underground-tickets/14419013",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626672"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/autoheart-the-heartlands-the-pearl-tickets/14388293",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626673"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/14440843",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626674"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-the-pearl-tickets/14320283",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626690"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/hunx-his-punx-with-lees-palace-tickets/14314433",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626696"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/frost-children-the-fox-cabaret-tickets/14234363",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626697"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/jazz-emu-the-pleasure-is-the-garrison-tickets/14278633",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626699"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/hotel-mira-w-bleeker-lees-palace-tickets/14464363",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626700"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/night-tapes-portalspolarities-lees-palace-tickets/14027813",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626701"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/anika-w-avishag-cohen-rodrigues-the-dance-cave-tickets/13714694",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626720"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/crypta-the-garrison-tickets/14410873",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626721"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/maria-somerville-w-special-guests-the-garrison-tickets/14462713",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626722"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/playhouse-presents-ilan-bluestone-celebrities-nightclub-tickets/13828314",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626723"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/corbin-hollywood-theatre-tickets/13804754",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626724"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/haru-nemuri-presented-the-horseshoe-tavern-tickets/14364813",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626725"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/tropical-fuck-storm-w-special-lees-palace-tickets/14317243",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626727"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/ben-caplan-w-special-guests-the-fox-cabaret-tickets/14440943",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626727"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/system-a-la-down-blimplizkit-the-rockpile-bar-nightclub-tickets/14439283",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626728"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/felly-with-special-guests-the-pearl-tickets/14025623",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626729"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/wombo-w-shower-curtain-the-dance-cave-tickets/14361883",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626730"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/night-moves-with-special-guests-fortune-sound-club-tickets/14313643",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626894"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/the-dirty-nil-london-music-hall-tickets/14382943",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626896"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/willi-carlisle-winged-the-fox-cabaret-tickets/14239013",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626897"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/bambara-the-dance-cave-tickets/13742844",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626898"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pixel-grip-w-special-guests-lees-palace-tickets/14320293",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626899"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/future-palace-hawk-half-me-lees-palace-tickets/13728454",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626899"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/dakhabrakha-with-special-guests-the-pearl-tickets/14208483",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626900"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/the-bridge-city-sinners-w-london-music-hall-tickets/14462073",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626901"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/bonus-stage-ultimate-the-pearl-tickets/13806754",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626902"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/rhapsody-of-fire-enforcer-striker-the-garrison-tickets/13763604",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626903"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/duke-dumont-rebel-tickets/13829414",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626904"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/panzerfaust-groza-at-lees-lees-palace-tickets/13807124",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626905"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/hayden-pedigo-jens-kuross-the-wise-hall-tickets/13784714",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626905"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/pypy-with-special-guests-the-dance-cave-tickets/13993083",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626907"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/anvil-the-bronson-tickets/13802394",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626907"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/belakor-solemn-vision-lees-palace-tickets/14300353",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626908"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/the-exploited-burnt-knives-the-rockpile-bar-nightclub-tickets/14454623",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626909"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/sacrifice-the-concert-hall-tickets/14386373",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626910"
-    },
-    {
-      "url": "https://www.ticketweb.ca/event/skinshape-with-sons-of-sevilla-lees-palace-tickets/13755964",
-      "reason": "Page timeout or loading issue",
-      "timestamp": "2025-09-14T17:45:22.626911"
+      "url": "https://www.ticketweb.ca/event/dead-calm-lees-palace-tickets/14093264",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:54:09.595860"
     }
   ]
 }

@@ -1,0 +1,99 @@
+name: 🎟️ Ticketwatch Conservative Monitor (All 26 Batches)
+
+on:
+  schedule:
+    # Run every 12 hours (ultra-conservative frequency)
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+    # Allow manual trigger for testing
+    inputs:
+      batches:
+        description: 'Batches to run (e.g., "1-5" or "all")'
+        required: false
+        default: 'all'
+
+jobs:
+  # Run all batches SEQUENTIALLY with delays between them
+  run-all-batches:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180  # 3 hours max
+    
+    env:
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT: ${{ secrets.TG_CHAT }}
+      GITHUB_ACTIONS: "true"
+      
+    steps:
+    - name: 🚀 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        playwright install chromium
+        playwright install-deps chromium
+
+    - name: 🎟️ Run All Batches Sequentially (Ultra-Conservative)
+      run: |
+        echo "🚀 Starting ultra-conservative batch scan..."
+        echo "⚙️  Settings: Sequential processing, 2-min delays between batches"
+        echo "📊 Total batches: 26 (20 URLs each)"
+        echo ""
+        
+        # Track overall stats
+        total_batches=26
+        successful_batches=0
+        failed_batches=0
+        
+        # Run each batch sequentially with delays
+        for i in {1..26}; do
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🔄 Processing batch $i/$total_batches..."
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          if python ticketwatch_v2.py url_batches/batch$i.txt; then
+            echo "✅ Batch $i completed successfully"
+            ((successful_batches++))
+          else
+            echo "❌ Batch $i failed"
+            ((failed_batches++))
+          fi
+          
+          # Add 2-minute delay between batches (except after last batch)
+          if [ $i -lt $total_batches ]; then
+            echo ""
+            echo "⏳ Waiting 2 minutes before next batch..."
+            sleep 120
+            echo ""
+          fi
+        done
+        
+        echo ""
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "📊 FINAL SUMMARY"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "✅ Successful batches: $successful_batches/$total_batches"
+        echo "❌ Failed batches: $failed_batches/$total_batches"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        
+        # Fail the job if any batches failed
+        if [ $failed_batches -gt 0 ]; then
+          exit 1
+        fi
+
+    - name: 📤 Commit and push changes
+      if: always()
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add url_batches/*.json url_batches/*.txt
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update: Batch scan results [skip ci]"
+        git push || echo "⚠️  No changes to push"

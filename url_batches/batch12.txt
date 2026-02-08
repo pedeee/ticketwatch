@@ -1,0 +1,26 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === February 2026 ===
+https://www.ticketweb.ca/event/last-dinosaurs-wellness-10yr-anniversary-commonwealth-bar-stage-tickets/14632833  # Tickets for Last Dinosaurs Wellness 10YR Anniversary Tour - Feb 18
+https://www.ticketweb.ca/event/jason-ellis-the-laugh-shop-tickets/14664713  # Tickets for Jason Ellis - Feb 19
+https://www.ticketweb.ca/event/jason-ellis-the-park-theatre-tickets/14660173  # Tickets for Jason Ellis - Feb 20
+https://www.ticketweb.ca/event/round-3-wacken-metal-battle-the-starlite-room-tickets/14095444  # Tickets for Round 3 Wacken Metal Battle w/ Fall of Earth, From the Ground Up, Per Velum, Ember, Ashes of Yggdrasil - Feb 20
+https://www.ticketweb.ca/event/ria-mae-with-special-guests-sidestage-tickets/14600273  # Tickets for Ria Mae with Special Guests - Feb 20
+https://www.ticketweb.ca/event/to-the-bright-future-the-park-theatre-tickets/14606613  # Tickets for To the Bright Future - Feb 21
+https://www.ticketweb.ca/event/the-sun-ra-arkestra-the-pearl-tickets/13974494  # Tickets for The Sun Ra Arkestra - Feb 25
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/crusy-at-system-sunday-rum-runners-tickets/13977174  # Unknown Event - No date found
+https://www.ticketweb.ca/event/real-love-long-weekend-celebrities-nightclub-tickets/14102724  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jully-black-london-music-hall-tickets/14615493  # Unknown Event - No date found
+https://www.ticketweb.ca/event/lola-kirke-with-sabine-mccalla-the-wise-hall-tickets/14648403  # Unknown Event - No date found
+https://www.ticketweb.ca/event/camoufly-runnymede-hall-tickets/14665743  # Unknown Event - No date found
+https://www.ticketweb.ca/event/daft-punk-night-double-dragon-tickets/14058214  # Unknown Event - No date found
+https://www.ticketweb.ca/event/berner-still-smokin-fortune-sound-club-tickets/13971934  # Unknown Event - No date found
+https://www.ticketweb.ca/event/round-4-wacken-metal-battle-the-starlite-room-tickets/14096024  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dead-days-falls-for-the-rum-runners-tickets/14067194  # Unknown Event - No date found
+https://www.ticketweb.ca/event/your-new-neighbours-spot-1-grill-music-tickets/14022784  # Unknown Event - No date found
+https://www.ticketweb.ca/event/daft-punk-night-studio-919-previously-known-as-tickets/14058204  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yoi-toki-a-lees-palace-tickets/14010084  # Unknown Event - No date found
+https://www.ticketweb.ca/event/current-swell-bos-bar-stage-tickets/14706413  # Unknown Event - No date found

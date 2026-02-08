@@ -1,0 +1,28 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === March 2026 ===
+https://www.ticketweb.ca/event/daft-punk-night-the-pearl-tickets/14058104  # Tickets for Daft Punk Night - Mar 01
+https://www.ticketweb.ca/event/dream-ivory-the-sound-garage-tickets/14607293  # Tickets for Dream, Ivory - Mar 14
+https://www.ticketweb.ca/event/jeremy-hotz-the-great-hall-tickets/14601113  # Tickets for Jeremy Hotz - Mar 14
+https://www.ticketweb.ca/event/playhouse-pres-nic-fanciulli-celebrities-nightclub-tickets/14088204  # Tickets for Playhouse Pres: Nic Fanciulli - Mar 29
+
+# === April 2026 ===
+https://www.ticketweb.ca/event/the-barr-brothers-bos-bar-stage-tickets/14613563  # Tickets for The Barr Brothers - Let It Hiss tour w/ Georgia Harmer - Apr 01
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/daft-punk-night-the-27-club-tickets/14058264  # Unknown Event - No date found
+https://www.ticketweb.ca/event/playhouse-pres-marco-strous-celebrities-nightclub-tickets/14093074  # Unknown Event - No date found
+https://www.ticketweb.ca/event/crazy-babies-the-rockpile-bar-nightclub-tickets/14027104  # Unknown Event - No date found
+https://www.ticketweb.ca/event/curbi-village-studios-tickets/14013184  # Unknown Event - No date found
+https://www.ticketweb.ca/event/dark-divine-w-not-enough-hard-luck-bar-tickets/14075934  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ely-oaks-village-studios-tickets/14726543  # Unknown Event - No date found
+https://www.ticketweb.ca/event/infekt-port-zero-tour-dprtmnt-tickets/14602053  # Unknown Event - No date found
+https://www.ticketweb.ca/event/east-coast-experience-the-bronson-tickets/14726703  # Unknown Event - No date found
+https://www.ticketweb.ca/event/skrizzly-adams-the-27-club-tickets/14596213  # Unknown Event - No date found
+https://www.ticketweb.ca/event/morre-the-dance-cave-tickets/14643063  # Unknown Event - No date found
+https://www.ticketweb.ca/event/westend-dprtmnt-tickets/13999454  # Unknown Event - No date found
+https://www.ticketweb.ca/event/danny-avila-presented-pawn-shop-live-formally-known-tickets/14730483  # Unknown Event - No date found
+https://www.ticketweb.ca/event/canadian-blues-music-awards-celebrating-the-phoenix-concert-theatre-tickets/14708623  # Unknown Event - No date found
+https://www.ticketweb.ca/event/yuuf-with-special-guests-the-fox-cabaret-tickets/14702323  # Unknown Event - No date found
+https://www.ticketweb.ca/event/parlor-greens-with-special-guests-the-fox-cabaret-tickets/14632373  # Unknown Event - No date found

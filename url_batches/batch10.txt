@@ -1,0 +1,30 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === May 2026 ===
+https://www.ticketweb.ca/event/kings-of-thrash-the-rockpile-bar-nightclub-tickets/14609223  # Tickets for Kings of Thrash - May 01
+https://www.ticketweb.ca/event/holy-fuck-with-memorials-studio-919-previously-known-as-tickets/14062194  # Tickets for HOLY FUCK with MEMORIALS - May 08
+https://www.ticketweb.ca/event/robert-lester-folsom-with-special-the-wise-hall-tickets/14585673  # Tickets for Robert Lester Folsom with special guest Kassi Valazza - May 17
+https://www.ticketweb.ca/event/grey-highlands-ram-rodeo-2026-osprey-community-centre-tickets/13977294  # Tickets for Grey Highlands ram Rodeo 2026 - Sunday - May 24
+https://www.ticketweb.ca/event/cat-clyde-rum-runners-tickets/13991114  # Tickets for CAT CLYDE - May 30
+
+# === June 2026 ===
+https://www.ticketweb.ca/event/fruit-loop-the-starlite-room-tickets/14109414  # Tickets for Fruit Loop - Jun 14
+
+# === July 2026 ===
+https://www.ticketweb.ca/event/erin-ram-rodeo-2026-erin-agricultural-society-tickets/13982164  # Tickets for Erin RAM Rodeo 2026 - Sunday - Jul 19
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/front-line-assembly-with-shallow-lees-palace-tickets/14571853  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-studio-919-previously-known-as-tickets/14563033  # Unknown Event - No date found
+https://www.ticketweb.ca/event/grey-highlands-ram-rodeo-2026-osprey-community-centre-tickets/13977274  # Unknown Event - No date found
+https://www.ticketweb.ca/event/goat-the-concert-hall-tickets/14702453  # Unknown Event - No date found
+https://www.ticketweb.ca/event/erin-ram-rodeo-2026-erin-agricultural-society-tickets/13982124  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jay-siegels-tokens-w-vanity-lees-palace-tickets/14729633  # Unknown Event - No date found
+https://www.ticketweb.ca/event/keiino-chromium-heart-tour-under-the-neon-palms-at-tickets/14091484  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-the-starlite-room-tickets/13940554  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-the-pearl-tickets/13937594  # Unknown Event - No date found
+https://www.ticketweb.ca/event/inji-this-tour-is-superlame-fortune-sound-club-tickets/14690603  # Unknown Event - No date found
+https://www.ticketweb.ca/event/forbidden-nights-uk-the-starlite-room-tickets/14735623  # Unknown Event - No date found
+https://www.ticketweb.ca/event/erin-ram-rodeo-2026-erin-agricultural-society-tickets/13982154  # Unknown Event - No date found
+https://www.ticketweb.ca/event/feel-the-magic-2026-world-the-park-theatre-tickets/13998304  # Unknown Event - No date found

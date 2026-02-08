@@ -1,0 +1,26 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === February 2026 ===
+https://www.ticketweb.ca/event/dr-feelgood-motley-the-rockpile-bar-nightclub-tickets/14023914  # Tickets for Dr Feelgood - Motley Crue Tribute - Feb 07
+https://www.ticketweb.ca/event/from-the-hip-bondst-event-centre-tickets/13973454  # Tickets for From The Hip - Feb 07
+https://www.ticketweb.ca/event/elephante-free-before-pawn-shop-live-formally-known-tickets/14029884  # Tickets for ELEPHANTE - FREE BEFORE 10:30PM - Feb 07
+https://www.ticketweb.ca/event/big-sugar-hemi-upstairs-tickets/14699293  # Tickets for Big Sugar - Hemi-Vision 30th Anniversary Tour - Feb 08
+https://www.ticketweb.ca/event/hawksley-workman-the-pearl-tickets/14635173  # Tickets for Hawksley Workman - Feb 13
+https://www.ticketweb.ca/event/stacked-pres-nikita-the-wicked-commonwealth-bar-stage-tickets/14674493  # Tickets for Stacked Pres: Nikita the Wicked (CALG) - Feb 13
+https://www.ticketweb.ca/event/elfrida-w-weather-wise-drake-underground-tickets/14062484  # Tickets for Elfrida w/ Weather Wise & Lucky Honey - Feb 14
+https://www.ticketweb.ca/event/ad-infinitum-seven-spires-tulip-the-garrison-tickets/13986724  # Tickets for Ad Infinitum, Seven Spires, Tulip - Feb 14
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/hartlet-small-town-strip-club-rum-runners-tickets/14006214  # Unknown Event - No date found
+https://www.ticketweb.ca/event/for-real-fridays-celebrities-nightclub-tickets/14015534  # Unknown Event - No date found
+https://www.ticketweb.ca/event/harm-ease-with-special-drake-underground-tickets/14003004  # Unknown Event - No date found
+https://www.ticketweb.ca/event/chords-for-care-the-park-theatre-tickets/14604503  # Unknown Event - No date found
+https://www.ticketweb.ca/event/20th-annual-bob-marley-birthday-lees-palace-tickets/14613143  # Unknown Event - No date found
+https://www.ticketweb.ca/event/jade-eagleson-london-music-hall-tickets/14574453  # Unknown Event - No date found
+https://www.ticketweb.ca/event/lola-kirke-longboat-hall-tickets/14646273  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-war-and-treaty-rum-runners-tickets/14709193  # Unknown Event - No date found
+https://www.ticketweb.ca/event/mike-rita-stand-the-park-theatre-tickets/14591983  # Unknown Event - No date found
+https://www.ticketweb.ca/event/harm-ease-with-army-biltmore-theatre-tickets/14003074  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bassjackers-presented-by-pawn-shop-live-formally-known-tickets/13976784  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-itchy-scratchy-show-spot-1-grill-music-tickets/14075144  # Unknown Event - No date found

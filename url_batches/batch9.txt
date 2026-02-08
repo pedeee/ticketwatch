@@ -1,0 +1,26 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === April 2026 ===
+https://www.ticketweb.ca/event/die-krupps-45th-anniversary-tour-dickens-pub-tickets/13991434  # Tickets for DIE KRUPPS 45th Anniversary Tour - Apr 09
+https://www.ticketweb.ca/event/dirty-three-the-concert-hall-tickets/14647183  # Tickets for Dirty Three - Apr 10
+https://www.ticketweb.ca/event/jkyl-hyde-noir-inside-rebel-tickets/14681613  # Tickets for JKYL & HYDE - Apr 12
+https://www.ticketweb.ca/event/jesse-roper-w-special-guests-the-starlite-room-tickets/14734423  # Tickets for Jesse Roper w/ Special Guests - Apr 16
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-the-hub-tickets/13937414  # Tickets for Gabriel Rutledge - Don't Read The Comments Tour - Apr 24
+https://www.ticketweb.ca/event/fred-eaglesmith-the-park-theatre-tickets/14318233  # Tickets for Fred Eaglesmith - Apr 26
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/boys-go-to-jupiter-drake-underground-tickets/13971134  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-watchmen-with-special-guests-the-bronson-tickets/13991164  # Unknown Event - No date found
+https://www.ticketweb.ca/event/die-krupps-45th-anniversary-tour-the-starlite-room-tickets/13991424  # Unknown Event - No date found
+https://www.ticketweb.ca/event/holy-fck-lees-palace-tickets/14064914  # Unknown Event - No date found
+https://www.ticketweb.ca/event/great-lake-swimmers-the-great-hall-tickets/14605363  # Unknown Event - No date found
+https://www.ticketweb.ca/event/lala-lala-the-garrison-tickets/14010224  # Unknown Event - No date found
+https://www.ticketweb.ca/event/easy-honey-the-sound-garage-tickets/14061884  # Unknown Event - No date found
+https://www.ticketweb.ca/event/flyte-with-special-guests-the-pearl-tickets/14031703  # Unknown Event - No date found
+https://www.ticketweb.ca/event/kim-churchill-w-guests-the-starlite-room-tickets/13954894  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-the-brass-monkey-tickets/13937374  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-the-great-hall-tickets/13937384  # Unknown Event - No date found
+https://www.ticketweb.ca/event/gabriel-rutledge-dont-west-end-cultural-centre-tickets/13937494  # Unknown Event - No date found
+https://www.ticketweb.ca/event/blackboard-blues-band-spot-1-grill-music-tickets/14099094  # Unknown Event - No date found
+https://www.ticketweb.ca/event/glow-2026-rebel-tickets/13998974  # Unknown Event - No date found

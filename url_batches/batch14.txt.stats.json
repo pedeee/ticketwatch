@@ -1,0 +1,62 @@
+{
+  "monitored_count": 9,
+  "failed_count": 11,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/queen-its-a-kinda-magic-london-music-hall-tickets/14626003",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T17:57:49.102445"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/omar-coda-tickets/14053944",
+      "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https",
+      "timestamp": "2026-02-06T17:57:49.102447"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/showtek-presented-by-pawn-shop-live-formally-known-tickets/14605433",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102449"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/rz-oye-estados-unidos-pt2-village-studios-tickets/14724493",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102450"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/robyn-hitchcock-live-and-the-horseshoe-tavern-tickets/13986834",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102455"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/kranium-pawn-shop-live-formally-known-tickets/14107334",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102456"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/san-pacho-celebrities-nightclub-tickets/14073974",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102457"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/nobro-w-special-guests-the-starlite-room-tickets/14573083",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102458"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/pink-pop-party-toronto-the-mod-club-tickets/13989624",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102459"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/raven-slackjaw-the-horseshoe-tavern-tickets/14075154",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102460"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/remember-sports-with-youbet-the-wise-hall-tickets/14713213",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:49.102461"
+    }
+  ]
+}

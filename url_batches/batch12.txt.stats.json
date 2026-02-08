@@ -1,0 +1,72 @@
+{
+  "monitored_count": 7,
+  "failed_count": 13,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/dead-days-falls-for-the-rum-runners-tickets/14067194",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785493"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/real-love-long-weekend-celebrities-nightclub-tickets/14102724",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785496"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/your-new-neighbours-spot-1-grill-music-tickets/14022784",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785497"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/lola-kirke-with-sabine-mccalla-the-wise-hall-tickets/14648403",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785498"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/daft-punk-night-studio-919-previously-known-as-tickets/14058204",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785499"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/yoi-toki-a-lees-palace-tickets/14010084",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785500"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/camoufly-runnymede-hall-tickets/14665743",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785501"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/crusy-at-system-sunday-rum-runners-tickets/13977174",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785502"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/current-swell-bos-bar-stage-tickets/14706413",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785503"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/daft-punk-night-double-dragon-tickets/14058214",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785504"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/berner-still-smokin-fortune-sound-club-tickets/13971934",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785505"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/jully-black-london-music-hall-tickets/14615493",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785506"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/round-4-wacken-metal-battle-the-starlite-room-tickets/14096024",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:57:00.785507"
+    }
+  ]
+}

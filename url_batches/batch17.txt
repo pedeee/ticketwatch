@@ -1,0 +1,28 @@
+# Ticketwatch URLs - Automatically sorted by event date
+# Format: URL  # Event Name - Date
+
+# === February 2026 ===
+https://www.ticketweb.ca/event/the-flatliners-chastity-cross-dog-bondst-event-centre-tickets/13969064  # Tickets for The Flatliners, Chastity, Cross Dog, Chuck Coles - Feb 22
+https://www.ticketweb.ca/event/stacked-pres-sota-calgary-commonundrgrd-tickets/14661323  # Tickets for Stacked Pres: Sota (Calgary) - Feb 22
+https://www.ticketweb.ca/event/bijou-at-system-saturdays-rum-runners-tickets/14068474  # Tickets for BIJOU at System Saturdays - Feb 22
+
+# === March 2026 ===
+https://www.ticketweb.ca/event/the-dillmans-w-midnight-diner-the-starlite-room-tickets/14085534  # Tickets for The Dillmans w/ Midnight Diner, Bad Communicators, Reasonable Creatures, Woodchild & Lewd Antics - Mar 01
+https://www.ticketweb.ca/event/steph-strings-sonic-hall-tickets/13994454  # Tickets for Steph Strings - Mar 07
+
+# === Events without dates ===
+https://www.ticketweb.ca/event/milk-bone-the-garrison-tickets/14640783  # Unknown Event - No date found
+https://www.ticketweb.ca/event/permanent-waves-under-the-neon-palms-at-tickets/13945294  # Unknown Event - No date found
+https://www.ticketweb.ca/event/def-leppard-tribute-definite-leppard-spot-1-grill-music-tickets/14599553  # Unknown Event - No date found
+https://www.ticketweb.ca/event/arco-celebrities-nightclub-tickets/14066104  # Unknown Event - No date found
+https://www.ticketweb.ca/event/belphegor-incantation-hate-narcotic-wasteland-lees-palace-tickets/14694473  # Unknown Event - No date found
+https://www.ticketweb.ca/event/bitchin-bajas-with-geologist-the-fox-cabaret-tickets/14522363  # Unknown Event - No date found
+https://www.ticketweb.ca/event/stacked-pres-aeonmode-whistler-aprs-aprs-tickets/14006914  # Unknown Event - No date found
+https://www.ticketweb.ca/event/ancient-shapes-mod-lang-the-27-club-tickets/14656133  # Unknown Event - No date found
+https://www.ticketweb.ca/event/saxsquatch-with-medz-lees-palace-tickets/13904254  # Unknown Event - No date found
+https://www.ticketweb.ca/event/riot-at-system-saturdays-rum-runners-tickets/14095084  # Unknown Event - No date found
+https://www.ticketweb.ca/event/the-early-november-hellogoodbye-the-phoenix-concert-theatre-tickets/14699673  # Unknown Event - No date found
+https://www.ticketweb.ca/event/alex-coles-longboat-hall-tickets/14064584  # Unknown Event - No date found
+https://www.ticketweb.ca/event/witchz-presents-enter-afterlife-world-the-pearl-tickets/14413703  # Unknown Event - No date found
+https://www.ticketweb.ca/event/stacked-pres-jkyl-hyde-commonwealth-bar-stage-tickets/14678363  # Unknown Event - No date found
+https://www.ticketweb.ca/event/tortoise-with-special-guests-the-pearl-tickets/14595373  # Unknown Event - No date found

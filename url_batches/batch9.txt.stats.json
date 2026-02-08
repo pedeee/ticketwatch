@@ -1,0 +1,77 @@
+{
+  "monitored_count": 6,
+  "failed_count": 14,
+  "sold_out_events": [],
+  "failed_urls": [
+    {
+      "url": "https://www.ticketweb.ca/event/the-watchmen-with-special-guests-the-bronson-tickets/13991164",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932448"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/lala-lala-the-garrison-tickets/14010224",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932451"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gabriel-rutledge-dont-west-end-cultural-centre-tickets/13937494",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932453"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/die-krupps-45th-anniversary-tour-the-starlite-room-tickets/13991424",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932454"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/easy-honey-the-sound-garage-tickets/14061884",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932455"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/holy-fck-lees-palace-tickets/14064914",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932457"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/blackboard-blues-band-spot-1-grill-music-tickets/14099094",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932458"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/boys-go-to-jupiter-drake-underground-tickets/13971134",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932459"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/flyte-with-special-guests-the-pearl-tickets/14031703",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932460"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/glow-2026-rebel-tickets/13998974",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932461"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/great-lake-swimmers-the-great-hall-tickets/14605363",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932462"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/kim-churchill-w-guests-the-starlite-room-tickets/13954894",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932463"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gabriel-rutledge-dont-the-brass-monkey-tickets/13937374",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932465"
+    },
+    {
+      "url": "https://www.ticketweb.ca/event/gabriel-rutledge-dont-the-great-hall-tickets/13937384",
+      "reason": "HTTP 403",
+      "timestamp": "2026-02-06T17:55:42.932466"
+    }
+  ]
+}
