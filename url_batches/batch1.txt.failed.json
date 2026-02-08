@@ -1,5 +1,26 @@
 {
-  "failed_urls": [],
-  "timestamp": "2026-02-08T17:02:21.309754",
-  "count": 0
+  "failed_urls": [
+    "https://www.ticketweb.ca/event/kiss-disco-harry-styles-x-the-starlite-room-tickets/14092854",
+    "https://www.ticketweb.ca/event/puma-blue-lees-palace-tickets/14628733",
+    "https://www.ticketweb.ca/event/lydia-lunch-marc-hurtado-lees-palace-tickets/14593493",
+    "https://www.ticketweb.ca/event/ahmed-soultan-the-dance-cave-tickets/13861794",
+    "https://www.ticketweb.ca/event/baths-lees-palace-tickets/14678593",
+    "https://www.ticketweb.ca/event/miina-sidestage-tickets/14067224",
+    "https://www.ticketweb.ca/event/perfect-limbs-w-endless-nullifier-hard-luck-bar-tickets/14062584",
+    "https://www.ticketweb.ca/event/cedric-burnside-with-special-guests-the-pearl-tickets/13981794",
+    "https://www.ticketweb.ca/event/kaivon-noir-inside-rebel-tickets/14677203",
+    "https://www.ticketweb.ca/event/honeymoon-suite-red-deer-resort-casino-tickets/13984944",
+    "https://www.ticketweb.ca/event/tyler-shaw-the-bronson-tickets/14724093",
+    "https://www.ticketweb.ca/event/harm-ease-the-mansion-tickets/14552443",
+    "https://www.ticketweb.ca/event/new-age-outlaws-w-derivative-sneaky-dees-concert-venue-tickets/14080204",
+    "https://www.ticketweb.ca/event/soap-scum-presents-space-quest-sidestage-tickets/13979094",
+    "https://www.ticketweb.ca/event/landon-conrath-the-sound-garage-tickets/14605273",
+    "https://www.ticketweb.ca/event/playhouse-presents-karsten-sollors-celebrities-nightclub-tickets/14069354",
+    "https://www.ticketweb.ca/event/playhouse-pres-chris-lorenzo-celebrities-nightclub-tickets/14638783",
+    "https://www.ticketweb.ca/event/danny-avila-north-dprtmnt-tickets/14730403",
+    "https://www.ticketweb.ca/event/twilight-symphony-rock-casa-loma-tickets/13989304",
+    "https://www.ticketweb.ca/event/orbit-culture-ov-sulfur-atlas-the-bronson-tickets/14680063"
+  ],
+  "timestamp": "2026-02-08T22:28:22.667863",
+  "count": 20
 }
