@@ -1,0 +1,42 @@
+name: Cloud test (can GitHub reach TicketWeb?)
+
+# One-off check: scans 12 events from GitHub's servers and reports how many came back
+# as real event pages versus TicketWeb's identity-check page.
+# It sends no Telegram messages and cannot write to the repository.
+on:
+  workflow_dispatch:
+  push:
+    branches: [cloud-test]
+
+permissions:
+  contents: read
+
+jobs:
+  cloud-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      # Start from nothing, so the result can only come from pages fetched in this run.
+      - name: Clear any saved results
+        run: rm -f cloud_test/urls.txt.state.json cloud_test/urls.txt.stats.json cloud_test/urls.txt.failed.json
+
+      # No TG_TOKEN / TG_CHAT here on purpose, so the scanner stays silent.
+      - name: Scan the test events
+        continue-on-error: true
+        run: python ticketwatch_v2.py cloud_test/urls.txt
+
+      - name: Report result
+        if: always()
+        run: python cloud_test/summarize.py cloud_test/urls.txt

@@ -31,6 +31,12 @@ import datetime as dt
 from dataclasses import dataclass
 from playwright.async_api import async_playwright
 
+# Use the user's Playwright browser cache when running in environments (e.g. Cursor)
+# that set PLAYWRIGHT_BROWSERS_PATH to a sandbox path where browsers aren't installed.
+_user_playwright_cache = os.path.expanduser("~/Library/Caches/ms-playwright")
+if os.path.exists(_user_playwright_cache):
+    os.environ["PLAYWRIGHT_BROWSERS_PATH"] = _user_playwright_cache
+
 # ─── Files & constants ────────────────────────────────────────────────────
 # Batch system: each batch file has its own state and failed URLs tracking
 if len(sys.argv) > 1 and sys.argv[1]:
@@ -106,6 +112,314 @@ def fmt(s: Dict[str, Any]) -> str:
     if s.get("price") is not None:
         return f"${s['price']:.2f}"
     return "unknown"
+
+# ─── Ticket types, tiers & purchase limits (embedded page data) ───────────
+# TicketWeb event pages embed the full ticket setup as JSON: the order limit shown on
+# the page ("Order Limited to N Tickets"), each ticket type (General Admission, Balcony,
+# VIP…), each price tier inside it (GA1, Tier 2, Early Bird…), whether each is sold out,
+# and the quantity the page will actually let you select for it.
+TICKET_KEYS = ("ticket_type", "available_ticket_types", "tickets", "purchase_limit",
+               "limit_alerts", "ticket_data_ok")
+# Bookkeeping about where `price` came from; like TICKET_KEYS, not a change in itself.
+PRICE_META_KEYS = ("legacy_price", "price_source")
+
+def _next_payload(html: str) -> str:
+    """Concatenate the page's embedded data chunks into one string."""
+    chunks = []
+    for m in re.finditer(r'self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)', html):
+        try:
+            chunks.append(json.loads(m.group(1)))
+        except Exception:
+            pass
+    return "".join(chunks)
+
+def _balanced_json(s: str, start: int) -> Optional[str]:
+    """Return the balanced {...} / [...] starting at s[start], or None."""
+    depth = 0
+    in_str = False
+    esc = False
+    for j in range(start, len(s)):
+        c = s[j]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == '\\':
+                esc = True
+            elif c == '"':
+                in_str = False
+        elif c == '"':
+            in_str = True
+        elif c in '{[':
+            depth += 1
+        elif c in '}]':
+            depth -= 1
+            if depth == 0:
+                return s[start:j + 1]
+    return None
+
+def _embedded_object(payload: str, key: str) -> Optional[Dict[str, Any]]:
+    """Find `"key":{...}` in the embedded data and parse it."""
+    for m in re.finditer(r'"%s":\{' % re.escape(key), payload):
+        blob = _balanced_json(payload, m.end() - 1)
+        if blob:
+            try:
+                obj = json.loads(blob)
+                if isinstance(obj, dict):
+                    return obj
+            except Exception:
+                continue
+    return None
+
+def _ticket_label(section_name: Optional[str], tier_name: Optional[str]) -> str:
+    """'General Admission – GA2'; just the section name when the tier repeats it."""
+    section_name = " ".join((section_name or "").split())
+    tier_name = " ".join((tier_name or "").split())
+    if not tier_name or tier_name.lower() == section_name.lower():
+        return section_name or "Unknown"
+    if not section_name:
+        return tier_name
+    return f"{section_name} – {tier_name}"
+
+def _as_int(v) -> Optional[int]:
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return None
+
+def extract_ticket_data(html: str) -> Dict[str, Any]:
+    """Read ticket types, tiers and purchase limits from the page's embedded data.
+
+    Returns the TICKET_KEYS fields. `ticket_data_ok` is False when the page had no ticket
+    data at all (blocked page, layout change), as opposed to an event with nothing listed.
+    """
+    empty = {"ticket_type": None, "available_ticket_types": [], "tickets": None,
+             "purchase_limit": None, "limit_alerts": [], "ticket_data_ok": False}
+    try:
+        payload = _next_payload(html)
+        if not payload:
+            return empty
+        details = _embedded_object(payload, "eventDetails")
+        sections_obj = _embedded_object(payload, "eventSections")
+        if details is None and sections_obj is None:
+            return empty
+
+        page_limit = _as_int((details or {}).get("purchaseLimit"))
+        sections = (sections_obj or {}).get("sections") or []
+        sections = sorted(sections, key=lambda s: (s.get("displayOrder") is None, s.get("displayOrder") or 0))
+
+        tickets: List[Dict[str, Any]] = []
+        for sec in sections:
+            sec_name = sec.get("name")
+            sec_soldout = bool(sec.get("isSoldOut"))
+            prices = sec.get("prices") or []
+            if not prices:
+                # Ticket type listed with no price tiers (e.g. a sold-out Balcony)
+                tickets.append({
+                    "label": _ticket_label(sec_name, None), "section": sec_name, "tier": None,
+                    "price": None, "soldout": True if sec_soldout else None,
+                    "selectable": None, "configured_max": None,
+                    "availability": sec.get("ismAvailability"),
+                })
+                continue
+            for p in prices:
+                selectable = _as_int(p.get("purcahseLimit"))  # (sic) TicketWeb's own spelling
+                if selectable is None:
+                    selectable = _as_int(p.get("purchaseLimit"))
+                try:
+                    price_val = float(p.get("price")) if p.get("price") not in (None, "") else None
+                except (TypeError, ValueError):
+                    price_val = None
+                tickets.append({
+                    "label": _ticket_label(sec_name, p.get("name")), "section": sec_name, "tier": p.get("name"),
+                    "price": price_val,
+                    "soldout": bool(p.get("isSoldOut")) or sec_soldout or selectable == 0,
+                    "selectable": selectable,
+                    "configured_max": _as_int(p.get("maxPurchaseLimit")),
+                    "availability": sec.get("ismAvailability"),
+                })
+
+        available = [t for t in tickets if t["soldout"] is False]
+        available_labels: List[str] = []
+        for t in available:
+            if t["label"] not in available_labels:
+                available_labels.append(t["label"])
+
+        # A ticket you can't select the full page limit of → needs a manual look.
+        limit_alerts = []
+        if page_limit:
+            for position, t in enumerate(available):
+                sel = t["selectable"]
+                if sel is not None and 0 < sel < page_limit:
+                    cmax = t["configured_max"]
+                    limit_alerts.append({
+                        "ticket": t["label"],
+                        "selectable": sel,
+                        "page_limit": page_limit,
+                        "configured_max": cmax,
+                        # low_stock: page would normally allow more of this ticket than it does now.
+                        # type_cap: this ticket type is simply set up with a smaller cap than the order limit.
+                        "reason": "low_stock" if (cmax is None or sel < cmax) else "type_cap",
+                        "position": position,   # which quantity stepper on the page (0 = first)
+                        "stepper_max": None,    # filled in by verify_limit_alerts()
+                    })
+
+        return {
+            "ticket_type": available_labels[0] if available_labels else None,
+            "available_ticket_types": available_labels,
+            "tickets": tickets,
+            "purchase_limit": page_limit,
+            "limit_alerts": limit_alerts,
+            "ticket_data_ok": True,
+        }
+    except Exception:
+        return empty
+
+def without_ticket_fields(s: Dict[str, Any]) -> Dict[str, Any]:
+    """State entry minus ticket-tracking fields (used so they don't count as price/status changes)."""
+    return {k: v for k, v in s.items() if k not in TICKET_KEYS and k not in PRICE_META_KEYS}
+
+def is_price_source_correction(old: Dict[str, Any], now: Dict[str, Any]) -> bool:
+    """True when a price differs only because this is the first scan using page-data prices.
+
+    The old text-based reader still runs (`legacy_price`). If it reads the same value that
+    was stored last time, nothing really changed on the page — the stored number is just
+    being corrected — so it must not be reported as a price rise or drop.
+    """
+    return (
+        old.get("price_source") not in ("page_data", "page_data_carried")
+        and now.get("price_source") == "page_data"
+        and old.get("price") is not None
+        and now.get("price") != old.get("price")
+        and now.get("legacy_price") == old.get("price")
+    )
+
+def carry_forward_ticket_fields(new: Dict[str, Any], old: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+    """If this fetch had no ticket data, keep the last known ticket fields.
+
+    Otherwise a blocked/odd page would wipe the baseline and the next real change would go unreported.
+    `ticket_data_ok` stays False so the scan can still count the page as unreadable.
+    """
+    if new.get("ticket_data_ok") or not old or old.get("tickets") is None:
+        return new
+    for k in TICKET_KEYS:
+        if k != "ticket_data_ok" and k in old:
+            new[k] = old[k]
+    # Same idea for the price: a real page that merely lacks ticket data would otherwise fall
+    # back to the old text-based reader and show a false price change. (Blocked pages have no
+    # price at all and are left alone so the rescan still picks them up.)
+    if (old.get("price_source") in ("page_data", "page_data_carried")
+            and old.get("price") is not None
+            and new.get("price") is not None and not new.get("soldout")):
+        new["price"] = old["price"]
+        new["price_source"] = "page_data_carried"
+    return new
+
+def describe_ticket_type_change(old: Dict[str, Any], now: Dict[str, Any]) -> Optional[str]:
+    """Describe a change in which ticket types / tiers are available since the last scan.
+
+    Returns None when there is nothing to report: no baseline yet, nothing changed, or the
+    event is sold out on either side (that is already covered by the sold-out report).
+    """
+    if old.get("tickets") is None:
+        return None  # first time we record ticket types for this event — baseline only
+    if old.get("soldout") or now.get("soldout"):
+        return None
+    old_types = old.get("available_ticket_types") or []
+    new_types = now.get("available_ticket_types") or []
+    if not old_types:
+        return None
+    old_type, new_type = old.get("ticket_type"), now.get("ticket_type")
+    if set(old_types) == set(new_types) and old_type == new_type:
+        return None
+
+    listed_now = {t.get("label"): t for t in (now.get("tickets") or [])}
+    parts = []
+    if old_type != new_type:
+        parts.append(f"{old_type} → {new_type or 'nothing available'}")
+    gone = [t for t in old_types if t not in new_types]
+    added = [t for t in new_types if t not in old_types]
+    if gone:
+        gone_desc = [
+            f"{t} ({'sold out' if listed_now.get(t, {}).get('soldout') else 'no longer listed'})"
+            for t in gone
+        ]
+        parts.append("no longer available: " + ", ".join(gone_desc))
+    if added:
+        parts.append("now available: " + ", ".join(added))
+    if new_types and not added:
+        parts.append("left on sale: " + ", ".join(new_types))
+    return " | ".join(parts)
+
+def limit_alert_status(old: Dict[str, Any], alert: Dict[str, Any]) -> str:
+    """NEW / CHANGED (was n) / STILL, compared with the alerts stored from the last scan."""
+    prev = [a for a in (old.get("limit_alerts") or []) if a.get("ticket") == alert.get("ticket")]
+    if not prev:
+        return "NEW"
+    if prev[0].get("selectable") != alert.get("selectable"):
+        return f"CHANGED (was {prev[0].get('selectable')})"
+    return "STILL"
+
+def describe_limit_alert(alert: Dict[str, Any]) -> str:
+    sel, limit, cmax = alert.get("selectable"), alert.get("page_limit"), alert.get("configured_max")
+    text = f"{alert.get('ticket')}: can only select {sel}, page says limit {limit}"
+    if alert.get("reason") == "type_cap":
+        text += f" (this ticket type is set up with a cap of {cmax})"
+    stepper = alert.get("stepper_max")
+    if stepper is None:
+        text += " — from page data, not confirmed on the + button"
+    elif stepper == sel:
+        text += f" — confirmed on the page, + stops at {stepper}"
+    else:
+        text += f" — but the + button stopped at {stepper}"
+    return text
+
+async def verify_limit_alerts(page, event_data: Dict[str, Any]) -> None:
+    """Confirm limit alerts on the live page by pressing '+' until it stops.
+
+    Only the on-page quantity stepper is touched (and put back to 0). Buy Tickets is never
+    pressed, so nothing is held or added to a cart.
+    """
+    alerts = event_data.get("limit_alerts") or []
+    if not alerts:
+        return
+    try:
+        form = page.locator("#ticket-form")
+        plus_all = form.locator("#plusTktBtn")
+        minus_all = form.locator("#minusTktBtn")
+        qty_all = form.locator('button[aria-label^="Ticket quantity"]')
+        n_available = sum(1 for t in (event_data.get("tickets") or []) if t.get("soldout") is False)
+        # One stepper per available ticket, in page order. If that doesn't hold, don't guess.
+        if await plus_all.count() != n_available:
+            return
+        for alert in alerts:
+            i = alert.get("position")
+            if i is None:
+                continue
+            plus, minus, qty_btn = plus_all.nth(i), minus_all.nth(i), qty_all.nth(i)
+
+            async def current_qty():
+                label = await qty_btn.get_attribute("aria-label", timeout=3000)
+                m = re.search(r"currently (\d+)", label or "")
+                return int(m.group(1)) if m else None
+
+            last = await current_qty()
+            for _ in range(12):
+                if await plus.is_disabled(timeout=3000):
+                    break
+                await plus.click(timeout=3000)
+                await page.wait_for_timeout(200)
+                now_qty = await current_qty()
+                if now_qty == last:
+                    break
+                last = now_qty
+            alert["stepper_max"] = last
+            for _ in range(12):
+                if await minus.is_disabled(timeout=3000):
+                    break
+                await minus.click(timeout=3000)
+                await page.wait_for_timeout(80)
+    except Exception:
+        pass  # verification is a bonus; the alert from page data still stands
 
 def is_past(event_iso: str) -> bool:
     if not event_iso:
@@ -469,6 +783,17 @@ def extract_status(html: str) -> Dict[str, Any]:
     else:
         soldout = False  # Ultra-conservative approach - only mark sold out with explicit evidence
 
+    # Never mark as sold out when we got a verification/error page (wrong content)
+    # These titles indicate Cloudflare or server error — we didn't see the real event page
+    _placeholder_titles = (
+        "let's get your identity verified",
+        "ticketweb",  # often from error/redirect pages
+        "504 gateway",
+        "gateway time-out",
+    )
+    if title and any(p in title.lower() for p in _placeholder_titles):
+        soldout = False
+
     if DEBUG_DATE:
         print("DEBUG:", title, "Price:", price, "Price Range:", price_range, "Sold out:", soldout, 
               "Cancelled:", is_cancelled, "Terminated:", is_terminated, "Presale:", is_presale, "Sold Out Banner:", banner_sold_out)
@@ -485,6 +810,25 @@ def extract_status(html: str) -> Dict[str, Any]:
         "sold_out_banner": banner_sold_out,
         "event_dt": event_dt.isoformat() if event_dt else None,
     }
+
+    # Ticket types, tiers and purchase limits come from the page's embedded ticket data.
+    # They never influence sold-out detection above.
+    ticket_fields = extract_ticket_data(html)
+    result.update(ticket_fields)
+
+    # Price: use the page data's price for the current ticket (the same ticket named in
+    # `ticket_type`, i.e. the first one on sale in page order). The text-based price above
+    # is kept as `legacy_price` and remains the fallback when the page has no ticket data.
+    result["legacy_price"] = price
+    result["price_source"] = "legacy"
+    if ticket_fields["ticket_data_ok"] and not soldout:
+        current = next(
+            (t for t in ticket_fields["tickets"] if t["soldout"] is False and t["price"] is not None),
+            None,
+        )
+        if current is not None:
+            result["price"] = current["price"]
+            result["price_source"] = "page_data"
     
     # Debug: Log extraction result in GitHub Actions
     if IS_GITHUB_ACTIONS:
@@ -885,101 +1229,186 @@ def save_sorted_urls(path: str, urls: List[str], event_data: Dict[str, Dict[str,
         print(f"⚠️  {len(urls_without_dates)} URLs missing event dates")
 
 # ─── Async fetching with rate limiting ───────────────────────────────────
-async def fetch_url_with_playwright(url: str, browser, semaphore: asyncio.Semaphore) -> Tuple[str, Optional[Dict[str, Any]], Optional[str]]:
-    """Fetch URL using shared browser"""
+async def fetch_url_with_search(url: str, page, state_data: Dict) -> Tuple[str, Optional[Dict[str, Any]], Optional[str]]:
+    """Fetch URL by SEARCHING for event using the SAME reused tab (like real single-tab browsing)"""
     clean_url = url.split('#')[0].strip()
     
-    async with semaphore:
-        if REQUEST_DELAY > 0:
-            # Add random variation to delay (more human-like)
-            actual_delay = REQUEST_DELAY + random.uniform(0, 2.0)
-            await asyncio.sleep(actual_delay)
+    try:
+        # Extract event ID from URL for validation (e.g., "14071754")
+        expected_event_id = None
+        url_parts = clean_url.split('/event/')
+        if len(url_parts) > 1:
+            event_path = url_parts[1]
+            # Event ID is the last segment after last slash
+            path_segments = event_path.split('/')
+            if len(path_segments) > 0:
+                expected_event_id = path_segments[-1]
+        
+        # Get event name from state data
+        event_state = state_data.get(clean_url, {})
+        event_title = event_state.get('title', '')
+        
+        # Extract searchable name from title (remove "Tickets for" prefix)
+        search_name = event_title.replace('Tickets for ', '').strip()
+        
+        # If no title in state, try to extract from URL
+        if not search_name:
+            # Extract from URL: /event/EVENT-NAME-venue-tickets/ID
+            if len(url_parts) > 1:
+                event_slug = url_parts[1].split('/')[0]
+                # Convert slug to searchable name (e.g., "charli-xcx-night-the-pearl-tickets" -> "charli xcx night")
+                search_name = ' '.join(event_slug.split('-')[:4])  # Take first 4 words
+        
+        if not search_name:
+            # Fallback: just navigate directly
+            response = await page.goto(clean_url, wait_until="domcontentloaded", timeout=30000)
+        else:
+            # Navigate to search results page directly (faster than clicking search)
+            search_url = f"https://www.ticketweb.ca/search?q={search_name.replace(' ', '+')}"
+            await page.goto(search_url, wait_until="domcontentloaded", timeout=20000)
             
-        page = None
-        try:
-            # Create page directly from browser (simpler, more reliable)
-            page = await browser.new_page()
-            response = await page.goto(clean_url, wait_until="domcontentloaded", timeout=40000)
+            # Quick wait for results to load
+            await page.wait_for_timeout(1000)
             
-            if response and response.status == 200:
-                # Shorter wait (2s) since pages load fast
-                await page.wait_for_timeout(2000)
-                html = await page.content()
-                event_data = extract_status(html)
+            # ✅ NEW: Extract ALL event links from search results and find the matching one
+            try:
+                # Get all event links from search results
+                event_links = await page.query_selector_all('a[href*="/event/"]')
                 
-                if event_data and event_data.get("title") and event_data.get("title") != "<unknown event>":
-                    return clean_url, event_data, None
+                matched_link = None
+                for link in event_links:
+                    href = await link.get_attribute('href')
+                    if href and expected_event_id and expected_event_id in href:
+                        # Found the matching event!
+                        matched_link = link
+                        break
+                
+                if matched_link:
+                    # Click the correct matching event
+                    await matched_link.click()
+                    await page.wait_for_load_state("domcontentloaded", timeout=20000)
+                elif len(event_links) > 0:
+                    # No match found but there are results - try fallback to direct navigation
+                    # This might work if the event is just not showing up in search correctly
+                    await page.goto(clean_url, wait_until="domcontentloaded", timeout=30000)
                 else:
-                    return clean_url, None, "Failed to extract event data"
-            else:
-                status = response.status if response else "No response"
-                return clean_url, None, f"HTTP {status}"
+                    # No search results at all - navigate directly
+                    await page.goto(clean_url, wait_until="domcontentloaded", timeout=30000)
+            except:
+                # Fallback: navigate directly
+                await page.goto(clean_url, wait_until="domcontentloaded", timeout=30000)
+        
+        # ✅ CRITICAL URL VALIDATION: Verify we're on the correct event page
+        current_url = page.url
+        
+        # Check if the event ID matches
+        if expected_event_id and expected_event_id not in current_url:
+            return clean_url, None, f"URL_MISMATCH: Expected ID {expected_event_id}, landed on {current_url[-60:]}"
+        
+        # Additional check: ensure we're on a ticketweb event page
+        if 'ticketweb.ca/event/' not in current_url:
+            return clean_url, None, f"URL_MISMATCH: Not on event page, got {current_url[-60:]}"
+        
+        # Wait for final content to load
+        await page.wait_for_timeout(2000)
+        
+        # Get content and extract data
+        html = await page.content()
+        event_data = extract_status(html)
+        
+        if event_data and event_data.get("title") and event_data.get("title") != "<unknown event>":
+            # If the page data says fewer tickets can be selected than the stated limit,
+            # confirm it on the live quantity stepper before reporting.
+            if event_data.get("limit_alerts"):
+                await verify_limit_alerts(page, event_data)
+            # No ticket data on this fetch → keep last known ticket fields as the baseline
+            carry_forward_ticket_fields(event_data, state_data.get(clean_url))
+            return clean_url, event_data, None
+        else:
+            return clean_url, None, "Failed to extract event data"
                     
-        except asyncio.TimeoutError:
+    except asyncio.TimeoutError:
+        return clean_url, None, "Timeout exceeded"
+    except Exception as e:
+        error_msg = str(e)
+        if "Timeout" in error_msg:
             return clean_url, None, "Timeout exceeded"
-        except Exception as e:
-            error_msg = str(e)
-            if "Timeout" in error_msg:
-                return clean_url, None, "Timeout exceeded"
-            else:
-                return clean_url, None, f"Error: {error_msg[:50]}"
-        finally:
-            if page:
-                try:
-                    await page.close()
-                except:
-                    pass
+        else:
+            return clean_url, None, f"Error: {error_msg[:50]}"
+    # Don't close page - we're reusing it for all URLs!
 
 async def fetch_all_urls(
     urls: List[str],
     state_path: Optional[str] = None,
     base_state: Optional[Dict[str, Dict[str, Any]]] = None,
 ) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, str]]:
-    """Fetch all URLs concurrently with progress reporting
+    """Fetch all URLs SEQUENTIALLY (single-tab browsing) with progress reporting
     
     Returns:
         Tuple of (successful_results, failed_urls_with_reasons)
     """
-    semaphore = asyncio.Semaphore(MAX_CONCURRENT)
     results = {}
     failed_urls = {}
     completed = 0
     
-    print(f"🔄 Starting to check {len(urls)} URLs with Playwright...")
+    print(f"🔄 Starting to check {len(urls)} URLs with Playwright (single-tab browsing)...")
     start_time = time.time()
     
-    # Launch ONE browser for all URLs with anti-detection
+    # Launch ONE browser for all URLs with ADVANCED anti-detection
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
             args=[
                 '--disable-blink-features=AutomationControlled',
+                '--disable-dev-shm-usage',
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-accelerated-2d-canvas',
+                '--no-first-run',
+                '--no-zygote',
+                '--disable-gpu',
             ]
         )
         
+        # Create ONE shared context (one browser window)
+        context = await browser.new_context(
+            viewport={'width': 1920, 'height': 1080},
+            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+            locale='en-US',
+            timezone_id='America/Toronto',
+        )
+        
+        # Create ONE page (one tab) that we'll reuse for all URLs
+        print("🏠 Opening browser and visiting homepage...")
+        page = await context.new_page()
+        await page.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+            window.navigator.chrome = { runtime: {} };
+            Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
+        """)
+        await page.goto("https://www.ticketweb.ca/", wait_until="domcontentloaded", timeout=20000)
+        print("✅ Homepage loaded\n")
+        
         try:
-            # Create tasks for all URLs
-            async def fetch_with_timeout(url: str):
-                try:
-                    return await asyncio.wait_for(
-                        fetch_url_with_playwright(url, browser, semaphore),
-                        timeout=60,  # Increased to 60 seconds
-                    )
-                except asyncio.TimeoutError:
-                    clean_url = url.split('#')[0].strip()
-                    return clean_url, None, "Timeout exceeded"
-
-            tasks = [fetch_with_timeout(url) for url in urls]
+            # Process URLs SEQUENTIALLY in the same tab (like real single-tab browsing)
+            print(f"🔄 Processing {len(urls)} URLs sequentially from homepage tab...\n")
             
-            # Process completed tasks
-            for coro in asyncio.as_completed(tasks):
-                url, status, failure_reason = await coro
+            for i, url in enumerate(urls, 1):
+                # Add delay before each URL (human-like pacing)
+                if REQUEST_DELAY > 0 and i > 1:  # Skip delay for first URL
+                    actual_delay = REQUEST_DELAY + random.uniform(0, 1.0)
+                    await asyncio.sleep(actual_delay)
+                
+                # Process this URL from the same tab
+                clean_url, status, failure_reason = await fetch_url_with_search(url, page, base_state or {})
                 completed += 1
                 
                 if status:
-                    results[url] = status
+                    results[clean_url] = status
+                    print(f"✅ [{i}/{len(urls)}] {status.get('title', 'Unknown')[:50]}")
                 else:
-                    failed_urls[url] = failure_reason or "Unknown failure"
+                    failed_urls[clean_url] = failure_reason or "Unknown failure"
+                    print(f"❌ [{i}/{len(urls)}] Failed: {failure_reason}")
                 
                 # Progress reporting
                 report_interval = 10 if IS_GITHUB_ACTIONS else 20
@@ -987,17 +1416,19 @@ async def fetch_all_urls(
                     elapsed = time.time() - start_time
                     rate = completed / elapsed if elapsed > 0 else 0
                     success_rate = len(results) / completed * 100 if completed > 0 else 0
-                    print(f"📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
-                          f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success")
+                    print(f"\n📊 Progress: {completed}/{len(urls)} ({completed/len(urls)*100:.1f}%) "
+                          f"- {rate:.1f} URLs/sec - {success_rate:.1f}% success\n")
                     if state_path and base_state is not None:
                         try:
                             merged_state = dict(base_state)
                             merged_state.update(results)
                             save_state(state_path, merged_state)
-                            print(f"💾 Partial state saved ({len(results)} updated)")
+                            print(f"💾 Partial state saved ({len(results)} updated)\n")
                         except Exception as e:
-                            print(f"⚠️ Partial state save failed: {e}")
+                            print(f"⚠️ Partial state save failed: {e}\n")
         finally:
+            await page.close()
+            await context.close()
             await browser.close()
     
     elapsed = time.time() - start_time
@@ -1052,6 +1483,11 @@ async def main():
     # Process results
     past_events = []  # Store past events for notification (but don't remove)
     changes = []
+    ticket_type_changes = []   # (now, url, description)
+    limit_alert_rows = []      # (now, url, alert, "NEW" | "CHANGED (was n)" | "STILL")
+    ticket_data_missing = []   # (now, url) pages fetched but with no readable ticket data
+    ticket_data_read = 0
+    price_corrections = []     # (now, url, old_price, new_price) stored price fixed by the source switch
     
     for url, now in after.items():
         # Identify past shows (but don't remove them)
@@ -1065,7 +1501,27 @@ async def main():
         
         # Check for changes
         old = before.get(url, {"price": None, "soldout": None})
-        if now != old:
+
+        # Ticket type / tier changes and purchase-limit alerts (reported in their own sections)
+        if now.get("ticket_data_ok"):
+            ticket_data_read += 1
+            if not is_past(now["event_dt"]):
+                type_change = describe_ticket_type_change(old, now)
+                if type_change:
+                    ticket_type_changes.append((now, url, type_change))
+                for alert in now.get("limit_alerts") or []:
+                    limit_alert_rows.append((now, url, alert, limit_alert_status(old, alert)))
+        else:
+            ticket_data_missing.append((now, url))
+
+        # First scan with page-data prices: a stored price being corrected is not a price change
+        old_cmp, now_cmp = without_ticket_fields(old), without_ticket_fields(now)
+        if is_price_source_correction(old, now):
+            price_corrections.append((now, url, old.get("price"), now.get("price")))
+            old_cmp["price"] = now_cmp.get("price")
+
+        # Ticket fields are excluded here so they don't show up as price/status changes
+        if now_cmp != old_cmp:
             change = Change(
                 title=now["title"],
                 old_status=fmt(old),
@@ -1078,6 +1534,48 @@ async def main():
             # Debug: show why no change was detected
             if IS_GITHUB_ACTIONS and len(changes) < 5:  # Only show first few for debugging
                 print(f"🔍 No change for {now['title'][:30]}... - old: {fmt(old)}, new: {fmt(now)}")
+
+    # ── Ticket limit alerts & ticket type / tier changes ──────────────────
+    def _short_title(d: Dict[str, Any]) -> str:
+        return (d.get("title") or "?").replace("Tickets for ", "").strip()[:60]
+
+    def _short_date(d: Dict[str, Any]) -> str:
+        try:
+            return dtparse.parse(d["event_dt"]).strftime("%b %d") if d.get("event_dt") else "no date"
+        except Exception:
+            return "no date"
+
+    print(f"\n🎟️  Ticket data read for {ticket_data_read}/{len(after)} fetched events")
+    if ticket_data_missing:
+        print(f"⚠️  No ticket data on {len(ticket_data_missing)} page(s) — tier/limit checks skipped for these:")
+        for d, u in ticket_data_missing[:15]:
+            print(f"   • {_short_title(d)} — {u}")
+        if len(ticket_data_missing) > 15:
+            print(f"   ... and {len(ticket_data_missing) - 15} more")
+
+    if limit_alert_rows:
+        print(f"\n🚨 TICKET LIMIT ALERTS ({len(limit_alert_rows)}) — fewer tickets selectable than the page limit, check manually:")
+        for d, u, alert, status in sorted(limit_alert_rows, key=lambda r: (r[3] == "STILL", r[0].get("event_dt") or "")):
+            print(f"   • [{status}] {_short_title(d)} ({_short_date(d)})")
+            print(f"       {describe_limit_alert(alert)}")
+            print(f"       {u}")
+    else:
+        print("✅ No ticket limit alerts")
+
+    if ticket_type_changes:
+        print(f"\n🎟️  TICKET TYPE / TIER CHANGES ({len(ticket_type_changes)}):")
+        for d, u, desc in sorted(ticket_type_changes, key=lambda r: r[0].get("event_dt") or ""):
+            print(f"   • {_short_title(d)} ({_short_date(d)})")
+            print(f"       {desc}")
+            print(f"       {u}")
+    else:
+        print("✅ No ticket type / tier changes")
+
+    if price_corrections:
+        print(f"\n🔧 PRICE CORRECTIONS ({len(price_corrections)}) — stored price fixed from page data, NOT a real price change:")
+        for d, u, old_p, new_p in sorted(price_corrections, key=lambda r: r[0].get("event_dt") or ""):
+            print(f"   • {_short_title(d)} ({_short_date(d)}): ${old_p:.2f} → ${new_p:.2f}  [{d.get('ticket_type')}]")
+    print()
     
     # Track failed URLs for priority next time
     successful_urls = set(after.keys())
@@ -1088,6 +1586,11 @@ async def main():
         print(f"🔴 {len(failed_urls)} URLs failed - will get priority next run")
     else:
         print("🟢 All selected URLs succeeded!")
+    
+    # Remove past events from batch
+    past_event_urls = {e["url"] for e in past_events}
+    if past_event_urls:
+        all_urls = [u for u in all_urls if u not in past_event_urls]
     
     # Only re-sort URLs if we successfully fetched REAL data (not "Unknown Event")
     if after and len(after) > 0:
@@ -1103,16 +1606,16 @@ async def main():
     else:
         print("⚠️ Skipping URL re-sort due to fetch failure")
     
-    # Send beautiful past events notification
+    # Report past events that were auto-removed
     if past_events:
-        print(f"\n⚠️  Found {len(past_events)} past events (manual cleanup suggested):")
+        print(f"\n🗑️  Removed {len(past_events)} past event(s) from batch:")
         
         # Sort past events by how long ago they were
         sorted_past_events = sorted(past_events, key=lambda x: x["event_dt"] or "")
         
-        cleanup_msg = f"""⚠️ Found <b>{len(past_events)} past events</b> that could be removed
+        cleanup_msg = f"""🗑️ Removed <b>{len(past_events)} past event(s)</b> from batch
 
-🗓️ <b>Past Events:</b>"""
+🗓️ <b>Removed Events:</b>"""
         
         for i, event in enumerate(sorted_past_events[:8], 1):  # Show up to 8
             date_str = "No date"
@@ -1140,16 +1643,17 @@ async def main():
         
         cleanup_msg += f"""
 
-🛠️ <b>Manual Cleanup Required:</b>
-<code>python3 batch_manager.py clean --review</code>"""
+✅ Automatically removed from batch file."""
         
         # Send past events notification 
         if TG_TOKEN and TG_CHAT and len(past_events) > 0:
             telegram_push("🧹 Cleanup Suggestion", cleanup_msg)
     
-    # Save state (merge with previous to avoid wiping on failed scans)
+    # Save state (merge with previous to avoid wiping on failed scans, exclude past events)
     merged_state = dict(before)
     merged_state.update(after)
+    for url in past_event_urls:
+        merged_state.pop(url, None)
     save_state(STATE_FILE, merged_state)
     
     # In GitHub Actions, commit the state file so it persists between runs
@@ -1180,16 +1684,18 @@ async def main():
         except Exception as e:
             print(f"⚠️ Error committing state file: {e}")
     
-    # Save batch stats for aggregation
+    # Save batch stats for aggregation (exclude past events from counts)
     batch_stats = {
-        "monitored_count": len(after),
+        "monitored_count": len(after) - len(past_event_urls),
         "failed_count": len(failed_urls_with_reasons),
         "sold_out_events": [],
         "failed_urls": []
     }
     
-    # Collect sold-out events from current batch
+    # Collect sold-out events (exclude past events - they've been removed)
     for url, event_data in after.items():
+        if url in past_event_urls:
+            continue
         if event_data.get("soldout"):
             batch_stats["sold_out_events"].append({
                 "url": url,
